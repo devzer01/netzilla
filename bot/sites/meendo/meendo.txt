@@ -1,0 +1,33 @@
+pricemaisie550@yahoo.com 	thtl19
+user: measmeme
+password: meme123123
+
+
+rosiebell669@yahoo.com  thtl19
+user: rosiebell
+password: R2021982b
+
+
+LOGIN:::
+URL: http://www.meendo.com/?logo
+POST DATA: userLogin=measmeme&userPassword=meme123123
+
+
+SEARCH:::
+URL: http://www.meendo.com/search/?gender=1&amin=18&amax=80&country=0&region=0&city=0
+REFER URL: http://www.meendo.com/?logo
+
+
+
+SEARCH PAGE2::
+URL : http://www.meendo.com/search/?gender=1&amin=18&amax=80&country=0&region=0&city=0#/search/?gender=1&amin=18&amax=80&country=0&region=0&city=0&start=20
+
+REFER URL: http://www.meendo.com/search/?gender=1&amin=18&amax=80&country=0&region=0&city=0
+
+
+
+
+SEND::: http://www.meendo.com/?r=/users/messages/send
+POST DATA:: accountId=591782&token=ef02a1439a58541843cbe357183b9d99&message=hi+there+wanna+chat+XD
+
+token=fa4ddfc31fba69eaa854e3af80fa8b43

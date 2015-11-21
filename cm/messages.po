@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-03 16:13+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/common.php:266 lib/common.php:380 controller/profile/edit/get.php:42
+#: controller/search.php:20 controller/register.php:9
+msgid "Male"
+msgstr "Mann"
+
+#: lib/common.php:267 lib/common.php:380 controller/profile/edit/get.php:42
+#: controller/search.php:20 controller/register.php:9
+msgid "Female"
+msgstr "Frau"
+
+#: lib/common.php:401
+#, php-format
+msgid "%s - You have received a message from %s on %s!"
+msgstr "%s - "
+
+#: lib/bootstrap.php:19 controller/profile/edit/get.php:45
+#: controller/register.php:8
+msgid "January"
+msgstr "Januar"
+
+#: controller/profile/edit/get.php:41 controller/search.php:19
+msgid "No"
+msgstr "nicht"
+
+#: controller/profile/edit/get.php:41 controller/search.php:19
+msgid "Yes"
+msgstr "ja"
+
+#: controller/profile/edit/get.php:45
+msgid "February"
+msgstr "Februar"
+
+#: controller/profile/edit/get.php:45
+msgid "March"
+msgstr "März"
+
+#: controller/profile/edit/get.php:45
+msgid "April"
+msgstr "April"
+
+#: controller/profile/edit/get.php:45
+msgid "May"
+msgstr "Mai"
+
+#: controller/profile/edit/get.php:45
+msgid "June"
+msgstr "Juni"
+
+#: controller/profile/edit/get.php:45
+msgid "July"
+msgstr "Juli"
+
+#: controller/profile/edit/get.php:45
+msgid "August"
+msgstr "August"
+
+#: controller/profile/edit/get.php:45
+msgid "September"
+msgstr "September"
+
+#: controller/profile/edit/get.php:45
+msgid "October"
+msgstr "Oktober"
+
+#: controller/profile/edit/get.php:45
+msgid "November"
+msgstr "November"
+
+#: controller/profile/edit/get.php:45
+msgid "December"
+msgstr "Dezember"
+
+#: controller/register.php:26
+msgid "Email Address invalid"
+msgstr "E-Mail-Adresse ungültig"
+
+#: controller/register.php:46
+msgid "Confirm Registration"
+msgstr "Registrierung bestätigen"

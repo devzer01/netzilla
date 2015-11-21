@@ -1,0 +1,24 @@
+Get
+	http://www.flirtmit.de/alpha/mitglieder/profilpopup/formneu.php?RID=142531&N=zschopauperle
+
+Post
+	http://www.flirtmit.de/alpha/mitglieder/profilpopup/formneu.php
+
+	Hid			07:34:21
+	Mail		hallo
+	N			zschopauperle
+	RID			142531
+	absenden	absenden »
+
+
+
+	http://www.flirtmit.de/alpha/mail/mailboxneu.php?mode=out
+	http://www.flirtmit.de/alpha/mail/mailboxneu.php?mode=showdetail&ID=7162265&SID=245252&RID=235187&referer=out
+
+	http://www.flirtmit.de/alpha/mail/mailboxneu.php?mode=&a=2
+
+	Content-Type	application/x-www-form-urlencoded
+	action		deletemail
+	action		deletemail
+	bulkdelete	löschen
+	delete[]	7162265

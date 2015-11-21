@@ -1,0 +1,1 @@
+SELECT t1.*, t2.id as member_id, t2.mobileno as member_mobileno, t2.email FROM payment_log t1, member t2 WHERE t1.username = t2.username AND (t1.recall = 1 or t1.prolonging = 1)

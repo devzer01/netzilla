@@ -1,0 +1,22 @@
+'21cindy','Abigail','adrienne','Adrienne','Angelica8','angeljojo88','Anita69','Anna88','April4ever','babyangel77','babycakes18'
+'clairvoyant21','Danella','Donitayong87','donitayong87','DrizzleRaine','fairy888','gemmalia93','Hottoddy','hottoddy'
+'Jennycruz','Judith699','julieliyoung33','Kathleen696','Kileyxxx83','Laura666','LittleCrystal','Lizlove','Lolalola94','lollipop6','missOptimism','mujastar','Sarawood84','sbreezy','shaira22','Sonya19','sonya1982','Sultryviv007','susan84',
+'sweetylindz90','Veronica19','Zina69'
+
+
+
+SELECT * FROM user_profiles WHERE `username` IN(
+'21cindy','Abigail','adrienne','Adrienne','Angelica8','angeljojo88','Anita69','Anna88','April4ever','babyangel77','babycakes18','clairvoyant21','Danella','Donitayong87','donitayong87','DrizzleRaine','fairy888','gemmalia93','Hottoddy','hottoddy','Jennycruz','Judith699','julieliyoung33','Kathleen696','Kileyxxx83','Laura666','LittleCrystal','Lizlove','Lolalola94','lollipop6','missOptimism','mujastar','Sarawood84','sbreezy','shaira22','Sonya19','sonya1982','Sultryviv007','susan84','sweetylindz90','Veronica19','Zina69','lilliankate','brittanyedean','rosiebell'
+) AND status = 'true'
+
+UPDATE `user_profiles` SET status='false' WHERE `username` IN(
+'21cindy','Abigail','adrienne','Adrienne','Angelica8','angeljojo88','Anita69','Anna88','April4ever','babyangel77','babycakes18','clairvoyant21','Danella','Donitayong87','donitayong87','DrizzleRaine','fairy888','gemmalia93','Hottoddy','hottoddy','Jennycruz','Judith699','julieliyoung33','Kathleen696','Kileyxxx83','Laura666','LittleCrystal','Lizlove','Lolalola94','lollipop6','missOptimism','mujastar','Sarawood84','sbreezy','shaira22','Sonya19','sonya1982','Sultryviv007','susan84','sweetylindz90','Veronica19','Zina69','lilliankate','brittanyedean','rosiebell'
+) AND status = 'true'
+
+
+'21cindy','Abigail','adrienne','Adrienne','Angelica8','angeljojo88','Anita69','Anna88','April4ever','Aprilforever','babyangel77','clairvoyant21','Danella','Donitayong87','donitayong87','DrizzleRaine','fairy888','gemmalia93',
+'Hottoddy','hottoddy','Jennycruz','Judith699','julieliyoung33','Kathleen696','Kileyxxx83','Laura666','LittleCrystal','Lizlove','Lolalola94','Lollipop6','lollipop6','missOptimism','mujastar','Sarawood84','sbreezy','shaira22',
+'sonya1982','Sultryviv007','susan84','sweetyLindz90','Veronica19','Zina69','lilliankate','brittanyedean','rosiebell'
+
+
+

@@ -1,0 +1,21 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="search">SEARCH</option>
+		<option value="send" selected>SEND</option>
+	</select>
+</span>
+<br class="clear">
+
+<input type="hidden" name="limit" value="40"/>
+<input type="hidden" name="pix" value=""/>
+<input type="hidden" name="location" value="all"/>
+<input type="hidden" name="role" value="none"/>
+<input type="hidden" name="physique" value="none"/>
+<input type="hidden" name="bodyhair" value="none"/>
+<input type="hidden" name="ethnicity" value="none"/>
+<input type="hidden" name="cocksize" value="none"/>
+<input type="hidden" name="safesex" value="none"/>
+<input type="hidden" name="fetish" value=""/>
+<input type="hidden" name="customtown" value=""/>
+<input type="hidden" name="resordering" value="onboard"/>

@@ -1,0 +1,255 @@
+﻿<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Online User:</span>
+<span class="field">
+	No Option to pick, mostly shows online user. No Option to pick gender. Female profile can see Males.
+	Age option need to be fixed.
+</span>
+<br class="clear">
+<div id='poppen_detail'>
+<span class="label">Age:</span>
+<span class="field">
+	From:	
+	<select id="age_from" name="svon">
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20" selected="selected">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+				<option value="32">32</option>
+				<option value="33">33</option>
+				<option value="34">34</option>
+				<option value="35">35</option>
+				<option value="36">36</option>
+				<option value="37">37</option>
+				<option value="38">38</option>
+				<option value="39">39</option>
+				<option value="40">40</option>
+				<option value="41">41</option>
+				<option value="42">42</option>
+				<option value="43">43</option>
+				<option value="44">44</option>
+				<option value="45">45</option>
+				<option value="46">46</option>
+				<option value="47">47</option>
+				<option value="48">48</option>
+				<option value="49">49</option>
+				<option value="50">50</option>
+				<option value="51">51</option>
+				<option value="52">52</option>
+				<option value="53">53</option>
+				<option value="54">54</option>
+				<option value="55">55</option>
+				<option value="56">56</option>
+				<option value="57">57</option>
+				<option value="58">58</option>
+				<option value="59">59</option>
+				<option value="60">60</option>
+				<option value="61">61</option>
+				<option value="62">62</option>
+				<option value="63">63</option>
+				<option value="64">64</option>
+				<option value="65">65</option>
+				<option value="66">66</option>
+				<option value="67">67</option>
+				<option value="68">68</option>
+				<option value="69">69</option>
+				<option value="70">70</option>
+		</select>
+	To:	
+        <select id="age_to" name="sbis">
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+				<option value="32">32</option>
+				<option value="33">33</option>
+				<option value="34">34</option>
+				<option value="35">35</option>
+				<option value="36">36</option>
+				<option value="37">37</option>
+				<option value="38">38</option>
+				<option value="39">39</option>
+				<option value="40">40</option>
+				<option value="41">41</option>
+				<option value="42">42</option>
+				<option value="43">43</option>
+				<option value="44">44</option>
+				<option value="45">45</option>
+				<option value="46">46</option>
+				<option value="47">47</option>
+				<option value="48">48</option>
+				<option value="49">49</option>
+				<option value="50">50</option>
+				<option value="51">51</option>
+				<option value="52">52</option>
+				<option value="53">53</option>
+				<option value="54">54</option>
+				<option value="55">55</option>
+				<option value="56">56</option>
+				<option value="57">57</option>
+				<option value="58">58</option>
+				<option value="59">59</option>
+				<option value="60">60</option>
+				<option value="61">61</option>
+				<option value="62">62</option>
+				<option value="63">63</option>
+				<option value="64">64</option>
+				<option value="65">65</option>
+				<option value="66">66</option>
+				<option value="67">67</option>
+				<option value="68">68</option>
+				<option value="69">69</option>
+				<option value="70" selected="selected">70</option>
+			</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear">
+
+<span class="label">Country. (Only DE works at the moment)</span>
+<span class='field'>
+	<select id="country_code" name="country_code">
+		<option value="de" selected="selected">Deutschland</option>
+		<option value="at">Österreich</option>
+		<option value="ch">Schweiz</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Start from PLZ: (Long list used, since distance is under 75KM is static)</span>
+<span class="field">
+	<select name="start_plz" id="plz1">
+		<option value="01067" selected="selected">01067</option>
+		<option value="01587">01587</option>
+		<option value="02625">02625</option>
+		<option value="02906">02906</option>
+		<option value="02977">02977</option>
+		<option value="03044">03044</option>
+		<option value="03238">03238</option>
+		<option value="04288">04288</option>
+		<option value="04315">04315</option>
+		<option value="06886">06886</option>
+		<option value="07545">07545</option>
+		<option value="08525">08525</option>
+		<option value="09119">09119</option>
+		<option value="12621">12621</option>
+		<option value="15236">15236</option>
+		<option value="16278">16278</option>
+		<option value="16909">16909</option>
+		<option value="17034">17034</option>
+		<option value="17291">17291</option>
+		<option value="17358">17358</option>
+		<option value="17489">17489</option>
+		<option value="18069">18069</option>
+		<option value="18437">18437</option>
+		<option value="19053">19053</option>
+		<option value="19322">19322</option>
+		<option value="20253">20253</option>
+		<option value="23566">23566</option>
+		<option value="23758">23758</option>
+		<option value="23966">23966</option>
+		<option value="24534">24534</option>
+		<option value="24782">24782</option>
+		<option value="24837">24837</option>
+		<option value="25524">25524</option>
+		<option value="25746">25746</option>
+		<option value="25813">25813</option>
+		<option value="25899">25899</option>
+		<option value="27474">27474</option>
+		<option value="28213">28213</option>
+		<option value="30179">30179</option>
+		<option value="33098">33098</option>
+		<option value="33332">33332</option>
+		<option value="34121">34121</option>
+		<option value="35039">35039</option>
+		<option value="36100">36100</option>
+		<option value="36251">36251</option>
+		<option value="39108">39108</option>
+		<option value="39539">39539</option>
+		<option value="41239">41239</option>
+		<option value="44147">44147</option>
+		<option value="47906">47906</option>
+		<option value="48151">48151</option>
+		<option value="49076">49076</option>
+		<option value="50937">50937</option>
+		<option value="52066">52066</option>
+		<option value="52525">52525</option>
+		<option value="53518">53518</option>
+		<option value="53937">53937</option>
+		<option value="54292">54292</option>
+		<option value="55246">55246</option>
+		<option value="55487">55487</option>
+		<option value="56075">56075</option>
+		<option value="57076">57076</option>
+		<option value="60528">60528</option>
+		<option value="63743">63743</option>
+		<option value="66121">66121</option>
+		<option value="69126">69126</option>
+		<option value="70188">70188</option>
+		<option value="74076">74076</option>
+		<option value="76187">76187</option>
+		<option value="77654">77654</option>
+		<option value="78628">78628</option>
+		<option value="79104">79104</option>
+		<option value="81829">81829</option>
+		<option value="82362">82362</option>
+		<option value="83024">83024</option>
+		<option value="84453">84453</option>
+		<option value="85051">85051</option>
+		<option value="87437">87437</option>
+		<option value="88212">88212</option>
+		<option value="89077">89077</option>
+		<option value="90408">90408</option>
+		<option value="90425">90425</option>
+		<option value="92637">92637</option>
+		<option value="93053">93053</option>
+		<option value="94469">94469</option>
+		<option value="95326">95326</option>
+		<option value="96450">96450</option>
+		<option value="97074">97074</option>
+		<option value="97421">97421</option>
+		<option value="98529">98529</option>
+		<option value="99089">99089</option>
+	</select>
+</span>
+
+</div>
+<script type='text/javascript'>
+$(document).ready(function (e) {
+});
+</script>

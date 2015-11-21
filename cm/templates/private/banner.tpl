@@ -1,0 +1,1 @@
+<h1>Hallo <font>{$smarty.session.sess_username}</font> <div class="you-coins"><strong><span id='coins'>...</span> coins</strong></div></h1>

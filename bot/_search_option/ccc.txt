@@ -1,0 +1,101 @@
+﻿
+
+Dear All,
+
+Sorry this is going to be a long read but I would like to share some thoughts and get your feedback about IBE issues discussed today.
+
+We are reaching a crucial point in deciding which way to go with development.
+
+The Issue Today:
+Existing Scenario (as per mock-up front end): Guest indicates need for 2 or more rooms for a group of 4 or more people staying during same period.
+When selecting room type, guest has choice of one room type for all of the rooms, regardless of how many people in each room.
+When selecting Add-Ons, the Add ons are automatically selected for all rooms booked.
+
+Benefits: Quick booking process. Good chance of getting desired rooms.
+
+Problems: 1. Maybe one guest in the group of 4 wants a room alone. This guest will not be given option of smaller room and has to pay the same as the larger group, who must take triple room.
+
+2. Add-ons may not be needed for all people in group. (eg. Maybe only 2 people want airport transfer, or, 2 people want return trip and two want only one-way trip)
+
+Scenario Created by Gabor / David: Guest indicates need for 2 or more rooms for a group of people staying during same period (same as above).
+
+Guest selects room type for Room A, then goes to select add ons for Room A.
+
+Guest starts process again to select Room B, then goes to add ons again for Room B.
+
+Benefits: Guest can choose individual rooms and add ons.
+
+Problems: 1. This is a long process. 2. previously available rooms could be lost during process.
+
+Proposed Solution (selecting rooms) A: When selecting room type, guest can decide if the multiple rooms are the same room type or if a different room type can be given. If rooms are the same, continue to next step.
+If rooms are different, save first room type, go to choose next room type, add to cart.
+
+Proposed Solution B: If guest requests 2 or more of the same room type, but only one unit of that room type is available, guest is offered an alternative room type (higher/lower? Can the administrator choose?)
+
+
+Proposed Solution for Selecting Add-ons: Add-ons page is last before check out. Visited only one time to allocate add-ons per room. e.g. 3 rooms (room A, Room B, Room C) are selected and finalized. At Add-ons page, Room A: limo service (one-way), Room B: No limo service, Room C: limo service (return).
+
+Implementation: Gabor says he can do this proposed solution quickly. If he can, I think we should incorporate the option to choose room types for each different room allocation in the same booking.
+
+The Big Picture
+
+This leads on to an some overall points I would like to clarify about overall development I know all the points below are relevant but I need to know which are the most important.
+
+Do we launch a product that is the same as existing competitors or better than competitors?
+
+1a. Do we have a strict deadline on launch date?
+If so, what is the reason?
+1b. To be quicker to launch than competitors?
+1c. If so, is this a real threat?
+
+
+2a. Have we have promised to deliver new IBE to customer?
+If so, when and have they already paid for it?
+2b. If so, can we deliver partially completed product?
+
+2c. Can we deliver something else in the meantime?
+
+3a. Do we have budget constraints?
+Are we over or under target right now?*
+
+*My understanding is that the budget was set at 2 million baht to develop booking engine and CMS.
+So far we have gone over 500,000 thb
+I estimate that we about half way through booking engine development.
+
+4. How long can we continue to sell existing IBE?
+
+Considering these points, and any others you may have, I need to know how you want to proceed from the following options:
+1. Speed up development process to launch IBE on specific date?
+Result: possibly sacrifice USP features.
+Can add enhancements later. How much later is very difficult to predict.
+
+2. Keep development at same pace to deliver complete product?
+Result: Longer development time
+Unbeatable, unique product.
+
+Perspectives
+Business Development Perspective: The IBE should be ahead of the competition and sustainable. I know there will have to be compromises but I fear that we will launch an inferior product if we rush unnecessarily.
+
+End User Perspective: Total flexibility totally flexible to my specific requirements. After all, this is why we choose one product over another.
+For First-time user: No Assumptions that guest knows or understands the booking process.
+(Of course, clear instructions can help solve these kinds of Issues)
+
+Sales Perspective: Need a new product as soon as possible. Need to know launch date
+
+Financial: Finished product as quickly and as cheaply as possible.
+
+USPs
+Flexibility to handle ANY booking scenario: Completely Customizable for Hoteliers / Completely Flexible & User Friendly for End User.
+
+In conclusion, my aim is to launch an IBE that is better than anything currently on the market by focusing on the USPs above, without any sacrifices to flexibility. This may take longer time than originally expected but I believe the IBE's long-term sustainability will be worth it.
+
+Of course, every effort should be made to complete the IBE & CMS as soon as possible but I fear if we take short cuts it will result in an inferior product. However, if this is not in line with your vision, please letme know.
+
+I welcome any input so we can all have a clear path to our goal
+
+Thank you!
+
+
+Nick.
+
+

@@ -1,0 +1,211 @@
+﻿<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<span class="label">Gender:</span>
+<span class="field">
+	<select name="gender" class="gender" id="gender">	
+	<option value="m" selected="selected">Man</option>
+	<option value="w">Woman</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Age:</span>
+<span class="field">
+	<select id="age_from" name="age_from">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20" selected="selected">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70">70</option>
+</select> to <select id="age_to" name="age_to">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70" selected="selected">70</option>
+	</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear">
+
+<span class="label">Country:</span>
+<span class="field">
+	<select name="country" id="country">
+		<option value="AT">Österreich</option>
+		<option value="BE">Belgien</option>
+		<option value="DE" selected="selected">Deutschland</option>
+		<option value="IT">Italien</option>
+		<option value="LI">Liechtenstein</option>
+		<option value="LU">Luxemburg</option>
+		<option value="CH">Schweiz</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Region:</span>
+<span class="field">
+	<select name="region" id="regionSelect" style=""><option value="-1">Alle Regionen... …</option><option value="01">Baden-Württemberg</option><option value="02">Bayern</option><option value="16">Berlin</option><option value="11">Brandenburg</option><option value="03">Bremen</option><option value="04">Hamburg</option><option value="05">Hessen</option><option value="12">Mecklenburg-Vorpommern</option><option value="06">Niedersachsen</option><option value="07">Nordrhein-Westfalen</option><option value="08">Rheinland-Pfalz</option><option value="09">Saarland</option><option value="13">Sachsen</option><option value="14">Sachsen-Anhalt</option><option value="10">Schleswig-Holstein</option><option value="15">Thüringen</option></select>
+	FOR GERMANY ONLY
+</span>
+<br class="clear">
+
+<span class="label">Start page:</span>
+<span class="field">
+	<input type="number" name="start_page" value="1"/>
+</span>
+<br class="clear">
+
+<span class="label">Status:</span>
+<span class="field">
+ <input type="checkbox" name="options[o]" value="1" id="isOnline"><label for="isOnline"> Is now online</label><br>
+ <input type="checkbox" name="options[ol]" value="1" id="onlineLastWeek"><label for="onlineLastWeek"> Has been online recently</label><br>
+ <input type="checkbox" name="options[p]" value="1" id="hasProfilePicture"><label for="hasProfilePicture"> Has a profile picture</label><br>
+</span>
+
+<span class="label">Hair color:</span>
+<span class="field">
+  <input type="checkbox" name="options[hc][46]" value="1" id="hc_46"> <label for="hc_46">Anders</label><br>
+  <input type="checkbox" name="options[hc][42]" value="1" id="hc_42"> <label for="hc_42">Blond</label><br>
+  <input type="checkbox" name="options[hc][43]" value="1" id="hc_43"> <label for="hc_43">Braun</label><br>
+  <input type="checkbox" name="options[hc][48]" value="1" id="hc_48"> <label for="hc_48">Gefärbt</label><br>
+  <input type="checkbox" name="options[hc][47]" value="1" id="hc_47"> <label for="hc_47">Glatze</label><br>
+  <input type="checkbox" name="options[hc][45]" value="1" id="hc_45"> <label for="hc_45">Rot</label><br>
+  <input type="checkbox" name="options[hc][44]" value="1" id="hc_44"> <label for="hc_44">Schwarz</label><br>
+</span>
+
+<span class="label">Eye color:</span>
+<span class="field">
+  <input type="checkbox" name="options[ec][41]" value="1" id="ec_41"> <label for="ec_41">Andere Farbe</label><br>
+  <input type="checkbox" name="options[ec][38]" value="1" id="ec_38"> <label for="ec_38">Blau</label><br>
+  <input type="checkbox" name="options[ec][40]" value="1" id="ec_40"> <label for="ec_40">Braun</label><br>
+  <input type="checkbox" name="options[ec][37]" value="1" id="ec_37"> <label for="ec_37">Grau</label><br>
+  <input type="checkbox" name="options[ec][39]" value="1" id="ec_39"> <label for="ec_39">Grün</label><br>
+</span>
+
+<span class="label">Zodiac:</span>
+<span class="field">
+<select name="options[ss]">
+ <option value=""></option>
+  <option value="1">Widder</option>
+  <option value="2">Stier</option>
+  <option value="3">Zwillinge</option>
+  <option value="4">Krebs</option>
+  <option value="5">Löwe</option>
+  <option value="6">Jungfrau</option>
+  <option value="7">Waage</option>
+  <option value="8">Skorpion</option>
+  <option value="9">Schütze</option>
+  <option value="10">Steinbock</option>
+  <option value="11">Wassermann</option>
+  <option value="12">Fisches</option>
+  </select>
+</span>

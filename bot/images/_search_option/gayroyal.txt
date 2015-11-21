@@ -1,0 +1,167 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1">1</option>
+			<option value="2" selected>2</option>
+		</select>
+	</span>
+	<br class="clear">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<span class="label">MSG type:</span>
+        <span class="field">
+	    <select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>		
+	    </select>
+        </span>
+        <br class="clear">
+
+	<span class="label">Onlinestatus: </span>
+	<span class="field">
+		<select id="OnlineStatus" name="OnlineStatus">
+			<option value="0" selected="">Online und offline</option>
+			<option value="1">Alle die online sind</option>
+			<option value="2" class="small1">chatten</option>
+			<option value="3" class="small1">chatten oder live</option>
+			<option value="4" class="small1">live Date heute</option>
+			<option value="5" class="small1">live, aber nicht heute</option>
+			<option value="6" class="small1">live Date jetzt</option>
+			<option value="7" class="small1">suche Beziehung</option>
+			<option value="8" class="small1">VideoChat</option>
+			<option value="9" class="small1">nur surfen</option>
+			<option value="10" class="small1">beschäftigt</option>
+			<option value="11" class="small1">bin gleich zurück</option>
+			<option value="12" class="small1">abwesend</option>
+		</select>
+	</span>
+	<br class="clear">	
+
+	<span id="age_area">
+		<span class="label">Alter:</span>
+		<span class="field">
+			<select id="age_from" name="ageStart">
+				<option value="18" selected="">18</option><option value="20">20</option><option value="22">22</option><option value="24">24</option><option value="26">26</option><option value="28">28</option><option value="30">30</option><option value="32">32</option><option value="34">34</option><option value="36">36</option><option value="38">38</option><option value="40">40</option><option value="42">42</option><option value="44">44</option><option value="46">46</option><option value="48">48</option><option value="50">50</option><option value="52">52</option><option value="54">54</option><option value="56">56</option><option value="58">58</option><option value="60">60</option><option value="65">65</option><option value="70">70</option><option value="75">75</option><option value="80">80</option><option value="85">85</option><option value="90">90</option><option value="95">95</option><option value="99">99</option>
+		</select> to <select id="age_to" name="ageEnd">
+				<option value="18">18</option><option value="20">20</option><option value="22" selected="">22</option><option value="24">24</option><option value="26">26</option><option value="28">28</option><option value="30">30</option><option value="32">32</option><option value="34">34</option><option value="36">36</option><option value="38">38</option><option value="40">40</option><option value="42">42</option><option value="44">44</option><option value="46">46</option><option value="48">48</option><option value="50">50</option><option value="52">52</option><option value="54">54</option><option value="56">56</option><option value="58">58</option><option value="60">60</option><option value="65">65</option><option value="70">70</option><option value="75">75</option><option value="80">80</option><option value="85">85</option><option value="90">90</option><option value="95">95</option><option value="99">99</option>
+			</select>	
+			<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+		</span>
+		<br class="clear">
+	</span>
+	<span id="land_area">
+		<span class="label">Land:</span>
+		<span class="field">
+			<select id="Land" name="Land">
+				<option selected="" value="0">Alle Länder</option><option code="DE" value="79">Deutschland</option><option code="AF" value="1">Afghanistan</option><option code="EG" value="62">Ägypten</option><option code="AL" value="2">Albanien</option><option code="DZ" value="3">Algerien</option><option code="AD" value="4">Andorra</option><option code="AO" value="5">Angola</option><option code="AI" value="6">Anguilla</option><option code="AG" value="7">Antigua und Barbuda</option><option code="GQ" value="64">Äquatorialguinea</option><option code="AR" value="8">Argentinien</option><option code="AM" value="9">Armenien</option><option code="AW" value="10">Aruba</option><option code="AZ" value="13">Aserbaidschan</option><option code="ET" value="67">Äthiopien</option><option code="AU" value="11">Australien</option><option code="BS" value="14">Bahamas</option><option code="BH" value="15">Bahrain</option><option code="BD" value="16">Bangladesch</option><option code="BB" value="17">Barbados</option><option code="BY" value="18">Belarus</option><option code="BE" value="19">Belgien</option><option code="BZ" value="20">Belize</option><option code="BJ" value="21">Benin</option><option code="BM" value="22">Bermuda</option><option code="BT" value="23">Bhutan</option><option code="BO" value="24">Bolivien</option><option code="BA" value="25">Bosnien-Herzegowina</option><option code="BW" value="26">Botswana</option><option code="BR" value="27">Brasilien</option><option code="VG" value="28">Britische Jungferninseln</option><option code="BN" value="29">Brunei</option><option code="BG" value="30">Bulgarien</option><option code="BF" value="31">Burkina Faso</option><option code="BI" value="33">Burundi</option><option code="KY" value="38">Cayman-Inseln</option><option code="CL" value="41">Chile</option><option code="CN" value="42">China</option><option code="CK" value="49">Cookinseln</option><option code="CR" value="50">Costa Rica</option><option code="DK" value="56">Dänemark</option><option code="DE" value="79">Deutschland</option><option code="DM" value="58">Dominica</option><option code="DO" value="59">Dominikanische Republik</option><option code="DJ" value="57">Dschibuti</option><option code="EC" value="61">Ecuador</option><option code="SV" value="63">El Salvador</option><option code="CI" value="51">Elfenbeinküste</option><option code="ER" value="65">Eritrea</option><option code="EE" value="66">Estland</option><option code="FK" value="68">Falklandinseln</option><option code="FO" value="69">Färöer Inseln</option><option code="FJ" value="70">Fidschi</option><option code="FI" value="71">Finnland</option><option code="FR" value="72">Frankreich</option><option code="GF" value="73">Französisch-Guyana</option><option code="PF" value="74">Französisch-Polynesien</option><option code="GA" value="75">Gabun</option><option code="GM" value="76">Gambia</option><option code="GZ" value="77">Gaza Strip</option><option code="GE" value="78">Georgien</option><option code="GH" value="80">Ghana</option><option code="GI" value="81">Gibraltar</option><option code="GD" value="84">Grenada</option><option code="GR" value="82">Griechenland</option><option code="GL" value="83">Grönland</option><option code="UK" value="221">Großbritannien</option><option code="GP" value="85">Guadeloupe</option><option code="GT" value="86">Guatemala</option><option code="GG" value="87">Guernsey</option><option code="GN" value="88">Guinea</option><option code="GW" value="89">Guinea-Bissau</option><option code="GY" value="90">Guyana</option><option code="HT" value="91">Haiti</option><option code="HN" value="92">Honduras</option><option code="HK" value="93">Hongkong</option><option code="IN" value="96">Indien</option><option code="ID" value="97">Indonesien</option><option code="IQ" value="99">Irak</option><option code="IR" value="98">Iran</option><option code="IE" value="100">Irland</option><option code="IS" value="95">Island</option><option code="IM" value="101">Isle of Man</option><option code="IL" value="102">Israel</option><option code="IT" value="103">Italien</option><option code="JM" value="104">Jamaika</option><option code="JP" value="105">Japan</option><option code="YE" value="231">Jemen</option><option code="JE" value="106">Jersey</option><option code="JO" value="107">Jordanien</option><option code="KH" value="34">Kambodscha</option><option code="CM" value="35">Kamerun</option><option code="CA" value="36">Kanada</option><option code="CV" value="37">Kap Verde</option><option code="KZ" value="108">Kasachstan</option><option code="QA" value="169">Katar</option><option code="KE" value="109">Kenia</option><option code="KG" value="112">Kirgisistan</option><option code="KI" value="110">Kiribati</option><option code="CC" value="44">Kokosinseln (Keeling)</option><option code="CO" value="45">Kolumbien</option><option code="KM" value="46">Komoren</option><option code="CG" value="47">Kongo</option><option code="CD" value="48">Kongo, Demokratische Republik</option><option code="HR" value="52">Kroatien</option><option code="CU" value="53">Kuba</option><option code="KW" value="111">Kuwait</option><option code="LA" value="113">Laos</option><option code="LS" value="116">Lesotho</option><option code="LV" value="114">Lettland</option><option code="LB" value="115">Libanon</option><option code="LR" value="117">Liberia</option><option code="LY" value="118">Libyen</option><option code="LI" value="119">Liechtenstein</option><option code="LT" value="120">Litauen</option><option code="LU" value="121">Luxemburg</option><option code="MO" value="122">Macau</option><option code="MG" value="124">Madagaskar</option><option code="MW" value="125">Malawi</option><option code="MY" value="126">Malaysia</option><option code="MV" value="127">Malediven</option><option code="ML" value="128">Mali</option><option code="MT" value="129">Malta</option><option code="MA" value="141">Marokko</option><option code="MH" value="130">Marshall</option><option code="MQ" value="131">Martinique</option><option code="MR" value="132">Mauretanien</option><option code="MU" value="133">Mauritius</option><option code="YT" value="134">Mayotte</option><option code="MK" value="123">Mazedonien</option><option code="MX" value="135">Mexiko</option><option code="FM" value="136">Mikronesien</option><option code="MD" value="137">Moldawien</option><option code="MC" value="138">Monaco</option><option code="MN" value="139">Mongolei</option><option code="ME" value="4717">Montenegro</option><option code="MS" value="140">Montserrat</option><option code="MZ" value="142">Mosambik</option><option code="MM" value="32">Myanmar</option><option code="NA" value="143">Namibia</option><option code="NR" value="144">Nauru</option><option code="NP" value="145">Nepal</option><option code="NC" value="148">Neukaledonien</option><option code="NZ" value="149">Neuseeland</option><option code="NI" value="150">Nicaragua</option><option code="NL" value="146">Niederlande</option><option code="AN" value="147">Niederländische Antillen</option><option code="NE" value="151">Niger</option><option code="NG" value="152">Nigeria</option><option code="NU" value="153">Niuë</option><option code="NM" value="154">No Man's Land</option><option code="KP" value="156">Nordkorea</option><option code="NF" value="155">Norfolk-Insel</option><option code="NO" value="157">Norwegen</option><option code="OM" value="158">Oman (Sultanat)</option><option code="TL" value="60">Ost Timor</option><option code="AT" value="12">Österreich</option><option code="PK" value="159">Pakistan</option><option code="PW" value="160">Palau</option><option code="PA" value="161">Panama</option><option code="PG" value="162">Papua-Neuguinea</option><option code="PY" value="163">Paraguay</option><option code="PE" value="164">Peru</option><option code="PH" value="165">Philippinen</option><option code="PN" value="166">Pitcairn</option><option code="PL" value="167">Polen</option><option code="PT" value="168">Portugal</option><option code="PR" value="4808">Puerto Rico</option><option code="RE" value="170">Réunion</option><option code="RW" value="173">Ruanda</option><option code="RO" value="171">Rumänien</option><option code="RU" value="172">Russland</option><option code="PM" value="177">Saint-Pierre und Miquelon</option><option code="SB" value="190">Salomonen</option><option code="ZM" value="232">Sambia</option><option code="WS" value="179">Samoa</option><option code="SM" value="180">San Marino</option><option code="SH" value="174">Sankt Helena</option><option code="KN" value="175">Sankt Kitts und Nevis</option><option code="LC" value="176">Sankt Luzia</option><option code="VC" value="178">Sankt Vincent und die Grenadines</option><option code="ST" value="181">São Tomé und Príncipe</option><option code="SA" value="182">Saudi-Arabien</option><option code="SE" value="202">Schweden</option><option code="CH" value="203">Schweiz</option><option code="SN" value="183">Senegal</option><option code="RS" value="184">Serbien</option><option code="SC" value="185">Seychellen</option><option code="SL" value="186">Sierra Leone</option><option code="ZW" value="233">Simbabwe</option><option code="SG" value="187">Singapur</option><option code="SK" value="188">Slowakei</option><option code="SI" value="189">Slowenien</option><option code="SO" value="191">Somalia</option><option code="ES" value="195">Spanien</option><option code="SJ" value="200">Spitzbergen</option><option code="SP" value="196">Spratly Islands</option><option code="LK" value="197">Sri Lanka</option><option code="ZA" value="192">Südafrika</option><option code="SD" value="198">Sudan</option><option code="GS" value="193">Südgeorgien und Sandwich-Inseln</option><option code="KR" value="194">Südkorea</option><option code="SR" value="199">Suriname</option><option code="SZ" value="201">Swasiland</option><option code="SY" value="204">Syrien</option><option code="TJ" value="206">Tadschikistan</option><option code="TW" value="205">Taiwan</option><option code="TZ" value="207">Tansania</option><option code="TH" value="208">Thailand</option><option code="TG" value="209">Togo</option><option code="TK" value="210">Tokelau</option><option code="TO" value="211">Tonga</option><option code="TT" value="212">Trinidad und Tobago</option><option code="TD" value="40">Tschad</option><option code="CZ" value="55">Tschechische Republik</option><option code="TN" value="213">Tunesien</option><option code="TR" value="214">Türkei</option><option code="TM" value="215">Turkmenistan</option><option code="TC" value="216">Turks- und Caicosinseln</option><option code="TV" value="217">Tuvalu</option><option code="UG" value="218">Uganda</option><option code="UA" value="219">Ukraine</option><option code="HU" value="94">Ungarn</option><option code="UY" value="223">Uruguay</option><option code="UZ" value="224">Usbekistan</option><option code="VU" value="225">Vanuatu</option><option code="VE" value="226">Venezuela</option><option code="AE" value="220">Vereinigte Arabische Emirate</option><option code="US" value="222">Vereinigte Staaten von Amerika</option><option code="VN" value="227">Vietnam</option><option code="WF" value="228">Wallis und Futuna</option><option code="CX" value="43">Weihnachtsinseln</option><option code="WB" value="229">West Bank</option><option code="EH" value="230">Westsahara</option><option code="CF" value="39">Zentralafrikanische Republik</option><option code="CY" value="54">Zypern</option>
+			</select>
+		</span>
+		<br class="clear">
+	</span>	
+
+	<span id="regionen_area">
+		<span class="label">Region:</span>
+		<span class="field">
+			<select id="Region" name="Region">
+				<option value="0">Alle Regionen</option>				
+			</select>
+		</span>
+		<br class="clear">
+	</span>
+
+	<span id="sort_area">
+		<span class="label">Sortierung:</span>
+		<span class="field">
+			<select id="Sort" name="Sort">
+				<option value="4" selected="">Zuletzt eingeloggte zuerst</option>
+				<option value="1">Neue zuerst</option>
+				<option value="2">Nach Alter (jüngere zuerst)</option>
+				<option value="3">Nach Alter (ältere zuerst)</option>
+				<option value="5">Alphabetisch (Nickname)</option>			
+			</select>
+		</span>
+		<br class="clear">
+	</span>
+</span>
+
+<script>
+$(document).ready(function() {
+	$('#Land').change(function(){
+		var Land = $('#Land :selected').val();
+
+		if(Land == 79){
+		       
+			$('#Region :selected').empty();
+			
+			var newOptions = {
+			    '0' : 'Alle Regionen',
+			    '1415' : 'Baden-Württemberg',
+			    '1416' : 'Bayern',
+			    '1430' : 'Berlin',
+			    '1425' : 'Brandenburg',
+			    '1417' : 'Bremen',
+			    '1418' : 'Hamburg',
+			    '1419' : 'Hessen',
+			    '1426' : 'Mecklenburg-Vorpommern',
+			    '1420' : 'Niedersachsen',
+			    '1421' : 'Nordrhein-Westfalen',
+			    '1422' : 'Rheinland-Pfalz',
+			    '1423' : 'Saarland',
+			    '1427' : 'Sachsen',
+			    '1428' : 'Sachsen-Anhalt',
+			    '1424' : 'Schleswig-Holstein',
+			    '1429' : 'Thüringen'
+			};
+			
+			var select = $('#Region');
+
+			if(select.prop) {
+			  var options = select.prop('options');
+			}
+			else {
+			  var options = select.attr('options');
+			}
+
+			$('option', select).remove();
+
+			$.each(newOptions, function(val, text) {
+				options[options.length] = new Option(text, val);
+			});
+		}else{
+			$('#Region :selected').empty();
+			var newOptions = {
+			    '0' : 'Alle Regionen'			    
+			};
+			
+			var select = $('#Region');
+
+			if(select.prop) {
+			  var options = select.prop('options');
+			}
+			else {
+			  var options = select.attr('options');
+			}
+
+			$('option', select).remove();
+
+			$.each(newOptions, function(val, text) {
+				options[options.length] = new Option(text, val);
+			});
+		}
+	});
+});
+</script>

@@ -1,0 +1,23 @@
+<?php
+
+$link = mysql_connect("localhost", "root", "")
+    or die("Keine Verbindung m?glich: " . mysql_error());
+mysql_select_db("herzoase") or die("Auswahl der Datenbank fehlgeschlagen");
+
+
+$query = "Select id, username, DATE_FORMAT(birthday,'%Y') As Year from member where LENGTH(username) < 6";
+$result = mysql_query($query);
+
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+		//if (is_numeric(substr($row['username'], -1, 1)))
+			$query2 =  "UPDATE member SET username=CONCAT('".$row['username']."','Hot".$row['Year']."') WHERE id= ".$row['id'];
+		//else
+		//	$query2 =  "UPDATE member SET username=CONCAT('".$row['username']."','".$row['Year']."') WHERE id= ".$row['id'];
+		echo $query2."<br>";
+		$result2 = mysql_query($query2);
+		$i++;
+	
+}
+mysql_close($link);
+
+?>

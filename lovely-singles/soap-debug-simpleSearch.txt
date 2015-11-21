@@ -1,0 +1,12 @@
+stdClass Object
+(
+    [felder] => id
+    [username] => GayLuis
+    [picturepath] => 1
+    [lookfor] => 1
+    [franchisee] => LovelySingles
+    [fake] => 1
+    [gender] => 1
+    [offset] => 10
+    [start] => 0
+)

@@ -1,0 +1,1506 @@
+﻿<script type="text/javascript">
+country = new Object();
+area = new Object();
+country[2] = new Object();
+country[2][213] = 'Algeria';
+country[2][216] = 'Angola';
+country[2][219] = 'Benin';
+country[2][212] = 'Botswana';
+country[2][220] = 'Burkina Faso';
+country[2][221] = 'Burundi';
+country[2][230] = 'Cameroon';
+country[2][231] = 'Cape Verde';
+country[2][251] = 'Central African Republic';
+country[2][249] = 'Chad';
+country[2][255] = 'Comoros';
+country[2][233] = 'Dem. Republic of the Congo';
+country[2][222] = 'Djibouti';
+country[2][201] = 'Egypt';
+country[2][217] = 'Equatorial Guinea';
+country[2][224] = 'Eritrea';
+country[2][218] = 'Ethiopia';
+country[2][225] = 'Gabon';
+country[2][226] = 'Gambia';
+country[2][227] = 'Ghana';
+country[2][228] = 'Guinea';
+country[2][229] = 'Guinea-Bissau';
+country[2][223] = 'Ivory Coast';
+country[2][204] = 'Kenya';
+country[2][234] = 'Lesotho';
+country[2][235] = 'Liberia';
+country[2][214] = 'Libya';
+country[2][236] = 'Madagascar';
+country[2][237] = 'Malawi';
+country[2][238] = 'Mali';
+country[2][239] = 'Mauritania';
+country[2][206] = 'Mauritius';
+country[2][202] = 'Morocco';
+country[2][208] = 'Mozambique';
+country[2][215] = 'Namibia';
+country[2][240] = 'Niger';
+country[2][211] = 'Nigeria';
+country[2][232] = 'Republic of the Congo';
+country[2][252] = 'Réunion';
+country[2][253] = 'Rwanda';
+country[2][242] = 'São Tomé and Príncipe';
+country[2][243] = 'Senegal';
+country[2][207] = 'Seychelles';
+country[2][244] = 'Sierra Leone';
+country[2][245] = 'Somalia';
+country[2][203] = 'South Africa';
+area[203] = new Object();
+area[203][20301] = 'Eastern Cape';
+area[203][20302] = 'Free State';
+area[203][20303] = 'Gauteng (Johannesburg)';
+area[203][20304] = 'KwaZulu-Natal';
+area[203][20305] = 'Limpopo';
+area[203][20306] = 'Mpumalanga';
+area[203][20308] = 'Northern Cape';
+area[203][20307] = 'North West';
+area[203][20309] = 'Western Cape (Cape Town)';
+country[2][254] = 'South Sudan';
+area[254] = new Object();
+area[254][25401] = 'South Sudan';
+country[2][246] = 'Sudan';
+country[2][247] = 'Swaziland';
+country[2][209] = 'Tanzania';
+country[2][248] = 'Togo';
+country[2][205] = 'Tunisia';
+country[2][250] = 'Uganda';
+country[2][241] = 'Zambia';
+country[2][210] = 'Zimbabwe';
+country[5] = new Object();
+country[5][535] = 'Afghanistan';
+country[5][541] = 'Bangladesh';
+country[5][542] = 'Bhutan';
+country[5][543] = 'Brunei';
+country[5][544] = 'Cambodia';
+country[5][501] = 'China';
+area[501] = new Object();
+area[501][50101] = 'Anhui';
+area[501][50103] = 'Beijing';
+area[501][50104] = 'Chongqing';
+area[501][50105] = 'Fujian';
+area[501][50106] = 'Gansu';
+area[501][50107] = 'Guangdong';
+area[501][50108] = 'Guangxi';
+area[501][50109] = 'Guizhou';
+area[501][50110] = 'Hainan';
+area[501][50111] = 'Hebei';
+area[501][50112] = 'Heilongjiang';
+area[501][50113] = 'Henan';
+area[501][50129] = 'Hong Kong';
+area[501][50114] = 'Hubei';
+area[501][50115] = 'Hunan';
+area[501][50116] = 'Jiangsu';
+area[501][50117] = 'Jiangxi';
+area[501][50118] = 'Jilin';
+area[501][50119] = 'Liaoning';
+area[501][50102] = 'Macau';
+area[501][50120] = 'Nei Mongol';
+area[501][50121] = 'Ningxia';
+area[501][50122] = 'Qinghai';
+area[501][50123] = 'Shaanxi';
+area[501][50124] = 'Shandong';
+area[501][50125] = 'Shanghai';
+area[501][50126] = 'Shanxi';
+area[501][50127] = 'Sichuan';
+area[501][50128] = 'Tianjin';
+area[501][50131] = 'Tibet (Xizang)';
+area[501][50130] = 'Xinjiang';
+area[501][50132] = 'Yunnan';
+area[501][50133] = 'Zhejiang';
+country[5][502] = 'India';
+area[502] = new Object();
+area[502][50201] = 'Andaman & Nicobar Islands';
+area[502][50202] = 'Andhra Pradesh';
+area[502][50203] = 'Arunachal Pradesh';
+area[502][50204] = 'Assam';
+area[502][50205] = 'Bihar';
+area[502][50206] = 'Chandigarh';
+area[502][50207] = 'Chhattisgarh';
+area[502][50208] = 'Dadra & Nagar Haveli';
+area[502][50209] = 'Daman & Diu';
+area[502][50210] = 'Delhi (New Delhi)';
+area[502][50211] = 'Goa';
+area[502][50212] = 'Gujarat';
+area[502][50213] = 'Haryana';
+area[502][50214] = 'Himachal Pradesh';
+area[502][50215] = 'Jammu & Kashmir';
+area[502][50216] = 'Jharkhand';
+area[502][50217] = 'Karnataka';
+area[502][50218] = 'Kerala';
+area[502][50219] = 'Lakshadweep';
+area[502][50220] = 'Madhya Pradesh';
+area[502][50221] = 'Maharashtra';
+area[502][50222] = 'Manipur';
+area[502][50223] = 'Meghalaya';
+area[502][50224] = 'Mizoram';
+area[502][50225] = 'Nagaland';
+area[502][50226] = 'Orissa';
+area[502][50227] = 'Pondicherry';
+area[502][50228] = 'Punjab';
+area[502][50229] = 'Rajasthan';
+area[502][50230] = 'Sikkim';
+area[502][50231] = 'Tamil Nadu';
+area[502][50232] = 'Tripura';
+area[502][50234] = 'Uttarakhand';
+area[502][50233] = 'Uttar Pradesh';
+area[502][50235] = 'West Bengal';
+country[5][503] = 'Indonesia';
+area[503] = new Object();
+area[503][50304] = 'Bali (Kuta, Denpasar)';
+area[503][50301] = 'Jawa (Jakarta, Yogyakarta)';
+area[503][50302] = 'Kalimantan';
+area[503][50303] = 'Maluku';
+area[503][50305] = 'Nusa Tenggara';
+area[503][50306] = 'Papua';
+area[503][50307] = 'Sulawesi';
+area[503][50308] = 'Sumatera';
+country[5][504] = 'Japan';
+area[504] = new Object();
+area[504][50404] = 'Chubu';
+area[504][50406] = 'Chugoku';
+area[504][50401] = 'Hokkaido';
+area[504][50409] = 'Kansai';
+area[504][50403] = 'Kanto (Tokyo)';
+area[504][50405] = 'Kinki (Osaka)';
+area[504][50408] = 'Kyushu';
+area[504][50407] = 'Shikoku';
+area[504][50402] = 'Tohoku';
+country[5][526] = 'Kazakhstan';
+country[5][548] = 'Kyrgyzstan';
+country[5][545] = 'Laos';
+country[5][515] = 'Malaysia';
+area[515] = new Object();
+area[515][51504] = 'Johor';
+area[515][51505] = 'Kedah';
+area[515][51506] = 'Kelantan';
+area[515][51502] = 'Kuala Lumpur';
+area[515][51517] = 'Labuan';
+area[515][51507] = 'Melaka';
+area[515][51508] = 'Negeri Sembilan';
+area[515][51509] = 'Pahang';
+area[515][51503] = 'Penang';
+area[515][51510] = 'Perak';
+area[515][51511] = 'Perlis';
+area[515][51512] = 'Putrajaya';
+area[515][51513] = 'Sabah';
+area[515][51514] = 'Sarawak';
+area[515][51515] = 'Selangor';
+area[515][51516] = 'Terengganu';
+country[5][517] = 'Maldives';
+country[5][530] = 'Mongolia';
+country[5][546] = 'Myanmar';
+country[5][547] = 'Nepal';
+country[5][516] = 'North Korea';
+country[5][524] = 'Pakistan';
+country[5][513] = 'Philippines';
+area[513] = new Object();
+area[513][51324] = 'Agusan del Norte';
+area[513][51346] = 'Agusan del Sur';
+area[513][51337] = 'Aklan';
+area[513][51329] = 'Albay';
+area[513][51336] = 'Bataan';
+area[513][51314] = 'Batangas';
+area[513][51307] = 'Benguet';
+area[513][51345] = 'Bohol';
+area[513][51332] = 'Bukidnon';
+area[513][51315] = 'Bulacan';
+area[513][51316] = 'Cagayan';
+area[513][51352] = 'Camarines Norte';
+area[513][51334] = 'Camarines Sur';
+area[513][51341] = 'Capiz';
+area[513][51344] = 'Catanduanes';
+area[513][51313] = 'Cavite';
+area[513][51306] = 'Cebu';
+area[513][51310] = 'Davao City';
+area[513][51325] = 'Davao del Norte';
+area[513][51339] = 'Ilocos Norte';
+area[513][51328] = 'Ilocos Sur';
+area[513][51311] = 'Iloilo';
+area[513][51335] = 'Isabela';
+area[513][51303] = 'Laguna';
+area[513][51317] = 'Lanao del Norte';
+area[513][51340] = 'La Union';
+area[513][51319] = 'Leyte';
+area[513][51302] = 'Manila';
+area[513][51349] = 'Marinduque';
+area[513][51348] = 'Mindoro Oriental';
+area[513][51342] = 'Misamis Occidental';
+area[513][51320] = 'Misamis Oriental';
+area[513][51305] = 'Negros Occidental';
+area[513][51338] = 'Negros Oriental';
+area[513][51331] = 'Northern Samar';
+area[513][51321] = 'Nueva Ecija';
+area[513][51323] = 'Nueva Vizcaya';
+area[513][51327] = 'Palawan';
+area[513][51309] = 'Pampanga';
+area[513][51333] = 'Pangasinan';
+area[513][51312] = 'Quezon';
+area[513][51318] = 'Rizal';
+area[513][51353] = 'Romblon';
+area[513][51347] = 'Samar';
+area[513][51350] = 'Sorsogon';
+area[513][51308] = 'South Cotabato';
+area[513][51343] = 'Surigao del Norte';
+area[513][51351] = 'Surigao del Sur';
+area[513][51330] = 'Tarlac';
+area[513][51304] = 'Zambales';
+area[513][51322] = 'Zamboanga del Norte';
+area[513][51326] = 'Zamboanga del Sur';
+country[5][506] = 'Singapore';
+country[5][507] = 'South Korea';
+country[5][527] = 'Sri Lanka';
+country[5][508] = 'Taiwan';
+area[508] = new Object();
+area[508][50801] = '» Other';
+area[508][50802] = 'Taipei';
+country[5][538] = 'Tajikistan';
+country[5][509] = 'Thailand';
+area[509] = new Object();
+area[509][50901] = 'Bangkok and Vicinities (Bangkok)';
+area[509][50902] = 'Eastern (Pattaya - Chon Buri)';
+area[509][50903] = 'Isan';
+area[509][50907] = 'North';
+area[509][50904] = 'Southern (Phuket)';
+area[509][50905] = 'Sub-central';
+area[509][50906] = 'Western';
+country[5][550] = 'Timor-Leste';
+country[5][539] = 'Turkmenistan';
+country[5][540] = 'Uzbekistan';
+country[5][525] = 'Vietnam';
+country[6] = new Object();
+country[6][601] = 'Australia';
+area[601] = new Object();
+area[601][60105] = 'New South Wales (Canberra)';
+area[601][60102] = 'Northern Territory';
+area[601][60103] = 'Queensland (Brisbane)';
+area[601][60104] = 'South Australia (Adelaide)';
+area[601][60108] = 'Sydney';
+area[601][60107] = 'Tasmania';
+area[601][60106] = 'Victoria (Melbourne)';
+area[601][60101] = 'Western Australia (Perth)';
+country[6][614] = 'Cook Islands';
+country[6][603] = 'Fiji';
+country[6][615] = 'French Polynesia';
+area[615] = new Object();
+area[615][61501] = 'Tahiti';
+country[6][604] = 'Marshall Islands';
+country[6][605] = 'Micronesia';
+country[6][606] = 'Nauru';
+country[6][616] = 'New Caledonia (FR)';
+country[6][602] = 'New Zealand';
+country[6][607] = 'Palau';
+country[6][608] = 'Papua New Guinea';
+country[6][610] = 'Samoa';
+country[6][609] = 'Solomon Islands';
+country[6][611] = 'Tonga';
+country[6][612] = 'Tuvalu';
+country[6][613] = 'Vanuatu';
+country[9] = new Object();
+country[9][925] = 'Antigua and Barbuda';
+country[9][927] = 'Aruba';
+country[9][910] = 'Bahamas';
+country[9][921] = 'Barbados';
+country[9][916] = 'Belize';
+country[9][918] = 'Bermuda';
+country[9][933] = 'Cayman Islands (UK)';
+country[9][904] = 'Costa Rica';
+country[9][908] = 'Cuba';
+country[9][931] = 'Curacao (NL)';
+country[9][923] = 'Dominica';
+country[9][906] = 'Dominican Republic';
+country[9][912] = 'El Salvador';
+country[9][919] = 'Grenada';
+country[9][929] = 'Guadeloupe (FR)';
+country[9][911] = 'Guatemala';
+country[9][915] = 'Haiti';
+country[9][914] = 'Honduras';
+country[9][905] = 'Jamaica';
+country[9][928] = 'Martinique (FR)';
+country[9][913] = 'Nicaragua';
+country[9][909] = 'Panama';
+country[9][907] = 'Puerto Rico';
+country[9][924] = 'Saint Kitts and Nevis';
+country[9][922] = 'Saint Lucia';
+country[9][934] = 'Saint Martin (FR)';
+country[9][920] = 'Saint Vincent & Grenadines';
+country[9][930] = 'St. Maarten (NL)';
+country[9][926] = 'Trinidad and Tobago';
+country[9][932] = 'Virgin Islands';
+country[1] = new Object();
+country[1][130] = 'Albania';
+country[1][145] = 'Andorra';
+country[1][149] = 'Armenia';
+country[1][104] = 'Austria';
+area[104] = new Object();
+area[104][10401] = 'Burgenland';
+area[104][10402] = 'Kärnten (Klagenfurt)';
+area[104][10403] = 'Niederösterreich';
+area[104][10404] = 'Oberösterreich (Linz)';
+area[104][10405] = 'Salzburg (Salzburg)';
+area[104][10406] = 'Steiermark (Graz)';
+area[104][10407] = 'Tirol (Innsbruck)';
+area[104][10409] = 'Vienna';
+area[104][10408] = 'Vorarlberg (Bregenz)';
+country[1][151] = 'Azerbaijan';
+country[1][125] = 'Belarus';
+country[1][132] = 'Belgium';
+area[132] = new Object();
+area[132][13204] = 'Antwerp';
+area[132][13201] = 'Brussels (Ixelles)';
+area[132][13206] = 'East-Flanders';
+area[132][13207] = 'Flemish-Brabant';
+area[132][13210] = 'Hainaut';
+area[132][13211] = 'Liège ';
+area[132][13205] = 'Limburg';
+area[132][13212] = 'Luxembourg';
+area[132][13213] = 'Namur';
+area[132][13209] = 'Walloon-Brabant';
+area[132][13208] = 'West-Flanders';
+country[1][139] = 'Bosnia and Herzegovina';
+country[1][122] = 'Bulgaria';
+country[1][121] = 'Croatia';
+country[1][135] = 'Cyprus';
+country[1][115] = 'Czech Republic';
+area[115] = new Object();
+area[115][11504] = 'Hradec Kralove Region';
+area[115][11501] = 'Jihocesky';
+area[115][11502] = 'Jihomoravsky';
+area[115][11503] = 'Karlovy Vary Region';
+area[115][11505] = 'Liberec Region';
+area[115][11506] = 'Moravian-Silesian Region';
+area[115][11507] = 'Olomouc Region';
+area[115][11508] = 'Pardubice Region';
+area[115][11509] = 'Plzen Region';
+area[115][11510] = 'Prague';
+area[115][11511] = 'Stredocesky';
+area[115][11512] = 'Ústi nad Labem Region';
+area[115][11513] = 'Vysocina Region';
+area[115][11514] = 'Zlin Region';
+country[1][123] = 'Denmark';
+area[123] = new Object();
+area[123][12301] = 'Aarhus (Aarhus)';
+area[123][12313] = 'Bornholm';
+area[123][12303] = 'Frederiksborg (Helsingor)';
+area[123][12304] = 'Funen (Fyns)';
+area[123][12305] = 'Jylland (Aalborg)';
+area[123][12302] = 'Kobenhavn og Frederiksberg (Copenhagen)';
+area[123][12306] = 'Ribe';
+area[123][12307] = 'Ringkobing';
+area[123][12308] = 'Roskilde (Roskilde)';
+area[123][12309] = 'Storstroms';
+area[123][12310] = 'Vejle';
+area[123][12312] = 'Vestsjaellands';
+area[123][12311] = 'Viborg';
+country[1][134] = 'Estonia';
+country[1][152] = 'Faroe Islands';
+country[1][127] = 'Finland';
+area[127] = new Object();
+area[127][12701] = 'Ahvenanmaa';
+area[127][12704] = 'East-Finland';
+area[127][12705] = 'North-Finland';
+area[127][12703] = 'South-Finland (Helsinki)';
+area[127][12702] = 'West-Finland (Tampere)';
+country[1][129] = 'France';
+area[129] = new Object();
+area[129][12904] = 'Alsace - Lorraine (Strasbourg, Mulhouse)';
+area[129][12911] = 'Aquitaine (Bordeaux)';
+area[129][12907] = 'Brittany - Loire - Poitou-Charentes';
+area[129][12905] = 'Burgundy - Franche-Comté';
+area[129][12906] = 'Centre';
+area[129][12910] = 'Corsica';
+area[129][12914] = 'Languedoc - Prov. Alpes - Côte d\'Azur';
+area[129][12909] = 'Limousin-Auvergne';
+area[129][12913] = 'Midi-Pyrénées (Toulouse)';
+area[129][12915] = 'Monaco (Monte Carlo)';
+area[129][12902] = 'Normandy';
+area[129][12903] = 'North - Picardy - Champagne (Lille)';
+area[129][12901] = 'Paris – Île-de-France';
+area[129][12908] = 'Rhône-Alpes (Lyon 1er, Grenoble)';
+country[1][150] = 'Georgia';
+country[1][101] = 'Germany';
+area[101] = new Object();
+area[101][10101] = 'Baden-Wurttemberg (Stuttgart, Mannheim (BW))';
+area[101][10102] = 'Bavaria (Munich, Nuremberg)';
+area[101][10103] = 'Berlin';
+area[101][10104] = 'Brandenburg (Potsdam)';
+area[101][10105] = 'Bremen (Bremen)';
+area[101][10106] = 'Hamburg';
+area[101][10107] = 'Hesse (Frankfurt / Main, Wiesbaden)';
+area[101][10109] = 'Lower Saxony (Hannover)';
+area[101][10108] = 'Mecklenburg-Western Pomerania (Rostock)';
+area[101][10110] = 'North Rhine Westphalia (Cologne, Dusseldorf)';
+area[101][10111] = 'Rhineland Palatinate (Koblenz)';
+area[101][10112] = 'Saarland (Saarbruecken)';
+area[101][10113] = 'Saxony (Leipzig, Dresden)';
+area[101][10114] = 'Saxony Anhalt (Magdeburg)';
+area[101][10115] = 'Schleswig-Holstein (Kiel, Luebeck)';
+area[101][10116] = 'Thuringia (Erfurt)';
+country[1][114] = 'Greece';
+area[114] = new Object();
+area[114][11406] = 'Aegean Islands (Rhodes, Mykonos)';
+area[114][11408] = 'Athens (Athens)';
+area[114][11404] = 'Central Greece';
+area[114][11403] = 'Crete';
+area[114][11401] = 'Ionian Islands';
+area[114][11402] = 'Ipeiros (Epirus)';
+area[114][11405] = 'Makedonia (Thessaloniki)';
+area[114][11407] = 'Peloponnese';
+area[114][11409] = 'Thessaly';
+area[114][11410] = 'Thrace';
+country[1][148] = 'Greenland';
+country[1][116] = 'Hungary';
+area[116] = new Object();
+area[116][11607] = 'Budapest';
+area[116][11601] = 'Central Transdanubia';
+area[116][11602] = 'Northern Great Plain';
+area[116][11603] = 'Northern Hungary';
+area[116][11604] = 'Southern Great Plain';
+area[116][11605] = 'Southern Transdanubia';
+area[116][11606] = 'Western Transdanubia';
+country[1][107] = 'Iceland';
+country[1][131] = 'Ireland';
+area[131] = new Object();
+area[131][13101] = 'Connacht';
+area[131][13102] = 'Leinster (Dublin)';
+area[131][13103] = 'Munster';
+area[131][13104] = 'Ulster';
+country[1][128] = 'Italy';
+area[128] = new Object();
+area[128][12812] = 'Abruzzo';
+area[128][12818] = 'Basilicata';
+area[128][12820] = 'Calabria';
+area[128][12815] = 'Campania (Naples, Salerno)';
+area[128][12806] = 'Emilia Romagna (Bologna)';
+area[128][12803] = 'Friuli Venezia Giulia';
+area[128][12813] = 'Lazio (Rome)';
+area[128][12808] = 'Liguria (Genoa)';
+area[128][12805] = 'Lombardy (Milan)';
+area[128][12810] = 'Marche';
+area[128][12814] = 'Molise';
+area[128][12822] = 'Piemonte';
+area[128][12817] = 'Puglia';
+area[128][12804] = 'Sardegna';
+area[128][12819] = 'Sicily (Palermo, Catania)';
+area[128][12801] = 'Trentino - Alto Adige/Südtirol';
+area[128][12809] = 'Tuscany (Florence, Pisa)';
+area[128][12811] = 'Umbria';
+area[128][12821] = 'Valle d\'Aosta';
+area[128][12802] = 'Veneto (Verona)';
+country[1][143] = 'Kosovo';
+country[1][119] = 'Latvia';
+country[1][147] = 'Liechtenstein';
+country[1][126] = 'Lithuania';
+country[1][102] = 'Luxembourg';
+country[1][140] = 'Macedonia (fYRoM)';
+country[1][138] = 'Malta';
+country[1][137] = 'Moldova';
+country[1][142] = 'Montenegro';
+country[1][103] = 'Netherlands';
+area[103] = new Object();
+area[103][10301] = 'Drenthe';
+area[103][10302] = 'Flevoland';
+area[103][10303] = 'Friesland';
+area[103][10304] = 'Gelderland (Arnhem, Nijmegen)';
+area[103][10305] = 'Groningen';
+area[103][10306] = 'Limburg (Maastricht)';
+area[103][10307] = 'North-Brabant (Eindhoven)';
+area[103][10308] = 'North-Holland & Amsterdam (Haarlem)';
+area[103][10309] = 'Overijssel (Enschede)';
+area[103][10312] = 'South-Holland & Rotterdam (The Hague)';
+area[103][10310] = 'Utrecht (Utrecht)';
+area[103][10311] = 'Zeeland';
+country[1][108] = 'Norway';
+area[108] = new Object();
+area[108][10802] = 'Akershus';
+area[108][10809] = 'Aust-Agder';
+area[108][10806] = 'Buskerud';
+area[108][10819] = 'Finnmark (Finnmarku)';
+area[108][10804] = 'Hedmark';
+area[108][10812] = 'Hordaland (Bergen)';
+area[108][10814] = 'More og Romsdal';
+area[108][10817] = 'Nordland';
+area[108][10816] = 'Nord-Trondelag';
+area[108][10805] = 'Oppland';
+area[108][10803] = 'Oslo';
+area[108][10801] = 'Ostfold';
+area[108][10811] = 'Rogaland';
+area[108][10813] = 'Sogn og Fjordane';
+area[108][10815] = 'Sor-Trondelag';
+area[108][10820] = 'Svalbard';
+area[108][10808] = 'Telemark';
+area[108][10818] = 'Troms';
+area[108][10810] = 'Vest-Agder';
+area[108][10807] = 'Vestfold';
+country[1][109] = 'Poland';
+area[109] = new Object();
+area[109][10915] = 'Greater Poland (Poznań )';
+area[109][10902] = 'Kuyavia-Pomerania';
+area[109][10906] = 'Lesser Poland';
+area[109][10903] = 'Lódz (Lódz)';
+area[109][10901] = 'Lower Silesia';
+area[109][10904] = 'Lubelskie';
+area[109][10905] = 'Lubuskie Province';
+area[109][10907] = 'Masovia';
+area[109][10908] = 'Opole';
+area[109][10910] = 'Podlasie';
+area[109][10911] = 'Pomerania';
+area[109][10912] = 'Silesia (Katowice)';
+area[109][10909] = 'Subcarpathia';
+area[109][10913] = 'Swietokrzyskie';
+area[109][10914] = 'Warmia-Masuria';
+area[109][10916] = 'West Pomerania (Szczecin)';
+country[1][113] = 'Portugal';
+area[113] = new Object();
+area[113][11301] = 'Acores';
+area[113][11302] = 'Aveiro';
+area[113][11303] = 'Beja';
+area[113][11304] = 'Braga';
+area[113][11305] = 'Braganca';
+area[113][11306] = 'Castelo Branco';
+area[113][11307] = 'Coimbra';
+area[113][11308] = 'Evora';
+area[113][11309] = 'Faro';
+area[113][11310] = 'Guarda';
+area[113][11311] = 'Leiria';
+area[113][11312] = 'Lisbon (Lisbon)';
+area[113][11313] = 'Madeira';
+area[113][11314] = 'Portalegre';
+area[113][11315] = 'Porto (Porto)';
+area[113][11316] = 'Santarem';
+area[113][11317] = 'Setubal';
+area[113][11318] = 'Viana do Castelo';
+area[113][11319] = 'Vila Real';
+area[113][11320] = 'Viseu';
+country[1][118] = 'Romania';
+area[118] = new Object();
+area[118][11805] = 'Bucharest - Ilfov';
+area[118][11804] = 'Centru (Brasov, Sibiu – Hermannstadt)';
+area[118][11803] = 'Nord-Vest (Cluj-Napoca – Kolozsvár)';
+area[118][11806] = 'North-East (Iasi)';
+area[118][11807] = 'South-East (Constanta)';
+area[118][11808] = 'Sud-Muntenia';
+area[118][11801] = 'Sud-Vest-Oltenia';
+area[118][11802] = 'Vest (Timisoara)';
+country[1][133] = 'Russia';
+area[133] = new Object();
+area[133][13301] = 'Central (Moscow)';
+area[133][13302] = 'Far East';
+area[133][13303] = 'North West (Saint Petersburg, Kaliningrad)';
+area[133][13304] = 'Privolzhsky (Volga)';
+area[133][13305] = 'Siberia';
+area[133][13306] = 'South';
+area[133][13307] = 'Urals';
+country[1][144] = 'San Marino';
+country[1][120] = 'Serbia';
+area[120] = new Object();
+area[120][12001] = 'Autonomous Province of Vojvodina (Novi Sad)';
+area[120][12002] = 'Central Serbia (Belgrade, Nis)';
+country[1][111] = 'Slovakia';
+area[111] = new Object();
+area[111][11101] = 'Banska Bystrica Region';
+area[111][11102] = 'Bratislava (Bratislava)';
+area[111][11103] = 'Kosice Region';
+area[111][11104] = 'Nitra Region';
+area[111][11105] = 'Presov Region';
+area[111][11106] = 'Trencin Region';
+area[111][11107] = 'Trnava Region';
+area[111][11108] = 'Zilina Region';
+country[1][136] = 'Slovenia';
+country[1][112] = 'Spain';
+area[112] = new Object();
+area[112][11220] = 'A Coruña';
+area[112][11221] = 'Alava (Gasteiz - Vitoria)';
+area[112][11222] = 'Albacete';
+area[112][11223] = 'Alicante (Benidorm)';
+area[112][11224] = 'Almeria';
+area[112][11214] = 'Asturias (Oviedo)';
+area[112][11225] = 'Avila';
+area[112][11226] = 'Badajoz';
+area[112][11205] = 'Balearic Islands (Ibiza – Eivissa, Mallorca – Palma)';
+area[112][11227] = 'Barcelona (Sitges)';
+area[112][11228] = 'Biscay (Bilbao)';
+area[112][11229] = 'Burgos';
+area[112][11230] = 'Caceres';
+area[112][11231] = 'Cadiz';
+area[112][11217] = 'Cantabria (Santander)';
+area[112][11232] = 'Castello';
+area[112][11218] = 'Ceuta';
+area[112][11233] = 'Ciudad Real';
+area[112][11234] = 'Cordova';
+area[112][11235] = 'Cuenca';
+area[112][11236] = 'Gipuzkoa (Donostia - San Sebastian)';
+area[112][11237] = 'Girona (Figueres)';
+area[112][11238] = 'Granada';
+area[112][11239] = 'Guadalajara';
+area[112][11240] = 'Huelva';
+area[112][11241] = 'Huesca';
+area[112][11242] = 'Jaen';
+area[112][11210] = 'La Rioja (Logrono)';
+area[112][11243] = 'Las Palmas (Gran Canaria - Maspalomas - Playa del Ingles)';
+area[112][11244] = 'Leon';
+area[112][11245] = 'Lleida';
+area[112][11246] = 'Lugo';
+area[112][11211] = 'Madrid';
+area[112][11247] = 'Malaga (Marbella, Torremolinos)';
+area[112][11219] = 'Melilla';
+area[112][11215] = 'Murcia';
+area[112][11212] = 'Navarra (Pamplona)';
+area[112][11248] = 'Ourense';
+area[112][11249] = 'Palencia';
+area[112][11250] = 'Pontevedra';
+area[112][11251] = 'Salamanca';
+area[112][11252] = 'Santa Cruz de Tenerife';
+area[112][11262] = 'Saragossa';
+area[112][11253] = 'Segovia';
+area[112][11254] = 'Seville';
+area[112][11255] = 'Soria';
+area[112][11256] = 'Tarragona';
+area[112][11257] = 'Teruel';
+area[112][11258] = 'Toledo';
+area[112][11259] = 'Valencia';
+area[112][11260] = 'Valladolid';
+area[112][11261] = 'Zamora';
+country[1][110] = 'Sweden';
+area[110] = new Object();
+area[110][11026] = 'Ångermanland';
+area[110][11004] = 'Blekinge';
+area[110][11005] = 'Bohuslän';
+area[110][11006] = 'Dalarna';
+area[110][11007] = 'Dalsland';
+area[110][11009] = 'Gästrikland';
+area[110][11008] = 'Gotland';
+area[110][11010] = 'Halland';
+area[110][11011] = 'Hälsingland';
+area[110][11012] = 'Härjedalen';
+area[110][11013] = 'Jämtland';
+area[110][11014] = 'Lappland';
+area[110][11015] = 'Medelpad';
+area[110][11017] = 'Närke';
+area[110][11016] = 'Norrbotten';
+area[110][11027] = 'Öland';
+area[110][11028] = 'Östergötland';
+area[110][11018] = 'Skåne';
+area[110][11019] = 'Småland';
+area[110][11020] = 'Sodermanland';
+area[110][11029] = 'Stockholm';
+area[110][11021] = 'Uppsala';
+area[110][11022] = 'Värmland';
+area[110][11023] = 'Västerbotten';
+area[110][11024] = 'Västergötland';
+area[110][11025] = 'Västmanland';
+country[1][105] = 'Switzerland';
+area[105] = new Object();
+area[105][10508] = 'Graubuenden';
+area[105][10502] = 'Mittelland (Berne)';
+area[105][10503] = 'Nordwestschweiz (Basel)';
+area[105][10501] = 'Ostschweiz (St. Gallen)';
+area[105][10504] = 'Romandy (Geneva, Lausanne)';
+area[105][10505] = 'Tessin (Lugano)';
+area[105][10506] = 'Zentralschweiz (Lucerne)';
+area[105][10507] = 'Zurich (Zürich)';
+country[1][141] = 'Turkey';
+area[141] = new Object();
+area[141][14102] = 'Aegean Region (Izmir)';
+area[141][14104] = 'Central Anatolia (Ankara)';
+area[141][14106] = 'East Anatolia';
+area[141][14101] = 'Marmara (Istanbul)';
+area[141][14103] = 'Mediterranean Region (Antalya)';
+area[141][14105] = 'Region Black Sea';
+area[141][14107] = 'Southeastern Anatolia Region';
+country[1][124] = 'Ukraine';
+country[1][106] = 'United Kingdom';
+area[106] = new Object();
+area[106][10616] = 'Channel Islands';
+area[106][10614] = 'England - East (Cambridge)';
+area[106][10609] = 'England - East Midlands';
+area[106][10605] = 'England - London';
+area[106][10611] = 'England - North East';
+area[106][10601] = 'England - North West (Manchester, Liverpool)';
+area[106][10608] = 'England - South East (Brighton & Hove)';
+area[106][10610] = 'England - South West';
+area[106][10612] = 'England - West Midlands (Birmingham)';
+area[106][10613] = 'England - Yorkshire & Humber';
+area[106][10618] = 'Falkland Islands';
+area[106][10617] = 'Gibraltar';
+area[106][10615] = 'Isle of Man';
+area[106][10604] = 'Northern Ireland (Belfast)';
+area[106][10602] = 'Scotland (Edinburgh, Glasgow)';
+area[106][10603] = 'Wales';
+country[8] = new Object();
+country[8][832] = 'Bahrein';
+country[8][823] = 'Iran';
+country[8][822] = 'Iraq';
+country[8][812] = 'Israel';
+area[812] = new Object();
+area[812][81202] = 'Center';
+area[812][81203] = 'Haifa ';
+area[812][81204] = 'Jerusalem';
+area[812][81205] = 'North';
+area[812][81206] = 'South';
+area[812][81207] = 'Tel Aviv';
+country[8][818] = 'Jordan';
+country[8][828] = 'Kuwait';
+country[8][814] = 'Lebanon';
+country[8][834] = 'Oman';
+country[8][820] = 'Palestinian Authority';
+country[8][833] = 'Qatar';
+country[8][805] = 'Saudi Arabia';
+country[8][819] = 'Syria';
+country[8][811] = 'United Arab Emirates';
+country[8][831] = 'Yemen';
+country[4] = new Object();
+country[4][401] = 'Canada';
+area[401] = new Object();
+area[401][40101] = 'Alberta';
+area[401][40102] = 'British Columbia (Vancouver)';
+area[401][40103] = 'Manitoba';
+area[401][40104] = 'New Brunswick';
+area[401][40105] = 'Newfoundland & Labrador';
+area[401][40106] = 'Northwest Territories';
+area[401][40107] = 'Nova Scotia';
+area[401][40108] = 'Ontario (Toronto)';
+area[401][40112] = 'Prince Edward Island';
+area[401][40109] = 'Québec (Montreal)';
+area[401][40110] = 'Saskatchewan';
+area[401][40111] = 'Yukon Territory';
+country[4][403] = 'Mexico';
+country[4][402] = 'USA';
+area[402] = new Object();
+area[402][40202] = 'Alabama';
+area[402][40201] = 'Alaska';
+area[402][40204] = 'Arizona';
+area[402][40203] = 'Arkansas';
+area[402][40205] = 'California';
+area[402][40252] = 'California - Los Angeles';
+area[402][40254] = 'California - San Diego';
+area[402][40253] = 'California - San Francisco';
+area[402][40255] = 'California - Santa Barbara';
+area[402][40206] = 'Colorado';
+area[402][40207] = 'Connecticut';
+area[402][40208] = 'Delaware';
+area[402][40209] = 'Florida (Fort Lauderdale)';
+area[402][40257] = 'Florida - Miami';
+area[402][40210] = 'Georgia (Atlanta)';
+area[402][40211] = 'Hawaii (Honolulu)';
+area[402][40213] = 'Idaho';
+area[402][40214] = 'Illinois';
+area[402][40256] = 'Illinois - Chicago';
+area[402][40215] = 'Indiana';
+area[402][40212] = 'Iowa';
+area[402][40216] = 'Kansas';
+area[402][40217] = 'Kentucky';
+area[402][40218] = 'Louisiana (New Orleans)';
+area[402][40221] = 'Maine';
+area[402][40220] = 'Maryland (Baltimore)';
+area[402][40219] = 'Massachusetts (Boston)';
+area[402][40222] = 'Michigan (Detroit)';
+area[402][40223] = 'Minnesota';
+area[402][40225] = 'Mississippi';
+area[402][40224] = 'Missouri';
+area[402][40226] = 'Montana';
+area[402][40229] = 'Nebraska';
+area[402][40233] = 'Nevada (Las Vegas)';
+area[402][40230] = 'New Hampshire';
+area[402][40231] = 'New Jersey';
+area[402][40232] = 'New Mexico';
+area[402][40234] = 'New York State (New York - Manhattan, New York - Brooklyn)';
+area[402][40227] = 'North Carolina';
+area[402][40228] = 'North Dakota';
+area[402][40235] = 'Ohio';
+area[402][40236] = 'Oklahoma';
+area[402][40237] = 'Oregon';
+area[402][40238] = 'Pennsylvania (Philadelphia)';
+area[402][40239] = 'Rhode Island';
+area[402][40240] = 'South Carolina';
+area[402][40241] = 'South Dakota';
+area[402][40242] = 'Tennessee (Nashville, Memphis)';
+area[402][40243] = 'Texas (Houston, Dallas)';
+area[402][40244] = 'Utah';
+area[402][40246] = 'Vermont';
+area[402][40245] = 'Virginia';
+area[402][40247] = 'Washington (Seattle)';
+area[402][40251] = 'Washington DC';
+area[402][40249] = 'West Virginia';
+area[402][40248] = 'Wisconsin';
+area[402][40250] = 'Wyoming';
+country[3] = new Object();
+country[3][302] = 'Argentina';
+area[302] = new Object();
+area[302][30201] = 'Buenos Aires (Buenos Aires)';
+area[302][30203] = 'Centro';
+area[302][30204] = 'Cuyo';
+area[302][30205] = 'Noreste';
+area[302][30206] = 'Noroeste';
+area[302][30207] = 'Patagonia';
+country[3][307] = 'Bolivia';
+country[3][301] = 'Brazil';
+area[301] = new Object();
+area[301][30103] = 'Central West Region (Brasília)';
+area[301][30102] = 'North-East Region (Fortaleza)';
+area[301][30101] = 'North Region';
+area[301][30104] = 'South-east Region (São Paulo, Rio de Janeiro)';
+area[301][30105] = 'South Region';
+country[3][303] = 'Chile';
+area[303] = new Object();
+area[303][30305] = 'Cuarta';
+area[303][30312] = 'Décima';
+area[303][30314] = 'Doceava';
+area[303][30311] = 'Novena';
+area[303][30310] = 'Octava';
+area[303][30302] = 'Primera';
+area[303][30306] = 'Quinta';
+area[303][30307] = 'Santiago Metropolitan Region';
+area[303][30303] = 'Segunda';
+area[303][30309] = 'Séptima';
+area[303][30308] = 'Sexta';
+area[303][30304] = 'Tercera';
+area[303][30313] = 'Undécima';
+country[3][304] = 'Colombia';
+country[3][308] = 'Ecuador';
+country[3][311] = 'Guyana';
+country[3][313] = 'Guyane (FR)';
+country[3][309] = 'Paraguay';
+country[3][305] = 'Peru';
+country[3][312] = 'Suriname';
+country[3][310] = 'Uruguay';
+country[3][306] = 'Venezuela';
+function changeContinent(frm) {
+  continentBox = frm.elements['continent'];
+  countryBox = frm.elements['country'];
+  areaBox = frm.elements['area'];
+
+  del = countryBox.options[0].value == 0 ? 1 : 0;
+  while (countryBox.length > del) {
+    countryBox.options[del] = null;
+  }
+
+  i = continentBox.options[continentBox.selectedIndex].value;
+  if (country[i]) {
+    for (countryKey in country[i]) {
+      var opt = country[i][countryKey];
+      if (typeof opt != 'function') {
+        countryBox.options[countryBox.length] = new Option(opt, countryKey);
+      }
+    }
+  }
+  else
+    countryBox.selectedIndex = 0;
+  changeCountry(frm);
+  enableCountryAreaSelectors(frm);
+}
+
+function changeCountry(frm) {
+  countryBox = frm.elements['country'];
+  areaBox = frm.elements['area'];
+
+  del = areaBox.options[0].value == 0 ? 1 : 0;
+  while (areaBox.length > del)
+    areaBox.options[del] = null;
+  i = countryBox.options[countryBox.selectedIndex].value;
+  if (area[i]) {
+    for (areaKey in area[i]) {
+      var opt = area[i][areaKey];
+      if (typeof opt != 'function') {
+        areaBox.options[areaBox.length] = new Option(opt, areaKey);
+      }
+    }
+  }
+  else
+    areaBox.selectedIndex = 0;
+  enableCountryAreaSelectors(frm);
+}
+
+function enableCountryAreaSelectors(frm) {
+  continentBox = frm.elements['continent'];
+  countryBox = frm.elements['country'];
+  areaBox = frm.elements['area'];
+  directContinentBox = frm.elements['direct_continent'];
+  directCountryBox = frm.elements['direct_country'];
+  directAreaBox = frm.elements['direct_area'];
+  directCityBox = frm.elements['direct_city'];
+
+  hasCountry = !continentBox || country[continentBox.options[continentBox.selectedIndex].value];
+  hasArea = !countryBox || area[countryBox.options[countryBox.selectedIndex].value];
+  hasDirectContinent = directContinentBox && directContinentBox.checked;
+  hasDirectCountry = directCountryBox && directCountryBox.checked;
+  hasDirectArea = directAreaBox && directAreaBox.checked;
+  hasDirectCity = directCityBox && directCityBox.checked;
+
+  if (continentBox)
+    continentBox.disabled = hasDirectContinent || hasDirectCountry || hasDirectArea || hasDirectCity ? true : false;
+  if (countryBox)
+    countryBox.disabled = !hasCountry || hasDirectContinent || hasDirectCountry || hasDirectArea || hasDirectCity ? true : false;
+  if (areaBox)
+    areaBox.disabled = !hasArea || !hasCountry || hasDirectContinent || hasDirectCountry || hasDirectArea || hasDirectCity ? true : false;
+  if (directContinentBox)
+    directContinentBox.disabled = hasDirectCountry || hasDirectArea || hasDirectCity ? true : false;
+  if (directCountryBox)
+    directCountryBox.disabled = hasDirectArea || hasDirectCity ? true : false;
+  if (directAreaBox)
+    directAreaBox.disabled = hasDirectCity ? true : false;
+}
+</script>
+
+
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<input type="hidden" id="displaySex" name="displaySex" value="-1" />
+	<input type="hidden" id="displayHobby" name="displayHobby" value="-1" />
+
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1">1</option>
+			<option value="2" selected>2</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Zone:</span>
+	<span class="field">
+		<select name="continent" size="1" class="textbox" style="width:120px" onchange="changeContinent(this.form)">
+			<option value="0" selected="selected">Worldwide</option>
+			<option value="2">Africa</option>
+			<option value="5">Asia</option>
+			<option value="6">Australia &amp; Oceania</option>
+			<option value="9">Central America</option>
+			<option value="1">Europe</option>
+			<option value="8">Middle East</option>
+			<option value="4">North America</option>
+			<option value="3">South America</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Country:</span>
+	<span class="field">
+		<select name="country" size="1" disabled="disabled" class="textbox" style="width:170px" onchange="changeCountry(this.form)">
+			<option value="0">Country</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Area:</span>
+	<span class="field">
+		<select name="area" size="1" disabled="disabled" class="textbox" style="width:190px">
+			<option value="0">Area</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Name:</span>
+	<span class="field">
+		<input type="text" value="" id="id_username" name="username" />
+	</span>
+	<br class="clear">
+	
+	<span class="label">City:</span>
+	<span class="field">
+		<input type="text" value="" id="id_city" name="stadt" />
+	</span>
+	<br class="clear">
+	
+	<span class="label">Full-Text:</span>
+	<span class="field">
+		<input type="text" value="" id="id_stichwort" name="stichwort" />
+	</span>
+	<br class="clear">
+	
+	<span class="label">Age:</span>
+	<span class="field">
+		<select class="textbox" size="1" id="age_from" name="alter1"><option value="0">Age min</option>
+			<option value="18">18</option>
+			<option value="20">20</option>
+			<option value="22">22</option>
+			<option value="24">24</option>
+			<option value="26">26</option>
+			<option value="28">28</option>
+			<option value="30">30</option>
+			<option value="32">32</option>
+			<option value="34">34</option>
+			<option value="36">36</option>
+			<option value="38">38</option>
+			<option value="40">40</option>
+			<option value="42">42</option>
+			<option value="44">44</option>
+			<option value="46">46</option>
+			<option value="48">48</option>
+			<option value="50">50</option>
+			<option value="53">53</option>
+			<option value="56">56</option>
+			<option value="60">60</option>
+			<option value="65">65</option>
+		</select> - <select id="age_to" name="alter2"><option value="0">max</option>
+			<option value="18">18</option>
+			<option value="20">20</option>
+			<option value="22">22</option>
+			<option value="24">24</option>
+			<option value="26">26</option>
+			<option value="28">28</option>
+			<option value="30">30</option>
+			<option value="32">32</option>
+			<option value="34">34</option>
+			<option value="36">36</option>
+			<option value="38">38</option>
+			<option value="40">40</option>
+			<option value="42">42</option>
+			<option value="44">44</option>
+			<option value="46">46</option>
+			<option value="48">48</option>
+			<option value="50">50</option>
+			<option value="53">53</option>
+			<option value="56">56</option>
+			<option value="60">60</option>
+			<option value="65">65</option>
+			<option value="70">70</option>
+			<option value="75">75</option>
+		</select> &nbsp; 
+		<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine</span>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Height:</span>
+	<span class="field">
+		<select name="hoehe1"><option value="0">Height min</option>
+			<option value="150">150 cm</option>
+			<option value="155">155 cm</option>
+			<option value="160">160 cm</option>
+			<option value="165">165 cm</option>
+			<option value="170">170 cm</option>
+			<option value="175">175 cm</option>
+			<option value="180">180 cm</option>
+			<option value="185">185 cm</option>
+			<option value="190">190 cm</option>
+			<option value="195">195 cm</option>
+		</select> - <select name="hoehe2"><option value="0">max</option>
+			<option value="165">165 cm</option>
+			<option value="170">170 cm</option>
+			<option value="175">175 cm</option>
+			<option value="180">180 cm</option>
+			<option value="185">185 cm</option>
+			<option value="190">190 cm</option>
+			<option value="195">195 cm</option>
+			<option value="200">200 cm</option>
+			<option value="205">205 cm</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Weight:</span>
+	<span class="field">
+		<select name="gewicht"><option value="0">Weight min</option>
+			<option value="55">55 kg</option>
+			<option value="60">60 kg</option>
+			<option value="65">65 kg</option>
+			<option value="70">70 kg</option>
+			<option value="75">75 kg</option>
+			<option value="80">80 kg</option>
+			<option value="85">85 kg</option>
+			<option value="90">90 kg</option>
+			<option value="100">100 kg</option>
+			<option value="105">105 kg</option>
+			<option value="115">115 kg</option>
+			<option value="125">125 kg</option>
+			<option value="150">150 kg</option>
+		</select> - <select name="gewicht2"><option value="0">max</option>
+			<option value="55">55 kg</option>
+			<option value="60">60 kg</option>
+			<option value="65">65 kg</option>
+			<option value="70">70 kg</option>
+			<option value="75">75 kg</option>
+			<option value="80">80 kg</option>
+			<option value="85">85 kg</option>
+			<option value="90">90 kg</option>
+			<option value="100">100 kg</option>
+			<option value="105">105 kg</option>
+			<option value="115">115 kg</option>
+			<option value="125">125 kg</option>
+			<option value="150">150 kg</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Online now with:</span>
+	<span class="field">
+		<input type="checkbox" value="an" name="besuch"><br />
+		<select style="width:112px" class="textbox" multiple="multiple" size="7" name="onlinestatus[]"><option value="2">Chat</option>
+			<option value="6">Friends</option>
+			<option value="1">Nothing</option>
+			<option value="3">Relationship</option>
+			<option value="4">Date</option>
+			<option value="7">Sex</option>
+			<option value="8">Busy</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+<!--	
+	<span class="label">Body:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="7" name="body[]"><option value="0">No entry</option>
+			<option value="1">Slim</option>
+			<option value="2">Average</option>
+			<option value="3">Athletic</option>
+			<option value="4">Muscular</option>
+			<option value="5">Belly</option>
+			<option value="6">Stocky</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Ethnicity:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="7" name="typ[]"><option value="0">No entry</option>
+			<option value="1">Caucasian</option>
+			<option value="2">Asian</option>
+			<option value="3">Latin</option>
+			<option value="4">Mediterranean</option>
+			<option value="5">Black</option>
+			<option value="6">Mixed</option>
+			<option value="7">Arab</option>
+			<option value="8">Indian</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Hair:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="haare[]"><option value="0">No entry</option>
+			<option value="1">Shaved</option>
+			<option value="2">Short</option>
+			<option value="3">Average</option>
+			<option value="4">Long</option>
+			<option value="5">Punk</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Hair Color:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="farbe[]"><option value="0">No entry</option>
+			<option value="1">Blond</option>
+			<option value="2">Light brown</option>
+			<option value="3">Brown</option>
+			<option value="5">Black</option>
+			<option value="6">Grey</option>
+			<option value="7">Other</option>
+			<option value="8">Red</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Body Hair:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="behaarung[]"><option value="0">No entry</option>
+			<option value="1">Smooth</option>
+			<option value="2">Shaved</option>
+			<option value="3">Little</option>
+			<option value="4">Average</option>
+			<option value="5">Very Hairy</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Eye Color:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="augen[]"><option value="0">No entry</option>
+			<option value="1">Blue</option>
+			<option value="2">Brown</option>
+			<option value="3">Grey</option>
+			<option value="4">Green</option>
+			<option value="5">Other</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Other:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="profileOther[]">
+	      <option value="single">Singles</option>
+	      <option value="couple">Couples</option>
+	      <option value="noBeard">No Beard</option>
+	      <option value="withBeard">Beard</option>
+	      <option value="tattoos">Tattoos</option>
+	      <option value="piercings">Piercings</option>
+	      <option value="nonSmoker">Non-Smoker</option>
+	      <option value="smoker">Smoker</option>
+	      <option value="bedAndBreakfast">Bed &amp; Breakfast</option>
+	    </select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Orientation:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="sex[]"><option value="0">No entry</option>
+			<option value="1">Gay</option>
+			<option value="2">Bisexual</option>
+			<option value="3">Transgender</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Role:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="positions[]"><option value="0">No entry</option>
+			<option value="1">Bottom only</option>
+			<option value="25">More bottom</option>
+			<option value="50">Versatile</option>
+			<option value="75">More top</option>
+			<option value="100">Top only</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Fetish:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="fetish[]"><option value="6">Boots</option>
+			<option value="13">Drag</option>
+			<option value="9">Formal dress</option>
+			<option value="12">Jeans</option>
+			<option value="0">Leather</option>
+			<option value="7">Lycra</option>
+			<option value="3">Rubber</option>
+			<option value="2">Skater</option>
+			<option value="5">Skins &amp; Punks</option>
+			<option value="11">Sneakers &amp; Socks</option>
+			<option value="1">Sportsgear</option>
+			<option value="10">Techno &amp; Raver</option>
+			<option value="4">Underwear</option>
+			<option value="8">Uniform</option>
+			<option value="14">Worker</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Fucking:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="ficken[]"><option value="0">No entry</option>
+			<option value="1">Top only</option>
+			<option value="2">Versatile</option>
+			<option value="3">Bottom only</option>
+			<option value="4">No</option>
+			<option value="5">More bottom</option>
+			<option value="6">More top</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Safer Sex:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="bareback[]"><option value="0">No entry</option>
+			<option value="1">Always</option>
+			<option value="2">Needs discussion</option>
+			<option value="3">Never</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Fisting:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="ff[]"><option value="0">No entry</option>
+			<option value="1">Active</option>
+			<option value="2">Active / passive</option>
+			<option value="3">Passive</option>
+			<option value="4">No</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">S & M:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="sm[]"><option value="0">No entry</option>
+			<option value="1">No</option>
+			<option value="2">Soft SM only</option>
+			<option value="3">Yes</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Dirty:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="dirty[]"><option value="0">No entry</option>
+			<option value="1">No</option>
+			<option value="2">WS only</option>
+			<option value="3">Yes</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Dick:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="schwanz[]"><option value="0">No entry</option>
+			<option value="1">S</option>
+			<option value="2">M</option>
+			<option value="3">L</option>
+			<option value="4">XL</option>
+			<option value="5">XXL</option>
+		</select>
+	</span>
+	<br class="clear">	
+	
+	<span class="label">Other:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="sexOther[]">
+	      <option value="uncut">Uncut</option>
+	      <option value="cut">Cut</option>      
+	    </select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Music:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="music[]"><option value="0">Alternative</option>
+			<option value="4">Classical</option>
+			<option value="16">Country</option>
+			<option value="1">Dance &amp; Electronic</option>
+			<option value="19">Ethno</option>
+			<option value="11">Folk</option>
+			<option value="2">Gothic &amp; New wave</option>
+			<option value="14">House &amp; Techno</option>
+			<option value="3">Jazz &amp; Blues</option>
+			<option value="13">Metal</option>
+			<option value="15">Musical</option>
+			<option value="17">Oldies</option>
+			<option value="12">Others</option>
+			<option value="5">Pop</option>
+			<option value="18">Punk Rock</option>
+			<option value="6">Rap &amp; HipHop</option>
+			<option value="7">R&amp;B &amp; Soul</option>
+			<option value="8">Reggae &amp; Ska</option>
+			<option value="9">Rock</option>
+			<option value="10">Schlager</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Sports:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="sports[]"><option value="15">American Football</option>
+			<option value="11">Badminton</option>
+			<option value="19">Baseball</option>
+			<option value="14">Basketball</option>
+			<option value="0">Biking</option>
+			<option value="12">Golf</option>
+			<option value="7">Gym</option>
+			<option value="26">Handball</option>
+			<option value="2">Hiking</option>
+			<option value="13">Ice hockey</option>
+			<option value="1">Jogging</option>
+			<option value="23">Martial Arts</option>
+			<option value="6">Motor Sports</option>
+			<option value="27">"No sports!"</option>
+			<option value="8">Others</option>
+			<option value="21">Rock Climbing</option>
+			<option value="25">Rowing</option>
+			<option value="18">Rugby</option>
+			<option value="30">Sailing</option>
+			<option value="22">Skating</option>
+			<option value="17">Snooker</option>
+			<option value="10">Soccer</option>
+			<option value="28">Surfing</option>
+			<option value="3">Swimming</option>
+			<option value="4">Team Sports</option>
+			<option value="24">Tennis</option>
+			<option value="29">Underwater Diving</option>
+			<option value="16">Volleyball</option>
+			<option value="5">Winter Sports</option>
+			<option value="9">Wrestling</option>
+			<option value="20">Yoga</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Travel:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="holiday[]"><option value="7">Adventure</option>
+			<option value="2">All Expenses Tours</option>
+			<option value="1">City Tours</option>
+			<option value="5">Cruises</option>
+			<option value="3">Individual</option>
+			<option value="9">Mountains/Alps</option>
+			<option value="6">Others</option>
+			<option value="4">Sports and Wellness</option>
+			<option value="0">Sun and Sea</option>
+			<option value="8">Winter Sports</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Clubbing:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="goout[]"><option value="9">Arts</option>
+			<option value="5">Bars</option>
+			<option value="4">Clubs</option>
+			<option value="2">Concerts</option>
+			<option value="3">Exhibitions</option>
+			<option value="0">Movies</option>
+			<option value="8">Other</option>
+			<option value="6">Private Parties</option>
+			<option value="7">Sports</option>
+			<option value="1">Theatre</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Interests:</span>
+	<span class="field">
+		<select style="width:112px" class="textbox" multiple="multiple" size="6" name="hobbyOther[]"><option value="1">Arts</option>
+			<option value="5">Board games</option>
+			<option value="3">Cars</option>
+			<option value="15">Collect</option>
+			<option value="4">Computer Games</option>
+			<option value="7">Computers</option>
+			<option value="10">Cooking</option>
+			<option value="16">Dance</option>
+			<option value="9">Film &amp; Video</option>
+			<option value="0">Literature</option>
+			<option value="11">Model making</option>
+			<option value="14">Motorbike</option>
+			<option value="12">Music</option>
+			<option value="13">Nature, Pets, Animals</option>
+			<option value="8">Photography</option>
+			<option value="6">Politics</option>
+			<option value="2">TV</option>
+		</select>
+	</span>
+	<br class="clear">
+-->	
+	<span class="label">Order By:</span>
+	<span class="field">
+		<select id="id_sortierung" style="width: 221px" size="1" class="textbox" name="sortierung">
+		    <option id="id_erstellung" value="erstellung">Newest Accounts first</option>
+		    <option id="id_login" selected="selected" value="login">Last login first</option>
+		    <option id="id_name" value="name">Alphabetically</option>
+	    </select>
+	</span>
+	<br class="clear">
+	
+</span>

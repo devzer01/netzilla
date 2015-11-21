@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{***************************** Start include top menu ********************************}
+{include file="top.tpl"}
+{******************************* End include top menu ********************************}
+<body>
+<!--Start PopUp Box -->
+<div id="dialog-overlay"></div>
+<div id="dialog-box">
+	<div class="dialog-content">
+		<div id="dialog-message"></div>
+		<a href="#" class="buttonpop">Close</a>
+	</div>
+</div>
+<!--End PopUp Box -->
+
+<div class="topbar"></div>
+
+<div class="headerarea-ger">
+<div class="headerareacon">
+<div class="logo"><img src="images/logo.png"/></div>
+{if !$smarty.session.sess_externuser}
+{******************************** Start Head Menu *****************************************}
+{include file="menu.tpl"}
+{********************************** End Head Menu *****************************************}
+{/if}
+</div>
+</div>
+
+<div class="container">
+
+{if !$smarty.session.sess_externuser}
+<div class="right-area">
+        {********* admin menu**************}  
+        <h1 class="quicksearchh">
+        {#ADMINISTRATOR#}
+        </h1>
+        <div class="qsbox">
+        {include file="left-admin.tpl"}
+        </div>
+		{if $smarty.get.action eq "admin_manageuser"}
+			<h1 class="quicksearchh">Quick Search</h1>
+			{include file="right_admin.tpl"}
+		{elseif $smarty.get.action eq "admin_manage_bonus"}
+			<h1 class="quicksearchh">Quick Search</h1>
+			{include file="admin_manage_bonus_searchbox.tpl"}
+		{/if}
+        {*********end leftmenu****************}
+</div>
+{else}
+<style>
+{literal}
+.result-box
+{
+	width: 950px;
+}
+{/literal}
+</style>
+{/if}
+<div class="left-area">
+
+{******************************** Start Main ********************************************}
+{if $smarty.get.action eq "admin_managecoin"}
+	{include file="admin_managecoin.tpl"}
+{elseif $smarty.get.action eq "admin_manageuser"}
+	{include file="admin_manageuser.tpl"}
+{elseif $smarty.get.action eq "admin_manage_package"}
+	{include file="admin_manage_package.tpl"}
+{elseif $smarty.get.action eq "admin_managecard"}
+	{include file="admin_managecard.tpl"}
+{elseif $smarty.get.action eq "admin_manage_contents"}
+	{include file="admin_manage_contents.tpl"}
+{elseif $smarty.get.action eq "admin_message"}
+	{include file="admin_message.tpl"}
+{elseif $smarty.get.action eq "admin_manage_bonus"}
+	{include file="admin_manage_bonus.tpl"}
+{elseif $smarty.get.action eq "admin_bonus_history"}
+	{include file="admin_bonus_history.tpl"}
+{elseif $smarty.get.action eq "admin_coin_statistics"}
+	{include file="admin_coin_statistics.tpl"}
+{elseif $smarty.get.action eq "admin_coin_statistics_details"}
+	{include file="admin_coin_statistics_details.tpl"}
+{elseif $smarty.get.action eq "admin_suggestionbox"}
+	{if $smarty.get.do eq "edit"}
+		{include file="admin_suggestionbox_write.tpl"}
+	{elseif $smarty.get.do eq "view"}
+		{include file="admin_suggestionbox_view.tpl"}
+	{elseif $smarty.get.do eq "write"}
+		{include file="admin_suggestionbox_write.tpl"}
+	{else}
+		{include file="admin_suggestionbox.tpl"}
+	{/if}
+{elseif $smarty.get.action eq "admin_viewmessage"}
+	{include file="admin_viewmessage.tpl"}
+{elseif $smarty.get.action eq "editprofile"}
+	{include file="editprofile.tpl"}
+{elseif ($smarty.get.action eq "register") and ($smarty.get.type eq "membership")}
+	{include file="register.tpl"}
+{elseif $smarty.get.action eq "viewprofile"}
+	{include file="viewprofile.tpl"}
+{elseif $smarty.get.action eq "admin_history"}
+	{include file="admin_history.tpl"}
+{elseif $smarty.get.action eq "admin_new_members"}
+	{include file="admin_new_members.tpl"}
+{elseif $smarty.get.action eq "admin_adduser"}
+	{include file="admin_adduser.tpl"}
+{elseif $smarty.get.action eq "admin_paid"}
+	{include file="admin_paid.tpl"}
+{elseif ($smarty.get.action eq "admin_paid_copy") or ($smarty.get.action eq "admin_paid_edit")}
+	{include file="admin_paid_copy.tpl"}
+{else}
+	{if file_exists("templates/`$smarty.get.action`.tpl")}
+		{include file="`$smarty.get.action`.tpl"}
+	{/if}
+{/if}
+
+{******************************** End Main ********************************************}
+
+</div>
+<br clear="all" />
+<br clear="all" />
+</div>
+
+{******************************* Start include Footer *********************************}
+{include file="footer.tpl"}
+{******************************** End include Footer **********************************}
+</body>
+</html>

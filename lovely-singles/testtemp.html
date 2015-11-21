@@ -1,0 +1,882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Welcome to Lovely Singles</title>
+ 
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/bubblepopup.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" type="text/javascript" src="configs/eng.js"></script>
+	<script language="javascript" type="text/javascript" src="js/prototype.js"></script>
+	<script language="javascript" type="text/javascript" src="js/script_upload.js"></script>
+	<script language="javascript" type="text/javascript" src="js/script.js"></script>
+	<script language="javascript" type="text/javascript" src="js/lang.js"></script>
+ 
+    <!-- jquery core -->
+	<script type="text/javascript" src="js/jquery-1.js"></script>
+	<script type="text/javascript">
+		jQuery.noConflict();
+		var GB_ROOT_DIR = "js/greybox/";
+	</script>
+ 
+	<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+ 
+ 
+ 
+<script type="text/javascript"> 
+jQuery(document).ready(function () {
+ 
+	// if user clicked on button, the overlay layer or the dialogbox, close the dialog	
+	jQuery('a.btn-ok, #dialog-overlay, #dialog-box, #dialog-box-confirm').click(function () {		
+		jQuery('#dialog-overlay, #dialog-box, #dialog-box-confirm').hide();		
+		return false;
+	});
+	
+	// if user resize the window, call the same function again
+	// to make sure the overlay fills the screen and dialogbox aligned to center	
+	jQuery(window).resize(function () {
+		
+		//only do it if the dialog box is not hidden
+		if (!jQuery('#dialog-box, #dialog-box-confirm').is(':hidden')) popup();		
+	});	
+	
+	
+});
+ 
+//Popup dialog
+function popup(message) {
+	// get the screen height and width  
+	var maskHeight = jQuery(document).height();  
+	var maskWidth = jQuery(window).width();
+	
+	// calculate the values for center alignment
+	var dialogTop =  jQuery(window).scrollTop() + ((jQuery(window).height() - jQuery('#dialog-box').height())/2);
+	var dialogLeft = (maskWidth/2) - (jQuery('#dialog-box').width()/2); 
+	
+	// assign values to the overlay and dialog box
+	jQuery('#dialog-overlay').css({height:maskHeight, width:maskWidth}).show();
+	jQuery('#dialog-box').css({top:dialogTop, left:dialogLeft}).show();
+	
+	// display the message
+	jQuery('#dialog-message').html(message);
+}
+</script>
+ 
+</head><body>
+<!--Start PopUp Box -->
+<div id="dialog-overlay"></div>
+<div id="dialog-box">
+	<div class="dialog-content">
+		<div id="dialog-message"></div>
+		<a href="#" class="buttonpop">Close</a>
+	</div>
+</div>
+<!--End PopUp Box -->
+ 
+ 
+<div class="topbar"></div>
+<div class="headerarea-eng">
+	<div class="headerareacon">
+		<div class="logo"><img src="images/logo.png" alt="logo"/></div>
+                        <div class="menubarcon">
+	<a href="./">Home</a>
+	<a href="?action=search_gender&amp;wsex=m&amp;sex=m">Men looking for men</a>
+	<a href="?action=search_gender&amp;wsex=m&amp;sex=w">Men looking for girls</a>
+	<a href="?action=search_gender&amp;wsex=w&amp;sex=m">Girls looking for men</a>
+	<a href="?action=search_gender&amp;wsex=w&amp;sex=w">Girls looking for Girls</a>
+ 
+	</div>                	</div>
+</div>
+<div class="container">
+    <div class="right-area">
+                    <h1 class="quicksearchh">
+                        	Member Login
+                        </h1>
+    
+            <div class="qsbox">
+                        	<form onsubmit="ajaxRequest('login', 'username='+$('l_username').value+'&amp;password='+$('l_password').value, '', loginSite, '')" action="" method="post">
+<label>Username :</label><input type="text" name="l_username" id="l_username" class="box" onkeypress="enterLogin(event)"/>
+<label>Password :</label><input type="password" name="l_password" id="l_password" class="box" onkeypress="enterLogin(event)"/>
+<br clear="all" />
+<label style="padding-top:10px;"><input name="remember" id="remember" type="checkbox" value="1" checked="checked" /> Remember me</label>
+<br />
+<a href="#" class="butsearch" onclick="ajaxRequest('login', 'username='+document.getElementById('l_username').value+'&amp;password='+document.getElementById('l_password').value+rememberMe(), '', loginSite, '')">Login</a>
+<span><a href="?action=forget">Password forgotten?</a></span>
+</form>
+<a href="?action=register&amp;type=membership" class="butsearch">Register</a>
+<a href="?action=birthday&amp;search=profile" class="butsearch">BIRTHDAYS</a>
+<a href="?action=faqs" class="butsearch">FAQ's</a>
+                        </div>
+		        <br clear="all" />
+                                    <h1 class="quicksearchh">Name Search</h1>
+                        <form id="search_form" name="search_form" method="post" action="proc_from.php?from=./?action=search">
+<div class="qsboxsearch">
+<label>Nickname :</label><input type="text" id="q_nickname" name="q_nickname" class="box"  value=""/>
+<br clear="all" />
+<a href="#" onclick="document.getElementById('search_form').submit(); return false;" class="butsearchbox">Search</a>
+</div>
+</form>
+<br/>
+                        <h1 class="quicksearchh">Quick Search</h1>
+                        <form id="qsearch_form" name="qsearch_form" method="post" action="proc_from.php?from=./?action=search&amp;card=" >
+<div class="qsboxsearch">
+	<label><input name="q_forsearch" type="radio" value="1" /><strong>New member ads</strong></label>
+    <label><input name="q_forsearch" type="radio" value="2" checked="checked" /><strong>Profile</strong></label>
+<!--<label>Nickname :</label><input type="text" id="q_nickname" name="q_nickname" class="box"  value=""/>-->
+<label>Gender :</label>
+<select  name="q_gender" id="q_gender" class="box">
+<option value="">Any</option>
+<option label="Male" value="1" selected="selected">Male</option>
+<option label="Female" value="2">Female</option>
+ 
+</select>
+<label>Input Photo :</label>
+<select name="q_picture" id="q_picture" class="box">
+<option label="Yes" value="1" selected="selected">Yes</option>
+<option label="No" value="0">No</option>
+  
+</select>
+<label>Country :</label>
+<select id="q_country" name="country" onchange="loadOptionState('q_state', this.options[this.selectedIndex].value, '');loadOptionCity('q_city', 0, '')" class="box"><option></option></select>
+<label>State :</label><select id="q_state" name="state" onchange="loadOptionCity('q_city', this.options[this.selectedIndex].value, '')" class="box"><option></option></select>
+<label>City :</label><select id="q_city" name="city" class="box"><option></option></select>
+<script language="javascript" type="text/javascript"> 
+			q_country_select = 0;
+	
+			q_state_select = 0;
+	
+			q_city_select = 0;
+		
+	
+		ajaxRequest("loadOptionCountry", "", "", "q_loadOptionCountry", "reportError");
+		
+		var Opt = Array();
+		function clickInOpt(obj){
+			Opt[obj.name] = obj.value; 
+		}
+ 
+		function clickOutOpt(obj){
+			Opt[obj.name] = ""; 
+			obj.checked=false;
+		}
+ 
+		function chkOpt(obj){
+			if(obj.value==Opt[obj.name]){ 
+				clickOutOpt(obj); 
+			}else{
+				clickInOpt(obj); 
+			}
+		}
+	
+</script>
+<label>Age :</label>
+<select name="q_minage" id="q_minage" onchange="ageRange('q_minage', 'q_maxage')" class="boxage">
+<option label="16" value="16" selected="selected">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+<option label="32" value="32">32</option>
+<option label="33" value="33">33</option>
+<option label="34" value="34">34</option>
+<option label="35" value="35">35</option>
+<option label="36" value="36">36</option>
+<option label="37" value="37">37</option>
+<option label="38" value="38">38</option>
+<option label="39" value="39">39</option>
+<option label="40" value="40">40</option>
+<option label="41" value="41">41</option>
+<option label="42" value="42">42</option>
+<option label="43" value="43">43</option>
+<option label="44" value="44">44</option>
+<option label="45" value="45">45</option>
+<option label="46" value="46">46</option>
+<option label="47" value="47">47</option>
+<option label="48" value="48">48</option>
+<option label="49" value="49">49</option>
+<option label="50" value="50">50</option>
+<option label="51" value="51">51</option>
+<option label="52" value="52">52</option>
+<option label="53" value="53">53</option>
+<option label="54" value="54">54</option>
+<option label="55" value="55">55</option>
+<option label="56" value="56">56</option>
+<option label="57" value="57">57</option>
+<option label="58" value="58">58</option>
+<option label="59" value="59">59</option>
+<option label="60" value="60">60</option>
+<option label="61" value="61">61</option>
+<option label="62" value="62">62</option>
+<option label="63" value="63">63</option>
+<option label="64" value="64">64</option>
+<option label="65" value="65">65</option>
+<option label="66" value="66">66</option>
+<option label="67" value="67">67</option>
+<option label="68" value="68">68</option>
+<option label="69" value="69">69</option>
+<option label="70" value="70">70</option>
+<option label="71" value="71">71</option>
+<option label="72" value="72">72</option>
+<option label="73" value="73">73</option>
+<option label="74" value="74">74</option>
+<option label="75" value="75">75</option>
+<option label="76" value="76">76</option>
+<option label="77" value="77">77</option>
+<option label="78" value="78">78</option>
+<option label="79" value="79">79</option>
+<option label="80" value="80">80</option>
+<option label="81" value="81">81</option>
+<option label="82" value="82">82</option>
+<option label="83" value="83">83</option>
+<option label="84" value="84">84</option>
+<option label="85" value="85">85</option>
+<option label="86" value="86">86</option>
+<option label="87" value="87">87</option>
+<option label="88" value="88">88</option>
+<option label="89" value="89">89</option>
+<option label="90" value="90">90</option>
+<option label="91" value="91">91</option>
+<option label="92" value="92">92</option>
+<option label="93" value="93">93</option>
+<option label="94" value="94">94</option>
+<option label="95" value="95">95</option>
+<option label="96" value="96">96</option>
+<option label="97" value="97">97</option>
+<option label="98" value="98">98</option>
+<option label="99" value="99">99</option>
+  
+</select>
+<label class="to">To</label>
+<select name="q_maxage" id="q_maxage" class="boxagelast">
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18" selected="selected">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+<option label="32" value="32">32</option>
+<option label="33" value="33">33</option>
+<option label="34" value="34">34</option>
+<option label="35" value="35">35</option>
+<option label="36" value="36">36</option>
+<option label="37" value="37">37</option>
+<option label="38" value="38">38</option>
+<option label="39" value="39">39</option>
+<option label="40" value="40">40</option>
+<option label="41" value="41">41</option>
+<option label="42" value="42">42</option>
+<option label="43" value="43">43</option>
+<option label="44" value="44">44</option>
+<option label="45" value="45">45</option>
+<option label="46" value="46">46</option>
+<option label="47" value="47">47</option>
+<option label="48" value="48">48</option>
+<option label="49" value="49">49</option>
+<option label="50" value="50">50</option>
+<option label="51" value="51">51</option>
+<option label="52" value="52">52</option>
+<option label="53" value="53">53</option>
+<option label="54" value="54">54</option>
+<option label="55" value="55">55</option>
+<option label="56" value="56">56</option>
+<option label="57" value="57">57</option>
+<option label="58" value="58">58</option>
+<option label="59" value="59">59</option>
+<option label="60" value="60">60</option>
+<option label="61" value="61">61</option>
+<option label="62" value="62">62</option>
+<option label="63" value="63">63</option>
+<option label="64" value="64">64</option>
+<option label="65" value="65">65</option>
+<option label="66" value="66">66</option>
+<option label="67" value="67">67</option>
+<option label="68" value="68">68</option>
+<option label="69" value="69">69</option>
+<option label="70" value="70">70</option>
+<option label="71" value="71">71</option>
+<option label="72" value="72">72</option>
+<option label="73" value="73">73</option>
+<option label="74" value="74">74</option>
+<option label="75" value="75">75</option>
+<option label="76" value="76">76</option>
+<option label="77" value="77">77</option>
+<option label="78" value="78">78</option>
+<option label="79" value="79">79</option>
+<option label="80" value="80">80</option>
+<option label="81" value="81">81</option>
+<option label="82" value="82">82</option>
+<option label="83" value="83">83</option>
+<option label="84" value="84">84</option>
+<option label="85" value="85">85</option>
+<option label="86" value="86">86</option>
+<option label="87" value="87">87</option>
+<option label="88" value="88">88</option>
+<option label="89" value="89">89</option>
+<option label="90" value="90">90</option>
+<option label="91" value="91">91</option>
+<option label="92" value="92">92</option>
+<option label="93" value="93">93</option>
+<option label="94" value="94">94</option>
+<option label="95" value="95">95</option>
+<option label="96" value="96">96</option>
+<option label="97" value="97">97</option>
+<option label="98" value="98">98</option>
+<option label="99" value="99">99</option>
+  
+</select>
+<br clear="all" />
+<br clear="all" />
+<a href="#" onclick="document.getElementById('qsearch_form').submit(); return false;" class="butsearchbox">Search</a>
+</div>
+</form>
+<script language="javascript" type="text/javascript">ageRange('q_minage', 'q_maxage');</script>
+                            	</div>
+ 
+	<div class="left-area">
+        						<div class="result-box">
+ 
+			 
+	    	    
+	    	    		    	<div class="result-box-inside">
+	    		<b>Nothing found, try another search criteria.</b>
+	    	</div>
+	    		    	
+	    	
+		 	     
+			    
+                <!-- profile -->
+        		
+				<h1>Additional Search Result</h1>
+						
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=zerocoolz"><img src="thumbnails.php?file=13345/1332246954_cobat-wallpaper-hd.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=zerocoolz" class="link-inrow">zerocoolz</a><br />
+		City: Heist-op-den-Berg<br />
+		Marital status: No Comment
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: No Comment<br />
+		Height: 0 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Hi there!<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=zerocoolz" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=real02"><img src="thumbnails.php?file=2/4f45f683b58c8&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=real02" class="link-inrow">real02</a><br />
+		City: Jette<br />
+		Marital status: No Comment
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  32 Year<br />
+		Appearance: No Comment<br />
+		Height: 171 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: gfdgdfg<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=real02" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=maccatum"><img src="thumbnails.php?file=13346/1332475487_Chrysanthemum.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=maccatum" class="link-inrow">maccatum</a><br />
+		City: Ypres<br />
+		Marital status: Divorced
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  35 Year<br />
+		Appearance: average<br />
+		Height: 180 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: fjkrjr dggjertj <br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=maccatum" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=Gabi"><img src="thumbnails.php?file=1/1331962449_nded6.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=Gabi" class="link-inrow">Gabi</a><br />
+		City: Antwerp<br />
+		Marital status: Divorced
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  44 Year<br />
+		Appearance: average<br />
+		Height: 168 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Nachdem mein Ex nun endlich weg ist hab ich...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=Gabi" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=cyric"><img src="thumbnails.php?file=1/1331962449_nded6.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=cyric" class="link-inrow">cyric</a><br />
+		City: Antwerp<br />
+		Marital status: Divorced
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  44 Year<br />
+		Appearance: average<br />
+		Height: 168 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Nachdem mein Ex nun endlich weg ist hab ich...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=cyric" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=real17"><img src="thumbnails.php?file=13328/4f3a1033a48b6&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=real17" class="link-inrow">real17</a><br />
+		City: Waregem<br />
+		Marital status: No Comment
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  90 Year<br />
+		Appearance: No Comment<br />
+		Height: 0 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=real17" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=TheHitchar"><img src="thumbnails.php?file=13279/46b732975d15d&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=TheHitchar" class="link-inrow">TheHitchar</a><br />
+		City: Lier, Belgium<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: Thin<br />
+		Height: 181 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: ICQ: 193-576-502 (bitte melden)<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=TheHitchar" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=Junior"><img src="thumbnails.php?file=6558/m1036.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=Junior" class="link-inrow">Junior</a><br />
+		City: Houthalen-Helchteren<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: Sporty<br />
+		Height: 180 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Hallo zusammen!<br />
+Ich suche ein süßes Girl...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=Junior" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=xxchrisxx"><img src="thumbnails.php?file=13264/46b351c593a47&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=xxchrisxx" class="link-inrow">xxchrisxx</a><br />
+		City: Sint-Pieters-Leeuw<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: Sporty<br />
+		Height: 1 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: <br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=xxchrisxx" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=emotion7"><img src="thumbnails.php?file=5085/16090898-34641279.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=emotion7" class="link-inrow">emotion7</a><br />
+		City: Dilbeek<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: Thin<br />
+		Height: 170 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Hi ihr süssen BOYS wer hat Lust mich...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=emotion7" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=maruan"><img src="thumbnails.php?file=5972/RRGZSYKGHXDT.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=maruan" class="link-inrow">maruan</a><br />
+		City: Sint-Pieters-Leeuw<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: Sporty<br />
+		Height: 173 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Hola chicas bonitas!<br />
+Ich lache sehr...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=maruan" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=MarcelMaster"><img src="thumbnails.php?file=13188/46acfd579586c&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=MarcelMaster" class="link-inrow">MarcelMaster</a><br />
+		City: Houthalen-Helchteren<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  19 Year<br />
+		Appearance: Chubby<br />
+		Height: 168 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: ich 18 suche sie fürs liebe <br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=MarcelMaster" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=bcool1988"><img src="thumbnails.php?file=6825/i812.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=bcool1988" class="link-inrow">bcool1988</a><br />
+		City: Ottignies-Louvain-la-Neuve<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  20 Year<br />
+		Appearance: average<br />
+		Height: 174 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Ich bin ein Mensch, der gerne in den Arm...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=bcool1988" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=heman1988"><img src="thumbnails.php?file=4209/7308300-25893448.jpg&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=heman1988" class="link-inrow">heman1988</a><br />
+		City: Bilzen<br />
+		Marital status: Single
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  20 Year<br />
+		Appearance: Sporty<br />
+		Height: 177 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Hallo welches Mädel darf ich auf ein Bierchen...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=heman1988" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	    
+                <!-- profile -->
+        				
+        	<div class="result-box-inside">
+				<div class="user_profile_menu">
+ 
+	<div style="display:block; float:left; margin-right:10px; width:80px;">
+	
+									<a href="./?action=register&type=membership&search=profile&cate=profile&username=Zero666"><img src="thumbnails.php?file=13296/46b9ed0043da3&w=78&h=104" width="78" height="104" border="0" class="listimg"></a>
+							
+	</div>
+	<div style="display:block; float:left; margin-right:10px; width:280px;"">
+	
+		Name: <a href="?action=viewprofile&username=Zero666" class="link-inrow">Zero666</a><br />
+		City: Mattersburg<br />
+		Marital status: No Comment
+		
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:280px; text-align:left;">
+											Age:  20 Year<br />
+		Appearance: No Comment<br />
+		Height: 185 <br />
+	</div>
+	<div style=" display:block; float:left; margin-right:10px; width:600px; text-align:left;">
+		Description: Hi, suche nette Leute, die wissen wie man Party...<br />
+	</div>
+	
+	
+			<a href="?action=register&amp;type=membership&amp;cate=lonely&amp;username=Zero666" class="button">Mail to</a>
+	    
+</div>			</div>
+			
+			     
+	    	     
+	
+			<div class="page">   1    <a href="/cm01/index.php?next=16" class="link1"> 2  </a>  <a href="/cm01/index.php?next=31" class="link1"> 3  </a>  <a href="/cm01/index.php?next=46" class="link1"> 4  </a>  <a href="/cm01/index.php?next=61" class="link1"> 5  </a>  <a href="/cm01/index.php?next=76" class="link1"> 6  </a>  <a href="/cm01/index.php?next=91" class="link1"> 7  </a>  <a href="/cm01/index.php?next=106" class="link1"> 8  </a>  <a href="/cm01/index.php?next=121" class="link1"> 9  </a>  <a href="/cm01/index.php?next=16" class="link1"> >></a></div>
+	    
+</div>			        	</div>
+    <br clear="all" />
+    <br clear="all" />
+</div>
+<div class="footerbar">
+	<div class="footerbarcon"><a href="?action=terms"> Terms &amp; Conditions </a> - <a href="?action=imprint">Imprint</a> - <a href="?action=policy">Privacy Policy</a></div>
+</div>
+ 
+</body>
+</html>

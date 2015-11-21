@@ -1,0 +1,231 @@
+URL => http://www.eromeet.com/?menu=pmbox&popup=1&openerispop=1&submenu=msg 
+REFERER => http://www.eromeet.com/?menu=pmbox&popup=1&to=MarcoKlinkmann&submenu=new&openerispop=1 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>eromeet - the other meeting place</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+  <link rel="stylesheet" href="style/style_start.css" type="text/css">
+  <link rel="stylesheet" href="style/calender.css" type="text/css">
+  <link rel="stylesheet" href="style/menu2.css" type="text/css">
+  <link rel="stylesheet" href="css/starvoting.css" type="text/css" media="screen">
+
+    <!-- prototype & scriptaculous --> 
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/prototype/1/prototype.js'></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/scriptaculous/1/scriptaculous.js?load=effects,dragdrop'></script>
+    
+    <!-- jquery & thickbox -->
+    <script type="text/javascript" src="js/jquery/jquery-1.3.2.min.js"></script>
+    <script>
+     jQuery.noConflict();
+    </script>  
+    <script type="text/javascript" src="js/thickbox/thickbox.js"></script>
+	<link rel="stylesheet" href="js/thickbox/thickbox_mod.css" type="text/css" media="screen" />
+    
+    <!-- lightview
+	<script type='text/javascript' src='js/lightview/js/lightview.js'></script>
+	<style type="text/css" media="all">
+		@import 'js/lightview/css/lightview.css';
+	</style>
+	 --> 
+	<script type='text/javascript' src='js/swfobject.js'></script>
+	<script type='text/javascript' src='js/js.js'></script>
+	<script type="text/javascript" src="js/msg.js"></script>
+</head>
+
+<body bgcolor="" background="" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="_message_poll();onLoad();">
+<form style="margin:0px;padding:0px;">
+  <input type="hidden" id="message_poll_key" value="5a1a6e7f1f4811920ce0fe40b9d062a6">
+  <input type="hidden" id="message_setting_openlayer" value="true">
+  <input type="hidden" id="base_url" value="">
+  <input type="hidden" id="host" value="www.eromeet.com">
+  <input type="hidden" id="message_layer_status" value="closed">
+  <div id="msg"></div>
+  <!--<div style="width: 520px; position: absolute; top: 200px; left: 500px; z-index: 4000;display:none;" class="" id="msg"></div>-->
+  <div id="debuglog_" style="display:none;"></div>
+</form>
+<br />
+<table width=758 border=0 align="center" cellpadding="0" cellspacing=0>
+    <tr valign="top"> 
+      <td width="758" valign="top" bgcolor="#FFFFFF"> <div align="center"> 
+          <table width=728 border=0 align="center" cellpadding=2 cellspacing=0>
+            <tr valign="top"> 
+              <td width="305" height="28" valign="middle"> <div align="center"> 
+                  <p align="left"><font color="#990000" size="5"><strong> <font color="#333333">E-Mail schreiben</font></strong></font></p>
+                </div></td>
+<td width="415" valign="middle"> <div align="right">
+                  <table border=0 cellpadding="2" cellspacing=0>
+                    <tr valign="middle"> 
+                      <td width="19"><table width=100% height="32" border=0 align="center" cellpadding="2" cellspacing=0>
+                          <tr valign="middle"> 
+                            <td width="20"> <p><img src="image/einstellungen.gif" width="15" height="18"><font color="#996600"> 
+                                </font><font color="#996600"> </font></p></td>
+                            <td nowrap><font color="#996600"><a href="javascript:window.opener.window.opener.document.location.href='/?menu=settings_infos';window.close();"><font color="#996600">Weitere E-Mail 
+                              Einstellungen</font></a></font></td>
+                        </tr>
+                        </table></td>
+                      <td width="42"><table width=100% height="32" border=0 align="center" cellpadding="2" cellspacing=0>
+                          <tr valign="middle"> 
+                            <td width="20"> <p><img src="image/filter.gif" width="17" height="17"><font color="#996600"> 
+                                </font><font color="#996600"> </font></p></td>
+                            <td nowrap><a href="x"><font color="#996600"></font></a><font color="#996600"><a href="javascript:window.opener.window.opener.document.location.href='/?menu=pmbox&submenu=filter';window.close();"><font color="#996600">Nachrichten-Filter</font></a></font></td>
+                          </tr>
+                        </table></td>
+                      <td width="30"><table width=100% height="32" border=0 align="center" cellpadding="2" cellspacing=0>
+                          <tr valign="middle"> 
+                            <td width="20"> <p><img src="image/postfach.gif" width="19" height="19"><font color="#996600"> 
+                                </font><font color="#996600"> </font></p></td>
+                            <td nowrap><a href="javascript:window.opener.window.opener.document.location.href='/?menu=pmbox';window.close();"><font color="#996600">Postfach</font></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                </div></td>
+            </tr>
+          </table>
+          <br>
+        </div></td>
+    </tr>
+  </table>
+<table width="758" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td valign="top" bgcolor="#FFFFFF"><div align="center">
+      <table width="728" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#28781D">
+        <tr valign="top">
+          <td valign="top"><div align="left">
+            <table width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+              <tr valign="top">
+                <td valign="top" bgcolor="#D5FFAA"><div align="left">
+                  <table width="100%" height="32" border="0" align="center" cellpadding="2" cellspacing="0">
+                    <tr valign="middle">
+                      <td width="5%" valign="middle"><div align="left"><img src="image/ok_hinweis.gif" width="26" height="27" /></div></td>
+                      <td width="95%"><strong><font color="#28781D">E-Mail wurde gesendet!</font></strong><font color="#28781D"><br />
+                      </font></td>
+                    </tr>
+                    <tr valign="middle">
+                      <td valign="top">&nbsp;</td>
+                      <td><div align="left">
+                        <table width="100%" height="32" border="0" align="center" cellpadding="2" cellspacing="0">
+                          <tr valign="middle">
+                            <td bgcolor="#FFFFFF"><p><font color="#28781D"><strong>Nachrichtenstatistik:</strong><br />
+                              Du hast heute <strong>6 von 10 möglichen
+                              Erstkontakten</strong> angeschrieben.
+                              Mitgliedern mit finanziellen Interessen  und Mitgliedern mit denen du schon mal Kontakt hattest, kannst du unbegrenzt viele E-Mails schreiben. </font></p>                              </td>
+                          </tr>
+                        </table>
+                         </div>
+                        <font color="#28781D"><strong><br />
+                        TIPP: Fake-Check gepr&uuml;fte Mitglieder k&ouml;nnen uneingeschr&auml;nkt E-Mails schreiben.</strong><br />
+                        </font><font color="#28781D"><a href="/?menu=hilfe#514" target="_blank"><font color="#28781D">Weitere Informationen hierzu findest Du auf unsere Hilfe-Seite!</font></a></font><br /></td>
+                    </tr>
+                  </table>
+                   </div></td>
+              </tr>
+            </table>
+          </div></td>
+        </tr>
+      </table>
+      <br />
+    </div></td>
+  </tr>
+</table>
+
+<form action="/?menu=pmbox&popup=1&openerispop=1&submenu=msg" method="post">
+  <table width=758 border=0 align="center" cellpadding="0" cellspacing=0>
+  <tr valign="top">
+    <td valign="top" bgcolor="#FFFFFF">
+      <div align="center">
+        <table width=728 border=0 align="center" cellpadding=0 cellspacing=0>
+          <tr valign="top">
+            <td valign="top">
+              <div align="left">
+                <table width=100% border=0 align="center" cellpadding="1" cellspacing=0 bgcolor="#996600">
+                  <tr valign="top">
+                    <td valign="top">
+                      <div align="left">
+                        <table width=100% border=0 align="center" cellpadding="5" cellspacing=0>
+                          <tr valign="top">
+                            <td valign="top" bgcolor="#FFF1D5">
+                              <div align="left">
+                                <table width=100% border=0 align="center" cellpadding="2" cellspacing=0>
+                                  <tr valign="middle">
+                                    <td valign="top"><strong><font color="#333333"> </font></strong>
+                                        <table border=0 cellpadding="3" cellspacing=0>
+                                          <tr valign="middle">
+                                            <td width="14%">
+                                              <p><strong><font color="#CC0000"><strong><font color="#6A4800">An</font></strong></font></strong></p>
+                                            </td>
+                                            <td width="86%"><strong><font color="#333333">
+                                              <input name="to" type="text" id="to" value="" size="50"  >
+                                            </font></strong></td>
+                                          </tr>
+                                          <tr valign="middle">
+                                            <td><strong><font color="#CC0000"><strong><font color="#6A4800">Betreff</font><font color="#6A4800"></font></strong></font></strong></td>
+                                            <td><strong><font color="#333333">
+                                              <input name="subject" type="text" id="subject" value="" size="50"  >
+                                            </font></strong></td>
+                                          </tr>
+                                        </table>
+                                    </td>
+                                    <td valign="top">
+                                      <div align="right">
+                                        <table width="100%" border="0" cellspacing="2" cellpadding="0">
+                                          <tr valign="top">
+                                            <td><div align="right">
+                                              <input type="button" name="Submit" value="&lt;&lt;" style="width:80px;" onClick="friends2to();">
+                                            </div></td>
+                                            <td width="120"><select name="friends" id="friends"  multiple size="5" style="width:120px;" ></select> </td>
+                                          </tr>
+                                        </table>
+                                        </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <table width=100% border=0 align="center" cellpadding="3" cellspacing=0>
+                                  <tr valign="middle">
+                                    <td><strong><font color="#333333"> <font color="#6A4800">Deine
+                                            Nachricht</font><br>
+                                                                              <textarea name="msg" cols="83" rows="15" id="msg" ></textarea>
+                                    </font></strong></td>
+                                  </tr>
+                                </table>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <table width="100%" height="38" border="0" align="center" cellpadding="0" cellspacing="0">
+                  
+                  <tr valign="middle">
+                    <td height="18"><table width="100%" height="38" border="0" cellpadding="2" cellspacing="0">
+                        <tr valign="middle">
+                          <td width="50%" height="18">
+                            <div align="left"><strong><br>
+                              </strong><font color="#333333"><strong>
+                              <input type="submit" name="Submit1022243522232" value="Senden">
+                              </strong><strong>
+                              <input type="button" name="Submit2232" value="Abbrechen" onClick="window.close();">
+                              <br>
+                              <br>
+                            </strong></font></div>                          </td>
+                        </tr>
+                      </table>                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
+</table>
+</form>
+ 
+<script language="JavaScript" type="text/javascript" src="js/wz_tooltip.js"></script>
+</body>
+</html>

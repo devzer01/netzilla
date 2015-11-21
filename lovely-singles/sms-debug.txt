@@ -1,0 +1,6 @@
+Array
+(
+    [0] => 66
+    [1] => 835947775
+    [2] => Welcome to Lovely Singles, use this code to verify your BONUS! : 3776
+)

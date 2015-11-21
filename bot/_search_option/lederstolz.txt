@@ -1,0 +1,37 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<span class="label">TEST Mode?</span>
+<span class="field">
+	<input type="checkbox" name="test" value="1" id="test">
+	/ Test PM to Username : <input type="text" name="test_username" value="" />
+</span>
+<br class="clear">
+	
+<span class="label">REMARK?</span>
+<span class="field">
+	<span style="color: red">This GAY site have ONLINE Users Only !!!</span>
+</span>
+<br class="clear">

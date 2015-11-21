@@ -1,0 +1,5 @@
+Array
+(
+    [action] => payment_response_paysafecard
+    [mtid] => 98
+)

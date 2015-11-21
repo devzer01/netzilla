@@ -1,0 +1,104 @@
+body{ font-family: serif; font-size: 14px; line-height: 18px;}
+body.manage {
+	margin:30 auto;
+	width:900px;
+}
+span.label{ float:left; width:120px; text-align:right; margin-right:10px;}
+span.field{ float:left; width:680px; text-align:left; display:block}
+
+.clear{ clear:both; margin-bottom:10px;}
+.separate{
+	border:dashed #00CCFF; 
+	border-width:1px 0 0 0; 
+	height:0;
+	line-height:0px;
+	font-size:0;
+	margin:0 0 5px 0;
+	padding:0;
+}
+
+table {background-color:black; padding:0px;}
+td,th {background-color:white; padding:4px; font-family: serif; font-size: 14px; line-height: 18px;}
+
+table.status {background-color:black; padding:0px;}
+table.status td.w {background-color:#FFFFFF; padding:4px; font-family: serif; font-size: 14px; line-height: 18px;}
+table.status td.c {background-color:#BBBBBB; padding:4px; font-family: serif; font-size: 14px; line-height: 18px;}
+
+.boxcontainner{
+	width:890px;
+	display:block;
+	clear:both;
+	margin-bottom:3px;
+	min-height:25px;
+}
+.boxcontainner .label{ float:left; width:150px; text-align:right; margin-right:10px;}
+.boxcontainner .field{ float:left; width:450px; text-align:left; display:block}
+.boxcontainner .boturl{ float:left; width:550px; text-align:left; display:block}
+input.box{
+	width:250px;
+}
+input.longbox{
+	width:500px;
+}
+input.button{
+	width:120px;
+}
+.back{
+	float:right;
+}
+hr{
+	clear:both;
+}
+#resultusers {
+	overflow-y: auto;
+}
+#resultusers .list{
+	width:165px;
+	display:block;
+	float:left;
+	margin:3px 0px;
+}
+label.list{
+	width:155px;
+	display:block;
+	float:left;
+	margin:3px 0px;
+}
+label.textlist{
+	width:800px;
+	display:block;
+	float:left;
+	margin:3px 0px;
+}
+label.userlist{
+	width:265px;
+	display:block;
+	float:left;
+	margin:3px 0px;
+}
+label.urllist{
+	width:265px;
+	display:block;
+	float:left;
+	margin:3px 0px;
+}
+label.smalllist{
+	width:155px;
+	display:block;
+	float:left;
+	margin:3px 0px;
+}
+.message{
+	width:600px;
+	height:200px;
+}
+a.nav{
+	color:#008B13;
+}
+tr.response3 td {
+	background-color: #ff0000 !important;
+	color: #ffffff;
+}
+tr.response3 td a {
+	color: #ffffff;
+}

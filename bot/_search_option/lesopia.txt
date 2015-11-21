@@ -1,0 +1,130 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1" selected>1</option>	
+			<option value="2">2</option>			
+		</select>
+	</span>
+	<br class="clear">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<span class="label">MSG type:</span>
+        <span class="field">
+	    <select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>	                
+	    </select>
+        </span>
+        <br class="clear">
+
+	<span id="gender_area">
+		<span class="label">Online:</span>
+		<span class="field">
+		        <select id="online" name="online">
+				<option value="1">Online</option>
+				<option value="0">Off Line</option>				
+			</select>			
+		</span>
+		<br class="clear">
+        </span>
+
+	<span id="age_area">
+		<span class="label">Ages:</span>
+		<span class="field">
+			<select id="age_from" name="ageStart">
+				<option value="16" label="16" selected="selected">16</option>
+    <option value="17" label="17">17</option><option value="18">18</option><option value="19" selected="selected">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option><option value="61">61</option><option value="62">62</option><option value="63">63</option><option value="64">64</option><option value="65">65</option><option value="66">66</option><option value="67">67</option><option value="68">68</option><option value="69">69</option><option value="70">70</option><option value="71">71</option><option value="72">72</option><option value="73">73</option><option value="74">74</option><option value="75">75</option><option value="76">76</option><option value="77">77</option><option value="78">78</option><option value="79">79</option><option value="80">80</option><option value="81">81</option><option value="82">82</option><option value="83">83</option><option value="84">84</option><option value="85">85</option><option value="86">86</option><option value="87">87</option><option value="88">88</option><option value="89">89</option><option value="90">90</option><option value="91">91</option><option value="92">92</option><option value="93">93</option><option value="94">94</option><option value="95">95</option><option value="96">96</option><option value="97">97</option><option value="98">98</option><option value="99">99</option><option value="100">100</option>
+		</select> to <select id="age_to" name="ageEnd">
+				<option value="16" label="16">16</option>
+    <option value="17" label="17">17</option><option value="18">18</option><option value="19" selected="selected">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option><option value="32">32</option><option value="33">33</option><option value="34">34</option><option value="35">35</option><option value="36">36</option><option value="37">37</option><option value="38">38</option><option value="39">39</option><option value="40">40</option><option value="41">41</option><option value="42">42</option><option value="43">43</option><option value="44">44</option><option value="45">45</option><option value="46">46</option><option value="47">47</option><option value="48">48</option><option value="49">49</option><option value="50">50</option><option value="51">51</option><option value="52">52</option><option value="53">53</option><option value="54">54</option><option value="55">55</option><option value="56">56</option><option value="57">57</option><option value="58">58</option><option value="59">59</option><option value="60">60</option><option value="61">61</option><option value="62">62</option><option value="63">63</option><option value="64">64</option><option value="65">65</option><option value="66">66</option><option value="67">67</option><option value="68">68</option><option value="69">69</option><option value="70">70</option><option value="71">71</option><option value="72">72</option><option value="73">73</option><option value="74">74</option><option value="75">75</option><option value="76">76</option><option value="77">77</option><option value="78">78</option><option value="79">79</option><option value="80">80</option><option value="81">81</option><option value="82">82</option><option value="83">83</option><option value="84">84</option><option value="85">85</option><option value="86">86</option><option value="87">87</option><option value="88">88</option><option value="89">89</option><option value="90">90</option><option value="91">91</option><option value="92">92</option><option value="93">93</option><option value="94">94</option><option value="95">95</option><option value="96">96</option><option value="97">97</option><option value="98">98</option><option value="99">99</option><option value="100" selected="selected">100</option>
+			</select>	
+			<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+		</span>
+		<br class="clear">
+	</span>	
+
+	<span id="gender_area">
+		<span class="label">Start city:</span>
+		<span class="field">
+		        <select id="start_city" name="start_city">
+			<option value="19" label="Baden-Württemberg">Baden-Württemberg</option>
+    <option value="20" label="Bayern">Bayern</option>
+    <option value="21" label="Berlin" selected="selected">Berlin</option>
+    <option value="22" label="Brandenburg">Brandenburg</option>
+    <option value="23" label="Bremen">Bremen</option>
+    <option value="24" label="Hamburg">Hamburg</option>
+    <option value="25" label="Hessen">Hessen</option>
+    <option value="26" label="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</option>
+    <option value="27" label="Niedersachsen">Niedersachsen</option>
+    <option value="28" label="Nordrhein-Westfalen">Nordrhein-Westfalen</option>
+    <option value="29" label="Rheinland-Pfalz">Rheinland-Pfalz</option>
+    <option value="30" label="Saarland">Saarland</option>
+    <option value="31" label="Sachsen">Sachsen</option>
+    <option value="32" label="Sachsen-Anhalt">Sachsen-Anhalt</option>
+    <option value="33" label="Schleswig-Holstein">Schleswig-Holstein</option>
+    <option value="34" label="Thüringen">Thüringen</option>
+    <option value="35" label="Burgenland">Burgenland</option>
+    <option value="36" label="Kärnten">Kärnten</option>
+    <option value="37" label="Niederösterreich">Niederösterreich</option>
+    <option value="38" label="Oberösterreich">Oberösterreich</option>
+    <option value="39" label="Salzburg">Salzburg</option>
+    <option value="40" label="Steiermark">Steiermark</option>
+    <option value="41" label="Tirol">Tirol</option>
+    <option value="42" label="Vorarlberg">Vorarlberg</option>
+    <option value="43" label="Wien">Wien</option>
+    <option value="44" label="Aargau">Aargau</option>
+    <option value="45" label="Appenzell Ausserrhoden">Appenzell Ausserrhoden</option>
+    <option value="46" label="Appenzell Innerrhoden">Appenzell Innerrhoden</option>
+    <option value="47" label="Basel-Landschaft">Basel-Landschaft</option>
+    <option value="48" label="Basel-Stadt">Basel-Stadt</option>
+    <option value="49" label="Bern">Bern</option>
+    <option value="50" label="Freiburg">Freiburg</option>
+    <option value="51" label="Genf">Genf</option>
+    <option value="52" label="Glarus">Glarus</option>
+    <option value="53" label="Graubünden">Graubünden</option>
+    <option value="54" label="Jura">Jura</option>
+    <option value="55" label="Luzern">Luzern</option>
+    <option value="56" label="Neuenburg">Neuenburg</option>
+    <option value="57" label="Nidwalden">Nidwalden</option>
+    <option value="58" label="Obwalden">Obwalden</option>
+    <option value="59" label="Schaffhausen">Schaffhausen</option>
+    <option value="60" label="Schwyz">Schwyz</option>
+    <option value="61" label="Solothurn">Solothurn</option>
+    <option value="62" label="St. Gallen">St. Gallen</option>
+    <option value="63" label="Tessin">Tessin</option>
+    <option value="64" label="Thurgau">Thurgau</option>
+    <option value="65" label="Uri">Uri</option>
+    <option value="66" label="Waadt">Waadt</option>
+    <option value="67" label="Wallis">Wallis</option>
+    <option value="68" label="Zug">Zug</option>
+    <option value="69" label="Zürich">Zürich</option>
+    <option value="70" label="Lichtenstein">Lichtenstein</option>
+			</select>			
+		</span>
+		<br class="clear">
+	</span>
+</span>

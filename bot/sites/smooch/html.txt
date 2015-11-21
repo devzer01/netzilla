@@ -1,0 +1,533 @@
+
+
+<html>
+<head>
+<title>Smooch.com</title>
+<link rel="stylesheet" type="text/css" href="styles11.css">
+<meta name="verify-v1" content="TtQulrNikXAEPcgrEIcLYt7A7ShaADVmi8P4Rjz+w3Q=" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2489881-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script src="http://partner.googleadservices.com/gampad/google_service.js" type="text/javascript"></script>
+<script type="text/javascript">
+GS_googleAddAdSenseService("ca-pub-3298614587222174");
+GS_googleEnableAllServices();
+</script>
+<script language="JavaScript">
+GA_googleAddAttr("AgeRange","21-25");
+GA_googleAddAttr("Gender","m");
+GA_googleAddAttr("Sexuality","hetero");
+GA_googleAddAttr("Kids","n");
+GA_googleAddAttr("Religion","Bu");
+GA_googleAddAttr("County","All");
+GA_googleAddAttr("Country","Thailand");
+GA_googleAddAttr("MaritalSt","Sing");
+GA_googleAddAttr("lookingfor","cas");
+GA_googleAddAttr("build","Ave");
+GA_googleAddAttr("height","5ft8-5ft11");
+GA_googleAddAttr("ethnicity","Asi");
+GA_googleAddAttr("tattoos","Non");
+GA_googleAddAttr("piercings","Non");
+GA_googleAddAttr("attractive","Ave");
+GA_googleAddAttr("occupation","ITSoftwar");
+GA_googleAddAttr("smoking","n");
+GA_googleAddAttr("salary","med");
+GA_googleAddAttr("eatinghabs","any");
+GA_googleAddAttr("SmrtSmcher","n");
+</script>
+<script type="text/javascript">
+GA_googleAddAdSensePageAttr("google_cust_age","1002");
+GA_googleAddAdSensePageAttr("google_cust_gender","1");
+GA_googleAddAdSensePageAttr("google_ad_region","test");
+GA_googleAddSlot("ca-pub-3298614587222174", "Smooch_RunOfSite_160x600");
+GA_googleAddSlot("ca-pub-3298614587222174", "RunOfSite_UndreBanner_590x80");
+GA_googleAddSlot("ca-pub-3298614587222174", "Smooch_RunOfSite_728x90_bottom");
+GA_googleAddSlot("ca-pub-3298614587222174", "Smooch_RunOfSite_728x90");
+GA_googleAddSlot("ca-pub-3298614587222174", "Smooch_RunOfSite_300x250");
+GA_googleAddSlot("ca-pub-3298614587222174", "Smooch_SearchPages_468x60");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+<script language="javascript">
+
+	var sessionFlag=0;
+
+	function showSessionExpired(){
+		var msgString="Your session has expired because you have not changed pages for more than 90 minutes. ";
+		msgString+="\nYou will therefore be logged out when you change the page.";
+		var urlName=document.URL;
+		if(urlName.indexOf("message.asp")!=-1 || urlName.indexOf("threads.asp")!=-1 || urlName.indexOf("MailWrite.asp")!=-1){
+			msgString+="\n\nHowever, if your are writing a message you can finish it ";
+			msgString+="before being logged out";
+		}
+		alert(msgString);
+		sessionFlag=1;
+	}
+
+	function showAlertMessage(){
+		var dateString = new Date;
+		if(!sessionFlag){
+			alert("Warning: Unless you change page within the next 15 minutes, your session will expire.");
+		}
+	}
+
+	//Function used in wall.asp body onload
+	function callTwoFunctions(){
+		StartKeepingSession();
+		showMyPopUp();
+	}
+		
+	function StartKeepingSession(){				//call this first
+		setTimeout("showSessionExpired()",5520000);	//18 minutes //add a minute
+		setTimeout("showAlertMessage()",4500000);	//18 minutes
+	}
+
+	//Voice mail pop-up window
+	function vmWindow(i){
+		VoiceMailWindow = window.open("vminfo.asp?id="+i,"VoiceMailWindow","toolbar=no,location=no,directories=no,status=no," + 
+		"menubar=no,scrollbars=yes,resizable=no," + "width=550,height=400");
+	}
+	
+	//Tell a friend	
+	function tellafriendWindow(i){
+		MyWindow = window.open("TellAFriend.asp"+i,"MyWindow","toolbar=no,location=no,directories=no,status=no," + 
+		"menubar=no,scrollbars=no,resizable=no," + "width=450,height=380");
+	}
+
+	
+	//Search Engine (Espotting box)
+	function searchEngine(){
+		var query=document.searchEngForm.query.value+"";
+		query = query.replace(/ /ig,"%20");
+		SearchWindow = window.open("searchEngine.asp?query="+query,"SearchWindow","toolbar=yes,location=yes,directories=yes,status=yes," + 
+		"menubar=yes,scrollbars=yes,resizable=yes,top=0,left=0,screenX=0,screenY=0,width=600,height=550");
+	}
+	
+	//Adverts --Popup window
+	function openPopup(htmlPage,strwinFeatures) {
+	  PreView = window.open("", "_blank",strwinFeatures);
+      PreView.document.open();
+      PreView.document.write(htmlPage);
+      
+      return;
+	}	
+		// launched from button click 
+		var getMessage = function (smoochee_id,smoochee_name,no,maybe) {
+			// build up the post string when passing variables to the server side page
+			var PostStr = "NUM="+smoochee_id+"&UN="+smoochee_name+"&no="+no+"&maybe="+maybe;
+			// use the generic function to make the request
+			doAJAXCall("smoochable_ajaxcall.asp", "POST", PostStr, showMessageResponse);
+		}			
+		
+		var doAJAXCall = function (PageURL, ReqType, PostStr, FunctionName) {
+			// create the new object for doing the XMLHTTP Request
+			var myConn = new XHConn();
+
+			// check if the browser supports it
+			if (myConn)	{
+		    	// XMLHTTPRequest is supported by the browser, continue with the request
+		    	myConn.connect("" + PageURL + "", "" + ReqType + "", "" + PostStr + "", FunctionName);    
+			} 
+			else {
+		    	// Not support by this browser, alert the user
+		    	alert("XMLHTTP not available. Try a newer/better browser, this application will not work!");   
+			}
+		}		
+		
+		function XHConn()
+		{
+	  		var xmlhttp, bComplete = false;
+	  		try { xmlhttp = new ActiveXObject("Msxml2.XMLHTTP"); }
+	  		catch (e) { try { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); }
+	  		catch (e) { try { xmlhttp = new XMLHttpRequest(); }
+	  		catch (e) { xmlhttp = false; }}}
+	  		if (!xmlhttp) return null;
+	  		
+	  		this.connect = function(sURL, sMethod, sVars, fnDone)
+	  		{
+	    		if (!xmlhttp) return false;
+	    		bComplete = false;
+	    		sMethod = sMethod.toUpperCase();
+	    		try {
+	      			if (sMethod == "GET")
+	      			{
+	        			xmlhttp.open(sMethod, sURL+"?"+sVars, true);
+	        			sVars = "";
+	      			}
+	      			else
+	      			{
+	        			xmlhttp.open(sMethod, sURL, true);
+	        			xmlhttp.setRequestHeader("Method", "POST "+sURL+" HTTP/1.1");
+	        			xmlhttp.setRequestHeader("Content-Type",
+	          			"application/x-www-form-urlencoded");
+	      			}
+	      			xmlhttp.onreadystatechange = function(){
+	        		if (xmlhttp.readyState == 4 && !bComplete)
+	        		{
+	          			bComplete = true;
+	          			fnDone(xmlhttp);
+	        		}};
+	      			xmlhttp.send(sVars);
+	    			}
+	    			catch(z) { return false; }
+	    			
+	    		return true;
+	  		};
+	  		return this;
+		}		
+		
+		// The function for handling the response from the server
+		var showMessageResponse = function (oXML) { 
+			// get the response text, into a variable
+			var  htmlText="";
+    		var response = oXML.responseText;
+
+			mArray=response.split("|");    		
+			var unNoSpaces = (mArray[2]+"").replace(/ /ig,"%20");			
+
+			if(mArray[0]=="YES"){
+				htmlText="<table id='mixmatch' bordercolor='red' cellpadding=0 cellspacing=0 border='0'>";
+				htmlText+="<tr><td class='firstTD'><div id='Question' align='center'><font class='cherry26'><b>Great!</b></font><br><b>We'll send a subtle hint to<br>"+mArray[2]+"</b></div></td>";
+				htmlText+="<td width='11'></td>";
+				htmlText+="<td width='296' style='background:url(../iix/sendgift_bg.jpg) no-repeat center;'>";
+				htmlText+="<div id='ShowtheGifts'>";
+				htmlText+="<p class='makeimpact'>Make an impact. Send a gift to<br><b>"+mArray[2]+"!!</b></p>";
+				htmlText+="<p class='giftbut'><a href='../asp/sendGifts.asp?NUM="+mArray[1]+"&UN="+unNoSpaces+"'><image src='../iix/SExtras/showmegifts.gif' border='0'></a></p>";
+				htmlText+="</div></td>";
+				htmlText+="</tr>";
+				htmlText+="</table>";
+			}else{
+				htmlText="<table id='mixmatch' bordercolor='red' cellpadding=0 cellspacing=0 border='0'>";
+				htmlText+="<tr>";
+				htmlText+="<td width='296' style='background:url(../iix/sendgift_bg.jpg) no-repeat center;'>";
+				htmlText+="<div id='ShowtheGifts'>";
+				htmlText+="<p class='makeimpact'>Make an impact. Send a gift to<br><b>"+mArray[2]+"!!</b></p>";
+				htmlText+="<p class='giftbut'><a href='../asp/sendGifts.asp?NUM="+mArray[1]+"&UN="+unNoSpaces+"'><image src='../iix/SExtras/showmegifts.gif' border='0'></a></p>";
+				htmlText+="</div></td>";
+				htmlText+="</tr>";				
+				htmlText+="</table>";							
+			}
+			document.getElementById("ajaxdiv").innerHTML=htmlText;			
+		}
+   /*		function privateChatWin(recipID,recipName,banFlag){
+        	url = "privateChat.asp?NUM=" + recipID + "&UN=" + recipName+"&banFlag="+banFlag;
+        	leftVal=(screen.width-401)/2;
+        	topVal=(screen.height-400)/2;
+         	privatemsg = window.open(url,"privatechat_"+recipID,"toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,WIDTH=401,HEIGHT=400,left="+leftVal+",top="+topVal);
+   		}   	
+   	*/	
+   		
+		function privateChatWin(recipID,recipName){
+			url = "privateChat.asp?NUM=" + recipID + "&UN=" + recipName;
+			leftVal=(screen.width-805)/2;
+			topVal=(screen.height-682)/2;
+			newwindow = window.open(url,"privatechat_"+recipID,"toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,WIDTH=801,HEIGHT=695,left="+leftVal+",top="+topVal);
+		}    				
+
+		var mmAlertReq = getXmlHttpObject();   			
+		//Gets the browser specific XmlHttpRequest Object
+		function getXmlHttpObject()
+		{
+			if(window.XMLHttpRequest){ 
+				xmlHttp = new XMLHttpRequest(); 
+				return xmlHttp; 				
+			} 
+			else if (window.ActiveXObject){ 
+				xmlHttp=new ActiveXObject("Microsoft.XMLHTTP"); 
+				if (!xmlHttp){ 
+					xmlHttp=new ActiveXObject("Msxml2.XMLHTTP"); 
+				}	
+				return xmlHttp;
+			}
+		}	
+		function deleteMMAlert(userid)
+		{
+			if (mmAlertReq.readyState == 4 || mmAlertReq.readyState == 0) {
+				mmAlertReq.open("POST", 'delMMAlert.asp', true);				
+				mmAlertReq.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+				mmAlertReq.onreadystatechange = handleMMData;
+				
+				var param = 'ID=' + userid;
+				mmAlertReq.send(param);
+			}			
+		}	
+		function handleMMData()
+		{
+			if (mmAlertReq.readyState == 4 ){
+				var response=mmAlertReq.responseText;
+				if(response=="deleted")
+				{
+					document.getElementById("mmAlert").innerHTML="";
+				}
+			}			
+		}
+</script>
+<SCRIPT language="javascript">
+	function changeSearch(ss){
+		var sby="";
+		var search=document.frmSearch.savedsearch;
+		sby=document.frmSearch.sortby;
+		if(sby!=undefined){
+			for (var i=0; i < document.frmSearch.sortby.length; i++)
+	   		{
+	   			if (document.frmSearch.sortby[i].checked)
+	      		{
+	      			var sortby = document.frmSearch.sortby[i].value;
+	      			break;
+	      		}
+	   		}		
+   		}
+
+		var searchid = search.options[search.selectedIndex].value;	
+		if(searchid+""=="0") return false;
+		document.frmSearch.action="search.asp?formproc=form&savedsearch="+searchid+"&search="+ss+"&sortby="+sortby;
+		document.frmSearch.method="post";
+		document.frmSearch.submit();
+	}
+</script>		
+</head>
+
+<body BGCOLOR="White" BOTTOMMARGIN="0" TOPMARGIN="0" RIGHTMARGIN="0" LEFTMARGIN="0" marginheight="0" marginwidth="0" onLoad="StartKeepingSession();return false">
+
+<table border=0 cellpadding=0 cellspacing=0 width='100%' height='100%' class='topTableBG' bordercolor='red'> <!-- added 06/09/2006 -->
+<TR valign='top'><TD align='center'>
+<table border=0 cellpadding=0 cellspacing=0>
+<TR valign='top'><TD align='center' >
+
+<!--<table border=1 bordercolor='blue' class='MainTable' cellpadding=0 cellspacing=0 align=center width=760>-->
+<table border=0 bordercolor='blue' class='MainTable' cellpadding=0 cellspacing=0 align=center width='987'>
+
+<tr><td valign=top>
+<!--<table border=1 bordercolor='green' cellpadding=0 cellspacing=0 bgcolor="#9E005D" width='760' height='139'>-->
+<table border=0 bordercolor='green' cellpadding=0 cellspacing=0 bgcolor="#9E005D" width='100%'>
+
+
+
+<!--the new advert comes here-->
+<!--<tr><td colspan=3 height='98' align='center' valign='middle'>--> 
+<!-- Slot1-->
+<tr><td colspan=3 height='98' align='center' valign='middle'><!-- Smooch_RunOfSite_728x90 -->
+<script type='text/javascript'>
+GA_googleFillSlot("Smooch_RunOfSite_728x90");
+</script></td></tr>
+
+
+
+<!--</td></tr>-->
+<!--this is where advert space ends-->
+
+
+<tr>
+	<td width='217'><img src='../imagesx/SmoochLogo.gif' border='0' width='217' height='39'></td>
+	<td valign='bottom' align='center' width='511' class='Promtext'>100% FREE to contact <u>everyone</u>. <u>Always</u>.</td>
+	<td valign='bottom' class='logoBarText' align='right'>
+	Welcome manday2012&nbsp;<br>
+	<a href='front.asp?acn=0'>home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='contactFAQ.asp?acn=0'>FAQ</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='../free-online-dating/asp/logOff.asp?acn=0&ds=1'>log off</a>&nbsp;&nbsp;
+	</td>
+</tr>
+<tr><td colspan='3' height='4' bgcolor='#ED1E79'><img src='../imagesx/spacer.gif' border='0'></td></tr>
+</table>
+
+
+
+
+</td></tr> <!-- header --><!-- modified 06/09/2006 -->
+<!-- content -->
+<tr><td align='center' valign=top>
+<table valign=top border=0 width=988 bordercolor='green' bgcolor=white cellpadding=0 cellspacing=0 align=center>
+<tr><td width=146></td>
+	<td class='pageTopSpace5' width=1></td>
+	<td width=619></td>
+	<td 
+	class='pageTopSpace5' 	
+	width=1
+	></td>	
+	<!--<td class='pageTopSpace5' width=1></td>-->
+	<td width=220></td>
+</tr>
+<tr>
+	<td width=146 valign=top> <!-- earlier it was 134 -->
+	<!-- Slot4-->
+
+<table cellpadding=0 cellspacing=0 border=0 valign=top>
+<tr valign=top>
+
+</tr>
+</table>
+
+
+
+
+<!-- Slot4-->
+
+
+<table cellpadding=0 cellspacing=0 border=0 id='menuTable'>
+<tr><td id='menuHead' align='left'>search</td></tr>
+<tr><td id='menuGen' align='left'>
+	<a CLASS="menu" HREF="search.asp?acn=0">Find Matches</a><br>
+	<a CLASS="menu" HREF="search.asp?acn=0&search=online">Who's Online</a><br>
+	<a CLASS="menu" HREF="inteliMatches.asp?acn=0">Your InteliMatches</a><br>
+	<a CLASS="menu" HREF="FindAMember.asp?acn=0">Find a Member</a><br>
+	<a CLASS="menu" HREF="gallery.asp?acn=0">New Photo Gallery</a><br>
+	<a CLASS="menu" HREF="LookForForm.asp?itemID=2978455&acn=0">Change Search Criteria</a><br>
+	</td>
+</tr>
+
+
+
+<tr><td id='menuHead' align='left'>other members</td></tr>
+<tr><td id='menuGen' align='left'>
+	<a CLASS="menu" HREF="viewList.asp?acn=0">Who's Looked at Me</a><br>
+	<a CLASS="menu" HREF="yourpictureratings.asp?acn=0">Who Rated My Photo</a><br>
+	<a CLASS="menu" HREF="Favourites.asp?acn=0">My Hotlist</a><br>
+	<a CLASS="menu" HREF="FavouritesOthers.asp?acn=0">My Fans</a><br>
+	
+	<!--
+	<a CLASS="menu" HREF="listBlockedUsers.asp?acn=0">Blocked Members</a><br>
+	-->
+	</td>
+</tr>
+<tr><td id='menuHead' align='left'>fun tools</td></tr>
+<tr><td id='menuGen' align='left'>
+	<a CLASS="menu" HREF="ratingPictures.asp?acn=0">Rate Photos</a><br>
+	<a CLASS="menu" HREF="smoochables.asp?acn=0">Smoochables</a><br>
+
+
+
+	</td>
+</tr>
+
+
+	<tr><td id='menuHead' align='left'>mail</td></tr>
+	<tr><td id='menuGen' align='left'>
+		<a CLASS="menu" HREF="MailView.asp?type=in&acn=0">Mail Inbox</a><br>
+		<a CLASS="menu" HREF="MailView.asp?type=out&acn=0">Mail Outbox</a><br>
+		<a CLASS="menu" HREF="filtercpanel.asp?acn=0">Contact Filter</a><br>
+		</td>
+	</tr>
+
+
+
+<tr><td id='menuHead' align='left'>your stuff</td></tr>
+<tr><td id='menuGen' align='left'>
+	<a CLASS="menu" HREF="UserDetails.asp?acn=0">Edit Profile</a><br>
+	<a CLASS="menu" HREF="UserPicsFront.asp?acn=0">Your Photos</a><br>
+	<a CLASS="menu" HREF="chatOptions.asp?acn=0">Site Preferences</a><br>
+	</td>
+</tr>
+
+<tr><td id='menuHead' align='left'>accounts<font color='red'></td></tr>
+<tr><td id='menuGen' align='left'>
+	<a CLASS='menu' HREF='userUpgradePart1.asp'>Be a Smart Smoocher</a><br>
+	<a CLASS="menu" HREF="userUpgradePart1.asp?crs=1">Buy Credits</a><br>
+	<!--<a CLASS="menu" HREF="listaccounts.asp">View Accounts</a><br>	cancel rebilling-->
+	</td>
+</tr>
+
+<tr><td id='menuHead' align='left'>other stuff</td></tr>
+<tr><td id='menuGen' align='left'>
+	<a CLASS="menu" HREF="contactsmo.asp?acn=0">Contact Us</a><br>
+	<a CLASS="menu" HREF="listBlockedUsers.asp?acn=0">Blocked Members</a><br>
+	</td>
+</tr>
+</table>
+
+
+<table  border="0" margin=0 align='center'>
+  <tr>
+    <td align='center'><a HREF='smartsmoocher.asp'><img src="../iix/VIP/notasmoocher.gif" alt="You are a VIP" width="120" height="76" border="0"/></a></td>
+  </tr>
+  <tr><td align='center'>
+  	<a HREF='smartsmoocher.asp' CLASS='missingText'>click here to see<br>what you're missing</a>
+  </td></tr>
+</table>
+
+
+
+<!-- Slot3-->
+<table cellpadding=0 cellspacing=0 border=0 width=132>
+<tr>
+
+</tr>
+<tr height="5"><td></td></tr>
+</table>
+<!-- Slot3-->
+
+
+	
+	</td>
+	<td class='pageTopSpace5' width=1><img src='../imagesx/spacer.gif' width=1 border='0'></td>
+
+	<td width=619 valign=top>	<!-- earlier it was 626 -->
+	
+	
+<center><div class='titleBar'><img src='../iix/barAlerts.gif' border=0></div></center><TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH='100%' bordercolor='red'><tr><td WIDTH='100%' align='left'><FONT ID='small'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have new mail from&nbsp;<a href='MailUsertoUser.asp?acn=0&mg=274360654&NUM=1000&UN=Admin'>Admin</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have new mail from&nbsp;<a href='MailUsertoUser.asp?acn=0&mg=274446237&NUM=3674800&UN=patrada'>patrada</a><br></font></td></tr></TABLE><table width="100%" align="center">
+<tr>
+<td align="center">
+<!-- Smooch_RunOfSite_300x250 -->
+<script type='text/javascript'>
+GA_googleFillSlot("RunOfSite_UndreBanner_590x80");
+</script>
+</td>
+</tr>
+</table><center><div class='titleBar'><img src='../iix/barSearchDating.gif' border=0></div></center><div align='center'><table border='0' width='590' cellspacing='5' cellpadding='0' class='LookForTable1'><tr><td valign='center'><div align='left'><TABLE CELLPADDING='2' CELLSPACING='2' BORDER='0'><tr><td colspan='2'><font id='txtSearchFor1'><b>You are searching for:</b></font><br><br></td></tr><tr><td class='bold13' width='40%'>Country:</td><td>Thailand</td></tr><tr><td class='bold13' valign='top'>Looking for:</td><td>Heterosexual or Bisexual Women</td></tr><tr><td class='bold13'>Age range:</td><td>18 to 35</td></tr><tr><TD colspan='2'><br><A HREF='lookforform.asp?itemID=2978455'>Click here to change these details >></a><br></td></tr></table></div></td><td width='10'>&nbsp;</td><td width=310' align='center'><!-- Smooch_RunOfSite_300x250 -->
+<script type='text/javascript'>
+GA_googleFillSlot("Smooch_RunOfSite_300x250");
+</script></td></tr></table></div><br><div align='center'><form name='frmSearch' method='post' action='search.asp?formproc=form'><table width='590' CELLPADDING='0' CELLSPACING='10' border=0 class='LookForTable11'><tr><td nowrap><font id='sheadText'><b>Choose saved search:</b></font></td><td><select name='savedsearch' onchange='changeSearch("");return false;'><option value='2978457'>New Members Only</option><option value='2978456'>Photos Only</option><option value='2978455' selected>Your Basic Search</option></select></td></tr></TABLE></form></div><div align='center'><table width='90%'><tr><td align='center'><br><font id='purple_med'>No matches found. Please change your search criteria.</font><br></td></tr></table></div>
+	</td>
+	<td 
+	class='pageTopSpace5' 
+	><img src='../imagesx/spacer.gif' border='0'></td>
+	<td width='220' align='center' valign='top'>
+	
+	
+	
+	
+	
+	<table valign=top border=0 cellpadding=0 cellspacing=0><tr><td><!-- Smooch_RunOfSite_160x600 -->
+<script type='text/javascript'>
+GA_googleFillSlot("Smooch_RunOfSite_160x600");
+</script></td></tr></table>
+	</td>
+	
+</tr>
+</TABLE>
+</td></tr>
+
+	<tr><td align="left" colspan=4 width=760 valign=top>
+		<!--<table cellpadding=0 cellspacing=0 border=0 bordercolor='red' width=760 bgcolor='white'>-->
+		<table cellpadding=0 cellspacing=0 border=0 bordercolor='red' width='988' bgcolor='white'>
+		<tr><td colspan='2' height='4' bgcolor='#ED1E79'><img src='../imagesx/spacer.gif' border='0'></td></tr>
+		<tr><td colspan='2' height='11' bgcolor='#9E005D'><img src='../imagesx/spacer.gif' border='0'></td></tr>
+		<tr><td colspan='2' height='1' bgcolor='#CF80AE'><img src='../imagesx/spacer.gif' border='0'></td></tr>
+
+		<tr>
+			<td width='330' class='CopyrightText' height='33'> Copyright Smooch Ltd.</td>
+			<td align='right'><a class='free_dating' href='rules.asp?acn=0'>Terms and Conditions</a> <font id='sml'>|</font> <a class='free_dating' href='privacy.asp?acn=0'>Privacy Policy</a>   </td>
+		</tr>
+		</table>
+	</td></tr>
+</table>
+<!-- table-slot2-->
+</td>
+<td width='184' align='center' valign='top' style='padding-top:141px;'><img src='../imagesx/spacer.gif' border='0' width='184'></td>
+</tr></table> 
+<!--</td>
+</tr></table> -->
+
+
+</body>
+</html>

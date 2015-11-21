@@ -1,0 +1,798 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="/js/functions.js" type="text/javascript"></script>
+
+<script src="/js/register.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/prototype.js"></script>
+<script type="text/javascript" src="/js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<script src="/js/jcrop/jquery.min.js"></script>
+<script src="/js/jcrop/jquery.Jcrop.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>smudoo</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/jquery.Jcrop.css" type="text/css" />
+<link rel="stylesheet" href="/css/demos.css" type="text/css" />
+<script language="Javascript">
+
+	$(function(){
+
+		$('#cropbox').Jcrop({
+			aspectRatio: 1,
+			onSelect: updateCoords
+		});
+
+	});
+
+	function updateCoords(c)
+	{
+		$('#x').val(c.x);
+		$('#y').val(c.y);
+		$('#w').val(c.w);
+		$('#h').val(c.h);
+	};
+
+	function checkCoords()
+	{
+		if (parseInt($('#w').val())) return true;
+		alert('Please select a crop region then press submit.');
+		return false;
+	};
+
+</script>
+</head>
+	
+<body style="background-image: url('/Bilder/1/smu_v2/bg.jpg');" >
+
+
+
+
+<div id="fb-root"></div>
+	<script type="text/javascript" src="/js/wz_dragdrop.js"></script>
+
+		<table width="1199" border="0" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign=top><table width="965" height="127" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center">
+			<a href="/"><img src="Bilder/1/logo_460.png" border="0" width="460" height="135"></a>
+		</td>
+	</tr>
+</table>
+				</td>
+			</tr>
+			<tr>
+				<td align=center valign=top>
+
+							
+
+
+								 <!-- ##watchl## 0 -->
+<table width="965" border="0" align="center" cellpadding="0" cellspacing="0">
+	  <tr>
+    <td height="108" colspan="3" align="center" valign="middle" background="Bilder/1/fc/navi.png">
+
+<table cellpadding=0 cellspacing=0 align=center width=900>
+	<tr>
+		<td align=left style="padding-bottom:15px;">
+			<table>
+				<tR>
+					<td align="center"><a href="/" class="navi"><img src=/Bilder/1/smu/home.jpg border=0></a><br><b>Startseite</b></td>
+					<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><a href=/index.php?content=profil&uid=82ea0cb9a1b211d81cb22556bb988067 class=navi><img src=/Bilder/1/smu/profil.jpg border=0></a><br><b>Profil</b></td>
+
+			<!-- <span class="Stil7">|</span> <a href=/index.php?content=friends class=navi>Freunde</a> -->
+								<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><div style="position:relative;top:7px;"><a href=/index.php?content=pe class=navi><img src=/Bilder/1/smu/nachrichten.jpg border=0></a><br><b>Nachrichten</b></div><div style="position:relative;z-index:3;top:-50px;right:-50px;"><div id='nachrichten'><table cellpadding=1 cellspacing=0 width=16px; style="background-image:url(Bilder/1/fc/nachrichten-ani.gif);background-repeat:no-repeat;"><tr><td align=center><font color=#FFFFFF style="font-size:11px;font-weight:bold;">1</font></td></tr></table></div></div></td>
+						<!-- <span class="Stil7">|</span> <a href=/index.php?content=pa class=navi>Postausgang</a>-->
+					<td align="center"><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td><a href=/index.php?content=invite class=navi><img src=/Bilder/1/smu/freunde.jpg border=0></a><br><b>Freunde</b></td>
+					<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><a href=/index.php?content=suche class=navi><img src=/Bilder/1/smu/suchen.jpg border=0></a><br><b>Suche</b></td>
+					<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><a href=/index.php?content=fa class=navi><img src=/Bilder/1/smu/fotos.jpg border=0></a><br><b>Fotos</b></td>
+			<!--<span class="Stil7">|</span> <a href=/index.php?content=sa class=navi>Suchagent</a>-->
+				</tr>
+			</table>
+		</td>
+				<td align="center" style="padding-right:15px;padding-bottom:15px;">
+			<a href="index.php?premium_popup=1" class="navi"><img src=/Bilder/1/smu/premium.jpg border=0></a><br><b>Premium</b>
+		</td>
+				<td width=100 align=right>
+			<table cellspacing=0 cellpadding=0>
+				<tr>
+					<td valign=top>
+						<table cellpadding=1 cellspacing=0>
+							<tr>
+								<td>
+									<a href="/index.php?content=settings"><img src="/Bilder/1/smu/icon_einstellungen.gif" border="0"></a><br>
+								</td>
+								<td>
+									<a href="/index.php?content=kontakt"><img src="/Bilder/1/smu/icon_hilfe.gif" border="0"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign=top>
+<!-- 						<a href="/index.php?logout=1" class="navi" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image54','','Bilder/1/icon_logout2.gif',1)"><img name="Image54" src=/Bilder/1/icon_logout.gif border=0></a> -->
+
+					<a href="/index.php?logout=1"><img name="Image54" src=/Bilder/1/fc/logout-but.1.png border=0></a><!--
+ 						<a href="/index.php?logout=1"><img name="Image54" src=/Bilder/1/fc/logout-but.1.png border=0></a>
+ -->
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	</td>
+</tr>  <tr>
+    <td width="9" valign="top" >&nbsp;</td>
+    <td width="947" valign="top" class="zwischenraum" style="padding-top:20px;">
+      <table width="100%" align=center border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="20" height="33"><img src="Bilder/1/spacer.gif" width="5" height="33" /></td>
+          <td  align="left" height="33" class="rahmen" style="padding-left:10px;">
+			<table width=100%  cellspacing="0" cellpadding="0">
+				<tr>
+					<td align=left style="color:#FFFFFF">Willkommen bei smudoo!</td>
+					<td align=right style="color:#FFFFFF;padding-right:5px;">						
+					</td>
+				</tr>
+								<tr>
+					<td height="35"><span style="color: white; font-weight: bold;" >»Steige deine Flirtchancen um 200%: <span style="font-size: 17px;"><a href="index.php?fotoupload=1">Lade ein Bild von dir hoch!</a></span></span></td>
+				</tr>
+							</table>
+			</td>
+
+          <td width="5" height="33"><img src="Bilder/1/spacer.gif" width="25" height="33" /></td>
+        </tr>
+        <tr>
+          <td width="5" height="5"><img src="Bilder/1/spacer.gif" width="5" height="5" /></td>
+          <td height="5" background="Bilder/1/spacer.gif"><img src="Bilder/1/spacer.gif" width="10" height="5" /></td>
+          <td width="5" height="5"><img src="Bilder/1/spacer.gif" width="5" height="5" /></td>
+        </tr>
+        <tr>
+          <td width="5" background="Bilder/1/spacer.gif">&nbsp;</td>
+
+          <td bgcolor="" class="content_text" style="padding:20px;"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="210" valign="top">
+                 <table width="177" height=101 border="0" cellspacing="0" cellpadding="0" style="background-image:url(/Bilder/1/smu/sprechblase.png);">
+                  <tr>
+
+                    <td valign=top align="left" style="font-size: 12px;font-style:italic;padding-left:5px;padding-top:10px;padding-right:0px;">
+
+                    <b>Ich will heute mit einer Frau Kontakt haben                    <a href="index.php?status_box=1"><img border=0 src="/Bilder/1/fc/b_edit.png"></a>
+                    </td>
+                  </tr>
+                  <tr>
+                  </tr>
+                </table>
+              
+              <a href="index.php?fotoupload=1"><img border=0 src=https://www.smudoo.com/Bilder/1/smu_v2/nopic_big_m.1.jpg></a><br />
+				<br>
+<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center" valign="top" style="padding-top:10px;padding-left:7px;background-repeat:no-repeat;background-image:url(Bilder/1/smu/bg4.jpg);width:184px;height:225px;);">
+                <table align="center" width="180" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:1px;">
+                  <tr>                    <td align="left" style="padding-left:36px;width:166px;height:30px;background-image:url('/Bilder/1/smu/bildeditieren.png');background-repeat:no-repeat;"><a href="/index.php?fotoupload=1" class="function">Bild hochladen</a></td>
+                  </tr>
+                </table>
+                <table align="center" width="180" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:1px;">
+                  <tr>
+                    <td align="left" style="padding-left:36px;width:166px;height:30px;background-image:url('/Bilder/1/smu/profileditieren.png');background-repeat:no-repeat;"><a href="/index.php?content=edit_p" class="function">Profil bearbeiten</a></td>
+                  </tr>
+                </table>
+                <table align="center" width="180" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:1px;">
+                  <tr>
+                    <td align="left" style="padding-left:36px;width:166px;height:30px;background-image:url('/Bilder/1/smu/offeneanfragen.png');background-repeat:no-repeat;"><a href="/index.php?content=open_friend_req" class="function">offene Anfragen</a></td>
+                  </tr>
+                </table>
+		</tD>
+	</tr>
+</table>
+				<table width=180 style="padding-top:5px;" cellpadding=0 cellspacing=0>
+					<tr>
+						<td>
+							
+<table width="98%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+
+                              <td bgcolor="#3f5d5d"><img src="Bilder/1/blank.gif" width="1" height="1" /></td>
+                            </tr>
+                            <tr>
+                              <td class="ueberschrift_box" style="padding:3px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td  align="left"><strong class="content_text">letzte Besucher</strong></td>
+                                  <td align="right"><a href="/index.php?content=visits">alle anzeigen</a></td>
+                                </tr>
+
+                              </table></td>
+                            </tr>
+                            <tr>
+                              <td bgcolor="#3f5d5d"><img src="Bilder/1/blank.gif" width="1" height="1" /></td>
+                            </tr>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td class="hg_box" style="padding:5px;" height=140 valign=top>
+					<!--besucher -->
+					  		<table>
+								<tr>
+					  		<td width=170 valign=top align="left">
+					 		 <table width="100%" border="0" cellspacing="0" cellpadding="3" style="margin-bottom:3px;">
+                                <tr>
+                                  <td width="55" valign=top align="left"><a href="/index.php?content=profil&uid=29836a5b8a40591fd0b4c0a8924b5a28" class="function"><img src="/upics/2012-04-18/thumb_50_cee69853824affa8ba7a0aade3b728a3.jpg" border=0></a></td>
+                                  <td class="Stil4" valign=top align="left"><a href="/index.php?content=profil&uid=29836a5b8a40591fd0b4c0a8924b5a28" class="function"><strong><img src=/Bilder/1/fc/on.png border=0 width=8 height=8> Inge</strong></a><br />
+                                    25 Jahre<br />
+                                    aus: 6XXXX<br />
+							
+                                    </td>
+                                </tr>
+                              </table>
+							 </td>
+					  
+					  				</td>
+								</tr>
+							</table>
+						
+						</td>
+                      </tr>
+                    </table>						</td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+					</tr>
+
+					<tr>
+						<td>
+							
+<table width="98%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+
+                              <td bgcolor="#3f5d5d"><img src="Bilder/1/blank.gif" width="1" height="1" /></td>
+                            </tr>
+                            <tr>
+                              <td  class="ueberschrift_box" style="padding:3px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td  align="left"><strong class="content_text">du gefällst...</strong></td>
+                                  <td align="right"><a href="/index.php?content=top_voter">alle anzeigen</a></td>
+                                </tr>
+
+                              </table></td>
+                            </tr>
+                            <tr>
+                              <td bgcolor="#3f5d5d"><img src="Bilder/1/blank.gif" width="1" height="1" /></td>
+                            </tr>
+                        </table></td>
+                      </tr>
+                      <tr>
+                        <td class="hg_box" style="padding:5px;" height=140 valign=top>
+					<!--voter -->
+					Du kannst nur bewertet werden, wenn du ein Profilbild hochgeladen hast<br>
+<br>» <a class=function href=index.php?fotoupload=1>Jetzt ein Bild hochladen</a>
+
+
+
+
+
+
+
+						</td>
+                      </tr>
+                    </table>						</td>
+					</tr>
+				</table>
+			  </td>
+              <td valign="top">
+					<table border=0 width="670" cellpadding="0" cellspacing="0">
+						<tr>
+							<td align="left">
+								<table align="left" cellpadding="0" cellspacing="0">
+									<tr>
+										<td style="background-image:url(/Bilder/1/smu/reiter1.png);color:#FFFFFF;font-weight:bold;" width="142" height="32" align="center"><a class=navi href=index.php?t=kds>Kennst du schon?</a></td>
+										<td style="background-image:url(/Bilder/1/smu/reiter2.png);color:#FFFFFF;font-weight:bold;" width="142" height="32" align="center"><a class=navi href=index.php?t=wio>Wer ist online</a></td>
+										<td style="background-image:url(/Bilder/1/smu/reiter2.png);color:#FFFFFF;font-weight:bold;" width="142" height="32" align="center"><a class=navi href=index.php?t=df>deine Freunde</a></td>
+<!-- 										<td style="background-image:url(/Bilder/1/reiter-2.jpg);color:#FFFFFF;font-weight:bold;" width="153" height="22" align="center"><a class=navi href=index.php?t=vot>Votings</a></td> -->
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td><img src=/Bilder/1/bg-e1.jpg border=0></td>
+						</tr>
+						<tr>
+							<td style="background-image:url(/Bilder/1/bg-e2.jpg);">
+								 <table width=100% border="0">
+			<tr>
+ 
+
+					  <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> Sweeti20</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=d5d28675cc01d5431a10809871db5903"><img src="/upics/2012-05-19/thumb_124_b842bff98deb86a1de554a247.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=d5d28675cc01d5431a10809871db5903>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_d5d28675cc01d5431a10809871db5903">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('d5d28675cc01d5431a10809871db5903','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('d5d28675cc01d5431a10809871db5903','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> Theresa</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=a96f3bdb00e7f28dcc4c838ab581b25e"><img src="/upics/2012-04-27/thumb_124_4a5a23d409193463a0bab91a055c3ed20.72921500 1335550706.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=a96f3bdb00e7f28dcc4c838ab581b25e>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_a96f3bdb00e7f28dcc4c838ab581b25e">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('a96f3bdb00e7f28dcc4c838ab581b25e','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('a96f3bdb00e7f28dcc4c838ab581b25e','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> Kiirschex</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=a5ee3530f7726e0161f956959cec8134"><img src="/upics/2012-07-28/thumb_124_82142cd578ef1e1d10a7c49bf.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=a5ee3530f7726e0161f956959cec8134>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_a5ee3530f7726e0161f956959cec8134">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('a5ee3530f7726e0161f956959cec8134','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('a5ee3530f7726e0161f956959cec8134','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> BloodAngel82</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=bf78b1c57e76565e381d8ffebcd61e78"><img src="/upics/2012-06-11/thumb_124_057539461f106125a9dba2b49.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=bf78b1c57e76565e381d8ffebcd61e78>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_bf78b1c57e76565e381d8ffebcd61e78">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('bf78b1c57e76565e381d8ffebcd61e78','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('bf78b1c57e76565e381d8ffebcd61e78','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 </tr><tr><td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> LittleMouse</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=16af0e710c7e1630686a279f38caafa5"><img src="/upics/2012-05-05/thumb_124_449d12ae3c0c548b4febe82ef.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=16af0e710c7e1630686a279f38caafa5>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_16af0e710c7e1630686a279f38caafa5">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('16af0e710c7e1630686a279f38caafa5','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('16af0e710c7e1630686a279f38caafa5','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> Princess0098</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=be2a0936407c4eba8d18ec262c31303a"><img src="/upics/2012-08-01/thumb_124_308da27a212953af731b5e63a.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=be2a0936407c4eba8d18ec262c31303a>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_be2a0936407c4eba8d18ec262c31303a">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('be2a0936407c4eba8d18ec262c31303a','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('be2a0936407c4eba8d18ec262c31303a','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> KatharinaDyc</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=da2eb10e1abe2765d5e22e393db9236a"><img src="/upics/2012-04-29/thumb_124_8308a4681bba1e69f203e8243.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=da2eb10e1abe2765d5e22e393db9236a>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_da2eb10e1abe2765d5e22e393db9236a">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('da2eb10e1abe2765d5e22e393db9236a','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('da2eb10e1abe2765d5e22e393db9236a','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> Jenny87</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=9db9083a10e1ce1ae8e1edff58ff6efe"><img src="/upics/2012-08-07/thumb_124_b435d89efb8d68dca56b7c11d.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=9db9083a10e1ce1ae8e1edff58ff6efe>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_9db9083a10e1ce1ae8e1edff58ff6efe">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('9db9083a10e1ce1ae8e1edff58ff6efe','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('9db9083a10e1ce1ae8e1edff58ff6efe','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 </tr><tr><td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> Lisa93</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=7e7513955504ad04ab295f3c0f0373df"><img src="/upics/2012-04-30/thumb_124_7634d1759bb69553d4bf6f49f.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=7e7513955504ad04ab295f3c0f0373df>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_7e7513955504ad04ab295f3c0f0373df">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('7e7513955504ad04ab295f3c0f0373df','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('7e7513955504ad04ab295f3c0f0373df','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/on.png border=0 width=8 height=8> Isa_2012</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=d32a1baa34aedde4af4aadb6bc479a83"><img src="/upics/2012-04-18/thumb_124_89799fe64a97f2bde26379f09ae573b2.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=d32a1baa34aedde4af4aadb6bc479a83>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_d32a1baa34aedde4af4aadb6bc479a83">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('d32a1baa34aedde4af4aadb6bc479a83','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('d32a1baa34aedde4af4aadb6bc479a83','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> freiewolke69</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=7fc0751d2e1ac374152b95048426ae42"><img src="/upics/2012-06-01/thumb_124_ceaa0675c65aa8cf5400f49cd.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=7fc0751d2e1ac374152b95048426ae42>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_7fc0751d2e1ac374152b95048426ae42">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('7fc0751d2e1ac374152b95048426ae42','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('7fc0751d2e1ac374152b95048426ae42','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 <td valign="top">
+									<table cellpadding=0 cellspacing=0>
+										<tR>
+											<td align=center style="background-image:url(Bilder/1/profil-top.png);color:#FFFFFF;font-weight:bold;" width="156" height="30"><img src=/Bilder/1/fc/off.png border=0 width=8 height=8> sunnygirl8</td>
+										</tR>
+										<tr>
+											<td valign=top align="center" style="background-image:url(Bilder/1/profil-bottom.png); width="156" height="200">
+												<table cellpadding=2 cellspacing=0>
+													<tr>
+														<td align=center height="124" valign="top"><a href="/index.php?content=profil&uid=b7b0938147e196988635aa4847386379"><img src="/upics/2012-06-07/thumb_124_23bf531130ae40e0974306ed9.jpg" border=0></a></td>
+													</tr>
+													<tr>
+														<td align=center style="background-image:url(Bilder/1/smu/but-emailschreiben.jpg);width:145px;height:28px;background-repeat:no-repeat;">
+															<a href=index.php?content=new_msg&uid=b7b0938147e196988635aa4847386379>Email schreiben</a>
+														</td>
+													</tr>
+													
+													<tr>
+														<td align=center><span id="bewertung_b7b0938147e196988635aa4847386379">
+															<table>
+																<tR>
+																	<td><a href=#><img  onclick="vote_user('b7b0938147e196988635aa4847386379','top');return false;;" src=Bilder/1/smu/top.jpg border=0></a></td>
+																	<td><a href=#><img  onclick="vote_user('b7b0938147e196988635aa4847386379','flop');return false;;" src=Bilder/1/smu/flop.jpg border=0></a></td>
+																</tr>
+															</table>
+																	</span>
+																	
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+					 </tr></table>
+
+
+
+							</td>
+						</tr>
+						<tr>
+							<td><img src=/Bilder/1/bg-e3.jpg border=0></td>
+						</tr>
+					</table>
+				</td>
+              </tr>
+          </table></td>
+          <td width="5"><img width=5 src="Bilder/1/spacer.gif"></td>
+        </tr>
+        <tr>
+
+          <td width="5" height="5"><img src="Bilder/1/spacer.gif" width="5" height="5" /></td>
+          <td height="5" background="Bilder/1/spacer.gif"><img src="Bilder/1/spacer.gif" width="10" height="5" /></td>
+          <td width="5" height="5"><img src="Bilder/1/spacer.gif" width="5" height="5" /></td>
+        </tr>
+      </table>
+    </td>
+    <td width="9" valign="top"><img width=9 src="Bilder/1/spacer.gif"></td>
+  </tr>
+</table>
+ 
+
+
+					</td>
+			</tr>
+			<tr>
+				<td valign=top><table width=945 align=center height="79">
+	<tr>
+		<td align=center>
+			<a href="/index.php?content=agb" target=_blank class="footer">AGB</a> <span class="Stil2">|</span>
+			<a href="/index.php?content=ds" target=_blank class="footer">Datenschutzerklärung</a> <span class="Stil2">|</span>
+			<a href="/index.php?content=widerruf" target=_blank class="footer">Widerrufsbelehrung</a> <span class="Stil2">|</span>
+			<a href="/index.php?content=impressum" class="footer">Impressum</a> <span class="Stil2">|</span>
+			<a href="http://www.blueads.com/" class="footer" target=_blank>Affiliates</a>
+
+		</td>
+	</tr>
+<!--	<tr>
+		<TD><font color=#ffffff size=1>Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.0.4) Firefox/3.0.8)</font></TD>
+	</tr>-->
+</table>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33956138-1']);
+  _gaq.push(['_setDomainName', 'smudoo.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html></td>
+			</tr>
+		</table>
+		
+</body>
+</html>

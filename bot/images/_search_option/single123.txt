@@ -1,0 +1,15 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="search">SEARCH</option>
+		<option value="send" selected>SEND</option>
+	</select>
+</span>
+<span class="label">Target Gender:</span>
+<span class="field">
+	<select name="targettedGender">
+		<option value="1" selected>Male</option>
+		<option value="2" >Female</option>
+	</select>
+</span>
+<br class="clear">

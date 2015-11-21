@@ -1,0 +1,19 @@
+stdClass Object
+(
+    [ID] => 37838
+    [provID] => 779
+    [abo_date] => 0000-00-00 00:00:00
+    [profileID] => 1253477
+    [serverID] => 4
+    [cdate] => 2013-04-07 21:22:35
+    [mobileNr] => 65606024
+    [acc_type] => 1
+    [abo_type] => 0
+    [cnt_in] => 0
+    [email] => bzqyzd@gwsy.gdsv
+    [last_access] => 2013-06-18 18:04:07
+    [cnt_out] => 0
+)
+Array
+(
+)

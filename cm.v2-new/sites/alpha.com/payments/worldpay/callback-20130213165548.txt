@@ -1,0 +1,54 @@
+Array
+(
+    [installation] => 294253
+    [msgType] => authResult
+    [region] => 
+    [authAmountString] => &#163;50.00
+    [_SP_charEnc] => UTF-8
+    [desc] => 50 GBP for 600 coins
+    [tel] => 
+    [address1] => TESTING ME
+    [countryMatch] => S
+    [cartId] => 7
+    [address2] => 
+    [address3] => 
+    [lang] => en
+    [callbackPW] => 
+    [rawAuthCode] => A
+    [transStatus] => Y
+    [amountString] => &#163;50.00
+    [authCost] => 50.00
+    [currency] => GBP
+    [amount] => 50.00
+    [wafMerchMessage] => waf.caution
+    [countryString] => Andorra
+    [displayAddress] => TESTING ME
+
+
+TESTING ME
+    [transTime] => 1360749346870
+    [name] => TESTING ME
+    [testMode] => 100
+    [routeKey] => VISA-SSL
+    [ipAddress] => 180.183.37.184
+    [fax] => 
+    [rawAuthMessage] => cardbe.msg.authorised
+    [instId] => 294253
+    [AVS] => 1111
+    [compName] => internet merchant centre ltd
+    [authAmount] => 50.00
+    [postcode] => 
+    [cardType] => Visa
+    [cost] => 50.00
+    [authCurrency] => GBP
+    [country] => AD
+    [charenc] => UTF-8
+    [email] => admin@testing.com
+    [address] => TESTING ME
+
+
+TESTING ME
+    [transId] => 140830320
+    [town] => TESTING ME
+    [authMode] => A
+)

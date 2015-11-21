@@ -1,0 +1,49 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Send test MSG?:</span>
+<span class="field">
+	<select id="send_test" name="send_test">
+		<option value="1">Yes</option>
+		<option selected="selected" value="0">No</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<span class="label">Gender:</span>
+<span class="field">
+	<select name="gender" class="gender" id="gender">
+		<option value="m" selected="selected">Male</option>
+		<option value="f">Female</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Online:</span>
+<span class="field">
+	<input type="checkbox" name="online_fake" id="online_fake" value="1" checked="checked" disabled="disabled" />
+	<input type="hidden" name="online" value="1" />
+</span>
+<br class="clear">

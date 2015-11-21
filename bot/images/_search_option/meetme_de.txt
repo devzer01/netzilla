@@ -1,0 +1,156 @@
+<span class="label">ACTION: </span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<span class="label">MSG type:</span>
+<span class="field">
+	<select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>
+		<option value="qa">Question</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Gender: </span>
+<span class="field">
+	<select name="gender" id="gender">
+		<option value="2">Male [2]</option>
+		<option value="1">Female [1]</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label for_send">Age: </span>
+<span class="field for_send">
+	<select id="age_from" name="age_from">
+		<option selected="selected" value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+</select> to <select id="age_to" name="age_to">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50" selected="selected">50</option>
+	</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear for_send">
+
+<span class="label">Country:</span>
+<span class="field">
+	<select id="country" name="country">
+		<option value="77">Germany</option>
+	</select>
+</span>
+<br class="clear for_send">
+
+<span class="label">Start state:</span>
+<span class="field">
+	<select class="textbox" id="state" name="state">
+		<option label="All" value="" selected="selected">- All -</option>
+		<option label="Baden-WRttemberg" value="4071">Baden-WRttemberg [4071]</option>
+		<option label="Bayern" value="4072">Bayern [4072]</option>
+		<option label="Berlin" value="4073">Berlin [4073]</option>
+		<option label="Brandenburg" value="4074">Brandenburg [4074]</option>
+		<option label="Bremen" value="4075">Bremen [4075]</option>
+		<option label="Hamburg" value="4076">Hamburg [4076]</option>
+		<option label="Hessen" value="4077">Hessen [4077]</option>
+		<option label="Mecklenburg-Vorpommern" value="4078">Mecklenburg-Vorpommern [4078]</option>
+		<option label="Niedersachsen" value="4079">Niedersachsen [4079]</option>
+		<option label="Nordrhein-Westfalen" value="4080">Nordrhein-Westfalen [4080]</option>
+		<option label="Rheinland-Pfalz" value="4081">Rheinland-Pfalz [4081]</option>
+		<option label="Saarland" value="4082">Saarland [4082]</option>
+		<option label="Sachsen" value="4083">Sachsen [4083]</option>
+		<option label="Sachsen-Anhalt" value="4084">Sachsen-Anhalt [4084]</option>
+		<option label="Schleswig-Holstein" value="4085">Schleswig-Holstein [4085]</option>
+		<option label="ThRingen" value="4086">ThRingen [4086]</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Distance:</span>
+<span class="field">
+	<select name="distance" id="distance">
+	<option label="15" value="10">10 miles</option>
+	<option label="25" value="15">15 miles</option>
+	<option label="30" value="20">20 miles</option>
+	<option label="50" value="30" selected="selected">30 miles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Start page:</span>
+<span class="field">
+	<input type="number" name="start_page" value="1"/>
+</span>
+<br class="clear">

@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Free Online Dating For Singles at DatingOnWorld.com | Sent messages</title>
+	<meta name="description" content="Free online dating service for singles meet for romance and relationship without paying any membership fee. Do not pay for personals. Please visit our totally free dating site to find a like-minded single person today. " />
+	<meta name="keywords" content="world dating,dating in the world,free dating,free online dating sites,dating online,world dating sites,free dating sites,online singles,find singles,free singles,personals,romance,love,relationships,dates,marriage" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="http://www.datingonworld.com/includes/js/jquery.js"></script>
+<script type="text/javascript" src="http://www.datingonworld.com/includes/js/misc.js"></script>
+<script type="text/javascript" src="http://www.datingonworld.com/includes/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://www.datingonworld.com/includes/js/chat.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.datingonworld.com/templates/dark/media/content.css" />
+<link rel="stylesheet" type="text/css" href="http://www.datingonworld.com/templates/dark/media/footpanel.css" />
+<script type="text/javascript" src="http://www.datingonworld.com/includes/js/swfobject.js"></script>
+<META name="y_key" content="24f8e9b9b0dbe565">
+<meta name="msvalidate.01" content="ACBDF5DE923A436B97C010F5C474BBD4" />
+<meta name="google-site-verification" content="r0weFKV7c1TUg83zLkz3FFSQVRxEPL_pXq9ToGxpqBs" />
+
+</head>
+<body onload="initChat(5,'Aaliye',1);">
+<div id="page_wrap">
+	<div id="page">
+		<div id="header_wrap">
+			<div id="header">
+				<h1><span>Free Online Dating For Singles at DatingOnWorld.com</span></h1>
+				<div class="banner"></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="headernav_wrap">
+			<div id="headernav">
+				<ul>
+					<li class="first"><a href="http://www.datingonworld.com/" title="Home"><span>Home</span></a></li>
+<li><a href="http://www.datingonworld.com/online-dating/" title="Online Dating">Online Dating</a></li>
+											<li><a href="http://www.datingonworld.com/news/" title="News"><span>News</span></a></li>
+															<li><a href="http://www.datingonworld.com/search/" title="Search"><span>Search</span></a></li>
+
+											<li><a href="http://www.datingonworld.com/blogs/" title="Blogs"><span>Blogs</span></a></li>
+																<li><a href="http://www.datingonworld.com/pictures/" title="Pictures"><span>Pictures</span></a></li>
+																<li><a href="http://www.datingonworld.com/videos/" title="Videos"><span>Videos</span></a></li>
+																<li><a href="http://www.datingonworld.com/events/calendar/" title="Events"><span>Events</span></a></li>
+																<li><a href="http://www.datingonworld.com/hotornot/" title="Hot or Not"><span>Hot or Not</span></a></li>
+																			</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+					<div id="usernav_wrap">
+				<div id="usernav">
+					<ul>
+						<li class="first nav_profile">
+							<a href="http://www.datingonworld.com/account/home/" title="Profile" class="outter">Profile</a>							<ul>
+								<li class="home"><a href="http://www.datingonworld.com/account/home/" title="My page">My page</a></li>
+								<li class="profile"><a href="http://www.datingonworld.com/account/profile/" title="Edit profile">Edit profile</a></li>
+								<li class="photo"><a href="http://www.datingonworld.com/account/photo/" title="Change photo">Change photo</a></li>
+							</ul>
+						</li>
+													<li class="nav_messages nav_messages_new">
+								<a href="http://www.datingonworld.com/account/messages/" class="outter" title="Messages">Messages (5)</a>
+								<ul>
+									<li class="inbox"><a href="http://www.datingonworld.com/account/messages/" title="Inbox">Inbox (5)</a></li>
+									<li class="sent"><a href="http://www.datingonworld.com/account/messages/sent/" title="Sent">Sent</a></li>
+								</ul>
+							</li>
+																			<li class="nav_media">
+								<a href="http://www.datingonworld.com/account/albums/" title="Media" class="outter">Media</a>								<ul>
+																			<li class="pictures"><a href="http://www.datingonworld.com/account/albums/" title="Pictures">Pictures</a></li>
+																												<li class="videos"><a href="http://www.datingonworld.com/account/videos/" title="Videos">Videos</a></li>
+																												<li class="audio"><a href="http://www.datingonworld.com/account/audio/" title="Music">Music</a></li>
+																	</ul>
+							</li>
+																			<li class="nav_apps ">
+								<a href="http://www.datingonworld.com/account/guestbook/" title="Apps" class="outter">Apps</a>								<ul>
+																			<li class="blog"><a href="http://www.datingonworld.com/account/blog/" title="Blog">Blog</a></li>
+																												<li class="gifts"><a href="http://www.datingonworld.com/account/gifts/" title="Gifts">Gifts</a></li>
+																												<li class="guestbook"><a href="http://www.datingonworld.com/account/guestbook/" title="Guestbook">Guestbook</a></li>
+																												<li class="events"><a href="http://www.datingonworld.com/account/events/" title="Events">Events</a></li>
+																	</ul>
+							</li>
+																			<li class="nav_network ">
+								<a href="http://www.datingonworld.com/account/friends/" title="Network" class="outter">Network</a>								<ul>
+																			<li class="friends"><a href="http://www.datingonworld.com/account/friends/" title="Friends">Friends</a></li>
+																												<li class="favorites"><a href="http://www.datingonworld.com/account/favorites/" title="Favorites">Favorites</a></li>
+																												<li class="visitors"><a href="http://www.datingonworld.com/account/visitors/" title="Visitors">Visitors</a></li>
+																												<li class="blocked"><a href="http://www.datingonworld.com/account/blocked/" title="Blocked">Blocked</a></li>
+																	</ul>
+							</li>
+												<li class="nav_settings">
+							<a href="http://www.datingonworld.com/account/settings/" title="Settings" class="outter">Settings</a>							<ul>
+								<li class="settings"><a href="http://www.datingonworld.com/account/settings/" title="Account">Account</a></li>
+								<li class="notifications"><a href="http://www.datingonworld.com/account/notifications/" title="Notifications">Notifications</a></li>
+								<li class="privacy"><a href="http://www.datingonworld.com/account/privacy/" title="Privacy">Privacy</a></li>
+																											<li class="upgrade"><a href="http://www.datingonworld.com/account/upgrade/" title="Upgrade account">Upgrade account</a></li>
+																												<li class="credits"><a href="http://www.datingonworld.com/account/upgrade/credits/" title="Purchase credits">Purchase credits</a></li>
+																								</ul>
+						</li>
+						<li class="nav_logout"><a href="http://www.datingonworld.com/account/logout/" title="Logout" class="outter">Logout</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+				<div id="container_wrap">
+			<div id="container">
+				<div id="sidebar_wrap">
+					<div id="sidebar">
+									<div class="sidebox_wrap">
+			<h5><span>Profile alerts</span></h5>
+			<div class="sidebox">
+				<div class="alerts">
+					<table class="plain">
+																									<tr>
+								<td>
+									<img src="http://www.datingonworld.com/templates/dark/media/activities/comment.png" align="absmiddle" alt="" />
+									<a href="http://www.datingonworld.com/account/messages/">
+										5										new messages									</a>
+								</td>
+							</tr>
+																	</table>
+				</div>
+			</div>
+		</div>
+	<div class="text">
+</div>
+<br />
+		<div class="sidebox_wrap">
+		<h5><span>Latest visitors</span></h5>
+		<div class="sidebox">
+			<div class="memberslist">
+									<div class="image">
+													<a href="http://www.datingonworld.com/Tinasky"><img src="http://www.datingonworld.com/media/uploads/9/9/5/9/32322/t_photo_32322mhuhztsmtej9aqdehjvyb3h.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/love_life"><img src="http://www.datingonworld.com/media/uploads/4/6/5/1/41358/t_photo_059afv64nz7sujg7dm2tdj2psk3n.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/toby68"><img src="http://www.datingonworld.com/media/uploads/0/5/7/4/32567/t_photo_32567_ceyk6tjsc42n73ce.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/mizia"><img src="http://www.datingonworld.com/media/uploads/1/5/5/8/33088/t_photo_330883mhuxhs3ync5exfybg7mpcg.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/ja451"><img src="http://www.datingonworld.com/media/uploads/3/4/6/3/40827/t_photo_40827b76tg64ay12jdo3ryq2onps.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/marylisa32"><img src="http://www.datingonworld.com/media/uploads/7/1/9/0/41389/t_photo_0hdohk5o9m5x4f548zoxk2bdchxz.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/angel147"><img src="http://www.datingonworld.com/media/uploads/7/4/4/8/40245/t_photo_40245_fs4bx2p95jpjxgjy.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/esam765444"><img src="http://www.datingonworld.com/media/uploads/9/2/0/9/41302/t_photo_0jps387hjv3gqa7f6hvojsbdynxn.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/anaba_benjamin"><img src="http://www.datingonworld.com/media/uploads/9/4/4/7/41372/t_photo_0a9snt8tzajf16xg7ks5cz7e8n6u.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/william4040123"><img src="http://www.datingonworld.com/media/uploads/2/5/6/6/41140/t_photo_0ucushbe56q3m68z28mpbfygrg3o.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/alexander1000"><img src="http://www.datingonworld.com/media/uploads/1/3/9/7/40832/t_photo_022oso63d599z975916d3at4erz9.jpg" alt="" border="0" /><br/></a>
+											</div>
+									<div class="image">
+													<a href="http://www.datingonworld.com/angelicadawn88"><img src="http://www.datingonworld.com/media/uploads/4/6/7/8/37878/t_photo_37878szr8hs34nc2s8tzav5dvvp7.jpg" alt="" border="0" /><br/></a>
+											</div>
+								<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+
+
+							</div>
+<hr>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7107097512947569";
+/* daingonworld160x90 */
+google_ad_slot = "7260112699";
+google_ad_width = 160;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<hr size="1" />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7107097512947569";
+/* datingonworld160x600 */
+google_ad_slot = "0040439535";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>					</div>
+				</div>
+				<div id="content_wrap">
+					<div id="content">
+
+<div class="homepage">
+  <center>
+  <table bgcolor="white" border="0" width="300" cellpadding="0" cellspacing="0">
+              <tr>
+                <td colspan="2" height="25">
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7107097512947569";
+/* Datingonworld */
+google_ad_slot = "3297934495";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+                </td>
+              </tr>
+    <tr>
+      <td colspan="2">
+
+        <h2 align="center">Totally 100% Free Dating Sites For Singles Meet Online</h2>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7107097512947569";
+/* Datingonworld336 */
+google_ad_slot = "5571697728";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td>
+      <td align="center">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7107097512947569";
+/* Datingonworld336 */
+google_ad_slot = "5571697728";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div class="header_wrap">
+	<div class="location_wrap">
+		<div class="location">
+			<ul>
+				<li><a href="http://www.datingonworld.com/account/messages/inbox/" title="Messages">Messages</a></li>
+				<li><span>&#187;</span></li>
+				<li><a href="http://www.datingonworld.com/account/messages/sent/" title="Sent">Sent</a></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="options_wrap">
+		<div class="title">
+			<h1>Sent messages</h1>
+		</div>
+		<div class="options">
+			<ul>
+				<li><a href="http://www.datingonworld.com/account/messages/inbox/">Inbox (7)</a></li>
+				<li><a href="http://www.datingonworld.com/account/messages/sent/" class="active">Sent (25)</a></li>
+									<li class="info">
+						<div class="progress_bar">
+							<div class="bar" style="width:13%"></div>
+						</div>
+					</li>
+					<li class="info">
+						You have 32 messages out of 250 allowed					</li>
+							</ul>
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+	<div id="info_message">Message has been successfully sent.</div>
+
+
+	<div class="outter page_account_messages_inbox">
+
+		<form name="messages" method="post" action="http://www.datingonworld.com/account/messages/sent/delete/1/">
+
+			<table class="pmbox">
+				<tr class="header">
+					<td class="checkbox">
+						<input type="checkbox" name="check_all_messages" id="check_all_messages" class="checkbox" onclick="toggleItems(this.form, this.checked)" />
+					</td>
+					<td class="sender">
+						Receiver					</td>
+					<td class="subject">
+						Subject					</td>
+				</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735857]" id="message_id_735857" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/unknown"><img src="http://www.datingonworld.com/media/uploads/8/3/0/0/36309/t_photo_36309_f9pfghroqsbq5ar8.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/unknown">unknown</a>
+							<div class="date">06/15/2012 12:31 am</div>
+							<div class="date">Unread</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735857/">Hi there!</a>
+							<div class="preview">You are stunning! Life's too short to be serious all the time, don't you think? A lot of p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735748]" id="message_id_735748" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/unknown"><img src="http://www.datingonworld.com/media/uploads/8/3/0/0/36309/t_photo_36309_f9pfghroqsbq5ar8.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/unknown">unknown</a>
+							<div class="date">06/12/2012 04:42 am</div>
+							<div class="date">Unread</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735748/">Hi, there!</a>
+							<div class="preview">you're sexy</div>
+						</td>
+					</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735673]" id="message_id_735673" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/idman7"><img src="http://www.datingonworld.com/media/uploads/3/1/5/9/36350/t_photo_36350_5rdev24f7qzofqyr.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/idman7">idman7</a>
+							<div class="date">06/11/2012 02:22 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735673/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735672]" id="message_id_735672" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/wdblmd52"><img src="http://www.datingonworld.com/media/uploads/1/4/8/6/31807/t_photo_31807_nehj35v2jet6urk1.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/wdblmd52">wdblmd52</a>
+							<div class="date">06/11/2012 02:22 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735672/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735671]" id="message_id_735671" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/Awasine"><img src="http://www.datingonworld.com/media/uploads/1/4/8/8/41394/t_photo_0vcz48d96suya1fdmymec4xr8m8b.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/Awasine">Awasine</a>
+							<div class="date">06/11/2012 02:20 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735671/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735670]" id="message_id_735670" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+									<a href="http://www.datingonworld.com/admin"><img src="http://www.datingonworld.com/templates/dark/media/user_picture_none.gif" alt="" border="0" /><br/></a>
+							</div>
+							<a href="http://www.datingonworld.com/admin">admin</a>
+							<div class="date">06/11/2012 02:20 am</div>
+							<div class="date">Unread</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735670/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735669]" id="message_id_735669" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/wildstud40"><img src="http://www.datingonworld.com/media/uploads/5/3/7/8/31623/t_photo_31623_crt5geo5bkupvj3r.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/wildstud40">wildstud40</a>
+							<div class="date">06/11/2012 02:20 am</div>
+							<div class="date">Unread</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735669/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735668]" id="message_id_735668" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/jame45"><img src="http://www.datingonworld.com/media/uploads/1/4/0/9/40572/t_photo_0sm26vq3supofrjdoyxxdcosoyej.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/jame45">jame45</a>
+							<div class="date">06/11/2012 02:20 am</div>
+							<div class="date">Unread</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735668/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735667]" id="message_id_735667" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/willin61"><img src="http://www.datingonworld.com/media/uploads/8/3/4/7/5983/t_photo_5983_fhr5m1rgdoe2hgm3.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/willin61">willin61</a>
+							<div class="date">06/11/2012 02:20 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735667/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735666]" id="message_id_735666" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/dad353"><img src="http://www.datingonworld.com/media/uploads/6/0/7/9/39137/t_photo_39137_zudg7mb7qk8ydt4h.gif" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/dad353">dad353</a>
+							<div class="date">06/11/2012 02:20 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735666/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735665]" id="message_id_735665" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/love_life"><img src="http://www.datingonworld.com/media/uploads/4/6/5/1/41358/t_photo_059afv64nz7sujg7dm2tdj2psk3n.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/love_life">love_life</a>
+							<div class="date">06/11/2012 02:18 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735665/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735664]" id="message_id_735664" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/RPW1955"><img src="http://www.datingonworld.com/media/uploads/2/0/2/6/36613/t_photo_36613_ojs7kbcdge1e7kex.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/RPW1955">RPW1955</a>
+							<div class="date">06/11/2012 02:18 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735664/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row odd ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735663]" id="message_id_735663" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/student"><img src="http://www.datingonworld.com/media/uploads/8/9/5/7/14241/t_photo_14241_xbf68qdhgqtasr4y.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/student">student</a>
+							<div class="date">06/11/2012 02:18 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735663/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row even ">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735662]" id="message_id_735662" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+									<a href="http://www.datingonworld.com/Maxmovie007"><img src="http://www.datingonworld.com/templates/dark/media/user_picture_none.gif" alt="" border="0" /><br/></a>
+							</div>
+							<a href="http://www.datingonworld.com/Maxmovie007">Maxmovie007</a>
+							<div class="date">06/11/2012 02:18 am</div>
+							<div class="date">Unread</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735662/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+									<tr class="row odd dataitemlast">
+						<td class="checkbox" valign="top">
+							<input type="checkbox" name="message_id[735661]" id="message_id_735661" class="checkbox messageCheckbox" />
+						</td>
+						<td class="sender" valign="top">
+							<div class="image">
+														<a href="http://www.datingonworld.com/ja451"><img src="http://www.datingonworld.com/media/uploads/3/4/6/3/40827/t_photo_40827b76tg64ay12jdo3ryq2onps.jpg" alt="" border="0" /><br/></a>
+										</div>
+							<a href="http://www.datingonworld.com/ja451">ja451</a>
+							<div class="date">06/11/2012 02:18 am</div>
+							<div class="date">Read</div>
+						</td>
+						<td class="subject" valign="top">
+							<a href="http://www.datingonworld.com/account/messages/sent/read/735661/">Hello dear</a>
+							<div class="preview">Friendship is sweet when its new and I couldn’t help but stare at you. Just got out of a p&hellip;</div>
+						</td>
+					</tr>
+								<tr class="footer">
+					<td colspan="3">
+						<a href="#" onclick="javascript:confirmForm('Are you sure you want to delete selected messages?', 'messages')" title="Delete selected">Delete selected</a>
+					</td>
+				</tr>
+			</table>
+
+		</form>
+
+	</div>
+
+			<div class="footer_wrap">
+			<div class="footer">
+				<p>Page 1 out of 2</p>
+													<a href="http://www.datingonworld.com/account/messages/sent/2/">Next &raquo;</a>
+								<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	
+
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="footer_wrap">
+			<div id="footer">
+									<a href="http://www.datingonworld.com/invitefriends/" title="Invite friends">Invite friends</a> |
+													<a href="http://www.datingonworld.com/contactus/" title="Contact us">Contact us</a> |
+								<a href="http://www.datingonworld.com/page/general/tos/" >Terms of service</a>				<!-- CREDIT LINE: UNAUTHORIZED REMOVAL WILL VOID LICENSE -->
+ - 
+Copyright 2012  
+<a href="http://www.datingonworld.com/" title="World Dating">World Dating</a> - 
+<a href="http://www.datingonworld.com/" title="Free Dating">Free Dating</a> - 
+<a href="http://www.datingonworld.com/" title="Online Dating">Online Dating</a> at 
+<a href="http://www.datingonworld.com/" title="www.DatingOnWorld.com">www.DatingOnWorld.com</a> All Rights Reserved.
+</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="clear"></div>
+	<div id="footpanel">
+	<ul id="mainpanel">
+	    <li class="panel first"></li>
+	    <li id="settingspanel" class="panel panel-static">
+        	<a href="#" class="button settings">Settings</a>
+	        <div class="subpanel">
+            	<h3><span class="miminize"></span>Settings</h3>
+            	<div class="wrap">
+            		<div class="status">
+            			<span>My status</span>
+            			<a href="#" onclick="chatToggleStatus(1);return false;" id="chat-status-online" class="online active">Online</a>
+            			<a href="#" onclick="chatToggleStatus(0);return false;" id="chat-status-invisible" class="invisible ">Invisible</a>
+            			<div class="clear"></div>
+            		</div>
+            		<div class="sound">
+            			<a href="#" id="chat-sound-notify" onclick="chatToggleSound();return false;" class="on">Sound notifications</a>
+	            	</div>
+		        </div>
+	        </div>
+	    </li>
+	    <li id="alertpanel" class="panel panel-static">
+        	<a href="#" class="button alerts alerts-new">Notifications</a>
+	        <div class="subpanel">
+            	<h3><span class="miminize"></span>Notifications</h3>
+            	<div class="wrap">
+			        <ul>
+								        					        				<li id="foot-notify-30832" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30832);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/wdblmd52">wdblmd52</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735779/">message</a> <span>(3 days ago)</span></p>
+		        				</li>
+		        					        				<li id="foot-notify-30780" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30780);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/Awasine">Awasine</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735727/">message</a> <span>(3 days ago)</span></p>
+		        				</li>
+		        					        				<li id="foot-notify-30778" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30778);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/idman7">idman7</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735725/">message</a> <span>(4 days ago)</span></p>
+		        				</li>
+		        					        				<li id="foot-notify-30777" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30777);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/idman7">idman7</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735724/">message</a> <span>(4 days ago)</span></p>
+		        				</li>
+		        					        				<li id="foot-notify-30722" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30722);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/ja451">ja451</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735675/">message</a> <span>(4 days ago)</span></p>
+		        				</li>
+		        					        				<li id="foot-notify-30721" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30721);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/ja451">ja451</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735674/">message</a> <span>(4 days ago)</span></p>
+		        				</li>
+		        					        				<li id="foot-notify-30698" class="new">
+		        					<a href="#" class="delete" onclick="deleteNotification('Delete this item?', 30698);return false;">X</a>
+		        					<p><a href="http://www.datingonworld.com/Maxmovie007">Maxmovie007</a> sent you a <a href="http://www.datingonworld.com/account/messages/inbox/read/735651/">message</a> <span>(4 days ago)</span></p>
+		        				</li>
+		        												        </ul>
+			    </div>
+	        </div>
+	    </li>
+	    <li id="chatpanel" class="panel panel-static" >
+        	<a href="#" class="button chat">
+        		<span id="chat-friends-status" class="online">
+        			Friends        			        		</span>
+        	</a>
+	        <div class="subpanel">
+            	<h3><span class="miminize"></span>Online friends</h3>
+            	<div class="wrap">
+					<ul>
+													<li><span>No friends are online right now</span></li>
+											</ul>
+		        </div>
+	        </div>
+	    </li>
+	    <li id="imtemplate" class="panel impanel" style="display:none">
+        	<a href="#" class="button im" title="XusernameX">XshortusernameX</a>
+        	<span class="flag" style="display:none"></span>
+	        <div class="subpanel">
+            	<h3>
+            		<span class="close" onclick="return closeIM(XidX)"></span>
+            		<span class="miminize"></span>
+            		XusernameX
+            		<div class="clear"></div>
+            	</h3>
+            	<div class="info" style="text-align: right">
+            		<a href="http://www.datingonworld.com/XusernameX" target="_blank" style="margin-right: 6px">View profile</a>
+            		<a href="#" onclick="chatBlockMember('Temporarily block this member from messaging you?','XidX');return false;">Block</a>
+            	</div>
+            	<form name="chat-XidX" id="chat-form-XidX" onsubmit="chatSendMessage();return false;" action="">
+            		<div class="wrap">
+						<ul class="chatmessages">
+						</ul>
+					</div>
+					<div class="chatsend">
+						<input id="chat-message-XidX" type="text" autocomplete="off" name="message" value="" class="text" maxlength="255" />
+					</div>
+				</form>
+	        </div>
+	    </li>
+	    <li class="panel last"><div id="chatsndnotifyholder"></div></li>
+	</ul>
+</div>
+<script type="text/javascript" language="javascript">
+ //<![CDATA[
+var virpath = "http://www.datingonworld.com/";
+$(document).ready(function(){
+    $("#usernav ul li").hover(
+        function() { $(this).addClass("shover"); },
+        function() { $(this).removeClass("shover"); }
+    );
+});
+//]]>
+</script>
+
+<div align="center">
+  <center>  <table width="940" border="6" cellspacing="0" cellpadding="0">
+
+    <tr>
+      <td width="100%" bgcolor="#FFFFFF">
+        <p align="center"><a title="American Singles" href="http://www.datingonworld.com/country/usa_online_dating/"><b><font size="2">American
+        Singles</font></b></a><font size="2">: <a href="http://www.datingonworld.com/state/alabama_online_dating/">Alabama
+        AL</a> - <a href="http://www.datingonworld.com/state/arizona_online_dating/">Arizona
+        AZ</a> - <a href="http://www.datingonworld.com/state/arkansas_online_dating/">Arkansas
+        AR</a> - <a href="http://www.datingonworld.com/state/california_online_dating/">California
+        CA</a> - <a href="http://www.datingonworld.com/state/colorado_online_dating/">Colorado
+        CO</a> - <a href="http://www.datingonworld.com/state/connecticut_online_dating/">Connecticut
+        CT</a> - <a href="http://www.datingonworld.com/state/delaware_online_dating/">Delaware
+        DE</a> - <a href="http://www.datingonworld.com/state/washington_DC_online_dating/">Washington
+        DC</a> - <a href="http://www.datingonworld.com/state/florida_online_dating/">Florida
+        FL</a> - <a href="http://www.datingonworld.com/state/georgia_online_dating/">Georgia
+        GA</a> - <a href="http://www.datingonworld.com/state/hawaii_online_dating/">Hawaii
+        HI</a> - <a href="http://www.datingonworld.com/state/idaho_online_dating/">Idaho
+        ID</a> - <a href="http://www.datingonworld.com/state/illinois_online_dating/">Illinois
+        IL</a> - <a href="http://www.datingonworld.com/state/indiana_online_dating/">Indiana
+        IN</a> - <a href="http://www.datingonworld.com/state/iowa_online_dating/">Iowa
+        IA</a> - <a href="http://www.datingonworld.com/state/kansas_online_dating/">Kansas
+        KS</a> - <a href="http://www.datingonworld.com/state/kentucky_online_dating/">Kentucky
+        KY</a> - <a href="http://www.datingonworld.com/state/louisiana_online_dating/">Louisiana
+        LA</a> - <a href="http://www.datingonworld.com/state/maine_online_dating/">Maine
+        ME</a> - <a href="http://www.datingonworld.com/state/maryland_online_dating/">Maryland
+        MD</a> - <a href="http://www.datingonworld.com/state/massachusetts_online_dating/">Massachusetts
+        MA</a> - <a href="http://www.datingonworld.com/state/michigan_online_dating/">Michigan
+        MI</a> - <a href="http://www.datingonworld.com/state/minnesota_online_dating/">Minnesota
+        MN</a> - <a href="http://www.datingonworld.com/state/mississippi_online_dating/">Mississippi
+        MS</a> - <a href="http://www.datingonworld.com/state/missouri_online_dating/">Missouri
+        MO</a> - <a href="http://www.datingonworld.com/state/montana_online_dating/">Montana
+        MT</a> - <a href="http://www.datingonworld.com/state/nebraska_online_dating/">Nebraska
+        NE</a> - <a href="http://www.datingonworld.com/state/nevada_online_dating/">Nevada
+        NV</a> - <a href="http://www.datingonworld.com/state/new_hampshire_online_dating/">New
+        Hampshire NH</a> - <a href="http://www.datingonworld.com/state/new_jersey_online_dating/">New
+        Jersey NJ</a> - <a href="http://www.datingonworld.com/state/new_mexico_online_dating/">New
+        Mexico NM</a> - <a href="http://www.datingonworld.com/state/new_york_online_dating/">New
+        York NY</a> - <a href="http://www.datingonworld.com/state/north_carolina_online_dating/">North
+        Carolina NC</a> - <a href="http://www.datingonworld.com/state/north_dakota_online_dating/">North
+        Dakota ND</a> - <a href="http://www.datingonworld.com/state/oregon_online_dating/">Oregon
+        OR</a> - <a href="http://www.datingonworld.com/state/pennsylvania_online_dating/">Pennsylvania
+        PA</a> - <a href="http://www.datingonworld.com/state/rhode_island_online_dating/">Rhode
+        Island RI</a> - <a href="http://www.datingonworld.com/state/south_carolina_online_dating/">South
+        Carolina SC</a> - <a href="http://www.datingonworld.com/state/south_dakota_online_dating/">South
+        Dakota SD</a> - <a href="http://www.datingonworld.com/state/tennessee_online_dating/">Tennessee
+        TN</a> - <a href="http://www.datingonworld.com/state/texas_online_dating/">Texas
+        TX</a> - <a href="http://www.datingonworld.com/state/utah_online_dating/">Utah
+        UT</a> - <a href="http://www.datingonworld.com/state/vermont_online_dating/">Vermont
+        VT</a> - <a href="http://www.datingonworld.com/state/virginia_online_dating/">Virginia
+        VA</a> - <a href="http://www.datingonworld.com/state/washington_online_dating/">Washington
+        WA</a> - <a href="http://www.datingonworld.com/state/west_virginia_online_dating/">West
+        Virginia WV</a> - <a href="http://www.datingonworld.com/state/wisconsin_online_dating/">Wisconsin
+        WI</a> - <a href="http://www.datingonworld.com/state/wyoming_online_dating/">Wyoming
+        WY</a> - </font><a href="http://www.datingonworld.com/dating_services/american_singles_dating.php"><b>Dating
+        Cities in US</b></a></p>
+
+        <p align="center"><a title="Australian Singles" href="http://www.datingonworld.com/country/australia_online_dating/"><b><font size="2">Australian
+        Singles</font></b></a>: 
+<a href='/city/adelaide_online_dating/'>adelaide</a> - &nbsp<a href='/city/Australia_online_dating/'>Australia</a> - &nbsp<a href='/city/brisbane_online_dating/'>brisbane</a> - &nbsp<a href='/city/Melbourne_online_dating/'>Melbourne</a> - &nbsp<a href='/city/perth_online_dating/'>perth</a> - &nbsp<a href='/city/queensland_online_dating/'>queensland</a> - &nbsp<a href='/city/Sydney_online_dating/'>Sydney</a> - &nbsp <a href="http://www.datingonworld.com/dating_services/australian_singles_dating.php"><b>More</b></a></p>
+        <p align="center"><a title="Canadian Singles" href="http://www.datingonworld.com/country/canada_online_dating/"><b><font size="2">Canadian
+        Singles</font></b></a>: 
+<a href='/city/Brampton_online_dating/'>Brampton</a> - &nbsp<a href='/city/Calgary_online_dating/'>Calgary</a> - &nbsp<a href='/city/canada_online_dating/'>canada</a> - &nbsp<a href='/city/edmonton_online_dating/'>edmonton</a> - &nbsp<a href='/city/Halifax_online_dating/'>Halifax</a> - &nbsp<a href='/city/hamilton_online_dating/'>hamilton</a> - &nbsp<a href='/city/London_online_dating/'>London</a> - &nbsp<a href='/city/mississauga_online_dating/'>mississauga</a> - &nbsp<a href='/city/montreal_online_dating/'>montreal</a> - &nbsp<a href='/city/Ontario_online_dating/'>Ontario</a> - &nbsp<a href='/city/ottawa_online_dating/'>ottawa</a> - &nbsp<a href='/city/quebec_online_dating/'>quebec</a> - &nbsp<a href='/city/Toronto_online_dating/'>Toronto</a> - &nbsp<a href='/city/vancouver_online_dating/'>vancouver</a> - &nbsp<a href='/city/victoria_online_dating/'>victoria</a> - &nbsp<a href='/city/windsor_online_dating/'>windsor</a> - &nbsp<a href='/city/winnipeg_online_dating/'>winnipeg</a> - &nbsp <a href="http://www.datingonworld.com/dating_services/canadian_singles_dating.php"><b>More</b></a></p>
+        <p align="center"><a title="UK Dating Singles" href="http://www.datingonworld.com/country/united_kingdom_online_dating/"><b><font size="2">UK
+        Dating Singles</font></b></a>: 
+<a href='/city/Birmingham_online_dating/'>Birmingham</a> - &nbsp<a href='/city/bristol_online_dating/'>bristol</a> - &nbsp<a href='/city/cardiff_online_dating/'>cardiff</a> - &nbsp<a href='/city/chelsea_online_dating/'>chelsea</a> - &nbsp<a href='/city/England_online_dating/'>England</a> - &nbsp<a href='/city/glasgow_online_dating/'>glasgow</a> - &nbsp<a href='/city/kent_online_dating/'>kent</a> - &nbsp<a href='/city/Leeds_online_dating/'>Leeds</a> - &nbsp<a href='/city/leicester_online_dating/'>leicester</a> - &nbsp<a href='/city/liverpool_online_dating/'>liverpool</a> - &nbsp<a href='/city/London_online_dating/'>London</a> - &nbsp<a href='/city/london_city_online_dating/'>london_city</a> - &nbsp<a href='/city/manchester_online_dating/'>manchester</a> - &nbsp<a href='/city/manchester_city_online_dating/'>manchester_city</a> - &nbsp<a href='/city/new_york_online_dating/'>new_york</a> - &nbsp<a href='/city/Newcastle_online_dating/'>Newcastle</a> - &nbsp<a href='/city/Oxford_online_dating/'>Oxford</a> - &nbsp<a href='/city/Portsmouth_online_dating/'>Portsmouth</a> - &nbsp<a href='/city/scotland_online_dating/'>scotland</a> - &nbsp<a href='/city/sheffield_online_dating/'>sheffield</a> - &nbsp <a href="http://www.datingonworld.com/dating_services/uk_singles_dating.php"><b>More</b></a>
+
+      </td>
+    </tr>
+  </table>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/*a.btn-red{display:block; background:url(../images/cm-theme/btn-red.png) repeat-x; width:210px; height:25px; color:#fff; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #000 1px 1px 4px; float:left; margin-top:8px; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+a:hover.btn-red{color:#fdbe00; text-shadow: #700c03 1px 1px 4px;}
+
+a.btn-red-s{display:block; background:url(../images/cm-theme/btn-red.png) repeat-x; width:auto; padding:0 5px; height:25px; color:#fff; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #000 1px 1px 4px; float:left; margin-top:0; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+a:hover.btn-red-s{color:#fdbe00; text-shadow: #700c03 1px 1px 4px;}*/
+
+/*edit profile*/
+h3.edit-profile-title{text-align:left; color:#ffff00;}
+label.edit-profile-01{ float:left; width:120px; line-height:25px; display:block; margin-bottom:10px;}
+
+/*change password*/
+.container-change-password{margin:20px;}
+.container-change-password label{float:left; width:210px; display:block; margin-bottom:10px; line-height:25px;}
+
+.page{margin:10px; padding:5px;}
+.page a.num-pager{display:block; float:left; margin:0 2px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; color:#FFF; background:url(../images/cm-theme/page-next.png) no-repeat; width:34px; height:32px; line-height:32px; text-align:center; font-weight:bold; text-shadow: 1px 1px #000;}
+a:hover.num-pager{background:#ffff00; color:#000; text-shadow: 0 0 #000;}
+.page span {display:block; float:left; background:#ffe800; margin:0 2px; padding:10px;  -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; color:#000;
+border:1px solid #913213; font-weight:bold;}
+a.pre-pager, a.next-pager{float:left; font-weight:bold; margin:0 2px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; 
+background:url(../images/cm-theme/page-next.png) no-repeat; color:#fff; width:34px; height:32px; line-height:32px; text-align:center; text-shadow: 1px 1px #000;}
+a:hover.pre-pager, a:hover.next-pager{ background:#004663;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,218 @@
+<span class="label">Age:</span>
+<span class="field">
+	From:
+	<select id="age_from" name="age_from">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20" selected="selected">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70">70</option>
+</select> to <select id="age_to" name="age_to">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70" selected="selected">70</option>
+	</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear">
+
+<span class="label">Gender:</span>
+<span class="field">
+	<select name="gender">
+		<option selected="selected" value="M">Male</option>
+		<!--<option value="F">Female</option>-->
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Sexulity:</span>
+<span class="field">
+	<select name="sexual">
+		<option value="0">Don't know/want to say</option>
+		<option selected="selected" value="1">Heterosexual</option>
+		<option value="2">Gay</option>
+		<option value="3">Bi-Sexual</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Country:</span>
+<span class="field">
+	<select name="country">
+		<option value="3">United Kingdom</option>
+	</select>
+</span>
+<br class="clear">
+
+<!-- <span class="label">Area:</span>
+<span class="field">
+	 <select name="area">
+		<option value="72">Avon</option>
+		<option value="73">Bedfordshire</option>
+		<option value="74">Berkshire</option>
+		<option value="75">Borders</option>
+		<option value="76">Buckinghamshire</option>
+		<option value="77">Cambridgeshire</option>
+		<option value="78">Central</option>
+		<option value="79">Cheshire</option>
+		<option value="80">Cleveland</option>
+		<option value="81">Clwyd</option>
+		<option value="82">Cornwall</option>
+		<option value="83">Cumbria</option>
+		<option value="84">Derbyshire</option>
+		<option value="85">Devon</option>
+		<option value="86">Dorset</option>
+		<option value="87">Dumfries and Galloway</option>
+		<option value="88">Durham</option>
+		<option value="89">Dyfed</option>
+		<option value="90">East Sussex</option>
+		<option value="91">Essex</option>
+		<option value="92">Fife</option>
+		<option value="93">Gloucestershire</option>
+		<option value="94">Grampian</option>
+		<option value="95">Greater London</option>
+		<option value="96">Greater Manchester</option>
+		<option value="97">Gwent</option>
+		<option value="98">Gwynedd</option>
+		<option value="99">Hampshire</option>
+		<option value="100">Hereford and Worcester</option>
+		<option value="101">Hertfordshire</option>
+		<option value="102">Highland</option>
+		<option value="103">Humberside</option>
+		<option value="104">Isle of Man</option>
+		<option value="105">Isle of Wight</option>
+		<option value="106">Kent</option>
+		<option value="107">Lancashire</option>
+		<option value="108">Leicestershire</option>
+		<option value="109">Limavady</option>
+		<option value="110">Lincolnshire</option>
+		<option value="111">Lothian</option>
+		<option value="112">Merseyside</option>
+		<option value="113">Mid Glamorgan</option>
+		<option value="114">Norfolk</option>
+		<option value="115">North Yorkshire</option>
+		<option value="116">Northamptonshire</option>
+		<option value="117">Northumberland</option>
+		<option value="118">Nottinghamshire</option>
+		<option value="120">Orkney</option>
+		<option value="121">Oxfordshire</option>
+		<option value="122">Powys</option>
+		<option value="123">Shetland</option>
+		<option value="124">Shropshire</option>
+		<option value="125">Somerset</option>
+		<option value="126">South Glamorgan</option>
+		<option value="127">South Yorkshire</option>
+		<option value="128">Staffordshire</option>
+		<option value="129">Strathclyde</option>
+		<option value="130">Suffolk</option>
+		<option value="131">Surrey</option>
+		<option value="132">Tayside</option>
+		<option value="133">Tyne and Wear</option>
+		<option value="134">Warwickshire</option>
+		<option value="135">West Glamorgan</option>
+		<option value="136">West Midlands</option>
+		<option value="137">West Sussex</option>
+		<option value="138">West Yorkshire</option>
+		<option value="139">Western Isles</option>
+		<option value="140">Wiltshire</option>
+	</select>
+</span>
+<br class="clear"> -->

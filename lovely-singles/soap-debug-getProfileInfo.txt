@@ -1,0 +1,11 @@
+Array
+(
+    [email] => ts@westkit.com
+    [nickname] => sweethoneypie20
+    [alte] => 1987-07-25
+    [sex] => w
+    [plz] => 68xxx
+    [ort] => Mannheim
+    [region] => 
+    [mobileNr] => 017628925442
+)

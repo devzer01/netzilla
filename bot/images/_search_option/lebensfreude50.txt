@@ -1,0 +1,165 @@
+<span class="label">ACTION: </span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="search">Search</option>
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1">1</option>
+			<option value="2" selected>2</option>
+		</select>
+	</span>
+	<br class="clear">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<span class="label">MSG type:</span>
+    <span class="field">
+	    <select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>	
+		<option value="gb">Guestbook</option>	
+	    </select>
+    </span>
+    <br class="clear">	
+
+	<span class="label">I'm</span>
+	<span class="field">
+		<select name="Bin">
+			<option value="0" selected="selected">Woman</option>
+			<option value="1">Man</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span class="label">Looking:</span>
+	<span class="field">
+		<select name="Suche">
+			<option value="0" selected>Man</option>
+			<option value="1">Woman</option>
+			<option value="2">Both</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	
+	<span class="label">Age:</span>
+	<span class="field">
+		<select name="WunschAlterPartnerVon">
+			<option value="45">45</option>
+			<option value="46">46</option>
+			<option value="47">47</option>
+			<option value="48">48</option>
+			<option value="49">49</option>
+			<option value="50">50</option>
+			<option value="51">51</option>
+			<option value="52">52</option>
+			<option value="53">53</option>
+			<option value="54">54</option>
+			<option value="55">55</option>
+			<option value="56">56</option>
+			<option value="57">57</option>
+			<option value="58">58</option>
+			<option value="59">59</option>
+			<option value="60">60</option>
+			<option value="61">61</option>
+			<option value="62">62</option>
+			<option value="63">63</option>
+			<option value="64">64</option>
+			<option value="65">65</option>
+			<option value="66">66</option>
+			<option value="67">67</option>
+			<option value="68">68</option>
+			<option value="69">69</option>
+			<option value="70">70</option>
+			<option value="71">71</option>
+			<option value="72">72</option>
+			<option value="73">73</option>
+			<option value="74">74</option>
+			<option value="75">75</option>
+		</select>
+		To &nbsp;
+		<select name="WunschAlterPartnerBis">
+			<option value="45">45</option>
+			<option value="46">46</option>
+			<option value="47">47</option>
+			<option value="48">48</option>
+			<option value="49">49</option>
+			<option value="50">50</option>
+			<option value="51">51</option>
+			<option value="52">52</option>
+			<option value="53">53</option>
+			<option value="54">54</option>
+			<option value="55">55</option>
+			<option value="56">56</option>
+			<option value="57">57</option>
+			<option value="58">58</option>
+			<option value="59">59</option>
+			<option value="60">60</option>
+			<option value="61">61</option>
+			<option value="62">62</option>
+			<option value="63">63</option>
+			<option value="64">64</option>
+			<option value="65">65</option>
+			<option value="66">66</option>
+			<option value="67">67</option>
+			<option value="68">68</option>
+			<option value="69">69</option>
+			<option value="70">70</option>
+			<option value="71">71</option>
+			<option value="72">72</option>
+			<option value="73">73</option>
+			<option value="74">74</option>
+			<option value="75">75</option>
+		</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine</span>
+	<br class="clear">
+	           
+	<span class="label">a relationship:</span>
+	<span class="field">
+		<input name="FuerReisepartnerschaft" type="checkbox" value="1" />
+	</span>
+	<br class="clear">               
+	
+	<span class="label">a flirt:</span>
+	<span class="field">
+		<input name="FuerFlirt" type="checkbox" value="1" />
+	</span>
+	<br class="clear">  
+	
+	<span class="label">a Travel partnership:</span>
+	<span class="field">
+		<input name="FuerReisepartnerschaft" type="checkbox" value="1" />
+	</span>
+	<br class="clear">  
+	
+	<span class="label">a residential community:</span>
+	<span class="field">
+		<input name="FuerWohngemeinschaft" type="checkbox" value="1" />
+	</span>
+	<br class="clear">                  
+	                   
+	<span class="label">Leisure time:</span>
+	<span class="field">
+		<input name="FuerFreizeitgestalltung" type="checkbox" value="1" />
+	</span>
+	<br class="clear">                    
+	
+	<span class="label">within the ZIP:</span>
+	<span class="field">
+		<input name="us_plz" size="10" maxlength="5" value="" />
+		<input type="hidden" value="75" name="us_umkreis" />
+	</span>
+</span>            
+
+        

@@ -1,0 +1,15 @@
+SELECT 
+					m.id, 
+					m.picturepath, 
+					m.username, 
+					ct.name_de AS city, 
+					m.civilstatus, 
+					m.birthday, 
+					m.appearance, 
+					m.height, 
+					m.description 
+				 FROM member AS m 
+				 LEFT JOIN xml_cities AS ct ON m.city = ct.id 
+				 LEFT JOIN xml_countries AS c ON m.country = c.id 
+				 WHERE m.isactive = 1 AND c.status = 1
+		 AND m.username = 'no' ORDER BY m.username LIMIT 0, 10

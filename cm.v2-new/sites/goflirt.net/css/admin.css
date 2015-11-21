@@ -1,0 +1,496 @@
+/*admin*/
+table, tr, td, tbody{margin:0; padding:0; border:0;}
+td{padding:5px;}
+.container-main-admin{width:100%; height:auto; background:#eeeeee; margin:0; padding:0;}
+.container-left-menu{ width:225px; height:auto; margin:0; background:#222222; padding-left:5px; float:left; padding-bottom:20px;}
+.container-left-menu h1{padding:10px 0; text-shadow: 0 0 0 #000; font-size:14px; color:#F90;}
+.container-content-admin{float:left; background:#fff; width:100%; height:auto;}
+
+.container-admin-search{}
+.container-admin-search label{ display:block; float:left; width:210px; line-height:25px; padding-left:5px; color:#FFF;}
+
+.container-admin-cotent-box{padding:10px;}
+a.left-menu{color:#FFF; display:block; background:#333333; height:38px; padding:0 10px; width:200px; line-height:38px; margin-bottom:1px; font-weight:bold;}
+a:hover.left-menu{color:#F90;}
+a.left-menusub{display:block; height:28px; padding:0 10px; width:188px; line-height:28px; margin-bottom:1px; margin:0 5px 0 5px; color:#fff; font-weight:bold; 
+background:#0074a2; margin-bottom:1px; font-weight:normal; font-size:11px;}
+a:hover.left-menusub{ background:#005a7e;}
+
+a.sitelink{color:#FFF; font-weight:bold;}
+
+/*form*/
+.formfield_admin{
+font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; font-variant: normal; color: #114152; background-color: #00d0ba; 
+height: 15px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; 
+border-bottom-style: solid; border-left-style: solid; border-top-color: #3f6f74; border-right-color: #4e8389; border-bottom-color: #679ca1; border-left-color: #4e8389;
+-moz-border-radius: 5px; border-radius: 5px; float:left; padding:5px;}
+.formfield_admin:focus{
+font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; font-weight: bold; font-variant: normal; color: #114152; background-color: #c3ed9a; 
+height: 15px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid;
+border-bottom-style: solid; border-left-style: solid; border-top-color: #3f6f74; border-right-color: #4e8389; border-bottom-color: #679ca1; border-left-color: #4e8389;
+-moz-border-radius: 5px; border-radius: 5px; padding:5px;}
+select.formfield_admin, select.formfield_admin:focus {height:28px;}
+::-webkit-input-placeholder { color:#114152; }
+::-moz-placeholder { color:#114152; } /* firefox 19+ */
+:-ms-input-placeholder { color:#114152; } /* ie */
+input:-moz-placeholder { color:#114152; }
+
+input[type=checkbox].css-checkbox {position: absolute; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0;border:0;}
+input[type=checkbox].css-checkbox + label.css-label {padding-left:20px;height:15px; display:inline-block;line-height:15px;background-repeat:no-repeat;background-position: 0 0;font-size:12px;vertical-align:middle;cursor:pointer; font-weight:bold;}
+input[type=checkbox].css-checkbox:checked + label.css-label {background-position: 0 -15px;}
+.css-label{background:url(../images/cm-theme/dark-check-green.png);}					
+/*end form*/
+
+.container-add-new-emoticon{padding:20px;}
+.text-title-left{float:left; line-height:25px; margin-bottom:10px}
+
+
+
+
+
+a.butregisin{display:block; background:url(../images/cm-theme/btn-yellow.png) repeat-x; width:170px; height:25px; color:#000; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #fff 1px 1px 4px; float:left; margin-top:8px; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-right:5px;}
+a:hover.butregisin{color:#663300;}
+
+a.btn-admin{display:block; background:url(../images/cm-theme/btn-yellow.png) repeat-x; width:170px; height:25px; color:#000; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #fff 1px 1px 4px; float:left; margin-top:8px; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-right:5px;}
+a:hover.btn-admin{color:#663300;}
+
+.link1{color:#663300; font-weight:bold;}
+.admin-link{color:#000; font-weight:bold;}
+h1.admin-title{color:#F90; display:block; background:#2d2d2d; padding:10px; margin:0; font-size:14px; text-transform:uppercase;}
+h2.admin-title{color:#000; display:block;  padding:10px; margin:0; font-size:14px; text-transform:uppercase; background:none;}
+.text-admin{float:left; color:#000; height:40px; width:120px; line-height:30px; text-align:left; font-weight:bold;}
+
+
+.page{background:url(../images/cm-theme/flirten48-bg-title-head.png); margin:10px; padding:5px; box-shadow: 1px 1px 1px #000;
+-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; float:left;}
+.page a.num-pager{display:block; float:left; background:#333; margin:0 1px; padding:5px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; color:#FFF;}
+.page span {display:block; float:left; background:#a52b0b; margin:0 1px; padding:5px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; color:#FFF;}
+a.pre-pager, a.next-pager{float:left; font-weight:bold; background:url(../images/cm-theme/btn-red.png); margin:0 1px; padding:5px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+a:hover.pre-pager, a:hover.next-pager{background:url(../images/cm-theme/btn-action-over.png);}
+
+img.grey {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: url(desaturate.svg#greyscale); filter: gray; -webkit-filter: grayscale(1);}
+
+/*****************************************************************************/
+.icon-select{width:14px; height:14px; background:url(../images/admin/glyphicons-halflings.png); float:left; margin-top:10px; margin-right:8px;}
+.icon-glass {
+  background-position: 0      0;
+}
+.icon-music {
+  background-position: -24px 0;
+}
+.icon-search {
+  background-position: -48px 0;
+}
+.icon-envelope {
+  background-position: -72px 0;
+}
+.icon-heart {
+  background-position: -96px 0;
+}
+.icon-star {
+  background-position: -120px 0;
+}
+.icon-star-empty {
+  background-position: -144px 0;
+}
+.icon-user {
+  background-position: -168px 0;
+}
+.icon-film {
+  background-position: -192px 0;
+}
+.icon-th-large {
+  background-position: -216px 0;
+}
+.icon-th {
+  background-position: -240px 0;
+}
+.icon-th-list {
+  background-position: -264px 0;
+}
+.icon-ok {
+  background-position: -288px 0;
+}
+.icon-remove {
+  background-position: -312px 0;
+}
+.icon-zoom-in {
+  background-position: -336px 0;
+}
+.icon-zoom-out {
+  background-position: -360px 0;
+}
+.icon-off {
+  background-position: -384px 0;
+}
+.icon-signal {
+  background-position: -408px 0;
+}
+.icon-cog {
+  background-position: -432px 0;
+}
+.icon-trash {
+  background-position: -456px 0;
+}
+.icon-home {
+  background-position: 0 -24px;
+}
+.icon-file {
+  background-position: -24px -24px;
+}
+.icon-time {
+  background-position: -48px -24px;
+}
+.icon-road {
+  background-position: -72px -24px;
+}
+.icon-download-alt {
+  background-position: -96px -24px;
+}
+.icon-download {
+  background-position: -120px -24px;
+}
+.icon-upload {
+  background-position: -144px -24px;
+}
+.icon-inbox {
+  background-position: -168px -24px;
+}
+.icon-play-circle {
+  background-position: -192px -24px;
+}
+.icon-repeat {
+  background-position: -216px -24px;
+}
+.icon-refresh {
+  background-position: -240px -24px;
+}
+.icon-list-alt {
+  background-position: -264px -24px;
+}
+.icon-lock {
+  background-position: -287px -24px;
+}
+.icon-flag {
+  background-position: -312px -24px;
+}
+.icon-headphones {
+  background-position: -336px -24px;
+}
+.icon-volume-off {
+  background-position: -360px -24px;
+}
+.icon-volume-down {
+  background-position: -384px -24px;
+}
+.icon-volume-up {
+  background-position: -408px -24px;
+}
+.icon-qrcode {
+  background-position: -432px -24px;
+}
+.icon-barcode {
+  background-position: -456px -24px;
+}
+.icon-tag {
+  background-position: 0 -48px;
+}
+.icon-tags {
+  background-position: -25px -48px;
+}
+.icon-book {
+  background-position: -48px -48px;
+}
+.icon-bookmark {
+  background-position: -72px -48px;
+}
+.icon-print {
+  background-position: -96px -48px;
+}
+.icon-camera {
+  background-position: -120px -48px;
+}
+.icon-font {
+  background-position: -144px -48px;
+}
+.icon-bold {
+  background-position: -167px -48px;
+}
+.icon-italic {
+  background-position: -192px -48px;
+}
+.icon-text-height {
+  background-position: -216px -48px;
+}
+.icon-text-width {
+  background-position: -240px -48px;
+}
+.icon-align-left {
+  background-position: -264px -48px;
+}
+.icon-align-center {
+  background-position: -288px -48px;
+}
+.icon-align-right {
+  background-position: -312px -48px;
+}
+.icon-align-justify {
+  background-position: -336px -48px;
+}
+.icon-list {
+  background-position: -360px -48px;
+}
+.icon-indent-left {
+  background-position: -384px -48px;
+}
+.icon-indent-right {
+  background-position: -408px -48px;
+}
+.icon-facetime-video {
+  background-position: -432px -48px;
+}
+.icon-picture {
+  background-position: -456px -48px;
+}
+.icon-pencil {
+  background-position: 0 -72px;
+}
+.icon-map-marker {
+  background-position: -24px -72px;
+}
+.icon-adjust {
+  background-position: -48px -72px;
+}
+.icon-tint {
+  background-position: -72px -72px;
+}
+.icon-edit {
+  background-position: -96px -72px;
+}
+.icon-share {
+  background-position: -120px -72px;
+}
+.icon-check {
+  background-position: -144px -72px;
+}
+.icon-move {
+  background-position: -168px -72px;
+}
+.icon-step-backward {
+  background-position: -192px -72px;
+}
+.icon-fast-backward {
+  background-position: -216px -72px;
+}
+.icon-backward {
+  background-position: -240px -72px;
+}
+.icon-play {
+  background-position: -264px -72px;
+}
+.icon-pause {
+  background-position: -288px -72px;
+}
+.icon-stop {
+  background-position: -312px -72px;
+}
+.icon-forward {
+  background-position: -336px -72px;
+}
+.icon-fast-forward {
+  background-position: -360px -72px;
+}
+.icon-step-forward {
+  background-position: -384px -72px;
+}
+.icon-eject {
+  background-position: -408px -72px;
+}
+.icon-chevron-left {
+  background-position: -432px -72px;
+}
+.icon-chevron-right {
+  background-position: -456px -72px;
+}
+.icon-plus-sign {
+  background-position: 0 -96px;
+}
+.icon-minus-sign {
+  background-position: -24px -96px;
+}
+.icon-remove-sign {
+  background-position: -48px -96px;
+}
+.icon-ok-sign {
+  background-position: -72px -96px;
+}
+.icon-question-sign {
+  background-position: -96px -96px;
+}
+.icon-info-sign {
+  background-position: -120px -96px;
+}
+.icon-screenshot {
+  background-position: -144px -96px;
+}
+.icon-remove-circle {
+  background-position: -168px -96px;
+}
+.icon-ok-circle {
+  background-position: -192px -96px;
+}
+.icon-ban-circle {
+  background-position: -216px -96px;
+}
+.icon-arrow-left {
+  background-position: -240px -96px;
+}
+.icon-arrow-right {
+  background-position: -264px -96px;
+}
+.icon-arrow-up {
+  background-position: -289px -96px;
+}
+.icon-arrow-down {
+  background-position: -312px -96px;
+}
+.icon-share-alt {
+  background-position: -336px -96px;
+}
+.icon-resize-full {
+  background-position: -360px -96px;
+}
+.icon-resize-small {
+  background-position: -384px -96px;
+}
+.icon-plus {
+  background-position: -408px -96px;
+}
+.icon-minus {
+  background-position: -433px -96px;
+}
+.icon-asterisk {
+  background-position: -456px -96px;
+}
+.icon-exclamation-sign {
+  background-position: 0 -120px;
+}
+.icon-gift {
+  background-position: -24px -120px;
+}
+.icon-leaf {
+  background-position: -48px -120px;
+}
+.icon-fire {
+  background-position: -72px -120px;
+}
+.icon-eye-open {
+  background-position: -96px -120px;
+}
+.icon-eye-close {
+  background-position: -120px -120px;
+}
+.icon-warning-sign {
+  background-position: -144px -120px;
+}
+.icon-plane {
+  background-position: -168px -120px;
+}
+.icon-calendar {
+  background-position: -192px -120px;
+}
+.icon-random {
+  background-position: -216px -120px;
+  width: 16px;
+}
+.icon-comment {
+  background-position: -240px -120px;
+}
+.icon-magnet {
+  background-position: -264px -120px;
+}
+.icon-chevron-up {
+  background-position: -288px -120px;
+}
+.icon-chevron-down {
+  background-position: -313px -119px;
+}
+.icon-retweet {
+  background-position: -336px -120px;
+}
+.icon-shopping-cart {
+  background-position: -360px -120px;
+}
+.icon-folder-close {
+  background-position: -384px -120px;
+}
+.icon-folder-open {
+  background-position: -408px -120px;
+  width: 16px;
+}
+.icon-resize-vertical {
+  background-position: -432px -119px;
+}
+.icon-resize-horizontal {
+  background-position: -456px -118px;
+}
+.icon-hdd {
+  background-position: 0 -144px;
+}
+.icon-bullhorn {
+  background-position: -24px -144px;
+}
+.icon-bell {
+  background-position: -48px -144px;
+}
+.icon-certificate {
+  background-position: -72px -144px;
+}
+.icon-thumbs-up {
+  background-position: -96px -144px;
+}
+.icon-thumbs-down {
+  background-position: -120px -144px;
+}
+.icon-hand-right {
+  background-position: -144px -144px;
+}
+.icon-hand-left {
+  background-position: -168px -144px;
+}
+.icon-hand-up {
+  background-position: -192px -144px;
+}
+.icon-hand-down {
+  background-position: -216px -144px;
+}
+.icon-circle-arrow-right {
+  background-position: -240px -144px;
+}
+.icon-circle-arrow-left {
+  background-position: -264px -144px;
+}
+.icon-circle-arrow-up {
+  background-position: -288px -144px;
+}
+.icon-circle-arrow-down {
+  background-position: -312px -144px;
+}
+.icon-globe {
+  background-position: -336px -144px;
+}
+.icon-wrench {
+  background-position: -360px -144px;
+}
+.icon-tasks {
+  background-position: -384px -144px;
+}
+.icon-filter {
+  background-position: -408px -144px;
+}
+.icon-briefcase {
+  background-position: -432px -144px;
+}
+.icon-fullscreen {
+  background-position: -456px -144px;
+}

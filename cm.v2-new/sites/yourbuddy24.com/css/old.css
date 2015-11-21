@@ -1,0 +1,8 @@
+a.btn-red{display:block; background:url(../images/cm-theme/btn-red.png) repeat-x; width:210px; height:25px; color:#fff; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #000 1px 1px 4px; float:left; margin-top:8px; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+a:hover.btn-red{color:#fdbe00; text-shadow: #700c03 1px 1px 4px;}
+
+a.btn-red-s{display:block; background:url(../images/cm-theme/btn-red.png) repeat-x; width:auto; padding:0 5px; height:25px; color:#fff; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #000 1px 1px 4px; float:left; margin-top:0; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+a:hover.btn-red-s{color:#fdbe00; text-shadow: #700c03 1px 1px 4px;}
+
+h3.accordion{ text-align:left; display:block; cursor:pointer;}
+.contentfaq{margin-left:40px;}

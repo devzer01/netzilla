@@ -1,0 +1,43 @@
+<?php
+/*$link = mysql_connect("87.106.2.201", "manu", "orkan2007")
+    or die("Keine Verbindung m?glich: " . mysql_error());
+mysql_select_db("singlescout18") or die("Auswahl der Datenbank fehlgeschlagen");*/
+
+//$link = mysql_connect("80.237.155.45", "hauke", "dragon33")
+    //or die("Keine Verbindung m?glich: " . mysql_error());
+//mysql_select_db("highlove") or die("Auswahl der Datenbank fehlgeschlagen");
+
+$link = mysql_connect("80.237.202.104", "progger", "adgjl")
+    or die("Keine Verbindung m?glich: " . mysql_error());
+mysql_select_db("singleflirtchat") or die("Auswahl der Datenbank fehlgeschlagen");
+
+/*$link = mysql_connect("localhost", "root", "")
+    or die("Keine Verbindung m?glich: " . mysql_error());
+mysql_select_db("defaultprofile") or die("Auswahl der Datenbank fehlgeschlagen");
+*/
+
+$query = "SELECT * FROM user WHERE sex='w' and pic!= '' and pic!= 'nopic' and LENGTH(nick) > 5";
+$result = mysql_query($query);
+mysql_close($link);
+
+
+$link = mysql_connect("localhost", "root", "")
+    or die("Keine Verbindung m?glich: " . mysql_error());
+mysql_select_db("defaultprofile") or die("Auswahl der Datenbank fehlgeschlagen");
+
+$i=0;
+$i2=0;
+$temp_name = "";
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+
+	$query2 = "SELECT * FROM user WHERE nick='".$row['nick']."'";
+	$result2 = mysql_query($query2);
+	while ($row2 = mysql_fetch_array($result2, MYSQL_ASSOC)) {
+		$i++;
+	}
+	$i2++;
+}
+echo ($i2-$i).'<br>';
+mysql_close($link);
+?>
+

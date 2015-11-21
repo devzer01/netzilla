@@ -1,0 +1,277 @@
+﻿<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="2">Random Proxy</option>
+		<option value="3" selected="selected">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+<span class="label">BOT Version:</span>
+<span class="field">
+	<select id="version" name="version">
+		<option value="1">1</option>
+		<option value="2" selected>2</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<span class="label">MSG type:</span>
+<span class="field">
+	<select id="msg_type" name="msg_type" onchange="sendmessage_type()">
+		<option selected="selected" value="pm">Message</option>
+		<option value="gb">Guestbook</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="gb_type">
+<span class="label">GB Permission:</span>
+<span class="field">
+	<select id="entryVisibility" name="entryVisibility">
+		<option value="1">Public</option>
+		<option selected="selected" value="2">Private</option>
+	</select>
+</span>
+<br class="clear">
+</span>
+
+<span id="inboxLimit">
+<span class="label for_search">MSGs before send</span>
+<span class="field for_search">
+	<select name="inboxLimit">
+		<option value="5">5</option>
+		<option value="10">10</option>
+		<option value="20">20</option>
+		<option value="50">50</option>
+		<option value="100" selected="selected">100</option>
+		<option value="200">200</option>
+		<option value="300">300</option>
+		<option value="400">400</option>
+		<option value="500">500</option>
+	</select>
+</span>
+<br class="clear for_search">
+
+<span class="label">Gender:</span>
+<span class="field">
+	<select name="gender" class="gender" id="gender">	
+	<option value="m">Man</option>
+	<option value="w">Woman</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Age:</span>
+<span class="field">
+	<select id="age_from" name="ageStart">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20" selected="selected">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70">70</option>
+</select> to <select id="age_to" name="ageEnd">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70" selected="selected">70</option>
+	</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear">
+
+<span class="label">Distance Region?:</span>
+<span class="field">
+   <input type="checkbox" id="useLocation" name="useLocation" value="1" onchange="uselocation()">
+</span>
+<br class="clear">
+
+<span id="for_distance">
+<span class="label for_search">Distance</span>
+<span class="field for_search">
+	<select id="distance" name="distance">
+		<option value="5">5 km</option>
+		<option value="10">10 km</option>
+		<option value="20">20 km</option>
+		<option value="30">30 km</option>
+		<option value="40">40 km</option>
+		<option value="50">50 km</option>
+	</select>
+</span>
+<br class="clear for_search">
+</span>
+
+<span class="label">Online?:</span>
+<span class="field">
+	<select name="isOnline" class="gender" id="isOnline" onchange="useonline()">	
+	<option value="0">egal</option>
+	<option value="1">Benutzer, die online sind</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="for_cities">
+<span class="label">Start from city:</span>
+<span class="field">
+	<select id="range_start" name="range_start">
+		<option value="31">Erfurt, Brühlervorstadt</option><option value="62">Bielefeld</option><option value="99">Leipzig, Lindenthal</option><option value="125">Essen, Burgaltendorf</option><option value="129">Krefeld, Backeshof</option><option value="136">Schwerin, Lankow</option><option value="144">Essen</option><option value="168">Regensburg, Ostenviertel</option><option value="170">Dresden, Kleinpestitz</option><option value="175">Leipzig, Göbschelwitz</option><option value="184">Köln, Porz</option><option value="234">Nürnberg, Flughafen</option><option value="257">Bochum, Stiepel</option><option value="271">Lübeck, Dritte Fischerbuden</option><option value="276">Mannheim, Feudenheim</option><option value="277">Köln, Hardt</option><option value="303">Berlin, Pankow</option><option value="310">Berlin, Spandau</option><option value="312">München, Ramersdorf</option><option value="360">Köln, Esch/Auweiler</option><option value="390">Dresden, Innere Altstadt</option><option value="408">Bielefeld, Wilhelmsdorf</option><option value="414">Krefeld, Benrad-Nord</option><option value="456">München, Mittersendling</option><option value="459">Krefeld, Orbroich</option><option value="468">Bielefeld, In der Heide</option><option value="496">Wuppertal, Lichtenplatz</option><option value="503">Pforzheim, Sonnenberg</option><option value="543">Bottrop, Grafenwald</option><option value="544">Berlin, Buckow</option><option value="549">Potsdam, Nedlitz</option><option value="551">Dresden, Johannstadt-Süd</option><option value="558">Dresden, Südvorstadt-Ost</option><option value="565">Hagen, Westerbauer</option><option value="568">Wuppertal, Stadt Remscheid</option><option value="605">Bad Füssing, Angering</option><option value="614">Darmstadt, Heimstätten Siedlung</option><option value="633">Osnabrück, Fledder</option><option value="665">Düsseldorf, Unterbilk</option><option value="673">Annweiler (Trifels), Bindersbach</option><option value="679">München, Prinz-Ludwigs-Höhe</option><option value="690">Darmstadt, Innenstadt</option><option value="717">Gera, Dorna</option><option value="756">Bielefeld, Wächtershofsiedlung</option><option value="760">Breitenbrunn (Erzgebirge), Antonshöhe</option><option value="773">Dortmund, Lindenhorst</option><option value="796">Dessau-Roßlau, Kleinkühnau</option><option value="805">Düsseldorf, Friedrichstadt</option><option value="806">Düsseldorf, Stadtmitte</option><option value="827">Potsdam, Drewitz</option><option value="853">Hagen, Mittelstadt</option><option value="866">Jena, Burgau</option><option value="917">Dortmund, Brünninghausen</option><option value="961">Bielefeld, Am Reiherbach</option><option value="971">Berlin</option><option value="995">Köln, Gremberg</option><option value="1067">Remscheid, Lennep</option><option value="1147">Bottrop, Fuhlenbrock</option><option value="1148">Mannheim</option><option value="1157">Dortmund, Westrich</option><option value="1174">Leipzig, Mölkau</option><option value="1198">Dresden, Seidnitz-Nord</option><option value="1199">Ulm, Oberer Eselsberg</option><option value="1206">Wiesbaden, Nordenstadt</option><option value="1221">Dresden, Bühlau/Weißer Hirsch</option><option value="1263">Fürth, Unterfarrnbach</option><option value="1285">Oldenburg, Nord-Moslesfehn</option><option value="1286">Aachen, Krauthausen</option><option value="1325">Berlin, Reinickendorf</option><option value="1329">Gera, Pforten</option><option value="1348">Hude (Oldenburg), Oberhausen</option><option value="1364">Solingen, Strohnerhön</option><option value="1382">Mannheim, Friedrichsfeld</option><option value="1415">Berlin, Friedenau</option><option value="1432">Bielefeld, Schildesche</option><option value="1440">Hagen</option><option value="1446">Braunschweig, Steinhof</option><option value="1448">Koblenz, Horchheim</option><option value="1469">Bottrop, Boy</option><option value="1474">Ansbach, Claffheim</option><option value="1490">Hannover, Klein Buchholz</option><option value="1516">Hannover, Ricklingen</option><option value="1528">Plauen, Alt-Chrieschwitz</option><option value="1547">Göttingen, Elliehausen</option><option value="1563">Essen, Altendorf</option><option value="1570">Hamm, Hamm-Osten</option><option value="1575">Magdeburg, Leipziger Str</option><option value="1581">Wiesbaden, Dotzheim</option><option value="1586">Garmisch-Partenkirchen, Anzlesau</option><option value="1587">Solingen</option><option value="1617">Hagen (Teutoburger Wald), Natrup-Hagen</option><option value="1622">Rostock, Markgrafenheide</option><option value="1642">Mainz, Drais</option><option value="1652">Lübeck, Eichholz</option><option value="1672">Leipzig, Lützschena</option><option value="1677">Dresden, Strehlen</option><option value="1687">Dessau-Roßlau, Naundorf</option><option value="1715">Oberhausen, Altstadt-Mitte</option><option value="1716">Mönchengladbach</option><option value="1722">Paderborn, Buchholz</option><option value="1822">Galmsbüll, Anna-Sophienhof</option><option value="1840">Oberhausen, Osterfeld-West</option><option value="1850">Münster, Uppenberg</option><option value="1873">Koblenz, rechtsrheinisch</option><option value="1909">Nürnberg, Kleinweidenmühle</option><option value="1934">Bielefeld, Theeser Heide</option><option value="1951">Essen, Bochold</option><option value="1955">Bonn, Mitte</option><option value="1962">Bonn, Poppelsdorf</option><option value="1967">Dortmund, Hörde</option><option value="1974">Plauen, Oberlosa</option><option value="2001">Mönchengladbach, Hoven</option><option value="2040">Oberstdorf, Anatswald</option><option value="2045">Hamm, Mitte</option><option value="2074">Bochum, Brenschede</option><option value="2076">Dortmund, Kirchlinde</option><option value="2078">Paderborn</option><option value="2115">Krummhörn, Angernheim</option><option value="2164">Moers, Asberg</option><option value="2171">Kassel, Süd</option><option value="2176">Wettringen, Andorf</option><option value="2223">München, Sendling</option><option value="2225">Hildesheim</option><option value="2252">Bonn, Vilich</option><option value="2272">Dessau-Roßlau, Törten</option><option value="2314">Bielefeld, Niederdornberg-Deppendorf</option><option value="2320">Gelsenkirchen, Erle</option><option value="2334">Dortmund, Somborn</option><option value="2343">Köln, Ehrenfeld</option><option value="2361">Chemnitz, Altchemnitz</option><option value="2363">Anzing, Ried</option><option value="2372">Bonn, Gronau</option><option value="2386">Düsseldorf, Mörsenbroich</option><option value="2404">Magdeburg, Industriehafen</option><option value="2406">Duisburg, Hochheide</option><option value="2412">Nürnberg</option><option value="2414">Hude (Oldenburg), Wüsting</option><option value="2444">Karlsruhe, Grötzingen</option><option value="2457">Leipzig</option><option value="2548">Nürnberg, Veilhof</option><option value="2559">Essen, Dellwig</option><option value="2582">Solingen, Gönrath</option><option value="2594">Leipzig, Dösen</option><option value="2629">Reutlingen, Kaibach</option><option value="2637">Dortmund, Eving</option><option value="2639">Lübeck, Steinraderhof</option><option value="2658">Rostock</option><option value="2676">Dortmund, Wichlinghofen</option><option value="2711">Halle (Saale)</option><option value="2736">Wolfsburg, Allerpark</option><option value="2752">Görlitz, Deutsch Ossig</option><option value="2761">Moers, Innenstadt</option><option value="2774">Köln, Bergheimerhöfe</option><option value="2797">Hagen, Vorhalle</option><option value="2805">Krefeld, Stock</option><option value="2808">Dortmund, Asseln</option><option value="2822">Rostock, Groß Klein</option><option value="2828">Köln, Mitte</option><option value="2830">Essen, Frillendorf</option><option value="2840">Reutlingen, Betzenried</option><option value="2878">Moers, Boschmannshof</option><option value="2881">Duisburg</option><option value="2893">Duisburg, Ruhrort</option><option value="2896">Erlangen, In der Reuth</option><option value="2906">Krefeld, Dießem/Lehmheide</option><option value="2923">Duisburg, Huckingen</option><option value="2933">Herne, Röhlinghausen</option><option value="2938">Gera, Cretzschwitz</option><option value="2939">Plauen</option><option value="2942">Hagenow, Hagenower Heide</option><option value="2958">Dessau-Roßlau, Schaltwarte</option><option value="2959">Braunschweig</option><option value="2973">Bremen, Oslebshausen</option><option value="2986">Nürnberg, Doos</option><option value="3001">Ingolstadt</option><option value="3009">Halle (Saale), Kanena-Bruckdorf</option><option value="3041">Jena, Neue Schenke</option><option value="3067">Bonn, Alt-Godesberg</option><option value="3092">Jena, Vierzehnheiligen</option><option value="3127">Mönchengladbach, Westend</option><option value="3182">Essen, Fischlaken</option><option value="3185">Braunschweig, Klein Schöppenstedt</option><option value="3210">Nürnberg, Altenfurt</option><option value="3248">Bergisch Gladbach, Katterbach</option><option value="3275">München, Fürstenried</option><option value="3280">Duisburg, Hochemmerich</option><option value="3282">Regensburg, Leoprechting</option><option value="3331">Bochum, Höhwege</option><option value="3353">Hannover, Vahrenwald</option><option value="3399">Würzburg, Rottenbauer</option><option value="3413">München, Maxvorstadt</option><option value="3451">Cottbus, Skadow</option><option value="3468">Braunschweig, Völkenrode</option><option value="3479">Würzburg, Lindleinsmühle</option><option value="3482">Dortmund, Rahm</option><option value="3487">Hannover</option><option value="3488">München, Au-Haidhausen</option><option value="3489">Ingolstadt, Pettenhofen</option><option value="3510">Erlangen, Innenstadt</option><option value="3526">Moers, Schwafheim</option><option value="3550">Darmstadt, Jefferson Siedlung</option><option value="3592">Leipzig, Knauthain</option><option value="3614">Neu Ulm</option><option value="3631">Saarbrücken, Güdingen Gzg</option><option value="3653">Pforzheim, Nordweststadt</option><option value="3658">Darmstadt, Eberstadt</option><option value="3664">Lübeck, Steinrade</option><option value="3682">Krefeld, Steinrath</option><option value="3724">Moers, Eick</option><option value="3744">Paderborn, Heng</option><option value="3761">Jena, Lützeroda</option><option value="3767">Moers, Genend</option><option value="3781">Wuppertal</option><option value="3855">München</option><option value="3881">Köln, Furth</option><option value="3922">Bonn, Nord</option><option value="3928">Düsseldorf, Lohausen</option><option value="3939">Wittenberg (Lutherstadt), Schmilkendorf</option><option value="3951">Hannover, Zoo</option><option value="3980">Erfurt, Roter Berg</option><option value="3982">Essen, Werden</option><option value="3988">Chemnitz, Berbisdorf</option><option value="4041">Karlsruhe, Dammerstock</option><option value="4075">Köln</option><option value="4109">Bonn, Duisdorf</option><option value="4148">Chemnitz, Draisdorf</option><option value="4151">Kassel, Niederzwehren</option><option value="4152">Bochum, Altenbochum</option><option value="4165">Bremen, Kirchhuchting</option><option value="4197">Oldenburg, Bloherfelde</option><option value="4205">Wuppertal, Windfoche</option><option value="4208">Münster, Renfert</option><option value="4249">Nürnberg, Marienberg</option><option value="4316">Potsdam</option><option value="4352">Oberhausen, Alstaden-West</option><option value="4383">Bonn, Röttgen</option><option value="4438">Düsseldorf, Kaiserswerth</option><option value="4439">Dessau-Roßlau, Waldersee</option><option value="4449">Hildesheim, Uppen</option><option value="4473">Lübeck, Brandenmühle</option><option value="4480">Braunschweig, Wenden</option><option value="4497">Münster, Roxel</option><option value="4499">Krefeld, Kempener Feld/Baakeshof</option><option value="4541">Bottrop</option><option value="4560">Reutlingen, Römerschanze</option><option value="4566">Hannover, Limmer-Nord</option><option value="4579">Oldenburg</option><option value="4584">Hannover, Linden-Süd</option><option value="4589">Mannheim, Casterfeld</option><option value="4600">Essen, Nordviertel</option><option value="4605">Zwickau, Schneppendorf</option><option value="4609">Mainz, Bretzenheim</option><option value="4615">Bochum, Kaltehardt</option><option value="4657">Lübeck, Reecke</option><option value="4690">Jena, Lobeda</option><option value="4707">Leipzig, Althen</option><option value="4739">Lübeck, Roter Löwe</option><option value="4751">Magdeburg, Ottersleben</option><option value="4753">Moers, Niephauserfeld</option><option value="4767">Oldenburg, Kortendorf</option><option value="4778">Hagen, Kuhlerkamp</option><option value="4828">Rostock, Bramow</option><option value="4850">Kassel, Fasanenhof</option><option value="4909">Duisburg, Alt-Homberg</option><option value="4936">Potsdam, Eiche</option><option value="4937">Mannheim, Straßenheim</option><option value="4961">Bremerhaven, Mitte</option><option value="4985">Nürnberg, Oberbürg</option><option value="5015">Koblenz, Pfaffendorf</option><option value="5047">Erlangen</option><option value="5072">Saarbrücken, Scheidterberg</option><option value="5139">Duisburg, Marxloh</option><option value="5153">Hude (Oldenburg), Altmoorhausen</option><option value="5195">Karlsruhe, Beiertheim-Bulach</option><option value="5206">Hagen, Eilpe</option><option value="5214">Bergisch Gladbach, Hand</option><option value="5269">Göttingen, Esebeck</option><option value="5301">Chemnitz, Altendorf</option><option value="5307">Görlitz, Kunnerwitz</option><option value="5329">Braunschweig, Riddagshausen</option><option value="5441">Reutlingen, Betzingen</option><option value="5509">Bochum</option><option value="5543">Magdeburg, Puppendorf</option><option value="5570">Wittenberg (Lutherstadt), Apollensdorf</option><option value="5593">Karlsruhe, Bulach</option><option value="5610">Mönchengladbach, Rheydt-West</option><option value="5612">Fürth, Herboldshof</option><option value="5624">Chemnitz, Kaßberg</option><option value="5646">Hagen, Oege</option><option value="5648">Ulm, Oberhaslach</option><option value="5676">Gera, Alt Taubenpreskeln</option><option value="5699">Oberhausen, Eisenheim</option><option value="5701">Gera, Lietzsch</option><option value="5706">Karlsruhe, Rintheim</option><option value="5800">Düsseldorf, Gerresheim</option><option value="5830">Mönchengladbach, Kamphausener Höhe</option><option value="5902">Kassel</option><option value="5905">Leipzig, Althen Bahnhaus</option><option value="5910">Stuttgart, Ost</option><option value="5912">Heidelberg, Auf dem Heiligenberg</option><option value="5933">Kassel, Philippinenhof/Warteberg</option><option value="5935">Krefeld, Inrath</option><option value="5962">Bonn, Annabergerhof</option><option value="5966">Bottrop, Süd</option><option value="5974">Düsseldorf, Oberbilk</option><option value="5984">Krefeld, Hülser Berg</option><option value="5996">Remscheid, Halbach</option><option value="6034">Karlsruhe, Innenstadt</option><option value="6049">Potsdam, Jäger Vorstadt</option><option value="6064">Hude (Oldenburg), Vielstedt</option><option value="6095">Herne</option><option value="6126">Regensburg, Graß-Oberisling</option><option value="6145">Koblenz, Rauental</option><option value="6162">Chemnitz, Hilbersdorf</option><option value="6210">Essen, Süd</option><option value="6257">Braunschweig, Vorwerksiedlung</option><option value="6366">Hannover, Bemerode</option><option value="6368">Hildesheim, Bavenstedt</option><option value="6374">Saarbrücken, Malstatt</option><option value="6412">Osnabrück, Gartlage</option><option value="6418">Bergisch Gladbach, Strassen</option><option value="6442">Gera, Gorlitzsch</option><option value="6468">Oberhausen, Waldhuck</option><option value="6470">Koblenz, Asterstein</option><option value="6501">Trier, Trier-Ost</option><option value="6507">Hannover, Anderten</option><option value="6622">Lübeck, Moorgarten</option><option value="6635">Kassel, Gemeinde Lohfelden</option><option value="6647">Münster, Werse</option><option value="6654">Stuttgart, West</option><option value="6715">Bielefeld, Senne I</option><option value="6749">Bonn, Auerberg</option><option value="6754">Düsseldorf, Himmelgeist</option><option value="6762">Jena, Kunitz</option><option value="6888">Oldenburg, Donnerschwee</option><option value="6912">Göttingen, Mittelberg</option><option value="6936">Augsburg, Lechhausen</option><option value="6943">Wolfsburg, Barnstorf</option><option value="6947">Mönchengladbach, Hehn</option><option value="6961">Hagen, Quambusch</option><option value="7027">Saarbrücken, Burbach</option><option value="7051">Bochum, Höntrop</option><option value="7072">Jena, Lichtenhain</option><option value="7079">Bremen, Klöckner-Hütte</option><option value="7123">Braunschweig, Siedlung am Schwarzen Berge</option><option value="7136">Wolfsburg, Hehlingen</option><option value="7159">Rostock, Evershagen Dorf</option><option value="7199">Bremen, Tenever</option><option value="7244">Chemnitz</option><option value="7274">Lübeck</option><option value="7300">Heidelberg, Grenzhof</option><option value="7332">Darmstadt, Waldkolonie</option><option value="7348">Reutlingen, Ohmenhausen</option><option value="7360">Bergisch Gladbach, Kaule</option><option value="7385">Fürth, Bislohe</option><option value="7389">Osnabrück, Martinitor</option><option value="7401">Rostock, Stadtmitte</option><option value="7409">Düsseldorf, Flehe</option><option value="7423">Reutlingen, Südstadt</option><option value="7433">Zwickau, Crossen</option><option value="7434">Erfurt, Büßleben</option><option value="7488">Paderborn, Kernstadt</option><option value="7541">Neu Ulm, Offenhausen</option><option value="7559">Solingen, Schaberg</option><option value="7563">Karlsruhe, Kirchfeldsiedl</option><option value="7576">Rostock, Toitenwinkel</option><option value="7687">Kaiserslautern, Vogelweh</option><option value="7725">Bremerhaven, Weddewarden</option><option value="7750">Oberhausen, Alstaden-Ost</option><option value="7848">Bottrop, Im Loh</option><option value="7857">Zwickau, Schedewitz</option><option value="7890">Aachen, Bildchen Gzg</option><option value="7911">Wuppertal, West</option><option value="7938">Pforzheim, Südweststadt</option><option value="8022">Mönchengladbach, Geneicken</option><option value="8029">Mainz, Hartenberg</option><option value="8034">Cottbus, Stadtmitte</option><option value="8052">Moers</option><option value="8079">Mannheim, Innenstadt</option><option value="8112">Stuttgart, Heumaden</option><option value="8127">Koblenz, Mühlenbacherhof</option><option value="8129">Aachen, Richterich</option><option value="8158">Bergisch Gladbach, Herrenstrunden</option><option value="8159">Bergisch Gladbach, Gronauerwald</option><option value="8168">Magdeburg, Stadtfeld West</option><option value="8171">Mönchengladbach, Stadtmitte</option><option value="8176">Leverkusen, Voigtslach</option><option value="8206">Gera, Neu-Taubenpreskeln</option><option value="8218">Karlsruhe, Weiherfeld-Dammerstock</option><option value="8222">Plauen, Waldesruh</option><option value="8225">Neuss</option><option value="8242">Magdeburg</option><option value="8248">Pforzheim, Innenstadt</option><option value="8269">Stuttgart, Bad Cannstatt</option><option value="8271">Neu Ulm, Lindenhof</option><option value="8294">Wuppertal, Laaken</option><option value="8298">Münster, Amelsbüren</option><option value="8308">Oberhausen</option><option value="8353">Herne, Crange</option><option value="8354">Ulm, Weststadt</option><option value="8361">Kassel, Oberzwehren</option><option value="8369">Potsdam, Zentrum Ost</option><option value="8381">Koblenz, Mailust</option><option value="8399">Münster, Altenroxel</option><option value="8435">Zwickau</option><option value="8523">Rostock, Lütten Klein</option><option value="8565">Pforzheim, Gemeinde Neulingen</option><option value="8644">Gera, Seligenstädt</option><option value="8709">Braunschweig, Thune</option><option value="8777">Schwerin, Großer Dreesch</option><option value="8812">Siegen, Volnsberg</option><option value="8891">Regensburg, Pfaffenstein</option><option value="8944">Görlitz, Hagenwerder</option><option value="9049">Gelsenkirchen, Hassel</option><option value="9075">Ingolstadt, Herrenschwaige</option><option value="9090">Pforzheim, Weststadt</option><option value="9131">Neuss, Bettikum</option><option value="9154">Remscheid, Nord</option><option value="9171">Saarbrücken</option><option value="9178">Erlangen, Sieglitzhof</option><option value="9185">Neu Ulm, Stadtmitte</option><option value="9191">Potsdam, Schlaatz</option><option value="9233">Fürth, Weststadt</option><option value="9256">Bremen, Werderland</option><option value="9260">Wolfsburg, Kästorf</option><option value="9264">Stuttgart, Bergheim</option><option value="9274">Jena, Stadt</option><option value="9292">Mönchengladbach, Odenkirchen</option><option value="9322">Ulm, Fischbach</option><option value="9326">Leverkusen</option><option value="9349">Dessau-Roßlau, Siedlung</option><option value="9355">Gera, Südhang/Zschippern</option><option value="9356">Magdeburg, Beyendorfer Grund</option><option value="9371">Wittenberg (Lutherstadt), Elstervorstadt</option><option value="9426">Mönchengladbach, Woof</option><option value="9439">Frankenthal (Pfalz), Moersch</option><option value="9491">Stuttgart, Mönchfeld</option><option value="9492">Gera, Untermhaus</option><option value="9568">Kaiserslautern, Espensteig</option><option value="9575">Rostock, Evershagen</option><option value="9681">Bremen, Fesenfeld</option><option value="9705">Dessau-Roßlau</option><option value="9750">Fürth, Flexdorf</option><option value="9788">Stuttgart, Neckarhafen</option><option value="9850">Kassel, Mitte</option><option value="9933">Wittenberg (Lutherstadt), Lerchenbergsiedlung</option><option value="9939">Mainz</option><option value="10193">Bremen</option><option value="10199">Dessau-Roßlau, Zoberberg</option><option value="10243">Görlitz, Ludwigsdorf</option><option value="10289">Hausen (Würzburg), Jobsthalerhof</option><option value="10312">Pforzheim, Eutingen</option><option value="10343">Schwerin, Ostorf</option><option value="10433">Erfurt, Daberstedt</option><option value="10438">Reutlingen, Nordstadt</option><option value="10450">Ulm, Lehr</option><option value="10451">Neuss, Minkel</option><option value="10454">Pforzheim, Wilferdinger Höhe</option><option value="10548">Kaiserslautern, Wiesenthalerhof</option><option value="10584">Jena, Nelkenweg</option><option value="10778">Regensburg, Kumpfmühl</option><option value="10784">Schwerin, Wickendorf</option><option value="10915">Zwickau, Bockwa</option><option value="10927">Wittenberg (Lutherstadt), Wittenberg</option><option value="10993">Potsdam, Nauener Vorstadt</option><option value="11046">Zwickau, Cainsdorf</option><option value="11173">Rostock, Hinrichsdorf</option><option value="11187">Gelsenkirchen, Scholven</option><option value="11209">Regensburg, Kumpfmühl-Ziegetsdorf</option><option value="11252">Osnabrück, Hickingen</option><option value="11294">Oberhausen, Schmachtendorf</option><option value="11304">Münster, Stadt Ascheberg</option><option value="11330">Pforzheim</option><option value="11414">Augsburg, Innenstadt</option><option value="11426">Regensburg</option><option value="11466">Stuttgart, Buchrain</option><option value="11529">Göttingen, Reinshof</option><option value="11603">Heilbronn, Sontheim</option><option value="11713">Reutlingen, Weststadt</option><option value="11795">Augsburg</option><option value="11826">Heilbronn, Klingenberg</option><option value="11832">Darmstadt, Stadt Pfungstadt</option><option value="11909">Plauen, Süd-Ost</option><option value="11955">Wuppertal, Dornap</option><option value="11957">Neu Ulm, Schwaighofen</option><option value="11969">Koblenz, Königsbach</option><option value="11972">Braunschweig, Friedrichshöhe</option><option value="11985">Cottbus, Lakoma</option><option value="12041">Würzburg, Altstadt</option><option value="12044">Fürth</option><option value="12142">Kaiserslautern, Innenstadt</option><option value="12208">Göttingen, Geismar</option><option value="12341">Siegen, Bürbach</option><option value="12344">Karlsruhe, Lamprechtshof</option><option value="12357">Hausen (Würzburg), Erbshausen</option><option value="12395">Reutlingen</option><option value="12532">Paderborn, Wewer</option><option value="12552">Erlangen, Dechsendorf</option><option value="12701">Salzgitter, Süd</option><option value="12900">Schwerin</option><option value="12902">Magdeburg, Fermersleben</option><option value="12958">Wiesbaden, Riedhof</option><option value="13102">Münster, Altstadt</option><option value="13159">Koblenz, Niederberg</option><option value="13160">Cottbus</option><option value="13168">Aachen, Haaren</option><option value="13245">Wolfsburg, Steimkerberg</option><option value="13306">Schwerin, Weststadt</option><option value="13355">Karlsruhe, Grünwinkel</option><option value="13412">Osnabrück, Kalkhügel</option><option value="13433">Hildesheim, Süd</option><option value="13512">Osnabrück</option><option value="13539">Plauen, Südvorstadt</option><option value="13597">Koblenz, Vorstadt</option><option value="13694">Augsburg, Hochfeld</option><option value="13794">Darmstadt</option><option value="13896">Gelsenkirchen, Eckeresse</option><option value="13901">Münster, Zentrum-Nord</option><option value="13902">Recklinghausen, Süd</option><option value="13930">Erfurt</option><option value="13970">Erfurt, Ilversgehofen</option><option value="13991">Wuppertal, Katernberg</option><option value="14030">Wuppertal, Barmen</option><option value="14156">Salzgitter, Reppner</option><option value="14190">Augsburg, Radegundis</option><option value="14194">Kaiserslautern, Gelterswoog</option><option value="14205">Fürth, Ronhof</option><option value="14275">Heidelberg, Emmertsgrund</option><option value="14325">Recklinghausen, Speckhorn</option><option value="14352">Mannheim, Sandtorf</option><option value="14391">Salzgitter, Thiede</option><option value="14453">Schwerin, Paulsstadt</option><option value="14458">Bottrop, Welheim</option><option value="14521">Aachen, Seffent</option><option value="14546">Cottbus, Sandow</option><option value="14581">Aachen</option><option value="14600">Neuss, Gnadental</option><option value="14656">Bottrop, Welheimer Mark</option><option value="14659">Zwickau, Oberplanitz</option><option value="14823">Bottrop, Süd-West-Innenstadt</option><option value="14942">Hildesheim, Moritzberg</option><option value="14964">Wolfsburg, Schwinkermühle</option><option value="14969">Remscheid, Großhülsberg</option><option value="14982">Siegen, Eiserfeld</option><option value="15015">Salzgitter, Gitter</option><option value="15131">Göttingen, Hagenberg</option><option value="15500">Remscheid, Westen</option><option value="15678">Recklinghausen, Hochlarmark</option><option value="15776">Plauen, Chrieschwitz</option><option value="15952">Kaiserslautern, Morlautern</option><option value="16005">Plauen, Straßberg</option><option value="16166">Bottrop, Innenstadt</option><option value="16222">Mannheim, Vogelstang</option><option value="16307">Kaiserslautern, Ruhetal</option><option value="16445">Wolfsburg, Klieversberg</option><option value="16521">Neuss, Erfttal</option><option value="16572">Siegen, Trupbach</option><option value="16734">Plauen, Hammervorstadt</option><option value="16835">Plauen, Tannenhof</option><option value="17032">Aachen, Locht</option><option value="17042">Mannheim, Waldhof</option><option value="17047">Göttingen, Herberhausen</option><option value="17095">Remscheid, Oelingrath</option><option value="17134">Aachen, Lichtenbusch</option><option value="17328">Salzgitter, Lebenstedt</option><option value="17336">Neuss, Reuschenberg</option><option value="17341">Gelsenkirchen, Horst</option><option value="17351">Zwickau, Marienthal</option><option value="17417">Ingolstadt, Mailing</option><option value="17541">Göttingen, Weende</option><option value="17592">Würzburg, Oberdürrbach</option><option value="17627">Kaiserslautern, Stiftswalder Forsthaus</option><option value="17912">Augsburg, Haunstetten</option><option value="18075">Salzgitter, Salder</option><option value="18105">Salzgitter, Westerkamp</option><option value="18265">Neuss, Neuenbaum</option><option value="18494">Ingolstadt, Einbogen</option><option value="18709">Ingolstadt, Samholz</option><option value="18751">Mainz, Layenhof</option><option value="18848">Dessau-Roßlau, Buchholzmühle Genesungsheim</option><option value="19064">Dessau-Roßlau, West</option><option value="19235">Würzburg, Sanderau</option><option value="19382">Bremerhaven, Geestemünde</option><option value="19495">Siegen, Gosenbach</option><option value="19670">Ingolstadt, Unsernherrn</option><option value="19821">Neuss, Dreikönigenviertel</option><option value="20098">Paderborn, Senne</option><option value="20106">Neuss, Furth-Mitte</option><option value="20132">Ingolstadt, Seehof</option><option value="20152">Ingolstadt, Winden</option><option value="20184">Mainz, Hartenberg/Münchfeld</option><option value="20199">Wiesbaden</option><option value="20740">Wiesbaden, Kohlheck</option><option value="20895">Heilbronn, Biberach</option><option value="21044">Ingolstadt, Oberbrunnenreuth</option><option value="21121">Salzgitter, Osterlinde</option><option value="21485">Heidelberg, Paffengrund</option><option value="21518">Osnabrück, Schinkel</option><option value="21810">Wittenberg (Lutherstadt), Birkenbusch</option><option value="22200">Cottbus, Sachsendorf</option><option value="22248">Darmstadt, St Barbara-Siedlung</option><option value="22433">Osnabrück, Burg Gretesch</option><option value="22484">Leverkusen, Opladen</option><option value="22596">Osnabrück, Innenstadt</option><option value="22651">Bremerhaven</option><option value="22706">Wiesbaden, Biebrich</option><option value="22744">Darmstadt, Lincoln Siedlung</option><option value="22772">Görlitz, Zentrum</option><option value="23338">Mainz, Weisenau</option><option value="23474">Wiesbaden, Mainz-Amöneburg</option><option value="23576">Mainz, Zahlbach</option><option value="23766">Osnabrück, Wüste</option><option value="23953">Heidelberg, Wieblingen</option><option value="24065">Recklinghausen, Berghausen</option><option value="24291">Fürth, Innenstadt</option><option value="24306">Neuss, Elvekum</option><option value="24453">Darmstadt, Wixhausen</option><option value="24624">Berlin, Berlin-Treptow</option><option value="25269">Trier, Trier-West</option><option value="25312">Wiesbaden, Freudenberg</option><option value="25597">Fürth, Stadeln</option><option value="25927">Salzgitter, Hallendorf</option><option value="26007">Paderborn, Sennelager</option><option value="26564">Heidelberg, Bierhelderhof</option><option value="26703">Görlitz, Ober-Neundorf</option><option value="26778">Heilbronn, Neckargartach</option><option value="26947">Wittenberg (Lutherstadt), Kienberge</option><option value="26969">Görlitz, Rauschwalde</option><option value="27594">Kaiserslautern, Stockborn</option><option value="27891">Görlitz, Klein Neundorf</option><option value="27951">Gelsenkirchen</option><option value="28059">Wolfsburg, Wolfsburg Innenstadt</option><option value="28083">Heidelberg, Patrick-Henry-Siedlung</option><option value="28163">Gelsenkirchen, Heßler</option><option value="28461">Paderborn, Ringelsbruch</option><option value="28534">Remscheid</option><option value="28829">Bremerhaven, Lehe</option><option value="29584">Leverkusen, Innenstadt</option><option value="30179">Wittenberg (Lutherstadt), Kleinwittenberg</option><option value="32049">Heidelberg</option><option value="32279">Göttingen, Grone</option><option value="32784">Hildesheim, Hildesheimer Wald</option><option value="33652">Heidelberg, Kohlhof</option><option value="34075">Recklinghausen</option><option value="34172">Leverkusen, Pattscheid</option><option value="34378">Heilbronn, Kirchhausen</option><option value="35672">Bremerhaven, Schiffdorfer Damm</option><option value="36530">Wittenberg (Lutherstadt), Probstei</option><option value="37064">Recklinghausen, Stadtmitte</option><option value="37180">Siegen, Weidenau</option><option value="37953">Heilbronn, Frankenbach</option><option value="38006">Trier, Trier-Süd</option><option value="38077">Heilbronn</option><option value="38420">Siegen, Obersetzen</option><option value="39105">Siegen, Breitenbach</option><option value="40377">Leverkusen, Uppersberg</option><option value="40807">Erlangen, Erlangen-Ost</option><option value="43406">Recklinghausen, Börste</option><option value="45914">Leverkusen, Steinbüchel</option><option value="46132">Saarbrücken, Alt-Saarbrücken</option><option value="46322">Siegen, Niedersetzen</option><option value="46633">Recklinghausen, Hillerheide</option><option value="46694">Leverkusen, Quettingen</option><option value="51198">Erfurt, Erfurt-Altstadt</option><option value="56168">Potsdam, Potsdam West</option><option value="57195">Berlin, Berlin-Schmöckwitz</option><option value="57896">Bergisch Gladbach, Gladbach Innenstadt</option><option value="61230">Erlangen, Erlangen-Süd</option><option value="63635">Jena, Jenaprießnitz</option><option value="74907">Nürnberg, Gewerbepark Nürnberg-Feucht</option><option value="75455">Trier, Trier-Nord</option><option value="77021">Hamm, Hamm-Norden</option><option value="77986">Wolfsburg, Alt Wolfsburg</option><option value="78287">Wittenberg (Lutherstadt), Wittenberg-West</option><option value="79359">Trier, Trier-West-Pallien</option><option value="83300">Solingen, Solingen-Mitte</option><option value="84556">Offenbach (Main), Offenbach am Main</option><option value="89263">Berlin, Berlin-Buchholz</option><option value="96891">Bremen, Radio Bremen</option><option value="97093">Herne, Herne-Süd</option><option value="99499">Herne, Herne-Mitte</option><option value="99698">Bergisch Gladbach, Gladbach</option><option value="104851">Hamm, Hamm-Westen</option><option value="106590">Moers, Moers-Mitte</option><option value="108798">Hamm, Hamm-Mitte</option><option value="109577">Dresden, Dresdener Heide</option><option value="109803">Halle (Saale), Saaleaue</option><option value="359117">Bochum, Bochum Mitte</option><option value="359231">Frankfurt am Main</option><option value="359239">Frankfurt am Main, Innenstadt</option><option value="359257">Duisburg, Duisburg Mitte</option><option value="360620">Heidelberg - GP, Heidelberg</option><option value="361251">Freiburg im Breisgau</option><option value="361911">Freiburg im Breisgau, Süd</option><option value="363334">Mühlheim am Main</option><option value="363777">Frankfurt, Frankfurt am Main Ost</option><option value="368305">Ludwigshafen am Rhein</option><option value="371883">Offenbach am Main</option><option value="373599">Frankfurt am Main, Frankfurt am Main Ost</option><option value="373600">Frankfurt am Main, Frankfurt am Main Nord-Ost</option><option value="374407">Freiburg im Breisgau, Hochdorf</option><option value="380778">Freiburg im Breisgau, Herdern</option><option value="380981">Freiburg im Breisgau, Wiehre</option><option value="381416">Freiburg im Breisgau, Nord</option><option value="392900">Freiburg im Breisgau, Stühlinger</option><option value="392910">Freiburg im Breisgau, Zähringen</option>
+	</select>
+</span>
+<br class="clear">
+</span>
+
+<span class="label">Registrierung?:</span>
+<span class="field">
+	<select name="recentRegistration" class="gender" id="recentRegistration">	
+	<option value="0">egal</option>
+	<option value="1">Benutzer, die sich kürzlich registriert haben</option>
+	</select>
+</span>
+<br class="clear">
+
+<script>
+$('#gb_type').hide();
+$('#for_distance').hide();
+$('#for_cities').hide();
+useonline();
+function sendmessage_type()
+{
+	var selectedOptions = $('#msg_type option:selected');
+	if(selectedOptions.val() == "gb"){
+		$('#gb_type').show();
+	}else{
+		$('#gb_type').hide();
+	}
+}
+
+function uselocation(){
+	var isChecked = $('#useLocation').attr('checked')?true:false;
+	if(isChecked){
+	   $('#for_distance').show();
+	}else{
+           $('#for_distance').hide();
+	}
+}
+
+function useonline(){
+	var selectedOptions = $('#isOnline option:selected');
+	if(selectedOptions.val() == 1){
+		$('#for_cities').hide();
+	}else{
+		$('#for_cities').show();
+	}
+}
+</script>

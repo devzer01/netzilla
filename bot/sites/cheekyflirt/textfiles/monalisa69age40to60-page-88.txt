@@ -1,0 +1,417 @@
+HTTP/1.1 200 OK
+Date: Wed, 09 May 2012 08:39:34 GMT
+Server: Apache/2.2.16 (Debian)
+X-Powered-By: PHP/5.3.3-7+squeeze1
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+	<head>
+		
+		<title>Users -  - CheekyFlirt</title>
+		
+		<meta name="description" content="Welcome to CheekyFlirt, offering free online dating, photo uploads, rate users, exchange messages, and even send cool little virtual gifts!" />
+		<meta name="keywords" content="free online dating webcam chat live cheekyflirt flirt love dating personals chat room uk" />
+		<meta name="robots" content="follow,index,noarchive" />
+		<meta name="language" content="en" />
+		<meta name="revisit-after" content="14 days" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="verify-v1" content="REoFeWktDv99ua0H2iiyfmftFfGf1TO8v5m6MSxZJx4=" />
+		<meta name="verify-v1" content="J2XF6+sNrc8b5omqI4qKSyKnhCy08px93oh60VFjKck=" />
+        <meta name="google-site-verification" content="OOGT6rFD_CuxiPMQgPSWF68bO_5RL0OmiGR97xUspbQ" />
+		<link rel="shortcut icon" href="favicon.ico" >
+		<link rel="icon" href="animated_favicon1.gif" type="image/gif" >
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+		
+		<script type="text/javascript" src="js/boxover.js"></script>
+		<script type="text/javascript" src="js/countdownpro.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+        
+        <script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
+		<script type="text/javascript">
+          GS_googleAddAdSenseService("ca-pub-9871890276774619");
+          GS_googleEnableAllServices();
+        </script>
+        <script type="text/javascript">
+			GA_googleAddSlot("ca-pub-9871890276774619", "banner_cheekyflirt-com_300x250");
+			GA_googleAddSlot("ca-pub-9871890276774619", "banner_cheekyflirt-com_468x60");
+			GA_googleAddSlot("ca-pub-9871890276774619", "banner_cheekyflirt-com_728x90");			
+        </script>
+        <script type="text/javascript">
+          GA_googleFetchAds();
+        </script>
+
+		<meta scheme="countdown1" name="event_msg" content="Event started!">
+
+	</head>
+	
+	<body >
+
+		<!--  -->
+		<script type="text/javascript" src="js/rpc.js"></script>
+		<div id="msgNoti" class="msgNoti"></div>
+		<div id="giftNoti" class="giftNoti"></div>		
+		<div id="originalImage"></div>
+	
+		<div id="container">		
+		
+			<!-- login bar -->
+							<div id="buddyList">
+					<div id="buddyLink">:: <a href="#" onclick="showBuddyList();return false;">view buddies</a></div>
+					<div id="buddyCont" class="hidden">
+											</div>
+				</div>
+				
+				<div id="imStatus">
+					<div class="box">:: Instant Messenger <a href="userTools.php?action=_IMSTATUS&amp;status=N">turn off</a></div>
+				</div>
+							
+				<table id="hLogin" width="771" height="21" border="0" cellpsacing="0" cellpadding="0">
+					<tr valign="middle">
+						<td align="right" valign="top">You are logged in as <a href="profile-home.php?userid=7281223" title="Visit your own profile page.">monalisa69</a> : <a href="logOut.php" title="Log out of CheekyFlirt :(">log out</a></td>
+					</tr>
+				</table>
+						
+			<!-- logo and banner -->
+			<table width="771" height="68" border="0" cellspacing="0" cellpadding="0">
+				<tr> 
+					<td width="303" align="left" valign="middle"><img src="media/common/logo.gif" width="293" height="56" alt="CheekyFlirt - The Flirtiest People having the Sexiest Fun!" /></td>
+					<td width="468" align="middle" valign="middle">
+						                    <script type="text/javascript">
+  GA_googleFillSlot("banner_cheekyflirt-com_468x60");
+</script>                    					</td>
+				</tr>
+			</table>		
+			
+			<div id="mainNav">
+				<div class="links floatL" style="width:100%;">
+					<ul>
+						<li><a href="index.php" title="CheekyFlirt homepage.">HOME</a></li>
+						<li><a href="search.php" title="Search CheekyFlirt members.">SEARCH</a></li>
+						<li><a href="users.php?online=Y" title="See what CheekyFlirt members are online right now.">CHAT, WHO'S ONLINE</a></li>
+						<li><a href="users.php?newMembers=1&gender=&sexuality=&fromAge=&toAge=&country=&online=&images=V&videoProfile=&signedUp=7&miles=&username=" title="New Members who have joined CheekyFlirt">NEW MEMBERS</a></li>
+						<!--<li><a href="rater.php" title="Rater other Cheekyflirt members">RATER</a></li>-->
+						<!--<li><a href="forum.php" title="CheekyFlirt's forum.">FORUM</a></li>-->
+						<li><a href="success-stories.php" title="Online Dating Success Stories at CheekyFlirt - It Works!">SUCCESS STORIES</a></li>						
+
+												<li><a href="profile-home.php?userid=7281223">MY PROFILE</a></li>
+											</ul>
+				</div>
+			</div>
+			
+						<div id="userNav" style="height:28px;line-height:28px;">
+			
+				<ul>
+					<li><a href="account-main.php" title="Main account screen.">my account</a></li>
+					<li><a href="account-profile.php" title="Update your profile.">my profile</a></li>
+					<li><a href="account-pictures.php" title="Update and upload images.">my pictures</a></li>
+					<li><a href="account-messages.php" title="Access your mailbox, read and delete messages.">my messages</a></li>
+					<li><a href="account-reviewGifts.php" title="Accept or decline pending gifts which have been sent to you.">review gifts</a></li>
+					<li><a href="account-whosLooked.php" title="Learn who on CheekyFlirt has been looking at you and how many times!">who's looked?</a></li>
+					<li><a href="account-whosVoted.php" title="Learn Who's voted for you and what they voted!">who's voted?</a></li>
+					<li><a href="account-buddies.php" title="Update your buddy list, remove and add CheekyFlirt members.">my buddies</a></li>
+					<li><a href="account-privacy.php" title="Block members and change notification delivery.">privacy settings</a></li>
+					<li><a href="account-holla.php" title="You have 4 hollas a day, use it to tell everybody about something!">holla!</a></li>
+				</ul>
+			</div>			
+						
+						<!-- The Holla of hollanessage, it really is a fantastic, umm... Thing! -->
+			<div id="hollaBox">Have you uploaded a photo yet? -  Members with photos get more messages, votes, gifts and profile points! - Upload a photo today ! <a href=account-pictures.php>Click Here!</a></div>
+						
+			
+						
+					
+			<div id="body">
+								
+								<div class="top"></div>
+				<div class="main">
+
+																							
+											
+										<div id="leftBanner">
+					
+											<a href="users.php?online=Y"><img src="media/common/goldc_simple.gif" border="0"></a><!-- replace javascript:chatPop();-->
+					
+															<div id="todoList">
+						<div class="con">
+							<a href="account-profile.php">&raquo; fill in your profile</a>													</div>
+					</div>
+										
+					<!--<a href="account-refer.php" title="Refer your friends to CheekyFlirt and earn profile points"><img style="margin-bottom:3px;" src="media/banners/left/msnRefer.gif" width="118" height="94" alt="Refer your friends to CheekyFlirt and earn profile points" /></a>-->					
+					
+
+										
+						
+												
+
+						<table class="table2" width="120" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:5px;">
+								<tr><th style="font-size:10px;">Last 5 to look!</th></tr>
+								<tr>
+									<td style="padding:6px;text-align:center;">
+										
+																		
+									
+										<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:2px;">
+											<tr>
+												<td>
+													<a href="profile-home.php?userid=6964133" title="Visit jason25uk's profile page"><img class="photo" src="media/members_33/6964133/cropThumb.n577720369_4231867_4909.jpg" width="71" height="75" alt="jason25uk" /></a>
+													<br /><a href="profile-home.php?userid=6964133" title="Visit jason25uk's profile page">jason25uk</a>
+												</td>
+											</tr>
+										</table>
+																		
+									
+										<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:2px;">
+											<tr>
+												<td>
+													<a href="profile-home.php?userid=85555" title="Visit anigo_montoya's profile page"><img class="photo" src="media/members_55/85555/cropThumb.pics off phone 021.jpg" width="71" height="75" alt="anigo_montoya" /></a>
+													<br /><a href="profile-home.php?userid=85555" title="Visit anigo_montoya's profile page">anigo_montoya</a>
+												</td>
+											</tr>
+										</table>
+																		
+									
+										<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:2px;">
+											<tr>
+												<td>
+													<a href="profile-home.php?userid=6933736" title="Visit dreammmmmm's profile page"><img class="photo" src="media/members_36/6933736/cropThumb.M.VURAL.JPG" width="71" height="75" alt="dreammmmmm" /></a>
+													<br /><a href="profile-home.php?userid=6933736" title="Visit dreammmmmm's profile page">dreammmmmm</a>
+												</td>
+											</tr>
+										</table>
+																		
+									
+										<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:2px;">
+											<tr>
+												<td>
+													<a href="profile-home.php?userid=7280836" title="Visit missrace's profile page"><img class="photo" src="media/members_36/7280836/cropThumb.Nice.jpg" width="71" height="75" alt="missrace" /></a>
+													<br /><a href="profile-home.php?userid=7280836" title="Visit missrace's profile page">missrace</a>
+												</td>
+											</tr>
+										</table>
+																		
+									
+										<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:2px;">
+											<tr>
+												<td>
+													<a href="profile-home.php?userid=6936129" title="Visit muscleguy's profile page"><img class="photo" src="media/members_29/6936129/cropThumb.m_SL370482.jpg" width="71" height="75" alt="muscleguy" /></a>
+													<br /><a href="profile-home.php?userid=6936129" title="Visit muscleguy's profile page">muscleguy</a>
+												</td>
+											</tr>
+										</table>
+																	
+									</td>
+								</tr>
+							</table>						
+
+
+						
+							
+
+										
+					
+					
+					</div>
+
+			
+					<h1 class="gfxHeader marginL floatL">
+												Search Results
+											</h1>		
+										
+					<div class="floatL" style="width: 624px">
+										
+																		<div class="userSearchDesc">You searched for members who are Male, are aged 18 to 30, live in United Kingdom. This returned 122,265 result(s).</div>
+																
+					<table class="pagination" cellpadding="0" cellspacing="0" border="0"><tr><td width="204" align="left" valign="middle"><a class="prevPage" href="/users.php?gender=M&amp;sexuality=&amp;fromAge=18&amp;toAge=30&amp;country=5&amp;country_area=&amp;online=&amp;images=&amp;videoProfile=&amp;signedUp=&amp;miles=&amp;username=&amp;page=87">&lt;&lt; Prev Page</a></td><td width="204" align="center" valign="middle">viewing page <span>88</span> of 12227</td><td width="204" align="right" valign="middle"><a class="nextPage" href="/users.php?gender=M&amp;sexuality=&amp;fromAge=18&amp;toAge=30&amp;country=5&amp;country_area=&amp;online=&amp;images=&amp;videoProfile=&amp;signedUp=&amp;miles=&amp;username=&amp;page=89">Next Page &gt;&gt;</a></td></tr></table>
+											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=64559" title="Visit davealan's profile page"><img class="photo" src="media/members_59/64559/cropThumb.new-1.jpg" width="92" height="98" alt="davealan" /></a>
+						<div class="username">davealan </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=22&toAge=22&ageLink=1&gender=M">22</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>England</b> (<a href="free-online-dating/Gloucestershire.php" title="Online Dating in Gloucestershire">Gloucestershire</a>)<br /><span style="color:#900;">127 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=64559" title="Read all of davealan's final thought.">treat people the way you like to be treated   then you wont go to wrong in life  (i am 38 years old 1968 i was born lol)</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/davealan" title="Visit davealan's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=27880" title="Visit chippy1618's profile page"><img class="photo" src="media/members_80/27880/cropThumb.CHIPS PICS 013.jpg" width="92" height="98" alt="chippy1618" /></a>
+						<div class="username">chippy1618 </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=29&toAge=29&ageLink=1&gender=M">29</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>England</b> (<a href="free-online-dating/West Yorkshire.php" title="Online Dating in West Yorkshire">West Yorkshire</a>)<br /><span style="color:#900;">43 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=27880" title="Read all of chippy1618's final thought.">i'd like to find some one who appreciates the good things in life. i'm outgoing and will do anything to help someone. i'm into my football and enjoy going out or just cuddling up on the sofa with that right person snuggled up at my side. i love making people laugh, and take pride in my appearance. like minded people welcome.    ps people check "bevee" out she's pure class, squaddies you'll love her rough and ready, day and night, give her a ten and help her to help you!!!!!!</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/chippy1618" title="Visit chippy1618's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=44165" title="Visit twiggy16's profile page"><img class="photo" src="media/members_65/44165/cropThumb.4537937073bda.jpg" width="92" height="98" alt="twiggy16" /></a>
+						<div class="username">twiggy16 </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=23&toAge=23&ageLink=1&gender=M">23</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>Scotland</b> (<a href="free-online-dating/West Lothian.php" title="Online Dating in West Lothian">West Lothian</a>)<br /><span style="color:#900;">187 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=44165" title="Read all of twiggy16's final thought.">i am&nbsp; a typical male live sleep drink and eat football i luv partying and onli leave emails if ur a posotive person&nbsp;</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/twiggy16" title="Visit twiggy16's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=33628" title="Visit davethepartyanimal's profile page"><img class="photo" src="media/members_28/33628/cropThumb.Untitled-1.jpg" width="92" height="98" alt="davethepartyanimal" /></a>
+						<div class="username">davethepartyanimal </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=25&toAge=25&ageLink=1&gender=M">25</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>England</b> (<a href="free-online-dating/Lancashire.php" title="Online Dating in Lancashire">Lancashire</a>)<br /><span style="color:#900;">62 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=33628" title="Read all of davethepartyanimal's final thought.">hey am a nice guy funny up for a laught meeting up and dating whatever my msn is (edited) speck to u soon luv dave xxxxxxxxx</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/davethepartyanimal" title="Visit davethepartyanimal's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=89773" title="Visit chalk_mccue's profile page"><img class="photo" src="media/members_73/89773/cropThumb.my piccies.jpg" width="92" height="98" alt="chalk_mccue" /></a>
+						<div class="username">chalk_mccue </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=24&toAge=24&ageLink=1&gender=M">24</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>Scotland</b> (<a href="free-online-dating/Renfrewshire.php" title="Online Dating in Renfrewshire">Renfrewshire</a>)<br /><span style="color:#900;">199 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=89773" title="Read all of chalk_mccue's final thought.">remember to keep yourself alive, there is nothing more important than that!!</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/chalk_mccue" title="Visit chalk_mccue's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=81611" title="Visit shane6500's profile page"><img class="photo" src="media/members_11/81611/cropThumb.25jpqrjma5_8378868.jpg" width="92" height="98" alt="shane6500" /></a>
+						<div class="username">shane6500 </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=28&toAge=28&ageLink=1&gender=M">28</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>Wales</b> (<a href="free-online-dating/Mid Glamorgan.php" title="Online Dating in Mid Glamorgan">Mid Glamorgan</a>)<br /><span style="color:#900;">128 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=81611" title="Read all of shane6500's final thought.">hi there everyone who is you all hope you ok well im just looking forward to getting home putting some nice clothes on with a cold beer wow </a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/shane6500" title="Visit shane6500's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=45572" title="Visit proud_as's profile page"><img class="photo" src="media/members_72/45572/cropThumb.Picture 028.jpg" width="92" height="98" alt="proud_as" /></a>
+						<div class="username">proud_as </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=25&toAge=25&ageLink=1&gender=M">25</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>England</b> (<a href="free-online-dating/Middlesex.php" title="Online Dating in Middlesex">Middlesex</a>)<br /><span style="color:#900;">141 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=45572" title="Read all of proud_as's final thought.">i think u should msg me</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/proud_as" title="Visit proud_as's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=30895" title="Visit hux5446's profile page"><img class="photo" src="media/members_95/30895/cropThumb.me.jpg" width="92" height="98" alt="hux5446" /></a>
+						<div class="username">hux5446 </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=26&toAge=26&ageLink=1&gender=M">26</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>Wales</b> (<a href="free-online-dating/Clwyd.php" title="Online Dating in Clwyd">Clwyd</a>)<br /><span style="color:#900;">42 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=30895" title="Read all of hux5446's final thought.">life is grate then u get sent to iraq. he he he ohwell life gose on but for u peeps who think we ave it easy then think again its the worst place in the world infact its the arse whole of the world!!!!</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/hux5446" title="Visit hux5446's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=27862" title="Visit teefinator's profile page"><img class="photo" src="media/members_62/27862/cropThumb.DSC00034.JPG" width="92" height="98" alt="teefinator" /></a>
+						<div class="username">teefinator </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=27&toAge=27&ageLink=1&gender=M">27</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where"><b>England</b> (<a href="free-online-dating/London.php" title="Online Dating in London">London</a>)</div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=27862" title="Read all of teefinator's final thought.">&nbsp;female prayer&nbsp; before i lay me down to sleep,&nbsp; i pray for a man, who's not a creep,&nbsp; one who's handsome, smart and strong,&nbsp; one who loves to listen long,&nbsp; one who thinks before he speaks,&nbsp; one who'll call, not wait for weeks.&nbsp; i pray he's gainfully employed,&nbsp; when i spend his cash, won't be annoyed.&nbsp; pulls out my chair and opens my door,&nbsp; massages my back and begs to do more.&nbsp; oh! send me a man who'll make love to my mind,&nbsp; knows what to answer to "how big is my behind?"&nbsp; i pray that this man will love me to no end,&nbsp; and always be my very best friend.&nbsp;&nbsp;&nbsp; amen.&nbsp;&nbsp;&nbsp; male prayer&nbsp;&nbsp;&nbsp; i pray for a deaf-mute nymphomaniac with huge boobs who owns aliquor&nbsp; store and a boat. this doesn't rhyme and i don't give a ****.&nbsp;&nbsp;&nbsp; amen</a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/teefinator" title="Visit teefinator's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>											<div class="floatL">
+	<div class="userPanel bgmn">
+		<a href="profile-home.php?userid=35767" title="Visit mikey_lad's profile page"><img class="photo" src="media/members_67/35767/cropThumb.mike.jpg" width="92" height="98" alt="mikey_lad" /></a>
+						<div class="username">mikey_lad </div>
+		<div class="age">Age:
+						<a style="color:#c00;" hhref="users.php?fromAge=27&toAge=27&ageLink=1&gender=M">27</a>
+					</div>
+
+		<div class="flag"><img src="media/common/countries/unitedkingdom.gif" width="27" height="15" alt="" align="absmiddle" /></div>				<div class="where2"><b>Wales</b> (<a href="free-online-dating/Mid Glamorgan.php" title="Online Dating in Mid Glamorgan">Mid Glamorgan</a>)<br /><span style="color:#900;">122 miles away</span></div>
+				<div class="icons"></div>
+		<div class="text"><a class="finalThoughtA" href="profile-home.php?userid=35767" title="Read all of mikey_lad's final thought.">love being alive and living life to the full and getting a buzz out of it in the progres    :-)    </a></div>
+		<div class="options" style="line-height:20px;margin-left:154px;">
+			<a href="/mikey_lad" title="Visit mikey_lad's profile page." style="color:#fff;font-size:12px;font-weight:bold;">View My Profile</a>
+		</div>
+	</div>
+</div>										<table class="pagination" cellpadding="0" cellspacing="0" border="0"><tr><td width="204" align="left" valign="middle"><a class="prevPage" href="/users.php?gender=M&amp;sexuality=&amp;fromAge=18&amp;toAge=30&amp;country=5&amp;country_area=&amp;online=&amp;images=&amp;videoProfile=&amp;signedUp=&amp;miles=&amp;username=&amp;page=87">&lt;&lt; Prev Page</a></td><td width="204" align="center" valign="middle">viewing page <span>88</span> of 12227</td><td width="204" align="right" valign="middle"><a class="nextPage" href="/users.php?gender=M&amp;sexuality=&amp;fromAge=18&amp;toAge=30&amp;country=5&amp;country_area=&amp;online=&amp;images=&amp;videoProfile=&amp;signedUp=&amp;miles=&amp;username=&amp;page=89">Next Page &gt;&gt;</a></td></tr></table>
+					</div>
+						
+					
+					<div class="ClearB">&nbsp;</div>
+					
+				</div>
+				<div class="bottom"></div>	
+							
+			</div>
+			
+		
+
+		<div id="theBottom" style="margin-bottom:6px;">CheekyFlirt.com &copy; 2006 - EasyFlirt Network.<br><a href="http://www.easyflirt.com" title="Online dating">EasyFlirt</a> <a href="contact.php" title="Contact us">Contact Us</a> <a href="http://www.easyflirt.co.uk">UK Dating</a> <a href="http://www.easyflirt-partners.biz/index.php?pr=18955">Webmasters / Affiliates</a> <a href="terms.php" title="Read our terms and conditions and terms of use">Terms</a> <a href="privacy.php" title="Privacy information">Privacy Statement</a> <a href="help/index.php" title="Need help with Cheekyflirt? Click here!">Help</a>
+	<a href="online-dating/resources.php" title="Dating resources">Resources</a> <a href="http://www.easyflirt.de" title="kostenlos dating">Dating Deutschland</a>
+					</div>
+		
+								
+				
+		<script src="userplane/functions.js" type="text/javascript" language="javascript"></script>
+		<script language="javascript" type="text/javascript">
+			document.getElementById('hollaBox').innerHTML = 'Have you uploaded a photo yet? -  Members with photos get more messages, votes, gifts and profile points! - Upload a photo today ! <a href=account-pictures.php>Click Here!</a>';
+			initHolla('ADMIN');
+		</script>
+		
+							<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+				<script type="text/javascript">
+		_uacct = "UA-1775268-10";
+		urchinTracker();
+		</script>
+
+	</body>
+
+</html>

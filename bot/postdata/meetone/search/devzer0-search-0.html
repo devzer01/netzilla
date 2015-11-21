@@ -1,0 +1,33 @@
+
+
+<script type="text/javascript">
+	if (typeof(searchShortMenu) != "undefined") {
+		searchShortMenu.setContent('search&ageMin=60&ageMax=60&gender=m&online=true&searchPrivacy=Y');
+		searchShortMenu.setTotal(1);
+		searchShortMenu.update(0);
+	}
+	if (typeof(searchShortMenuBottom) != "undefined") {
+		searchShortMenuBottom.setContent('search&ageMin=60&ageMax=60&gender=m&online=true&searchPrivacy=Y');
+		searchShortMenuBottom.setTotal(1);
+		searchShortMenuBottom.update(0);
+	}
+	if ($('searchTotalTxt')) {
+		$('searchTotalTxt').update('0');
+					$('searchTotalTxtRight').update('Mitglieder gefunden');
+			}
+	if ($('searchTotalBottomTxt')) {
+		$('searchTotalBottomTxt').update('0');
+					$('searchTotalBottomTxtRight').update('Mitglieder gefunden');
+			}
+</script>
+
+			<div style="position: relative; height: auto; width: 460px; margin: 30px 0px 35px 10px;">
+				
+						
+	<div class="info_div info_blue">
+					<div class="meldungen_ico"><img src="http://lb2.cdn.spion-media.eu/gfx/meldungen/light.png" alt="Hinweis-Icon" /></div>
+				<div class="meldungen_text">Deine Suche ergab keine Ergebnisse. Bitte &auml;ndere deine Suchkriterien.</div>
+	</div>		</div>
+	
+<input type="hidden" id="searchShortMenuTotal" value="1" />
+<input type="hidden" id="searchContentSuffix" value="" />

@@ -1,0 +1,35 @@
+.container-metropopup{background:url(../images/cm-theme/bg-bar.png) #1e5699 repeat-x; padding:10px; color:#FFF; position:relative; /*top:-100px;*/ text-shadow: 1px 1px #000;}
+.metropopup-content{line-height:20px; width:50%; min-width:500px !important; margin:10px 10px 10px 10px; padding:10px; height:auto; left:25%; position:relative; padding-bottom:20px;}
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  display:none;
+  z-index:9999;
+}
+
+#dialogForget, #dialogBonus, #dialogVerifyMobile,#dialogChangeEmail {
+	width: 100%;
+}
+
+
+/*SmallBox animated fadeInRight fast*/
+.SmallBox{ background:url(../images/cm-theme/bg-bar.png) repeat-x #1e5699; box-shadow: 1px 1px 2px #000;}
+
+
+
+
+
+
+
+
+

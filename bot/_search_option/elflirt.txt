@@ -1,0 +1,338 @@
+﻿<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1">1</option>
+			<option value="2" selected>2</option>
+		</select>
+	</span>
+	<br class="clear">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<span class="label">MSG type:</span>
+        <span class="field">
+	    <select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>		
+	    </select>
+        </span>
+        <br class="clear">
+
+	<span class="label">Search for?:</span>
+	<span class="field">
+		<select id="search" name="search">
+			<option value="0" selected>Alle</option>
+			<option value="1" >Online</option>
+			<option value="2" >Alle neuen Nutzer</option>
+		</select>
+	</span>
+	<br class="clear">
+	
+	<span id="gender_area">
+		<span class="label">Geschlecht:</span>
+		<span class="field">
+			<select id="gender" name="gender">
+				<option value="1" >nur Chicos</option>
+				<option value="0" >nur Chicas</option>				
+			</select>
+		</span>
+		<br class="clear">
+        </span>
+	<span id="age_area">
+		<span class="label">Alter zwischen:</span>
+		<span class="field">
+			<select id="age_from" name="ageStart">
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20" selected="selected">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+				<option value="32">32</option>
+				<option value="33">33</option>
+				<option value="34">34</option>
+				<option value="35">35</option>
+				<option value="36">36</option>
+				<option value="37">37</option>
+				<option value="38">38</option>
+				<option value="39">39</option>
+				<option value="40">40</option>
+				<option value="41">41</option>
+				<option value="42">42</option>
+				<option value="43">43</option>
+				<option value="44">44</option>
+				<option value="45">45</option>
+				<option value="46">46</option>
+				<option value="47">47</option>
+				<option value="48">48</option>
+				<option value="49">49</option>
+				<option value="50">50</option>
+				<option value="51">51</option>
+				<option value="52">52</option>
+				<option value="53">53</option>
+				<option value="54">54</option>
+				<option value="55">55</option>
+				<option value="56">56</option>
+				<option value="57">57</option>
+				<option value="58">58</option>
+				<option value="59">59</option>
+				<option value="60">60</option>
+				<option value="61">61</option>
+				<option value="62">62</option>
+				<option value="63">63</option>
+				<option value="64">64</option>
+				<option value="65">65</option>
+				<option value="66">66</option>
+				<option value="67">67</option>
+				<option value="68">68</option>
+				<option value="69">69</option>
+				<option value="70">70</option>
+		</select> to <select id="age_to" name="ageEnd">
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+				<option value="32">32</option>
+				<option value="33">33</option>
+				<option value="34">34</option>
+				<option value="35">35</option>
+				<option value="36">36</option>
+				<option value="37">37</option>
+				<option value="38">38</option>
+				<option value="39">39</option>
+				<option value="40">40</option>
+				<option value="41">41</option>
+				<option value="42">42</option>
+				<option value="43">43</option>
+				<option value="44">44</option>
+				<option value="45">45</option>
+				<option value="46">46</option>
+				<option value="47">47</option>
+				<option value="48">48</option>
+				<option value="49">49</option>
+				<option value="50">50</option>
+				<option value="51">51</option>
+				<option value="52">52</option>
+				<option value="53">53</option>
+				<option value="54">54</option>
+				<option value="55">55</option>
+				<option value="56">56</option>
+				<option value="57">57</option>
+				<option value="58">58</option>
+				<option value="59">59</option>
+				<option value="60">60</option>
+				<option value="61">61</option>
+				<option value="62">62</option>
+				<option value="63">63</option>
+				<option value="64">64</option>
+				<option value="65">65</option>
+				<option value="66">66</option>
+				<option value="67">67</option>
+				<option value="68">68</option>
+				<option value="69">69</option>
+				<option value="70" selected="selected">70</option>
+			</select>	
+			<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+		</span>
+		<br class="clear">
+	</span>
+	<span id="land_area">
+		<span class="label">Land:</span>
+		<span class="field">
+			<select id="country" name="country">
+				<option value='99'>alle</option>
+				 <option selected value='de'>Deutschland</option>
+				 <option value='at'>Österreich</option>
+				 <option value='ch'>Schweiz</option>
+				 <option value='af'>Afghanistan</option>
+				 <option value='eg'>Ägypten</option>
+				 <option value='al'>Albanien</option>
+				 <option value='dz'>Algerien</option>
+				 <option value='ad'>Andorra</option>
+				 <option value='ar'>Argentinien</option>
+				 <option value='am'>Armenien</option>
+				 <option value='az'>Aserbaidschan</option>
+				 <option value='au'>Australien</option>
+				 <option value='be'>Belgien</option>
+				 <option value='ba'>Bosnien-Herzegowina</option>
+				 <option value='br'>Brasilien</option>
+				 <option value='bg'>Bulgarien</option>
+				 <option value='cn'>China</option>
+				 <option value='dk'>Dänemark</option>
+				 <option value='ee'>Estland</option>
+				 <option value='fi'>Finnland</option>
+				 <option value='fr'>Frankreich</option>
+				 <option value='gr'>Griechenland</option>
+				 <option value='in'>Indien</option>
+				 <option value='iq'>Irak</option>
+				 <option value='ir'>Iran</option>
+				 <option value='ie'>Irland</option>
+				 <option value='is'>Island</option>
+				 <option value='il'>Israel</option>
+				 <option value='it'>Italien</option>
+				 <option value='jp'>Japan</option>
+				 <option value='ca'>Kanada</option>
+				 <option value='hr'>Kroatien</option>
+				 <option value='lv'>Lettland</option>
+				 <option value='li'>Liechtenstein</option>
+				 <option value='lt'>Litauen</option>
+				 <option value='lu'>Luxemburg</option>
+				 <option value='mt'>Malta</option>
+				 <option value='ma'>Marokko</option>
+				 <option value='mk'>Mazedonien</option>
+				 <option value='mx'>Mexiko</option>
+				 <option value='md'>Moldawien</option>
+				 <option value='mc'>Monaco</option>
+				 <option value='me'>Montenegro</option>
+				 <option value='nl'>Niederlande</option>
+				 <option value='no'>Norwegen</option>
+				 <option value='ph'>Philippinen</option>
+				 <option value='pl'>Polen</option>
+				 <option value='pt'>Portugal</option>
+				 <option value='ro'>Rumänien</option>
+				 <option value='ru'>Russland</option>
+				 <option value='sm'>San Marino</option>
+				 <option value='se'>Schweden</option>
+				 <option value='sn'>Senegal</option>
+				 <option value='rs'>Serbien</option>
+				 <option value='sk'>Slowakei</option>
+				 <option value='si'>Slowenien</option>
+				 <option value='es'>Spanien</option>
+				 <option value='za'>Südafrika</option>
+				 <option value='th'>Thailand</option>
+				 <option value='cz'>Tschechien</option>
+				 <option value='tn'>Tunesien</option>
+				 <option value='tr'>Türkei</option>
+				 <option value='ua'>Ukraine</option>
+				 <option value='hu'>Ungarn</option>
+				 <option value='va'>Vatikan</option>
+				 <option value='us'>USA</option>
+				 <option value='uk'>Großbritannien</option>
+				 <option value='by'>Weißrussland</option>
+				 <option value='cy'>Zypern</option>
+				 <option value='sc'>Schottland</option>
+				 <option value='ci'>Elfenbeinküste</option>
+			</select>
+		</span>
+		<br class="clear">
+	</span>
+	<span id="foto_area">
+		<span class="label">Flirtcard-Foto:</span>
+		<span class="field">
+			<select id="picture" name="picture">
+				<option value="1" selected>nur mit Bild</option>
+				<option value="99" >Alle</option>
+			</select>
+		</span>
+		<br class="clear">	
+        </span>
+	<span id="searchof_area">
+		<span class="label">Auf der Suche nach:</span>
+		<span class="field">
+			<select id="lookfor" name="lookfor">
+				<option value="0" selected>Alle</option>
+				<option value="1">einfachen Flirt</option>
+				<option value="2">der großen Liebe</option>
+				<option value="3">sexuellen Abenteuern</option>
+				<option value="4">einem Seitensprung</option>
+				<option value="8">nur Engelchen</option>
+				<option value="9">nur Teufelchen</option>
+			</select>
+		</span>
+		<br class="clear">
+        </span>
+	<span id="stand_area">
+		<span class="label">Steht auf:</span>
+		<span class="field">
+			<select id="affection" name="affection">
+				<option value="0" selected>Alle</option>
+				<option value="1">Chicos</option>
+				<option value="2">Chicas</option>
+				<option value="3">Beides</option>
+			</select>
+		</span>
+		<br class="clear">
+	</span>
+</span>
+
+<script>
+$(document).ready(function() {
+
+	 $('#search').change(function(){
+		var search = $('#search :selected').val();
+
+		if(search == 1){
+		   
+		    $("#gender_area").show();
+		    $("#age_area").hide();
+		    $("#land_area").hide();
+		    $("#foto_area").hide();
+		    $("#searchof_area").hide();
+		    $("#stand_area").hide();
+
+		    $("#age_area").empty();		   
+
+		}else if(search == 2){
+
+		    $("#gender_area").show();
+		    $("#age_area").hide();
+		    $("#land_area").hide();
+		    $("#foto_area").hide();
+		    $("#searchof_area").hide();
+		    $("#stand_area").hide();
+
+		}else{
+
+		    $("#gender_area").show();
+		    $("#age_area").show();
+		    $("#land_area").show();
+		    $("#foto_area").show();
+		    $("#searchof_area").show();
+		    $("#stand_area").show();
+
+		}
+	 });
+
+});
+</script>

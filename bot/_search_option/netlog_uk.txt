@@ -1,0 +1,479 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<span class="label">Gender:</span>
+<span class="field">
+	<select name="gender" class="gender" id="gender">
+	<option value="a">All</option>
+	<option value="m" selected="selected">Man</option>
+	<option value="w">Woman</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Age:</span>
+<span class="field">
+	<select id="age_from" name="age_from">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20" selected="selected">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70">70</option>
+</select> to <select id="age_to" name="age_to">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70" selected="selected">70</option>
+	</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear">
+
+<span class="label">Country:</span>
+<span class="field">
+	<select name="country" id="country">
+		<option value="-1">All countries ...</option>
+		<option value="AU">Australia</option>
+		<option value="CA">Canada</option>
+		<option value="IN">India</option>
+		<option value="IE">Ireland</option>
+		<option value="NZ">New Zealand</option>
+		<option value="GB" selected="selected">United Kingdom</option>
+		<option value="US">United States</option>
+		<option value="--">Other</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Region:</span>
+<span class="field">
+	<select name="region">
+  <option value="-1">All regions …</option>
+  <option value="T5">Aberdeen City</option>
+  <option value="T6">Aberdeenshire</option>
+  <option value="T7">Angus</option>
+  <option value="Q6">Antrim</option>
+  <option value="Q7">Ards</option>
+  <option value="T8">Argyll and Bute</option>
+  <option value="Q8">Armagh</option>
+  <option value="01">Avon</option>
+  <option value="Q9">Ballymena</option>
+  <option value="R1">Ballymoney</option>
+  <option value="R2">Banbridge</option>
+  <option value="A1">Barking and Dagenham</option>
+  <option value="A2">Barnet</option>
+  <option value="A3">Barnsley</option>
+  <option value="A4">Bath and North East Somerset</option>
+  <option value="A5">Bedfordshire</option>
+  <option value="R3">Belfast</option>
+  <option value="03">Berkshire</option>
+  <option value="A6">Bexley</option>
+  <option value="A7">Birmingham</option>
+  <option value="A8">Blackburn with Darwen</option>
+  <option value="A9">Blackpool</option>
+  <option value="X2">Blaenau Gwent</option>
+  <option value="B1">Bolton</option>
+  <option value="B2">Bournemouth</option>
+  <option value="B3">Bracknell Forest</option>
+  <option value="B4">Bradford</option>
+  <option value="B5">Brent</option>
+  <option value="X3">Bridgend</option>
+  <option value="B6">Brighton and Hove</option>
+  <option value="B7">Bristol, City of</option>
+  <option value="B8">Bromley</option>
+  <option value="B9">Buckinghamshire</option>
+  <option value="C1">Bury</option>
+  <option value="X4">Caerphilly</option>
+  <option value="C2">Calderdale</option>
+  <option value="C3">Cambridgeshire</option>
+  <option value="C4">Camden</option>
+  <option value="X5">Cardiff</option>
+  <option value="X7">Carmarthenshire</option>
+  <option value="R4">Carrickfergus</option>
+  <option value="R5">Castlereagh</option>
+  <option value="79">Central</option>
+  <option value="X6">Ceredigion</option>
+  <option value="C5">Cheshire</option>
+  <option value="U1">Clackmannanshire</option>
+  <option value="07">Cleveland</option>
+  <option value="90">Clwyd</option>
+  <option value="R6">Coleraine</option>
+  <option value="X8">Conwy</option>
+  <option value="R7">Cookstown</option>
+  <option value="C6">Cornwall</option>
+  <option value="C7">Coventry</option>
+  <option value="R8">Craigavon</option>
+  <option value="C8">Croydon</option>
+  <option value="C9">Cumbria</option>
+  <option value="D1">Darlington</option>
+  <option value="X9">Denbighshire</option>
+  <option value="D2">Derby</option>
+  <option value="D3">Derbyshire</option>
+  <option value="S6">Derry</option>
+  <option value="D4">Devon</option>
+  <option value="D5">Doncaster</option>
+  <option value="D6">Dorset</option>
+  <option value="R9">Down</option>
+  <option value="D7">Dudley</option>
+  <option value="U2">Dumfries and Galloway</option>
+  <option value="U3">Dundee City</option>
+  <option value="S1">Dungannon</option>
+  <option value="D8">Durham</option>
+  <option value="91">Dyfed</option>
+  <option value="D9">Ealing</option>
+  <option value="U4">East Ayrshire</option>
+  <option value="U5">East Dunbartonshire</option>
+  <option value="U6">East Lothian</option>
+  <option value="U7">East Renfrewshire</option>
+  <option value="E1">East Riding of Yorkshire</option>
+  <option value="E2">East Sussex</option>
+  <option value="U8">Edinburgh, City of</option>
+  <option value="W8">Eilean Siar</option>
+  <option value="E3">Enfield</option>
+  <option value="E4">Essex</option>
+  <option value="U9">Falkirk</option>
+  <option value="S2">Fermanagh</option>
+  <option value="V1">Fife</option>
+  <option value="Y1">Flintshire</option>
+  <option value="E5">Gateshead</option>
+  <option value="V2">Glasgow City</option>
+  <option value="E6">Gloucestershire</option>
+  <option value="82">Grampian</option>
+  <option value="17">Greater London</option>
+  <option value="18">Greater Manchester</option>
+  <option value="E7">Greenwich</option>
+  <option value="92">Gwent</option>
+  <option value="Y2">Gwynedd</option>
+  <option value="E8">Hackney</option>
+  <option value="E9">Halton</option>
+  <option value="F1">Hammersmith and Fulham</option>
+  <option value="F2">Hampshire</option>
+  <option value="F3">Haringey</option>
+  <option value="F4">Harrow</option>
+  <option value="F5">Hartlepool</option>
+  <option value="F6">Havering</option>
+  <option value="20">Hereford and Worcester</option>
+  <option value="F7">Herefordshire</option>
+  <option value="F8">Hertford</option>
+  <option value="21">Hertfordshire</option>
+  <option value="V3">Highland</option>
+  <option value="F9">Hillingdon</option>
+  <option value="G1">Hounslow</option>
+  <option value="22">Humberside</option>
+  <option value="V4">Inverclyde</option>
+  <option value="X1">Isle of Anglesey</option>
+  <option value="G2">Isle of Wight</option>
+  <option value="G3">Islington</option>
+  <option value="G4">Kensington and Chelsea</option>
+  <option value="G5">Kent</option>
+  <option value="G6">Kingston upon Hull, City of</option>
+  <option value="G7">Kingston upon Thames</option>
+  <option value="G8">Kirklees</option>
+  <option value="G9">Knowsley</option>
+  <option value="H1">Lambeth</option>
+  <option value="H2">Lancashire</option>
+  <option value="S3">Larne</option>
+  <option value="H3">Leeds</option>
+  <option value="H4">Leicester</option>
+  <option value="H5">Leicestershire</option>
+  <option value="H6">Lewisham</option>
+  <option value="S4">Limavady</option>
+  <option value="H7">Lincolnshire</option>
+  <option value="S5">Lisburn</option>
+  <option value="H8">Liverpool</option>
+  <option value="H9">London, City of</option>
+  <option value="84">Lothian</option>
+  <option value="I1">Luton</option>
+  <option value="S7">Magherafelt</option>
+  <option value="I2">Manchester</option>
+  <option value="I3">Medway</option>
+  <option value="28">Merseyside</option>
+  <option value="Y3">Merthyr Tydfil</option>
+  <option value="I4">Merton</option>
+  <option value="94">Mid Glamorgan</option>
+  <option value="I5">Middlesbrough</option>
+  <option value="V5">Midlothian</option>
+  <option value="I6">Milton Keynes</option>
+  <option value="Y4">Monmouthshire</option>
+  <option value="V6">Moray</option>
+  <option value="S8">Moyle</option>
+  <option value="Y5">Neath Port Talbot</option>
+  <option value="I7">Newcastle upon Tyne</option>
+  <option value="I8">Newham</option>
+  <option value="Y6">Newport</option>
+  <option value="S9">Newry and Mourne</option>
+  <option value="T1">Newtownabbey</option>
+  <option value="I9">Norfolk</option>
+  <option value="V7">North Ayrshire</option>
+  <option value="T2">North Down</option>
+  <option value="J2">North East Lincolnshire</option>
+  <option value="V8">North Lanarkshire</option>
+  <option value="J3">North Lincolnshire</option>
+  <option value="J4">North Somerset</option>
+  <option value="J5">North Tyneside</option>
+  <option value="J7">North Yorkshire</option>
+  <option value="J1">Northamptonshire</option>
+  <option value="J6">Northumberland</option>
+  <option value="J8">Nottingham</option>
+  <option value="J9">Nottinghamshire</option>
+  <option value="K1">Oldham</option>
+  <option value="T3">Omagh</option>
+  <option value="V9">Orkney</option>
+  <option value="K2">Oxfordshire</option>
+  <option value="Y7">Pembrokeshire</option>
+  <option value="W1">Perth and Kinross</option>
+  <option value="K3">Peterborough</option>
+  <option value="K4">Plymouth</option>
+  <option value="K5">Poole</option>
+  <option value="K6">Portsmouth</option>
+  <option value="Y8">Powys</option>
+  <option value="K7">Reading</option>
+  <option value="K8">Redbridge</option>
+  <option value="K9">Redcar and Cleveland</option>
+  <option value="W2">Renfrewshire</option>
+  <option value="Y9">Rhondda Cynon Taff</option>
+  <option value="L1">Richmond upon Thames</option>
+  <option value="L2">Rochdale</option>
+  <option value="L3">Rotherham</option>
+  <option value="L4">Rutland</option>
+  <option value="L5">Salford</option>
+  <option value="L7">Sandwell</option>
+  <option value="T9">Scottish Borders, The</option>
+  <option value="L8">Sefton</option>
+  <option value="L9">Sheffield</option>
+  <option value="W3">Shetland Islands</option>
+  <option value="L6">Shropshire</option>
+  <option value="M1">Slough</option>
+  <option value="M2">Solihull</option>
+  <option value="M3">Somerset</option>
+  <option value="W4">South Ayrshire</option>
+  <option value="96">South Glamorgan</option>
+  <option value="M6">South Gloucestershire</option>
+  <option value="W5">South Lanarkshire</option>
+  <option value="M7">South Tyneside</option>
+  <option value="37">South Yorkshire</option>
+  <option value="M4">Southampton</option>
+  <option value="M5">Southend-on-Sea</option>
+  <option value="M8">Southwark</option>
+  <option value="N1">St. Helens</option>
+  <option value="M9">Staffordshire</option>
+  <option value="W6">Stirling</option>
+  <option value="N2">Stockport</option>
+  <option value="N3">Stockton-on-Tees</option>
+  <option value="N4">Stoke-on-Trent</option>
+  <option value="T4">Strabane</option>
+  <option value="87">Strathclyde</option>
+  <option value="N5">Suffolk</option>
+  <option value="N6">Sunderland</option>
+  <option value="N7">Surrey</option>
+  <option value="N8">Sutton</option>
+  <option value="Z1">Swansea</option>
+  <option value="N9">Swindon</option>
+  <option value="O1">Tameside</option>
+  <option value="88">Tayside</option>
+  <option value="O2">Telford and Wrekin</option>
+  <option value="O3">Thurrock</option>
+  <option value="O4">Torbay</option>
+  <option value="Z2">Torfaen</option>
+  <option value="O5">Tower Hamlets</option>
+  <option value="O6">Trafford</option>
+  <option value="41">Tyne and Wear</option>
+  <option value="Z3">Vale of Glamorgan, The</option>
+  <option value="O7">Wakefield</option>
+  <option value="O8">Walsall</option>
+  <option value="O9">Waltham Forest</option>
+  <option value="P1">Wandsworth</option>
+  <option value="P2">Warrington</option>
+  <option value="P3">Warwickshire</option>
+  <option value="P4">West Berkshire</option>
+  <option value="W7">West Dunbartonshire</option>
+  <option value="97">West Glamorgan</option>
+  <option value="W9">West Lothian</option>
+  <option value="43">West Midlands</option>
+  <option value="P6">West Sussex</option>
+  <option value="45">West Yorkshire</option>
+  <option value="P5">Westminster</option>
+  <option value="P7">Wigan</option>
+  <option value="P8">Wiltshire</option>
+  <option value="P9">Windsor and Maidenhead</option>
+  <option value="Q1">Wirral</option>
+  <option value="Q2">Wokingham</option>
+  <option value="Q3">Wolverhampton</option>
+  <option value="Q4">Worcestershire</option>
+  <option value="Z4">Wrexham</option>
+  <option value="Q5">York</option>
+   </select>
+	FOR UK ONLY
+</span>
+<br class="clear">
+
+<span class="label">Start page:</span>
+<span class="field">
+	<input type="number" name="start_page" value="1"/>
+</span>
+<br class="clear">
+
+<span class="label">Status:</span>
+<span class="field">
+ <input type="checkbox" name="options[o]" value="1" id="isOnline"><label for="isOnline"> Is now online</label><br>
+ <input type="checkbox" name="options[ol]" value="1" id="onlineLastWeek"><label for="onlineLastWeek"> Has been online recently</label><br>
+ <input type="checkbox" name="options[p]" value="1" id="hasProfilePicture"><label for="hasProfilePicture"> Has a profile picture</label><br>
+</span>
+
+<span class="label">Hair color:</span>
+<span class="field">
+  <input type="checkbox" name="options[hc][47]" value="1" id="hc_47"> <label for="hc_47">Bald</label><br>
+  <input type="checkbox" name="options[hc][44]" value="1" id="hc_44"> <label for="hc_44">Black</label><br>
+  <input type="checkbox" name="options[hc][42]" value="1" id="hc_42"> <label for="hc_42">Blond</label><br>
+  <input type="checkbox" name="options[hc][43]" value="1" id="hc_43"> <label for="hc_43">Brown</label><br>
+  <input type="checkbox" name="options[hc][48]" value="1" id="hc_48"> <label for="hc_48">Dyed</label><br>
+  <input type="checkbox" name="options[hc][46]" value="1" id="hc_46"> <label for="hc_46">Other</label><br>
+  <input type="checkbox" name="options[hc][45]" value="1" id="hc_45"> <label for="hc_45">Red</label><br>
+</span>
+
+<span class="label">Eye color:</span>
+<span class="field">
+  <input type="checkbox" name="options[ec][38]" value="1" id="ec_38"> <label for="ec_38">Blue</label><br>
+  <input type="checkbox" name="options[ec][40]" value="1" id="ec_40"> <label for="ec_40">Brown</label><br>
+  <input type="checkbox" name="options[ec][39]" value="1" id="ec_39"> <label for="ec_39">Green</label><br>
+  <input type="checkbox" name="options[ec][37]" value="1" id="ec_37"> <label for="ec_37">Grey</label><br>
+  <input type="checkbox" name="options[ec][41]" value="1" id="ec_41"> <label for="ec_41">Other colour</label><br>
+</span>
+
+<span class="label">Zodiac:</span>
+<span class="field">
+<select name="options[ss]">
+ <option value=""></option>
+  <option value="1">Aries</option>
+  <option value="2">Taurus</option>
+  <option value="3">Gemini</option>
+  <option value="4">Cancer</option>
+  <option value="5">Leo</option>
+  <option value="6">Virgo</option>
+  <option value="7">Libra</option>
+  <option value="8">Scorpio</option>
+  <option value="9">Sagittarius</option>
+  <option value="10">Capricorn</option>
+  <option value="11">Aquarius</option>
+  <option value="12">Pisces</option>
+  </select>
+</span>

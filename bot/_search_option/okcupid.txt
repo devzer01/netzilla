@@ -1,0 +1,365 @@
+<span class="label">ACTION: </span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+<span class="label">BOT Version:</span>
+<span class="field">
+	<select name="version" onchange="if(this.value==1) $('#inboxLimit').hide(); else $('#inboxLimit').show();">
+		<option value="1" selected>1</option>
+		<option value="2">2</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Full MSG?</span>
+<span class="field">
+	<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+</span>
+<br class="clear">
+
+<!--<span class="label">MSG type:</span>
+<span class="field">
+	<select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>
+		<option value="qa">Question</option>
+	</select>
+</span>
+<br class="clear">-->
+
+<span class="label">Gender: </span>
+<span class="field">
+	<select name="gender" id="gender">
+		<option value="17">Male</option>
+		<option value="34">Female</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label for_send">Age: </span>
+<span class="field for_send">
+	<select id="age_from" name="age_from">
+		<option selected="selected" value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+</select> to <select id="age_to" name="age_to">
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50" selected="selected">50</option>
+	</select>
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear for_send">
+
+<span class="label">Start city:</span>
+<span class="field">
+	<select id="start_city" name="start_city">
+		<option value="Belfast">			Belfast</option>
+		<option value="Cardiff">			Cardiff</option>
+		<option value="Castlereagh">			Castlereagh</option>
+		<option value="Aberdeen">			Aberdeen</option>
+		<option value="Dundee">				Dundee</option>
+		<option value="Edinburgh">			Edinburgh</option>
+		<option value="Glasgow">			Glasgow</option>
+		<option value="Craigavon">			Craigavon</option>
+		<option value="Derry">				Derry</option>
+		<option value="Bangor">				Bangor</option>
+		<option value="Beeston and Stapleford">		Beeston and Stapleford</option>
+		<option value="Carlton">			Carlton</option>
+		<option value="Chesterfield">			Chesterfield</option>
+		<option value="Corby">				Corby</option>
+		<option value="Derby">				Derby</option>
+		<option value="Kettering">			Kettering</option>
+		<option value="Leicester">			Leicester</option>
+		<option value="Lincoln">			Lincoln</option>
+		<option value="Loughborough">			Loughborough</option>
+		<option value="Mansfield">			Mansfield</option>
+		<option value="Northampton">			Northampton</option>
+		<option value="Nottingham">			Nottingham</option>
+		<option value="Wellingborough">			Wellingborough</option>
+		<option value="West Bridgford">			West Bridgford</option>
+		<option value="Basildon">			Basildon</option>
+		<option value="Bedford">			Bedford</option>
+		<option value="Cambridge/Milton">		Cambridge/Milton</option>
+		<option value="Chelmsford">			Chelmsford</option>
+		<option value="Cheshunt">			Cheshunt</option>
+		<option value="Clacton-on-Sea">			Clacton-on-Sea</option>
+		<option value="Colchester">			Colchester</option>
+		<option value="Dunstable">			Dunstable</option>
+		<option value="Grays">				Grays</option>
+		<option value="Great Yarmouth">			Great Yarmouth</option>
+		<option value="Harlow/Sawbridgeworth">		Harlow/Sawbridgeworth</option>
+		<option value="Hemel Hempstead">		Hemel Hempstead</option>
+		<option value="Ipswich">			Ipswich</option>
+		<option value="Lowestoft">			Lowestoft</option>
+		<option value="Luton">				Luton</option>
+		<option value="Norwich">			Norwich</option>
+		<option value="Peterborough">			Peterborough</option>
+		<option value="Saint Albans">			Saint Albans</option>
+		<option value="Southend-on-Sea">		Southend-on-Sea</option>
+		<option value="Stevenage">			Stevenage</option>
+		<option value="Watford">			Watford</option>
+		<option value="London">				London</option>
+		<option value="Lisburn">			Lisburn</option>
+		<option value="Newport">			Newport</option>
+		<option value="Newtownabbey">			Newtownabbey</option>
+		<option value="Darlington">			Darlington</option>
+		<option value="Gateshead">			Gateshead</option>
+		<option value="Hartlepool">			Hartlepool</option>
+		<option value="Middlesbrough">			Middlesbrough</option>
+		<option value="Newcastle upon Tyne">		Newcastle upon Tyne</option>
+		<option value="South Shields">			South Shields</option>
+		<option value="Stockton-on-Tees">		Stockton-on-Tees</option>
+		<option value="Sunderland">			Sunderland</option>
+		<option value="Washington">			Washington</option>
+		<option value="Bebington">			Bebington</option>
+		<option value="Birkenhead">			Birkenhead</option>
+		<option value="Blackburn">			Blackburn</option>
+		<option value="Blackpool">			Blackpool</option>
+		<option value="Bolton">				Bolton</option>
+		<option value="Bootle">				Bootle</option>
+		<option value="Burnley">			Burnley</option>
+		<option value="Bury">				Bury</option>
+		<option value="Carlisle">			Carlisle</option>
+		<option value="Cheadle and Gatley">		Cheadle and Gatley</option>
+		<option value="Chester">			Chester</option>
+		<option value="Crewe">				Crewe</option>
+		<option value="Crosby">				Crosby</option>
+		<option value="Ellesmere Port">			Ellesmere Port</option>
+		<option value="Greasby/Moreton">		Greasby/Moreton</option>
+		<option value="Huyton-with-Roby">		Huyton-with-Roby</option>
+		<option value="Liverpool">			Liverpool</option>
+		<option value="Macclesfield">			Macclesfield</option>
+		<option value="Manchester">			Manchester</option>
+		<option value="Morecambe">			Morecambe</option>
+		<option value="Oldham">				Oldham</option>
+		<option value="Preston">			Preston</option>
+		<option value="Rochdale">			Rochdale</option>
+		<option value="Runcorn">			Runcorn</option>
+		<option value="Saint Helens">			Saint Helens</option>
+		<option value="Sale">				Sale</option>
+		<option value="Salford">			Salford</option>
+		<option value="Southport">			Southport</option>
+		<option value="Stockport">			Stockport</option>
+		<option value="Wallasey">			Wallasey</option>
+		<option value="Warrington">			Warrington</option>
+		<option value="Widnes">				Widnes</option>
+		<option value="Wigan">				Wigan</option>
+		<option value="Paisley">			Paisley</option>
+		<option value="Rhondda">			Rhondda</option>
+		<option value="Aldershot">			Aldershot</option>
+		<option value="Ashford">			Ashford</option>
+		<option value="Aylesbury">			Aylesbury</option>
+		<option value="Basingstoke">			Basingstoke</option>
+		<option value="Bletchley">			Bletchley</option>
+		<option value="Bognor Regis">			Bognor Regis</option>
+		<option value="Bracknell">			Bracknell</option>
+		<option value="Brighton">			Brighton</option>
+		<option value="Chatham">			Chatham</option>
+		<option value="Crawley">			Crawley</option>
+		<option value="Dartford">			Dartford</option>
+		<option value="Eastbourne">			Eastbourne</option>
+		<option value="Eastleigh">			Eastleigh</option>
+		<option value="Epsom and Ewell">		Epsom and Ewell</option>
+		<option value="Esher/Molesey">			Esher/Molesey</option>
+		<option value="Fareham/Portchester">		Fareham/Portchester</option>
+		<option value="Farnborough">			Farnborough</option>
+		<option value="Gillingham">			Gillingham</option>
+		<option value="Gosport">			Gosport</option>
+		<option value="Gravesend">			Gravesend</option>
+		<option value="Guildford">			Guildford</option>
+		<option value="Hastings">			Hastings</option>
+		<option value="High Wycombe">			High Wycombe</option>
+		<option value="Horsham">			Horsham</option>
+		<option value="Hove">				Hove</option>
+		<option value="Littlehampton">			Littlehampton</option>
+		<option value="Maidenhead">			Maidenhead</option>
+		<option value="Maidstone">			Maidstone</option>
+		<option value="Margate">			Margate</option>
+		<option value="Oxford">				Oxford</option>
+		<option value="Portsmouth">			Portsmouth</option>
+		<option value="Reading">			Reading</option>
+		<option value="Reigate/Redhill">		Reigate/Redhill</option>
+		<option value="Royal Tunbridge Wells">		Royal Tunbridge Wells</option>
+		<option value="Slough">				Slough</option>
+		<option value="Southampton">			Southampton</option>
+		<option value="Staines">			Staines</option>
+		<option value="Walton and Weybridge">		Walton and Weybridge</option>
+		<option value="Waterlooville">			Waterlooville</option>
+		<option value="Woking/Byfleet">			Woking/Byfleet</option>
+		<option value="Wolverton/Stony Stratford">	Wolverton/Stony Stratford</option>
+		<option value="Worthing">			Worthing</option>
+		<option value="East Kilbride">			East Kilbride</option>
+		<option value="Bath">				Bath</option>
+		<option value="Bournemouth">			Bournemouth</option>
+		<option value="Bristol">			Bristol</option>
+		<option value="Cheltenham">			Cheltenham</option>
+		<option value="Exeter">				Exeter</option>
+		<option value="Gloucester">			Gloucester</option>
+		<option value="Kingswood">			Kingswood</option>
+		<option value="Paignton">			Paignton</option>
+		<option value="Plymouth">			Plymouth</option>
+		<option value="Poole">				Poole</option>
+		<option value="Swindon">			Swindon</option>
+		<option value="Taunton">			Taunton</option>
+		<option value="Torquay">			Torquay</option>
+		<option value="Weston-super-Mare">		Weston-super-Mare</option>
+		<option value="Weymouth">			Weymouth</option>
+		<option value="City">				City</option>
+		<option value="Swansea">			Swansea</option>
+		<option value="Barry">				Barry</option>
+		<option value="Livingston">			Livingston</option>
+		<option value="Birmingham">			Birmingham</option>
+		<option value="Cannock">			Cannock</option>
+		<option value="Coventry">			Coventry</option>
+		<option value="Dudley">				Dudley</option>
+		<option value="Halesowen">			Halesowen</option>
+		<option value="Hereford">			Hereford</option>
+		<option value="Kidderminster">			Kidderminster</option>
+		<option value="Newcastle-under-Lyme">		Newcastle-under-Lyme</option>
+		<option value="Nuneaton">			Nuneaton</option>
+		<option value="Oldbury/Smethwick">		Oldbury/Smethwick</option>
+		<option value="Redditch">			Redditch</option>
+		<option value="Royal Leamington Spa">		Royal Leamington Spa</option>
+		<option value="Rugby">				Rugby</option>
+		<option value="Shrewsbury">			Shrewsbury</option>
+		<option value="Solihull">			Solihull</option>
+		<option value="Stafford">			Stafford</option>
+		<option value="Stoke-on-Trent">			Stoke-on-Trent</option>
+		<option value="Stourbridge">			Stourbridge</option>
+		<option value="Sutton Coldfield">		Sutton Coldfield</option>
+		<option value="Tamworth">			Tamworth</option>
+		<option value="Walsall">			Walsall</option>
+		<option value="West Bromwich">			West Bromwich</option>
+		<option value="Wolverhampton">			Wolverhampton</option>
+		<option value="Worcester">			Worcester</option>
+		<option value="Barnsley">			Barnsley</option>
+		<option value="Batley">				Batley</option>
+		<option value="Bradford">			Bradford</option>
+		<option value="Dewsbury">			Dewsbury</option>
+		<option value="Doncaster">			Doncaster</option>
+		<option value="Grimsby">			Grimsby</option>
+		<option value="Halifax">			Halifax</option>
+		<option value="Harrogate/Knaresborough">	Harrogate/Knaresborough</option>
+		<option value="Huddersfield">			Huddersfield</option>
+		<option value="Keighley">			Keighley</option>
+		<option value="Kingston upon Hull">		Kingston upon Hull</option>
+		<option value="Leeds">				Leeds</option>
+		<option value="Morley">				Morley</option>
+		<option value="Rotherham">			Rotherham</option>
+		<option value="Scunthorpe">			Scunthorpe</option>
+		<option value="Sheffield">			Sheffield</option>
+		<option value="Wakefield">			Wakefield</option>
+		<option value="York">				York</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Start page:</span>
+<span class="field">
+	<input type="number" name="start_page" value="1"/>
+</span>
+<br class="clear">
+
+<span id="inboxLimit">
+<span class="label for_search">MSGs before send</span>
+<span class="field for_search">
+	<select name="inboxLimit">
+		<option value="5">5</option>
+		<option value="10">10</option>
+		<option value="20" selected="selected">20</option>
+		<option value="50">50</option>
+		<option value="100">100</option>
+		<option value="200">200</option>
+	</select>
+</span>
+<br class="clear for_search">
+</span>
+
+<span class="label for_search">Online</span>
+<span class="field for_search">
+	<select name="online">
+		<option value="3600">Online now</option>
+		<option value="86400">Last day</option>
+		<option value="604800">Last week</option>
+		<option value="2678400">Last month</option>
+		<option value="315360000">Last year</option>
+		<option value="315360000">Last decade</option>
+	</select>
+</span>
+<br class="clear for_search">

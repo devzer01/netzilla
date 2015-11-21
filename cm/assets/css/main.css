@@ -1,0 +1,303 @@
+body{
+	font-size: 62.5%;
+	font-family: arial, helvetica, sans-serif;
+	}
+.menubtn{
+	display: none;
+	}
+nav{
+    font-size:1.6em;/*16px*/
+    line-height: 1.2;
+    display: block;
+    position: relative;
+    z-index:9999;
+    min-height: 32px;
+	}
+nav span{
+	display: none;
+	}
+
+/* all lists */
+/*nav ul, nav ul ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	position: relative;
+	}*/
+nav ul a {
+	display: block;
+	text-decoration: none;
+	}
+/* all list items */
+nav ul li {
+	float:left;
+	-webkit-transition: background-color 0.7s ease;
+    -moz-transition: background-color 0.7s ease;
+    -o-transition: background-color 0.7s ease;
+    -ms-transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease;
+	}
+nav ul li:last-child{
+	border:none;
+	}
+/* second-level lists */
+nav ul li ul {
+	position: absolute;
+	width: 12em;
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	}
+nav ul li ul li{
+	width: 12em;
+	}
+nav ul ul li,
+nav ul ul ul li,
+nav ul ul ul ul li{
+	border-right:none;
+	}
+nav ul li a.sf-with-ul:after {
+	content: '\00BB';/*Right Double Arrows*/
+	position: relative;
+	float: right;
+	top: 0em;
+	right: -0.5em;
+	}
+nav ul li.sfHover a.sf-with-ul:after{
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	}
+nav ul li.sfHover li a.sf-with-ul:after{
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	}
+nav ul li a.sf-with-ul:only-child:after{
+	content: '';/* if only child, delete arrow */
+	 }
+nav ul li ul a{
+	padding:0.5em 1.5em;
+	margin-top:-1px; /*to offset bottom border*/
+	}
+nav ul li ul li:last-child a{
+	border-bottom:none;
+	}
+/* third-and-above-level lists */
+nav ul li ul ul {
+	margin: -2em 0 0 12em;/* negative margin calculated by li padding plus line height*/
+	}
+nav ul li:hover ul ul,
+nav ul li:hover ul ul ul,
+nav ul li.sfhover ul ul,
+nav ul li.sfhover ul ul ul {
+	left: -999em;
+	}
+
+nav ul li:hover ul,
+nav ul li li:hover ul,
+nav ul li li li:hover ul,
+nav ul li.sfhover ul,
+nav ul li li.sfhover ul,
+nav ul li li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+	}
+/*UNIVERSAL PADDING*/
+nav ul a,
+nav ul li a,
+nav ul li ul a {
+	/*padding:0.5em 1.5em;*/
+	}
+
+/*----------------------------------
+	IE6
+-----------------------------------*/
+.ie6 nav ul li a.sf-with-ul{
+	 background-image: url('../images/arrow.png');
+	 background-repeat: no-repeat;
+	 background-position:right center;
+	 }
+/*----------------------------------
+	COLORS
+-----------------------------------*/
+nav{
+    background:#e5e5e5;
+    }
+nav ul a {
+	color:#333;
+	}
+/*Top Nav borders*/
+nav ul li {
+	border-right:1px solid #ccc;
+	}
+
+nav ul li:hover{
+	color: #666;
+	/*background: #e5e5e5;*/
+	}
+nav ul li ul a{
+	border-bottom:1px solid #e5e5e5;
+	}
+nav ul li ul {
+	background: #ccc;
+	}
+
+/*----------------------------------
+	MEDIA QUERY
+-----------------------------------*/
+/*@media screen and (max-width:800px){*/
+	.menubtn{
+		display: block;
+		
+		float:right;
+		text-indent:-9999px;
+		-webkit-transition: all 300ms ease-in-out;
+		-moz-transition: all 300ms ease-in-out;
+		-ms-transition: all 300ms ease-in-out;
+		-o-transition: all 300ms ease-in-out;
+		transition: all 300ms ease-in-out;
+		width:43px;
+		height:43px;
+		margin-right:5px;
+		margin-top:8px;
+		}
+	.menubtn:hover{
+		cursor: pointer;
+		}
+	nav span{
+		display: block;
+		}
+	nav span{
+		/*position: relative;
+		float: right;
+		padding: 10px;*/
+		}
+	nav span:hover{
+		cursor: pointer;
+		}
+	nav ul,
+	nav ul > ul{
+		display: none;
+		float:none;
+		width:86px; float:right; margin-right:10px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px ;
+		background:rgba(0, 0, 0, 0.8); position:absolute; z-index:999; top:52px; right:0; padding-bottom:15px;
+		}
+	nav ul li {
+		border-right:none;
+		}
+	nav ul li a.sf-with-ul:after {
+		content:'';
+		}
+	nav ul li ul,
+	nav ul li ul li{
+		width: 100%;
+		}
+	nav ul li ul a{
+		border-bottom:none;
+		}
+	nav ul ul,
+	nav ul li{
+		width:100%;
+		}
+	nav ul li a{
+		/*padding:0.5em 1em 0.5em 1em;
+		float: left;*/
+		}
+	nav ul li ul a{
+		padding: 0.5em 1em 0.5em 2em;
+		}
+	nav ul ul li ul a{
+		padding: 0.5em 1em 0.5em 3em;
+		}
+	nav ul ul ul li ul a{
+		padding: 0.5em 1em 0.5em 4em;
+		}
+	nav ul li ul,
+	nav ul li ul ul,
+	nav ul li:hover ul ul,
+	nav ul li:hover ul ul ul,
+	nav ul li.sfhover ul ul,
+	nav ul li.sfhover ul ul ul,
+	nav ul li:hover ul,
+	nav ul li li:hover ul,
+	nav ul li li li:hover ul,
+	nav ul li.sfhover ul,
+	nav ul li li.sfhover ul,
+	nav ul li li li.sfhover ul {
+		position: relative;
+		display: none;
+		margin: 0 0 0 0;
+		left: 0em; /* using left instead of display because display: none isn't read by screen readers */
+		}
+
+	/*----------------------------------
+		MOBILE COLORS
+	-----------------------------------*/
+	nav{
+		background: none; float:right;
+		}
+	.menubtn{
+		background:url('../images/menuicon.png')  no-repeat right top;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+ 		filter: alpha(opacity=100);
+ 		-khtml-opacity: 1;
+ 		opacity: 1;
+		}
+		.menubtn span{ visibility:hidden;}
+	.menubtn:hover,
+	.menuOpen{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ 		filter: alpha(opacity=100);
+ 		-khtml-opacity: 1;
+ 		opacity: 1;
+		}
+	/*Plus icon*/
+	nav span{
+		/*background: #00b4ff;
+		color:#fff;*/
+		}
+	nav span:hover{
+		/*background: #049ad6;*/
+		}
+	/*Top Nav background*/
+	nav ul ul,
+	nav ul li{
+		/*background: #eeeeee;*/
+		}
+	/*Sub-Nav background*/
+	nav ul li ul li{
+		background: #ccc;
+		}
+	/*Sub-Nav borders*/
+	nav ul li ul li{
+		border-bottom:1px solid #e5e5e5;
+		}
+	/*sub, sub-Nav background*/
+	nav ul ul ul li{
+		background: #ccc;
+		}
+	/*First Nav Item when open*/
+	ul li.menuOpen,
+	ul li.menuOpen:hover{
+		background:#47a3da;
+		}
+	ul li.menuOpen >span{
+		background: #049ad6;
+	}
+	/*Sub-Nav Item when open*/
+	ul ul li.menuOpen,
+	ul ul li.menuOpen:hover{
+		background:#a9e4fc;
+		}
+	/*Sub, Sub-Nav Item when open*/
+	ul ul ul li.menuOpen,
+	ul ul ul li.menuOpen:hover{
+		background:#cdebf7;
+		}
+/*}*/

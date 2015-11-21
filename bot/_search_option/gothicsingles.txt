@@ -1,0 +1,140 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1" selected>1</option>
+			<option value="2">2</option>
+		</select>
+	</span>
+	<br class="clear">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<span class="label">MSG type:</span>
+        <span class="field">
+	    <select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>
+		<option value="gb">Guestbook</option>
+	    </select>
+        </span>
+        <br class="clear">	
+	
+	<span id="gender_area">
+		<span class="label">Gender:</span>
+		<span class="field">
+			<select id="gender" name="gender">
+				<option value="1">Males</option>
+				<option value="2">Females</option>				
+			</select>
+		</span>
+		<br class="clear">
+	</span>
+
+	<span id="age_area">
+		<span class="label">Age:</span>
+		<span class="field">
+			<select id="age_from" name="ageStart">
+				<option class="b" value="0" selected="">egal</option>
+          <option class="a" value="16">16</option>
+          <option class="b" value="17">17</option>
+		  <option class="a" value="18">18</option>
+		  <option class="b" value="19">19</option>
+		  <option class="a" value="20">20</option>
+		  <option class="b" value="21">21</option>
+		  <option class="a" value="22">22</option>
+		  <option class="b" value="23">23</option>
+		  <option class="a" value="24">24</option>
+		  <option class="b" value="25">25</option>
+		  <option class="a" value="26">26</option>
+		  <option class="b" value="27">27</option>
+		  <option class="a" value="28">28</option>
+		  <option class="b" value="29">29</option>
+		  <option class="a" value="30">30</option>
+		  <option class="b" value="31">31</option>
+		  <option class="a" value="32">32</option>
+		  <option class="b" value="33">33</option>
+		  <option class="a" value="34">34</option>
+		  <option class="b" value="35">35</option>
+   		  <option class="a" value="36">36</option>
+		  <option class="b" value="37">37</option>
+		  <option class="a" value="38">38</option>
+		  <option class="b" value="39">39</option>
+		  <option class="a" value="40">40</option>
+		  <option class="b" value="41">41</option>
+		  <option class="a" value="42">42</option>
+		  <option class="b" value="43">43</option>
+		  <option class="a" value="44">44</option>
+		  <option class="b" value="45">45</option></select> to <select id="age_to" name="ageEnd">
+				<option class="b" value="0" selected="">egal</option>
+          <option class="a" value="16">16</option>
+          <option class="b" value="17">17</option>
+		  <option class="a" value="18">18</option>
+		  <option class="b" value="19">19</option>
+		  <option class="a" value="20">20</option>
+		  <option class="b" value="21">21</option>
+		  <option class="a" value="22">22</option>
+		  <option class="b" value="23">23</option>
+		  <option class="a" value="24">24</option>
+		  <option class="b" value="25">25</option>
+		  <option class="a" value="26">26</option>
+		  <option class="b" value="27">27</option>
+		  <option class="a" value="28">28</option>
+		  <option class="b" value="29">29</option>
+		  <option class="a" value="30">30</option>
+		  <option class="b" value="31">31</option>
+		  <option class="a" value="32">32</option>
+		  <option class="b" value="33">33</option>
+		  <option class="a" value="34">34</option>
+		  <option class="b" value="35">35</option>
+  		  <option class="a" value="36">36</option>
+		  <option class="b" value="37">37</option>
+		  <option class="a" value="38">38</option>
+		  <option class="b" value="39">39</option>
+		  <option class="a" value="40">40</option>
+		   <option class="b" value="41">41</option>
+		  <option class="a" value="42">42</option>
+		  <option class="b" value="43">43</option>
+		  <option class="a" value="44">44</option>
+		  <option class="b" value="45">45</option></select>	
+			<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+		</span>
+		<br class="clear">
+	</span>
+
+	<span id="gender_area">
+		<span class="label">Country:</span>
+		<span class="field">
+			<select id="land" name="land">				
+				<option class="b" value="0" selected="">Alle Länder</option>
+	<option class="a" value="Deutschland">Deutschland</option>
+	<option class="b" value="Österreich">Österreich</option>
+	<option class="a" value="Schweiz">Schweiz</option>			
+			</select>
+		</span>
+		<br class="clear">
+	</span>
+	
+</span>

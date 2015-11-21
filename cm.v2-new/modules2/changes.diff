@@ -1,0 +1,202 @@
+Index: modules/chat.php
+===================================================================
+--- modules/chat.php	(revision 23)
++++ modules/chat.php	(working copy)
+@@ -2,6 +2,8 @@
+ //funcs::deleteOldMessages(30);
+ //define('ADMIN_USERNAME', DBConnect::retrieve_value("SELECT username FROM member WHERE id=1 LIMIT 1"));
+ define('ADMIN_USERNAME', "bigbrother");
++ini_set('display_error', 1);
++error_reporting(E_ALL);
+ 
+ if(!isset($_GET['next']))
+ 	SmartyPaginate::setCurrentItem(1); //go to first record
+@@ -13,6 +15,7 @@
+ 	case 'writemessage':
+ 		//check permission type//
+ 		$permission_lv = array(1, 2, 3, 4, 8); //jeab edited
++		
+ 		funcs::checkPermission($smarty, $permission_lv);	//check permission
+ 
+ 		$commands = "";
+@@ -20,6 +23,7 @@
+ 		//send message//
+ 		if(isset($_POST['act']) && $_POST['act'] == 'writemsg')
+ 		{
++			
+ 			$_POST['attachments']['coins'] = (isset($_POST['attachments']['coins']) && is_numeric($_POST['attachments']['coins']))?$_POST['attachments']['coins']:0;
+ 
+ 			$isfree = false;
+@@ -28,10 +32,12 @@
+ 				$isfree = true;
+ 				$_POST['to'] = ADMIN_USERNAME;
+ 			}
+-
++			
++			//if ($_SESSION['sess_username'] == ADMIN_USERNAME) $isfree = true;
++			
+ 			if(in_array($_POST['attachments']['coins'], array(0, 30, 100)))
+ 			{
+-				if($_POST['attachments']['coins']>0)
++				if($_POST['attachments']['coins'] > 0)
+ 				{
+ 					$already_topup = DBConnect::retrieve_value("SELECT 1 FROM purchases_log WHERE user_id=".$_SESSION['sess_id']." AND purchase_finished=1 LIMIT 1");
+ 					if($already_topup)
+@@ -51,9 +57,10 @@
+ 						$commands = "window.location='?action=pay-for-coins';";
+ 					}
+ 				}
+-
++				
+ 				if($commands=="")
+ 				{
++					
+ 					if(funcs::checkCoin($_SESSION['sess_username'])>=$total_coins)
+ 					{
+ 						if(isset($_POST['attachments']['coins']) && ($_POST['attachments']['coins']>0))
+@@ -98,6 +105,7 @@
+ 						}
+ 						else
+ 						{
++							
+ 							if(funcs::sendMessage($_SESSION['sess_id'], $_POST['to'], $_POST['subject'], $_POST['sms'], 0, $_POST['attachments'], $isfree))
+ 							{
+ 								$commands = "loadMessagesHistory(jQuery('#to').val());
+@@ -143,8 +151,7 @@
+ 		}
+ 		else
+ 		{
+-			if($_GET['username'])
+-				$ext = "&username=".$_GET['username'];
++			if($_GET['username']) $ext = "&username=".$_GET['username'];
+ 			header("location: ?action=chat".$ext);
+ 		}
+ 		exit;
+@@ -176,8 +183,7 @@
+ 			}
+ 			else
+ 			{
+-				if($total!=$_GET['total'])
+-					$return = true;
++				if ($total != $_GET['total']) $return = true;
+ 			}
+ 
+ 			if($return)
+@@ -277,6 +283,10 @@
+ 
+ 			$smarty->assign("contactList", $contactList);
+ 			$smarty->assign("crc", $crc);
++			
++			//ADDED Oct 10th 2013. Because it was missing for some reason
++			if (isset($_GET['username'])) $smarty->assign('username', $_GET['username']);
++			
+ 			if(isset($_GET['crc']) && ($_GET['crc']!=""))
+ 			{
+ 				if($_GET['crc'] != $crc)
+Index: modules/register.php
+===================================================================
+--- modules/register.php	(revision 23)
++++ modules/register.php	(working copy)
+@@ -1,4 +1,5 @@
+ <?php
++//session id is generated when ???????
+ if(!$_SESSION['sess_id'])
+ {
+ 	$smarty->assign('save', $_POST);
+@@ -64,7 +65,10 @@
+ 				$smsmsg = funcs::getText($_SESSION['lang'], '$mobile_verify_message') . funcs::getTextSMS($save[TABLE_MEMBER_USERNAME]);
+ 				sendSMSCode($save['waitver_mobileno'], $smsmsg);
+ 			}
++			
+ 			$_SESSION['registerred_email'] = $save['email'];
++			
++			
+ 			header("location: ?action=register");
+ 			exit;
+ 		}
+Index: modules/search.php
+===================================================================
+--- modules/search.php	(revision 23)
++++ modules/search.php	(working copy)
+@@ -196,10 +196,13 @@
+ 				$male_amount = 0.4;
+ 				$female_amount = 0.6;
+ 			}
++			
+ 			$NewestMembersMale = DBConnect::assoc_query_2D("SELECT username, picturepath FROM member WHERE gender='1' AND picturepath!='' AND isactive=1 AND id>3 ORDER BY id DESC LIMIT ".($maxResult*2));
+ 
+ 			$NewestMembersFemale = DBConnect::assoc_query_2D("SELECT username, picturepath FROM member WHERE gender='2' AND picturepath!='' AND isactive=1 AND id>3 ORDER BY id DESC LIMIT ".($maxResult*2));
+ 
++			
++			
+ 			shuffle($NewestMembersMale);
+ 			shuffle($NewestMembersFemale);
+ 
+@@ -218,7 +221,13 @@
+ 
+ 			shuffle($NewestMembers);
+ 			$smarty->assign("result", array_slice($NewestMembers,0,SEARCH_RESULTS_PER_PAGE));*/
+-			$smarty->display("profile_list.tpl");
++			
++			if (!isset($_GET['template'])) $smarty->display("profile_list.tpl");
++			else {
++				if ($_GET['template'] == 'flirten') {
++					$smarty->display('newest_users.tpl');
++				}
++			}
+ 			break;
+ 		case 'searchOnline':
+ 			if(isset($_GET['total']) && is_numeric($_GET['total']))
+@@ -330,7 +339,12 @@
+ 				$OnlineMembers = array_merge($OnlineMembers, $OnlineRealMembers);
+ 			shuffle($OnlineMembers);
+ 			$smarty->assign("result", array_slice($OnlineMembers,0,$total));
+-			$smarty->display("profile_list.tpl");
++			if (!isset($_GET['template'])) $smarty->display("profile_list.tpl");
++			else {
++				if ($_GET['template'] == 'bigicon_online') {
++					$smarty->display('bigicon_online.tpl');
++				}
++			}
+ 			break;
+ 	}
+ }
+Index: modules/admin_coin_statistics.php
+===================================================================
+--- modules/admin_coin_statistics.php	(revision 23)
++++ modules/admin_coin_statistics.php	(working copy)
+@@ -1,7 +1,7 @@
+ <?php
+ //check permission type//
+ $permission_lv = array(1);	//define type permission can open this page.
+-funcs::checkPermission(&$smarty, $permission_lv);	//check permission
++funcs::checkPermission($smarty, $permission_lv);	//check permission
+ 
+ $period = array('today','week','month');
+ $days_before = 1;
+@@ -21,6 +21,7 @@
+ 		break;
+ 		default :
+ 			$days_before = 1;
++			break;
+ 	}
+ }
+ 
+Index: modules/index.php
+===================================================================
+--- modules/index.php	(revision 23)
++++ modules/index.php	(working copy)
+@@ -30,11 +30,11 @@
+ $smarty->assign("MyPicture",$profile['picturepath']);
+ 
+ //Get new messages's contact
+-$recent_contacts = DBconnect::assoc_query_2D("SELECT m.username, m.id, m.picturepath, i.datetime, i.status FROM message_inbox i LEFT JOIN member m ON i.from_id=m.id WHERE i.to_id=".$_SESSION['sess_id']." AND m.username IS NOT NULL AND m.id>3 GROUP BY m.username ORDER BY i.datetime DESC LIMIT 4");
++$recent_contacts = DBconnect::assoc_query_2D("SELECT m.username, m.id, m.picturepath, i.datetime, i.status FROM message_inbox i LEFT JOIN member m ON i.from_id=m.id WHERE i.to_id=".$_SESSION['sess_id']." AND m.username IS NOT NULL AND m.id>3 GROUP BY m.username ORDER BY i.datetime DESC LIMIT " . RECENT_CONTACTS );
+ 
+ $smarty->assign("recent_contacts", $recent_contacts);
+ 
+-$random_contacts = DBconnect::assoc_query_2D("SELECT username, id, picturepath FROM member WHERE gender=".($profile['gender']=="1"?"2":"1")." AND isactive=1 AND fake=1 AND id>3 ORDER BY RAND() LIMIT 4");
++$random_contacts = DBconnect::assoc_query_2D("SELECT username, id, picturepath FROM member WHERE gender=".($profile['gender']=="1"?"2":"1")." AND isactive=1 AND fake=1 AND id>3 ORDER BY RAND() LIMIT " . RANDOM_CONTACTS);
+ $smarty->assign("random_contacts", $random_contacts);
+ //-----------------------------------------
+ 

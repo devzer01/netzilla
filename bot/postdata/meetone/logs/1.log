@@ -1,0 +1,1022 @@
+[2013-12-27 17:08:16] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:08:16] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:08:16] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:08:27] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:08:27] This profile: packer.relyea@live.de is not logged in.
+[2013-12-27 17:08:27] New Tor Identity request completed.
+[2013-12-27 17:08:27] Logging in.
+[2013-12-27 17:08:39] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:08:42] Logged in with profile: packer.relyea@live.de
+[2013-12-27 17:08:42] Job criterias => Target age:  to 
+[2013-12-27 17:08:42] Job started.
+[2013-12-27 17:08:42] Go to SEARCH page.
+[2013-12-27 17:08:45] Sleep for 5 second(s)
+[2013-12-27 17:08:53] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:08:53] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:08:55] Found 4 member(s)
+[2013-12-27 17:08:55] Sleep for 5 second(s)
+[2013-12-27 17:09:00] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:09:00] Already Reserved by other bot: /markuz.lucas
+[2013-12-27 17:09:00] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:09:00] Already Reserved by other bot: /markuz.lucas
+[2013-12-27 17:09:00] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:09:00] Already Reserved by other bot: /markuz.lucas
+[2013-12-27 17:09:00] Already send message to profile: 
+[2013-12-27 17:09:00] Job completed.
+[2013-12-27 17:09:00] Loging out after sending63
+[2013-12-27 17:09:00] Sleep for  second(s)
+[2013-12-27 17:09:00] Trying to login with .
+[2013-12-27 17:09:00] Go to INDEX page to check login status for user: 
+[2013-12-27 17:09:02] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:09:02] This profile:  is not logged in.
+[2013-12-27 17:09:02] New Tor Identity request completed.
+[2013-12-27 17:09:02] Logging in.
+[2013-12-27 17:09:11] Go to INDEX page to check login status for user: 
+[2013-12-27 17:09:14] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:09:14] Log in failed with profile: 
+[2013-12-27 17:09:14] Log in failed 1 times.
+[2013-12-27 17:09:14] Sleep after log in failed for 00:02:00
+[2013-12-27 17:09:14] Sleep for 120 second(s)
+[2013-12-27 17:10:14] Still sleeping [00:01:00 left]
+[2013-12-27 17:11:14] Still sleeping [00:00:00 left]
+[2013-12-27 17:11:14] New Tor Identity request completed.
+[2013-12-27 17:11:14] Logging in.
+[2013-12-27 17:11:21] Go to INDEX page to check login status for user: 
+[2013-12-27 17:11:22] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:11:22] Log in failed with profile: 
+[2013-12-27 17:11:22] Log in failed 2 times.
+[2013-12-27 17:11:22] Sleep after log in failed for 00:02:00
+[2013-12-27 17:11:22] Sleep for 120 second(s)
+[2013-12-27 17:11:44] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:11:44] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:11:44] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:11:46] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:11:46] Job criterias => Target age:  to 
+[2013-12-27 17:11:46] Job started.
+[2013-12-27 17:11:46] Go to SEARCH page.
+[2013-12-27 17:11:49] Sleep for 5 second(s)
+[2013-12-27 17:11:56] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:11:56] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:11:57] Found 4 member(s)
+[2013-12-27 17:11:57] Sleep for 5 second(s)
+[2013-12-27 17:12:02] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:12:02] Go to profile page: /markuz.lucas
+[2013-12-27 17:12:04] Waiting for 3 seconds before clicking send message
+[2013-12-27 17:12:07] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:12:09] Random new subject and message
+[2013-12-27 17:12:09] Random new subject and message
+[2013-12-27 17:12:09] Message is : Huhu, wohnst ja gleich neben an, smile, was suchst du denn genau? melde dich wenn du magst ok? Aber nicht hier, habe probleme mit dem posteingang, kann keine mails lesen, immer so ein fehler aber egal, bin auch auf Hallo da findest du auch mehr infos von mir und auch bilder. Freue mich und schau dort einfach nach AnnaMichele 
+[2013-12-27 17:12:09] Sending message to /markuz.lucas
+[2013-12-27 17:12:22] Still sleeping [00:01:00 left]
+[2013-12-27 17:15:15] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:15:15] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:15:15] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:15:17] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:15:17] Job criterias => Target age:  to 
+[2013-12-27 17:15:17] Job started.
+[2013-12-27 17:15:17] Go to SEARCH page.
+[2013-12-27 17:15:19] Sleep for 5 second(s)
+[2013-12-27 17:15:26] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:15:26] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:15:28] Found 4 member(s)
+[2013-12-27 17:15:28] Sleep for 5 second(s)
+[2013-12-27 17:15:33] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:15:33] Already Reserved: /markuz.lucas
+[2013-12-27 17:15:33] Go to profile page: /markuz.lucas
+[2013-12-27 17:15:34] Waiting for 1 seconds before clicking send message
+[2013-12-27 17:15:35] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:15:38] Random new subject and message
+[2013-12-27 17:15:38] Random new subject and message
+[2013-12-27 17:15:38] Message is : Hey sehe du bist online, dachte ich schreibe dir mal. Bist du single und auf der suche oder schon vergeben? ich bin schon seit monaten single, langweilig, ich mag gerne musik oder ausgehen auf konzerte oder partys, liebe tiere und das gemein sein mit einem gleich gesinnten. Leider bin ich hier nicht mehr ist nicht mein account, geh mal zu Hallo da kannst du dir ein par bilder von mir anschauen und auch umsonst mit mir chatten? Suche dort einfach nach mir ok? Lg Katii21 
+[2013-12-27 17:15:38] Sending message to /markuz.lucas
+[2013-12-27 17:22:26] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:22:26] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:22:26] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:22:29] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:22:29] Job criterias => Target age:  to 
+[2013-12-27 17:22:29] Job started.
+[2013-12-27 17:22:29] Go to SEARCH page.
+[2013-12-27 17:22:32] Sleep for 5 second(s)
+[2013-12-27 17:22:39] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:22:39] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:22:40] Found 4 member(s)
+[2013-12-27 17:22:40] Sleep for 5 second(s)
+[2013-12-27 17:22:45] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:22:45] Already Reserved: /markuz.lucas
+[2013-12-27 17:22:45] Go to profile page: /markuz.lucas
+[2013-12-27 17:22:47] Waiting for 0 seconds before clicking send message
+[2013-12-27 17:22:47] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:22:50] Random new subject and message
+[2013-12-27 17:22:50] Random new subject and message
+[2013-12-27 17:22:50] Message is : na du, nettes profil, gefällt mir, kommst du wirklich hier her? vielleicht hast du ja mal lust auf ein cafe? Melde dich doch einfach bei mir, nur nicht hier, werde hier von so vielen angeschrieben, bin aber noch auf Hallo da siehst du auch wie ich aussehe, einfach nach meinem namen suchen ok? Lg christin29 
+[2013-12-27 17:22:50] Sending message to /markuz.lucas
+[2013-12-27 17:22:50] Sending Message (debug) http://www.mv-spion.de/lc?content=markuz.lucas/message - 
+[2013-12-27 17:22:51] Sending message completed.
+[2013-12-27 17:22:51] Sleep for 2 second(s)
+[2013-12-27 17:22:53] Already send message to profile: /markuz.lucas
+[2013-12-27 17:22:53] Already send message to profile: /markuz.lucas
+[2013-12-27 17:22:53] Already send message to profile: 
+[2013-12-27 17:22:53] Job completed.
+[2013-12-27 17:22:53] Loging out after sending63
+[2013-12-27 17:22:53] Sleep for  second(s)
+[2013-12-27 17:22:53] Trying to login with .
+[2013-12-27 17:22:53] Go to INDEX page to check login status for user: 
+[2013-12-27 17:22:55] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:22:55] This profile:  is not logged in.
+[2013-12-27 17:22:55] New Tor Identity request completed.
+[2013-12-27 17:22:55] Logging in.
+[2013-12-27 17:23:00] Go to INDEX page to check login status for user: 
+[2013-12-27 17:23:02] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:23:02] Log in failed with profile: 
+[2013-12-27 17:23:02] Log in failed 1 times.
+[2013-12-27 17:23:02] Sleep after log in failed for 00:02:00
+[2013-12-27 17:23:02] Sleep for 120 second(s)
+[2013-12-27 17:24:02] Still sleeping [00:01:00 left]
+[2013-12-27 17:24:06] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:24:06] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:24:06] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:24:09] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:24:09] Job criterias => Target age:  to 
+[2013-12-27 17:24:09] Job started.
+[2013-12-27 17:24:09] Go to SEARCH page.
+[2013-12-27 17:24:12] Sleep for 5 second(s)
+[2013-12-27 17:24:19] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:24:19] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:24:20] Found 4 member(s)
+[2013-12-27 17:24:20] Sleep for 5 second(s)
+[2013-12-27 17:24:25] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:24:25] Already Reserved by other bot: /markuz.lucas
+[2013-12-27 17:24:25] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:24:25] Already Reserved by other bot: /markuz.lucas
+[2013-12-27 17:24:25] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:24:25] Already Reserved by other bot: /markuz.lucas
+[2013-12-27 17:24:25] Already send message to profile: 
+[2013-12-27 17:24:25] Job completed.
+[2013-12-27 17:24:25] Loging out after sending63
+[2013-12-27 17:24:25] Sleep for  second(s)
+[2013-12-27 17:24:25] Trying to login with .
+[2013-12-27 17:24:25] Go to INDEX page to check login status for user: 
+[2013-12-27 17:24:27] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:24:27] This profile:  is not logged in.
+[2013-12-27 17:24:27] New Tor Identity request completed.
+[2013-12-27 17:24:27] Logging in.
+[2013-12-27 17:24:33] Go to INDEX page to check login status for user: 
+[2013-12-27 17:24:35] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:24:35] Log in failed with profile: 
+[2013-12-27 17:24:35] Log in failed 1 times.
+[2013-12-27 17:24:35] Sleep after log in failed for 00:02:00
+[2013-12-27 17:24:35] Sleep for 120 second(s)
+[2013-12-27 17:24:55] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:24:55] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:24:55] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:24:57] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:24:57] Job criterias => Target age:  to 
+[2013-12-27 17:24:57] Job started.
+[2013-12-27 17:24:57] Go to SEARCH page.
+[2013-12-27 17:25:01] Sleep for 5 second(s)
+[2013-12-27 17:25:08] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:25:08] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:25:10] Found 4 member(s)
+[2013-12-27 17:25:10] Sleep for 5 second(s)
+[2013-12-27 17:25:15] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:25:15] Go to profile page: /markuz.lucas
+[2013-12-27 17:25:17] Waiting for 0 seconds before clicking send message
+[2013-12-27 17:25:17] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:25:19] Random new subject and message
+[2013-12-27 17:25:19] Random new subject and message
+[2013-12-27 17:25:19] Message is : hallo ich bin neu in der stadt, und suche neue freunde, hast du vielleicht lust mich kennen zu lernen? leider ist dies nicht mein login, zu viele spinner hier. Wenn du magst komm doch zu Hallo du findest mich dort unter meinem namen, also bis dann lg hotcaro90 
+[2013-12-27 17:25:19] Sending message to /markuz.lucas
+[2013-12-27 17:25:19] Sending Message (debug) http://www.mv-spion.de/lc?content=markuz.lucas/message - <input type="hidden" id="empfaengerId" name="empfaengerId" value="503016" />
+[2013-12-27 17:25:21] Sending message completed.
+[2013-12-27 17:25:21] Sleep for 2 second(s)
+[2013-12-27 17:25:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:25:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:25:23] Already send message to profile: 
+[2013-12-27 17:25:23] Job completed.
+[2013-12-27 17:25:23] Loging out after sending63
+[2013-12-27 17:25:23] Sleep for  second(s)
+[2013-12-27 17:25:23] Trying to login with .
+[2013-12-27 17:25:23] Go to INDEX page to check login status for user: 
+[2013-12-27 17:25:24] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:25:24] This profile:  is not logged in.
+[2013-12-27 17:25:24] New Tor Identity request completed.
+[2013-12-27 17:25:24] Logging in.
+[2013-12-27 17:25:33] Go to INDEX page to check login status for user: 
+[2013-12-27 17:25:35] Still sleeping [00:01:00 left]
+[2013-12-27 17:27:22] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:27:22] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:27:22] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:27:25] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:27:25] Job criterias => Target age:  to 
+[2013-12-27 17:27:25] Job started.
+[2013-12-27 17:27:25] Go to SEARCH page.
+[2013-12-27 17:27:28] Sleep for 5 second(s)
+[2013-12-27 17:27:36] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:27:36] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:27:38] Found 4 member(s)
+[2013-12-27 17:27:38] Sleep for 5 second(s)
+[2013-12-27 17:27:43] Already send message to profile: /markuz.lucas
+[2013-12-27 17:27:43] Already send message to profile: /markuz.lucas
+[2013-12-27 17:27:43] Already send message to profile: /markuz.lucas
+[2013-12-27 17:27:43] Already send message to profile: 
+[2013-12-27 17:27:43] Job completed.
+[2013-12-27 17:27:43] Loging out after sending63
+[2013-12-27 17:27:43] Sleep for  second(s)
+[2013-12-27 17:27:43] Trying to login with .
+[2013-12-27 17:27:43] Go to INDEX page to check login status for user: 
+[2013-12-27 17:27:46] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:27:46] This profile:  is not logged in.
+[2013-12-27 17:27:46] New Tor Identity request completed.
+[2013-12-27 17:27:46] Logging in.
+[2013-12-27 17:27:51] Go to INDEX page to check login status for user: 
+[2013-12-27 17:27:58] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:27:58] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:27:58] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:28:00] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:28:00] Job criterias => Target age:  to 
+[2013-12-27 17:28:00] Job started.
+[2013-12-27 17:28:00] Go to SEARCH page.
+[2013-12-27 17:28:02] Sleep for 5 second(s)
+[2013-12-27 17:28:09] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:28:09] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:28:10] Found 4 member(s)
+[2013-12-27 17:28:10] Sleep for 5 second(s)
+[2013-12-27 17:28:15] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:28:15] Go to profile page: /markuz.lucas
+[2013-12-27 17:28:17] Waiting for 1 seconds before clicking send message
+[2013-12-27 17:28:18] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:28:20] Random new subject and message
+[2013-12-27 17:28:20] Random new subject and message
+[2013-12-27 17:28:20] Message is : klopf klopf, jemand online? Hast du zeit  und lust mit mir zu chatten seit 1 jahr bin ich single und das ist langweilig. Aber nun versuche ich es einfach mal, meine schwester meinte ich soll hier mal gucken, was ich nun mache, darum ist das auch nicht mein login, aber ich bin auf Hallo so nun warte ich auf eine nachricht von dir ok? Such nach meinem namen dort ok? Lg DanielaB 
+[2013-12-27 17:28:20] Sending message to /markuz.lucas
+[2013-12-27 17:28:20] Sending Message (debug) http://www.mv-spion.de/lc?content=markuz.lucas/message - <input type="hidden" id="empfaengerId" name="empfaengerId" value="503016" />
+[2013-12-27 17:28:21] Sending message completed.
+[2013-12-27 17:28:21] Sleep for 2 second(s)
+[2013-12-27 17:28:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:28:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:28:24] Already send message to profile: 
+[2013-12-27 17:28:24] Job completed.
+[2013-12-27 17:28:24] Loging out after sending63
+[2013-12-27 17:28:24] Sleep for  second(s)
+[2013-12-27 17:28:24] Trying to login with .
+[2013-12-27 17:28:24] Go to INDEX page to check login status for user: 
+[2013-12-27 17:28:25] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:28:25] This profile:  is not logged in.
+[2013-12-27 17:28:25] New Tor Identity request completed.
+[2013-12-27 17:28:25] Logging in.
+[2013-12-27 17:28:31] Go to INDEX page to check login status for user: 
+[2013-12-27 17:30:45] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:30:45] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:30:45] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:30:47] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:30:47] Job criterias => Target age:  to 
+[2013-12-27 17:30:47] Job started.
+[2013-12-27 17:30:47] Go to SEARCH page.
+[2013-12-27 17:30:50] Sleep for 5 second(s)
+[2013-12-27 17:30:57] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:30:57] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:30:59] Found 4 member(s)
+[2013-12-27 17:30:59] Sleep for 5 second(s)
+[2013-12-27 17:31:04] Already send message to profile: /markuz.lucas
+[2013-12-27 17:31:04] Already send message to profile: /markuz.lucas
+[2013-12-27 17:31:04] Already send message to profile: /markuz.lucas
+[2013-12-27 17:31:04] Already send message to profile: 
+[2013-12-27 17:31:04] Job completed.
+[2013-12-27 17:31:04] Loging out after sending63
+[2013-12-27 17:31:04] Sleep for  second(s)
+[2013-12-27 17:31:04] Trying to login with .
+[2013-12-27 17:31:04] Go to INDEX page to check login status for user: 
+[2013-12-27 17:31:06] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:31:06] This profile:  is not logged in.
+[2013-12-27 17:31:06] New Tor Identity request completed.
+[2013-12-27 17:31:06] Logging in.
+[2013-12-27 17:31:14] Go to INDEX page to check login status for user: 
+[2013-12-27 17:31:17] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:31:17] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:31:17] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:31:21] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:31:21] Job criterias => Target age:  to 
+[2013-12-27 17:31:21] Job started.
+[2013-12-27 17:31:21] Go to SEARCH page.
+[2013-12-27 17:31:26] Sleep for 5 second(s)
+[2013-12-27 17:31:35] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:31:35] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:31:37] Found 4 member(s)
+[2013-12-27 17:31:37] Sleep for 5 second(s)
+[2013-12-27 17:31:42] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:31:42] Already Reserved: /markuz.lucas
+[2013-12-27 17:31:42] Go to profile page: /markuz.lucas
+[2013-12-27 17:31:45] Waiting for 4 seconds before clicking send message
+[2013-12-27 17:31:49] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:31:52] Random new subject and message
+[2013-12-27 17:31:52] Random new subject and message
+[2013-12-27 17:31:52] Message is : klopf klopf, jemand online? Hast du zeit  und lust mit mir zu chatten ich bin für alles eigendlich zu haben, lebe und liebe meine freiheit, wohne auch alleine in einer wohnung. Wenn du mich kennen lernen möchtest schreib mir ok? Aber bitte nicht hier, habe mich bei meiner schwester eingeloggt. Geh auf Hallo da bin ich fast immer online, ist ja umsonst. Einfach nach meinem nick schauen. Bis bald schmusselgirl 
+[2013-12-27 17:31:52] Sending message to /markuz.lucas
+[2013-12-27 17:31:52] Sending Message (debug) http://www.mv-spion.de/lc?content=markuz.lucas/message - 503016
+[2013-12-27 17:31:55] Sending message completed.
+[2013-12-27 17:31:55] Sleep for 2 second(s)
+[2013-12-27 17:31:57] Already send message to profile: /markuz.lucas
+[2013-12-27 17:31:57] Already send message to profile: /markuz.lucas
+[2013-12-27 17:31:57] Already send message to profile: 
+[2013-12-27 17:31:57] Job completed.
+[2013-12-27 17:31:57] Loging out after sending63
+[2013-12-27 17:31:57] Sleep for  second(s)
+[2013-12-27 17:31:57] Trying to login with .
+[2013-12-27 17:31:57] Go to INDEX page to check login status for user: 
+[2013-12-27 17:32:00] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:32:00] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:32:00] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:32:00] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:32:04] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:32:04] Job criterias => Target age:  to 
+[2013-12-27 17:32:04] Job started.
+[2013-12-27 17:32:04] Go to SEARCH page.
+[2013-12-27 17:32:07] Sleep for 5 second(s)
+[2013-12-27 17:32:16] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:32:16] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:32:18] Found 4 member(s)
+[2013-12-27 17:32:18] Sleep for 5 second(s)
+[2013-12-27 17:32:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:56:38] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:56:38] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:56:38] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:56:42] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:56:42] This profile: packer.relyea@live.de is not logged in.
+[2013-12-27 17:56:43] New Tor Identity request completed.
+[2013-12-27 17:56:43] Logging in.
+[2013-12-27 17:56:50] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:56:53] Logged in with profile: packer.relyea@live.de
+[2013-12-27 17:56:53] Job criterias => Target age:  to 
+[2013-12-27 17:56:53] Job started.
+[2013-12-27 17:56:53] Go to SEARCH page.
+[2013-12-27 17:56:56] Sleep for 5 second(s)
+[2013-12-27 17:57:04] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:57:04] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:57:06] Found 4 member(s)
+[2013-12-27 17:57:06] Sleep for 5 second(s)
+[2013-12-27 17:57:11] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:57:11] Go to profile page: /markuz.lucas
+[2013-12-27 17:57:13] Waiting for 4 seconds before clicking send message
+[2013-12-27 17:57:17] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:57:20] Random new subject and message
+[2013-12-27 17:57:20] Random new subject and message
+[2013-12-27 17:57:20] Message is : hallo ich bin neu in der stadt, und suche neue freunde, hast du vielleicht lust mich kennen zu lernen? ich stehe auf blind dates und du auch? Ich bin abenteuer lustig bin für jeden spass zu haben. Leider ist das nicht mein account, von einer freundin, aber guck doch mal bei Hallo ich hoffe du meldest dich, du findest mich unter DanielaB 
+[2013-12-27 17:57:20] Sending message to /markuz.lucas
+[2013-12-27 17:57:20] Sending Message (debug) http://www.mv-spion.de/lc?content=markuz.lucas/mail - 503016
+[2013-12-27 17:57:21] Sending message completed.
+[2013-12-27 17:57:21] Sleep for 2 second(s)
+[2013-12-27 17:57:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:57:23] Already send message to profile: /markuz.lucas
+[2013-12-27 17:57:23] Already send message to profile: 
+[2013-12-27 17:57:23] Job completed.
+[2013-12-27 17:57:23] Loging out after sending63
+[2013-12-27 17:57:23] Sleep for  second(s)
+[2013-12-27 17:57:23] Trying to login with .
+[2013-12-27 17:57:23] Go to INDEX page to check login status for user: 
+[2013-12-27 17:57:25] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:57:25] This profile:  is not logged in.
+[2013-12-27 17:57:25] New Tor Identity request completed.
+[2013-12-27 17:57:25] Logging in.
+[2013-12-27 17:57:32] Go to INDEX page to check login status for user: 
+[2013-12-27 17:57:35] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:57:35] Log in failed with profile: 
+[2013-12-27 17:57:35] Log in failed 1 times.
+[2013-12-27 17:57:35] Sleep after log in failed for 00:02:00
+[2013-12-27 17:57:35] Sleep for 120 second(s)
+[2013-12-27 17:57:39] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:57:39] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:57:39] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:57:42] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:58:35] Still sleeping [00:01:00 left]
+[2013-12-27 17:59:27] Using proxy ip 127.0.0.1:9050
+[2013-12-27 17:59:27] Trying to login with packer.relyea@live.de.
+[2013-12-27 17:59:27] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 17:59:30] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 17:59:30] Job criterias => Target age:  to 
+[2013-12-27 17:59:30] Job started.
+[2013-12-27 17:59:30] Go to SEARCH page.
+[2013-12-27 17:59:32] Sleep for 5 second(s)
+[2013-12-27 17:59:40] Search for Target age: 60 to 60, page 0
+[2013-12-27 17:59:40] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 17:59:42] Found 4 member(s)
+[2013-12-27 17:59:42] Sleep for 5 second(s)
+[2013-12-27 17:59:47] Reserving profile to send message: /markuz.lucas
+[2013-12-27 17:59:47] Go to profile page: /markuz.lucas
+[2013-12-27 17:59:49] Waiting for 1 seconds before clicking send message
+[2013-12-27 17:59:50] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 17:59:53] Random new subject and message
+[2013-12-27 17:59:53] Random new subject and message
+[2013-12-27 17:59:53] Message is : hey kennen wir uns nicht? Du kommst mir irgendwie bekannt vor kann das sein? ich bin seit einiger zeit single und meine freundin meinte ich soll mich mal hier einloggen und schauen. Deswegen ist dies auch nicht mein login. Du findest mich aber bei Hallo ich hoffe du meldest dich, du findest mich unter DanielaB 
+[2013-12-27 17:59:53] Sending message to /markuz.lucas
+[2013-12-27 17:59:53] Sending Message (debug) http://www.mv-spion.de/ajax/lc?content=markuz.lucas/mail - 503016
+[2013-12-27 18:00:00] Sending message completed.
+[2013-12-27 18:00:00] Sleep for 2 second(s)
+[2013-12-27 18:00:02] Already send message to profile: /markuz.lucas
+[2013-12-27 18:00:02] Already send message to profile: /markuz.lucas
+[2013-12-27 18:00:02] Already send message to profile: 
+[2013-12-27 18:00:02] Job completed.
+[2013-12-27 18:00:02] Loging out after sending63
+[2013-12-27 18:00:02] Sleep for  second(s)
+[2013-12-27 18:00:02] Trying to login with .
+[2013-12-27 18:00:02] Go to INDEX page to check login status for user: 
+[2013-12-27 18:00:04] Using proxy ip 127.0.0.1:9050
+[2013-12-27 18:00:04] This profile:  is not logged in.
+[2013-12-27 18:00:04] New Tor Identity request completed.
+[2013-12-27 18:00:04] Logging in.
+[2013-12-27 18:00:10] Go to INDEX page to check login status for user: 
+[2013-12-27 18:00:11] Using proxy ip 127.0.0.1:9050
+[2013-12-27 18:00:11] Log in failed with profile: 
+[2013-12-27 18:00:11] Log in failed 1 times.
+[2013-12-27 18:00:11] Sleep after log in failed for 00:02:00
+[2013-12-27 18:00:11] Sleep for 120 second(s)
+[2013-12-27 18:01:11] Still sleeping [00:01:00 left]
+[2013-12-27 18:05:01] Using proxy ip 127.0.0.1:9050
+[2013-12-27 18:05:01] Trying to login with packer.relyea@live.de.
+[2013-12-27 18:05:01] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 18:05:04] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 18:05:04] Job criterias => Target age:  to 
+[2013-12-27 18:05:04] Job started.
+[2013-12-27 18:05:04] Go to SEARCH page.
+[2013-12-27 18:05:07] Sleep for 5 second(s)
+[2013-12-27 18:05:14] Search for Target age: 60 to 60, page 0
+[2013-12-27 18:05:14] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 18:05:16] Found 4 member(s)
+[2013-12-27 18:05:16] Sleep for 5 second(s)
+[2013-12-27 18:05:21] Reserving profile to send message: /markuz.lucas
+[2013-12-27 18:05:21] Go to profile page: /markuz.lucas
+[2013-12-27 18:05:22] Waiting for 3 seconds before clicking send message
+[2013-12-27 18:05:25] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 18:05:28] Random new subject and message
+[2013-12-27 18:05:28] Random new subject and message
+[2013-12-27 18:05:28] Message is : na wer bist du denn? Auch auf der suche? Wonach denn genau? Ein abenteuer oder was festes? ich bin lebenslustig aber auch ein wenig schüchtern, deswegen bin ich ja jetzt mal auf dich gespannt. Leider kannst du mir hier nicht schreiben. Weil ich hier nicht angemeldet bin, komm zu Hallo einfach nach mir suchen, gibt nur mich mit dem namen ok? Lg DanielaB 
+[2013-12-27 18:05:28] Sending message to /markuz.lucas
+[2013-12-27 18:05:28] Sending Message (debug) http://www.mv-spion.de/ajax/lc?content=markuz.lucas/mail - 503016
+[2013-12-27 18:06:06] Using proxy ip 127.0.0.1:9050
+[2013-12-27 18:06:06] Trying to login with packer.relyea@live.de.
+[2013-12-27 18:06:06] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 18:06:09] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 18:06:09] Job criterias => Target age:  to 
+[2013-12-27 18:06:09] Job started.
+[2013-12-27 18:06:09] Go to SEARCH page.
+[2013-12-27 18:06:12] Sleep for 5 second(s)
+[2013-12-27 18:06:20] Search for Target age: 60 to 60, page 0
+[2013-12-27 18:06:20] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 18:06:21] Found 4 member(s)
+[2013-12-27 18:06:21] Sleep for 5 second(s)
+[2013-12-27 18:06:26] Reserving profile to send message: /markuz.lucas
+[2013-12-27 18:06:26] Already Reserved: /markuz.lucas
+[2013-12-27 18:06:26] Go to profile page: /markuz.lucas
+[2013-12-27 18:06:28] Waiting for 4 seconds before clicking send message
+[2013-12-27 18:06:32] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 18:06:34] Random new subject and message
+[2013-12-27 18:06:34] Random new subject and message
+[2013-12-27 18:06:34] Message is : na so ein zufall, ich kenn dich doch oder doch nicht? Du kommst mir aber bekannt vor oder? seit 1 jahr bin ich single und das ist langweilig. Aber nun versuche ich es einfach mal, meine schwester meinte ich soll hier mal gucken, was ich nun mache, darum ist das auch nicht mein login, aber ich bin auf Hallo da siehst du auch wie ich aussehe, einfach nach meinem namen suchen ok? Lg hotcaro90 
+[2013-12-27 18:06:34] Sending message to /markuz.lucas
+[2013-12-27 18:06:34] Sending Message (debug) http://www.mv-spion.de/ajax/lc?content=markuz.lucas/mail - 503016
+[2013-12-27 18:08:30] Using proxy ip 127.0.0.1:9050
+[2013-12-27 18:08:31] Trying to login with packer.relyea@live.de.
+[2013-12-27 18:08:31] Go to INDEX page to check login status for user: packer.relyea@live.de
+[2013-12-27 18:08:33] This profile: packer.relyea@live.de has been logged in.
+[2013-12-27 18:08:33] Job criterias => Target age:  to 
+[2013-12-27 18:08:33] Job started.
+[2013-12-27 18:08:33] Go to SEARCH page.
+[2013-12-27 18:08:36] Sleep for 5 second(s)
+[2013-12-27 18:08:43] Search for Target age: 60 to 60, page 0
+[2013-12-27 18:08:43] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2013-12-27 18:08:46] Found 4 member(s)
+[2013-12-27 18:08:46] Sleep for 5 second(s)
+[2013-12-27 18:08:51] Reserving profile to send message: /markuz.lucas
+[2013-12-27 18:08:51] Go to profile page: /markuz.lucas
+[2013-12-27 18:08:52] Waiting for 1 seconds before clicking send message
+[2013-12-27 18:08:53] http://www.mv-spion.de/ajax/lc?content=markuz.lucas/neue-Nachricht
+[2013-12-27 18:08:56] Random new subject and message
+[2013-12-27 18:08:56] Random new subject and message
+[2013-12-27 18:08:56] Message is : Hey sehe du bist online, dachte ich schreibe dir mal. Bist du single und auf der suche oder schon vergeben? ich bin lebenslustig aber auch ein wenig schüchtern, deswegen bin ich ja jetzt mal auf dich gespannt. Leider kannst du mir hier nicht schreiben. Weil ich hier nicht angemeldet bin, komm zu Hallo hoffe du sendest mir eine nachricht, du findest wenn du nach mir suchst. Lg zarteBlume 
+[2013-12-27 18:08:56] Sending message to /markuz.lucas
+[2013-12-27 18:08:56] Sending Message (debug) http://www.mv-spion.de/ajax/lc?content=markuz.lucas/mail - 503016
+[2013-12-27 18:08:57] Sending message completed.
+[2013-12-27 18:08:57] Sleep for 2 second(s)
+[2013-12-27 18:08:59] Already send message to profile: /markuz.lucas
+[2013-12-27 18:08:59] Already send message to profile: /markuz.lucas
+[2013-12-27 18:08:59] Already send message to profile: 
+[2013-12-27 18:08:59] Job completed.
+[2013-12-27 18:08:59] Loging out after sending63
+[2013-12-27 18:08:59] Sleep for  second(s)
+[2013-12-27 18:08:59] Trying to login with .
+[2013-12-27 18:08:59] Go to INDEX page to check login status for user: 
+[2013-12-27 18:09:01] Using proxy ip 127.0.0.1:9050
+[2013-12-27 18:09:01] This profile:  is not logged in.
+[2013-12-27 18:09:01] New Tor Identity request completed.
+[2013-12-27 18:09:01] Logging in.
+[2013-12-27 18:09:10] Go to INDEX page to check login status for user: 
+[2014-01-06 10:29:48] Using proxy ip 127.0.0.1:9050
+[2014-01-06 10:29:48] Trying to login with devzer0.
+[2014-01-06 10:29:48] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 10:30:02] This profile: devzer0 has been logged in.
+[2014-01-06 10:30:02] Job criterias => Target age:  to 
+[2014-01-06 10:30:02] Job started.
+[2014-01-06 10:30:02] Go to SEARCH page.
+[2014-01-06 10:30:05] Sleep for 5 second(s)
+[2014-01-06 10:30:13] Search for Target age: 60 to 60, page 0
+[2014-01-06 10:30:13] Navigating to Search URL http://www.mv-spion.de/ajax/lc?content=search&offset=0&ageMin=60&ageMax=60&gender=m&online=true
+[2014-01-06 10:30:15] Found 3 member(s)
+[2014-01-06 10:30:15] Job completed.
+[2014-01-06 10:30:15] Loging out after sending63
+[2014-01-06 10:30:15] Sleep for  second(s)
+[2014-01-06 10:30:15] Trying to login with .
+[2014-01-06 10:30:15] Go to INDEX page to check login status for user: 
+[2014-01-06 10:30:16] Using proxy ip 127.0.0.1:9050
+[2014-01-06 10:30:16] This profile:  is not logged in.
+[2014-01-06 10:30:16] New Tor Identity request completed.
+[2014-01-06 10:30:16] Logging in.
+[2014-01-06 10:30:22] Go to INDEX page to check login status for user: 
+[2014-01-06 13:04:02] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:04:02] Trying to login with devzer0.
+[2014-01-06 13:04:02] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:04:07] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:04:07] This profile: devzer0 is not logged in.
+[2014-01-06 13:04:07] New Tor Identity request completed.
+[2014-01-06 13:04:07] Logging in.
+[2014-01-06 13:04:36] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:05:06] Failed : Tor Connection is slow & CURL Timed out ...
+[2014-01-06 13:05:06] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:05:06] Log in failed with profile: devzer0
+[2014-01-06 13:05:06] Log in failed 1 times.
+[2014-01-06 13:05:06] Sleep after log in failed for 00:02:00
+[2014-01-06 13:05:06] Sleep for 120 second(s)
+[2014-01-06 13:06:06] Still sleeping [00:01:00 left]
+[2014-01-06 13:07:06] Still sleeping [00:00:00 left]
+[2014-01-06 13:07:06] New Tor Identity request completed.
+[2014-01-06 13:07:06] Logging in.
+[2014-01-06 13:07:13] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:07:15] Logged in with profile: devzer0
+[2014-01-06 13:07:15] Job criterias => Target age: 60 to 60
+[2014-01-06 13:07:15] Job started.
+[2014-01-06 13:07:15] Go to SEARCH page.
+[2014-01-06 13:07:17] Sleep for 5 second(s)
+[2014-01-06 13:07:24] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:07:24] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=m&svon=60&sbis=60&umkreis=75&splz=32339&on=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:07:27] Found 0 member(s)
+[2014-01-06 13:07:27] Job completed.
+[2014-01-06 13:07:27] Loging out after sending63
+[2014-01-06 13:07:27] Sleep for  second(s)
+[2014-01-06 13:07:27] Trying to login with .
+[2014-01-06 13:07:27] Go to INDEX page to check login status for user: 
+[2014-01-06 13:07:28] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:07:28] This profile:  is not logged in.
+[2014-01-06 13:07:28] New Tor Identity request completed.
+[2014-01-06 13:07:28] Logging in.
+[2014-01-06 13:07:38] Go to INDEX page to check login status for user: 
+[2014-01-06 13:07:46] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:07:46] Log in failed with profile: 
+[2014-01-06 13:07:46] Log in failed 1 times.
+[2014-01-06 13:07:46] Sleep after log in failed for 00:02:00
+[2014-01-06 13:07:46] Sleep for 120 second(s)
+[2014-01-06 13:08:46] Still sleeping [00:01:00 left]
+[2014-01-06 13:09:16] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:09:16] Trying to login with devzer0.
+[2014-01-06 13:09:16] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:09:24] This profile: devzer0 has been logged in.
+[2014-01-06 13:09:24] Job criterias => Target age: 60 to 60
+[2014-01-06 13:09:24] Job started.
+[2014-01-06 13:09:24] Go to SEARCH page.
+[2014-01-06 13:09:31] Sleep for 5 second(s)
+[2014-01-06 13:09:45] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:09:45] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=m&svon=60&sbis=60&umkreis=75&splz=32339&on=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:09:46] Still sleeping [00:00:00 left]
+[2014-01-06 13:09:51] Found 0 member(s)
+[2014-01-06 13:09:51] Job completed.
+[2014-01-06 13:09:51] Loging out after sending63
+[2014-01-06 13:09:51] Sleep for  second(s)
+[2014-01-06 13:09:51] Trying to login with .
+[2014-01-06 13:09:51] Go to INDEX page to check login status for user: 
+[2014-01-06 13:09:54] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:09:54] This profile:  is not logged in.
+[2014-01-06 13:09:54] New Tor Identity request completed.
+[2014-01-06 13:09:54] Logging in.
+[2014-01-06 13:09:59] Go to INDEX page to check login status for user: 
+[2014-01-06 13:10:01] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:10:01] Log in failed with profile: 
+[2014-01-06 13:10:01] Log in failed 1 times.
+[2014-01-06 13:10:01] Sleep after log in failed for 00:02:00
+[2014-01-06 13:10:01] Sleep for 120 second(s)
+[2014-01-06 13:11:01] Still sleeping [00:01:00 left]
+[2014-01-06 13:12:01] Still sleeping [00:00:00 left]
+[2014-01-06 13:12:01] New Tor Identity request completed.
+[2014-01-06 13:12:01] Logging in.
+[2014-01-06 13:12:06] Go to INDEX page to check login status for user: 
+[2014-01-06 13:12:09] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:12:09] Log in failed with profile: 
+[2014-01-06 13:12:09] Log in failed 2 times.
+[2014-01-06 13:12:09] Sleep after log in failed for 00:02:00
+[2014-01-06 13:12:09] Sleep for 120 second(s)
+[2014-01-06 13:13:09] Still sleeping [00:01:00 left]
+[2014-01-06 13:14:09] Still sleeping [00:00:00 left]
+[2014-01-06 13:14:09] New Tor Identity request completed.
+[2014-01-06 13:14:09] Logging in.
+[2014-01-06 13:14:20] Go to INDEX page to check login status for user: 
+[2014-01-06 13:14:24] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:14:24] Log in failed with profile: 
+[2014-01-06 13:14:24] Log in failed 3 times.
+[2014-01-06 13:14:24] User  tried to login 3 times. This username would be deleted.
+[2014-01-06 13:14:24] Trying to login with devzer0.
+[2014-01-06 13:14:24] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:14:33] This profile: devzer0 has been logged in.
+[2014-01-06 13:14:33] Job criterias => Target age: 60 to 60
+[2014-01-06 13:14:33] Job started.
+[2014-01-06 13:14:33] Go to SEARCH page.
+[2014-01-06 13:14:41] Sleep for 5 second(s)
+[2014-01-06 13:14:54] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:14:54] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=m&svon=60&sbis=60&umkreis=75&splz=32339&on=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:15:00] Found 0 member(s)
+[2014-01-06 13:15:00] Job completed.
+[2014-01-06 13:15:00] Loging out after sending63
+[2014-01-06 13:15:00] Sleep for  second(s)
+[2014-01-06 13:15:00] Trying to login with .
+[2014-01-06 13:15:00] Go to INDEX page to check login status for user: 
+[2014-01-06 13:15:02] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:15:02] This profile:  is not logged in.
+[2014-01-06 13:15:02] New Tor Identity request completed.
+[2014-01-06 13:15:02] Logging in.
+[2014-01-06 13:15:07] Go to INDEX page to check login status for user: 
+[2014-01-06 13:15:09] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:15:09] Log in failed with profile: 
+[2014-01-06 13:15:09] Log in failed 1 times.
+[2014-01-06 13:15:09] Sleep after log in failed for 00:02:00
+[2014-01-06 13:15:09] Sleep for 120 second(s)
+[2014-01-06 13:16:09] Still sleeping [00:01:00 left]
+[2014-01-06 13:17:09] Still sleeping [00:00:00 left]
+[2014-01-06 13:17:09] New Tor Identity request completed.
+[2014-01-06 13:17:09] Logging in.
+[2014-01-06 13:17:14] Go to INDEX page to check login status for user: 
+[2014-01-06 13:17:15] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:17:15] Log in failed with profile: 
+[2014-01-06 13:17:15] Log in failed 2 times.
+[2014-01-06 13:17:15] Sleep after log in failed for 00:02:00
+[2014-01-06 13:17:15] Sleep for 120 second(s)
+[2014-01-06 13:18:15] Still sleeping [00:01:00 left]
+[2014-01-06 13:19:06] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:19:06] Trying to login with devzer0.
+[2014-01-06 13:19:06] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:19:09] This profile: devzer0 has been logged in.
+[2014-01-06 13:19:09] Job criterias => Target age: 60 to 60
+[2014-01-06 13:19:09] Job started.
+[2014-01-06 13:19:09] Go to SEARCH page.
+[2014-01-06 13:19:12] Sleep for 5 second(s)
+[2014-01-06 13:19:15] Still sleeping [00:00:00 left]
+[2014-01-06 13:19:20] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:19:20] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=m&svon=60&sbis=60&umkreis=75&splz=53225&on=false&img=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:19:23] Found 0 member(s)
+[2014-01-06 13:19:23] Job completed.
+[2014-01-06 13:19:23] Loging out after sending63
+[2014-01-06 13:19:23] Sleep for  second(s)
+[2014-01-06 13:19:23] Trying to login with .
+[2014-01-06 13:19:23] Go to INDEX page to check login status for user: 
+[2014-01-06 13:19:25] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:19:25] This profile:  is not logged in.
+[2014-01-06 13:19:25] New Tor Identity request completed.
+[2014-01-06 13:19:25] Logging in.
+[2014-01-06 13:19:28] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:19:28] Trying to login with devzer0.
+[2014-01-06 13:19:28] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:19:31] This profile: devzer0 has been logged in.
+[2014-01-06 13:19:31] Job criterias => Target age: 60 to 60
+[2014-01-06 13:19:31] Job started.
+[2014-01-06 13:19:31] Go to SEARCH page.
+[2014-01-06 13:19:33] Go to INDEX page to check login status for user: 
+[2014-01-06 13:19:34] Sleep for 5 second(s)
+[2014-01-06 13:19:42] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:19:42] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=m&svon=60&sbis=60&umkreis=75&splz=53225&on=false&img=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:19:45] Found 0 member(s)
+[2014-01-06 13:19:45] Job completed.
+[2014-01-06 13:19:45] Loging out after sending63
+[2014-01-06 13:19:45] Sleep for  second(s)
+[2014-01-06 13:19:45] Trying to login with .
+[2014-01-06 13:19:45] Go to INDEX page to check login status for user: 
+[2014-01-06 13:19:48] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:19:48] This profile:  is not logged in.
+[2014-01-06 13:19:48] New Tor Identity request completed.
+[2014-01-06 13:19:48] Logging in.
+[2014-01-06 13:19:50] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:19:50] Trying to login with devzer0.
+[2014-01-06 13:19:50] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:19:53] This profile: devzer0 has been logged in.
+[2014-01-06 13:19:53] Job criterias => Target age: 60 to 60
+[2014-01-06 13:19:53] Job started.
+[2014-01-06 13:19:53] Go to SEARCH page.
+[2014-01-06 13:19:55] Go to INDEX page to check login status for user: 
+[2014-01-06 13:19:56] Sleep for 5 second(s)
+[2014-01-06 13:20:04] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:20:04] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=f&svon=60&sbis=60&umkreis=75&splz=53225&on=false&img=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:20:08] Found 0 member(s)
+[2014-01-06 13:20:08] Job completed.
+[2014-01-06 13:20:08] Loging out after sending63
+[2014-01-06 13:20:08] Sleep for  second(s)
+[2014-01-06 13:20:08] Trying to login with .
+[2014-01-06 13:20:08] Go to INDEX page to check login status for user: 
+[2014-01-06 13:20:10] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:20:10] This profile:  is not logged in.
+[2014-01-06 13:20:10] New Tor Identity request completed.
+[2014-01-06 13:20:10] Logging in.
+[2014-01-06 13:20:15] Go to INDEX page to check login status for user: 
+[2014-01-06 13:20:17] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:20:17] Log in failed with profile: 
+[2014-01-06 13:20:17] Log in failed 1 times.
+[2014-01-06 13:20:17] Sleep after log in failed for 00:02:00
+[2014-01-06 13:20:17] Sleep for 120 second(s)
+[2014-01-06 13:21:17] Still sleeping [00:01:00 left]
+[2014-01-06 13:21:23] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:21:23] Trying to login with devzer0.
+[2014-01-06 13:21:23] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:21:25] This profile: devzer0 has been logged in.
+[2014-01-06 13:21:25] Job criterias => Target age: 59 to 60
+[2014-01-06 13:21:25] Job started.
+[2014-01-06 13:21:25] Go to SEARCH page.
+[2014-01-06 13:21:27] Sleep for 5 second(s)
+[2014-01-06 13:21:34] Search for Target age: 59 to 59, page 1
+[2014-01-06 13:21:34] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=w&svon=59&sbis=59&umkreis=75&splz=53225&on=false&img=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:21:37] Found 8 member(s)
+[2014-01-06 13:21:37] Sleep for 5 second(s)
+[2014-01-06 13:21:43] Reserving profile to send message: Pralienenauge
+[2014-01-06 13:21:43] Go to profile page: Pralienenauge
+[2014-01-06 13:21:45] Waiting for 4 seconds before clicking send message
+[2014-01-06 13:21:49] http://www.fischkopf.de/index.php?page=mail&touser=Pralienenauge
+[2014-01-06 13:21:51] Random new subject and message
+[2014-01-06 13:21:51] Random new subject and message
+[2014-01-06 13:21:51] Message is : na du, nettes profil, gefällt mir, kommst du wirklich hier her? habe mich nun nach einiger zeit wieder entschieden zu schauen wen es hier so gibt. Ich mag tiere, aus gehen, musik, partys und du? Wenn du zeit hast geh mal auf Hallo kostet auch nichts, und bilder habe ich dort auch. Bis dann und lg, ach ja suche dort einfach nach Tiegerlilly 
+[2014-01-06 13:21:51] Sending message to Pralienenauge
+[2014-01-06 13:21:51] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - 5f58a75cb48a59cd9add65f73ad6c07ca0bcaf7e - _xsrf_token_138898930987049700
+[2014-01-06 13:21:54] Sending message completed.
+[2014-01-06 13:21:54] Sleep for 2 second(s)
+[2014-01-06 13:21:56] Reserving profile to send message: krabbeo7
+[2014-01-06 13:21:56] Go to profile page: krabbeo7
+[2014-01-06 13:21:58] Waiting for 1 seconds before clicking send message
+[2014-01-06 13:21:59] http://www.fischkopf.de/index.php?page=mail&touser=krabbeo7
+[2014-01-06 13:22:02] Random new subject and message
+[2014-01-06 13:22:02] Random new subject and message
+[2014-01-06 13:22:02] Message is : hallo, viel steht ja nicht in deinem profil, bin aber neugierig, lust mir mehr von dir zu erzählen? bin sehr neugierig, mag es spannend und harmonisch. Freue mich von dir zu hören. Aber bitte keine mails hier ok? Ist nicht mein login. Bin aber bei Hallo hoffe du sendest mir eine nachricht, du findest wenn du nach mir suchst. Lg Katii21 
+[2014-01-06 13:22:02] Sleep for 112 second(s)
+[2014-01-06 13:22:06] Using proxy ip 127.0.0.1:9050
+[2014-01-06 13:22:06] Trying to login with devzer0.
+[2014-01-06 13:22:06] Go to INDEX page to check login status for user: devzer0
+[2014-01-06 13:22:08] This profile: devzer0 has been logged in.
+[2014-01-06 13:22:08] Job criterias => Target age: 60 to 60
+[2014-01-06 13:22:08] Job started.
+[2014-01-06 13:22:08] Go to SEARCH page.
+[2014-01-06 13:22:11] Sleep for 5 second(s)
+[2014-01-06 13:22:17] Still sleeping [00:00:00 left]
+[2014-01-06 13:22:18] Search for Target age: 60 to 60, page 1
+[2014-01-06 13:22:18] Navigating to Search URL http://www.fischkopf.de/index.php?page=suchen&p=1&ib=m&is=w&svon=60&sbis=60&umkreis=75&splz=53225&on=false&img=false&srt=1&gff=1&submitsearch=Search&gvon=&gbis=&sucheart_uo_suche=1&figur_uo_suche=1&haarfarbe_uo_suche=1&frisur_uo_suche=1&augenfarbe_uo_suche=1&koerperschmuck_uo_suche=1&modestil_uo_suche=1&charakter_uo_suche=1&wichtig_uo_suche=1&ichbin_uo_suche=1&sport_uo_suche=1&sport_aktiv_uo_suche=1&hobbies_uo_suche=1&freizeit_uo_suche=1&musik_uo_suche=1&tv_uo_suche=1&zeitungen_uo_suche=1&haustiere_uo_suche=1&raucher_uo_suche=1&sternzeichen_uo_suche=1&alkohol_uo_suche=1&wohnen_uo_suche=1&schule_uo_suche=1&beruf_uo_suche=1&religion_uo_suche=1&sprachen_uo_suche=1&famstatus_uo_suche=1&page=suchen&sres=1
+[2014-01-06 13:22:22] Found 8 member(s)
+[2014-01-06 13:22:22] Sleep for 5 second(s)
+[2014-01-06 13:22:27] Reserving profile to send message: devzer01
+[2014-01-06 13:22:27] Go to profile page: devzer01
+[2014-01-06 13:22:29] Waiting for 0 seconds before clicking send message
+[2014-01-06 13:22:29] http://www.fischkopf.de/index.php?page=mail&touser=devzer01
+[2014-01-06 13:22:33] Random new subject and message
+[2014-01-06 13:22:33] Random new subject and message
+[2014-01-06 13:22:33] Message is : na so ein zufall, ich kenn dich doch oder doch nicht? Du kommst mir aber bekannt vor oder? bin sehr neugierig, mag es spannend und harmonisch. Freue mich von dir zu hören. Aber bitte keine mails hier ok? Ist nicht mein login. Bin aber bei Hallo kostet auch nichts, und bilder habe ich dort auch. Bis dann und lg, ach ja suche dort einfach nach DanielaB 
+[2014-01-06 13:22:33] Sending message to devzer01
+[2014-01-06 13:22:33] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - 44b73ac6acdd807078e24ffa9fbe3fc57ce88eec - _xsrf_token_138898935110701600
+[2014-01-06 13:22:36] Sending message completed.
+[2014-01-06 13:22:36] Sleep for 2 second(s)
+[2014-01-06 13:22:38] Reserving profile to send message: Hibba
+[2014-01-06 13:22:38] Go to profile page: Hibba
+[2014-01-06 13:22:41] Waiting for 3 seconds before clicking send message
+[2014-01-06 13:22:44] http://www.fischkopf.de/index.php?page=mail&touser=Hibba
+[2014-01-06 13:22:47] Random new subject and message
+[2014-01-06 13:22:47] Random new subject and message
+[2014-01-06 13:22:47] Message is : Huhu, wohnst ja gleich neben an, smile, was suchst du denn genau? wenn du lust und zeit hast mich kennen zu lernen, antworte mir ok? Aber bitte nicht hier, schreibe von meiner schwester. Komm zu Hallo einfach nach mir suchen, gibt nur mich mit dem namen ok? Lg Marcelka 
+[2014-01-06 13:22:47] Sleep for 109 second(s)
+[2014-01-06 13:23:02] Still sleeping [00:00:52 left]
+[2014-01-06 13:23:47] Still sleeping [00:00:49 left]
+[2014-01-06 13:24:36] Sending message to Hibba
+[2014-01-06 13:24:36] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - 93c46e21e366e60a4da38721f405847315c151fd - _xsrf_token_138898936506420500
+[2014-01-06 13:24:40] Sending message completed.
+[2014-01-06 13:24:40] Sleep for 2 second(s)
+[2014-01-06 13:24:42] Reserving profile to send message: Maerz53
+[2014-01-06 13:24:42] Go to profile page: Maerz53
+[2014-01-06 13:24:45] Waiting for 1 seconds before clicking send message
+[2014-01-06 13:24:46] http://www.fischkopf.de/index.php?page=mail&touser=Maerz53
+[2014-01-06 13:24:49] Random new subject and message
+[2014-01-06 13:24:49] Random new subject and message
+[2014-01-06 13:24:49] Message is : hallo, viel steht ja nicht in deinem profil, bin aber neugierig, lust mir mehr von dir zu erzählen? melde dich wenn du magst ok? Aber nicht hier, habe probleme mit dem posteingang, kann keine mails lesen, immer so ein fehler aber egal, bin auch auf Hallo warte dann auf deine nachrich, lg und schau dort einfach nach schmusselgirl 
+[2014-01-06 13:24:49] Sleep for 111 second(s)
+[2014-01-06 13:25:49] Still sleeping [00:00:51 left]
+[2014-01-06 13:26:40] Sending message to Maerz53
+[2014-01-06 13:26:40] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - 65e662ae883f0e9a4f6a13ed7ff733707b06a524 - _xsrf_token_138898948707833300
+[2014-01-06 13:26:44] Sending message completed.
+[2014-01-06 13:26:44] Sleep for 2 second(s)
+[2014-01-06 13:26:46] Reserving profile to send message: Carolinensiel
+[2014-01-06 13:26:46] Go to profile page: Carolinensiel
+[2014-01-06 13:26:48] Waiting for 0 seconds before clicking send message
+[2014-01-06 13:26:48] http://www.fischkopf.de/index.php?page=mail&touser=Carolinensiel
+[2014-01-06 13:26:52] Random new subject and message
+[2014-01-06 13:26:52] Random new subject and message
+[2014-01-06 13:26:52] Message is : hey online? Oder vegessen aus zu loggen? Wohnst ja gleich neben an, so ein zufall, wo denn genau? ich versuche nun mein glück einfach mal bei dir? Ok? Ich mag gerne aus gehen, gerne auch mal essen, reise auch gerne, vielleicht können wir uns ja einmal auf ein cafe treffen? Nur leider kannst du mir hier nicht schreiben, da dies nicht mein login ist. aber komm doch zu Hallo bin jeden tag online, such nach meinem username ok? Bis dann DitAnnachen 
+[2014-01-06 13:26:52] Sleep for 112 second(s)
+[2014-01-06 13:27:52] Still sleeping [00:00:52 left]
+[2014-01-06 13:28:44] Sending message to Carolinensiel
+[2014-01-06 13:28:44] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - f88da14be3c41081fffffa7c161c4ded523dd981 - _xsrf_token_138898960967255000
+[2014-01-06 13:28:47] Sending message completed.
+[2014-01-06 13:28:47] Sleep for 2 second(s)
+[2014-01-06 13:28:49] Reserving profile to send message: krokus25
+[2014-01-06 13:28:49] Go to profile page: krokus25
+[2014-01-06 13:28:52] Waiting for 3 seconds before clicking send message
+[2014-01-06 13:28:55] http://www.fischkopf.de/index.php?page=mail&touser=krokus25
+[2014-01-06 13:28:58] Random new subject and message
+[2014-01-06 13:28:58] Random new subject and message
+[2014-01-06 13:28:58] Message is : hey suchst du wie ich eine nette beziehung wo nichts muss aber alles kann? es ist nicht einfach den richtigen zu finden, aber du gefällst mir, vielleicht können wir uns ja mal zum cafe treffen? Hier bin ich nicht, habe nur mal mit dem login meiner freundin geschaut. Besuch doch einmal Hallo schau mal rein und schreib mir da ok? Kostet ja auch nichts, suche da einfach nach mir ok? Lg Katii21 
+[2014-01-06 13:28:58] Sleep for 109 second(s)
+[2014-01-06 13:29:58] Still sleeping [00:00:49 left]
+[2014-01-06 13:30:47] Sending message to krokus25
+[2014-01-06 13:30:47] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - ca8afb5dad2a13447c7bb3acd7c11119c60e84b9 - _xsrf_token_138898973621711100
+[2014-01-06 13:30:51] Sending message completed.
+[2014-01-06 13:30:51] Sleep for 2 second(s)
+[2014-01-06 13:30:53] Reserving profile to send message: shoggy
+[2014-01-06 13:30:53] Go to profile page: shoggy
+[2014-01-06 13:30:56] Waiting for 0 seconds before clicking send message
+[2014-01-06 13:30:56] http://www.fischkopf.de/index.php?page=mail&touser=shoggy
+[2014-01-06 13:30:59] Random new subject and message
+[2014-01-06 13:30:59] Random new subject and message
+[2014-01-06 13:30:59] Message is : hallo, bin gerade hier her gezogen. Kenne noch niemanden. Hast du vieleicht lust mir etwas zu zeigen? Wenn du magst und es klappt können wir ja einen cafe zusammen trinken gehen ok? Antworte hier aber bitte nicht, ist nicht mein login, aber ich bin bei Hallo nun bin ich gespannt ob du dich meldest, suche nach christin29 
+[2014-01-06 13:30:59] Sleep for 112 second(s)
+[2014-01-06 13:31:59] Still sleeping [00:00:52 left]
+[2014-01-06 13:32:51] Sending message to shoggy
+[2014-01-06 13:32:51] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - 4b2d3245aa4133e797da22f9a4206425e05a02d7 - _xsrf_token_138898985736560400
+[2014-01-06 13:32:54] Sending message completed.
+[2014-01-06 13:32:54] Sleep for 2 second(s)
+[2014-01-06 13:32:56] Reserving profile to send message: eminelda
+[2014-01-06 13:32:56] Go to profile page: eminelda
+[2014-01-06 13:32:59] Waiting for 2 seconds before clicking send message
+[2014-01-06 13:33:01] http://www.fischkopf.de/index.php?page=mail&touser=eminelda
+[2014-01-06 13:33:04] Random new subject and message
+[2014-01-06 13:33:04] Random new subject and message
+[2014-01-06 13:33:04] Message is : hi ich schreib dich einfach mal an, gefällst mir, kommst du wirklich hier her? seit 1 jahr bin ich single und das ist langweilig. Aber nun versuche ich es einfach mal, meine schwester meinte ich soll hier mal gucken, was ich nun mache, darum ist das auch nicht mein login, aber ich bin auf Hallo so nun warte ich auf eine nachricht von dir ok? Such nach meinem namen dort ok? Lg AnnaMichele 
+[2014-01-06 13:33:04] Sleep for 110 second(s)
+[2014-01-06 13:34:04] Still sleeping [00:00:50 left]
+[2014-01-10 13:40:52] Using proxy ip 127.0.0.1:9050
+[2014-01-10 13:40:53] Trying to login with devzer0.
+[2014-01-10 13:40:53] Go to INDEX page to check login status for user: devzer0
+[2014-01-10 13:41:09] Using proxy ip 127.0.0.1:9050
+[2014-01-10 13:41:09] This profile: devzer0 is not logged in.
+[2014-01-10 13:41:09] New Tor Identity request completed.
+[2014-01-10 13:41:09] Logging in.
+[2014-01-10 13:41:22] Go to INDEX page to check login status for user: devzer0
+[2014-01-10 13:41:29] Logged in with profile: devzer0
+[2014-01-10 13:41:29] Going to online users only page
+[2014-01-10 13:41:32] Users Online: 482 User online!
+[2014-01-10 13:41:32] Selecting only male
+[2014-01-10 13:41:38] Reserving profile to send message: Tobi77
+[2014-01-10 13:41:38] Go to profile page: Tobi77
+[2014-01-10 13:41:42] Waiting for 2 seconds before clicking send message
+[2014-01-10 13:41:44] http://www.fischkopf.de/index.php?page=mail&touser=Tobi77
+[2014-01-10 13:41:49] Random new subject and message
+[2014-01-10 13:41:49] Random new subject and message
+[2014-01-10 13:41:49] Message is : hi ich schreib dich einfach mal an, gefällst mir, kommst du wirklich hier her? es ist nicht einfach den richtigen zu finden, aber du gefällst mir, vielleicht können wir uns ja mal zum cafe treffen? Hier bin ich nicht, habe nur mal mit dem login meiner freundin geschaut. Besuch doch einmal Hallo hier habe ich auch bilder von mir, werden dir gefallen, schau dort einfach nach meinen usernamen. Lg DanielaB 
+[2014-01-10 13:41:49] Sending message to Tobi77
+[2014-01-10 13:41:49] Sending Message (debug) http://www.fischkopf.de/index.php?page=mail - de2e356499621ec5e5b7756857e32718be6f761b - _xsrf_token_138933610679675800
+[2014-01-10 13:41:54] Sending message completed.
+[2014-01-10 13:41:54] Sleep for 2 second(s)
+[2014-01-10 13:41:56] Reserving profile to send message: KingJames
+[2014-01-10 13:41:56] Go to profile page: KingJames
+[2014-01-10 13:42:03] Waiting for 3 seconds before clicking send message
+[2014-01-29 08:43:38] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:43:38] Trying to login with devzer0.
+[2014-01-29 08:43:38] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:43:53] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:43:53] This profile: devzer0 is not logged in.
+[2014-01-29 08:43:53] New Tor Identity request completed.
+[2014-01-29 08:43:53] Logging in.
+[2014-01-29 08:43:59] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:44:00] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:44:00] Log in failed with profile: devzer0
+[2014-01-29 08:44:00] Log in failed 1 times.
+[2014-01-29 08:44:00] Sleep after log in failed for 00:02:00
+[2014-01-29 08:44:00] Sleep for 120 second(s)
+[2014-01-29 08:45:00] Still sleeping [00:01:00 left]
+[2014-01-29 08:45:04] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:45:04] Trying to login with devzer0.
+[2014-01-29 08:45:04] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:45:06] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:45:06] This profile: devzer0 is not logged in.
+[2014-01-29 08:45:06] New Tor Identity request completed.
+[2014-01-29 08:45:06] Logging in.
+[2014-01-29 08:45:11] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:45:13] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:45:13] Log in failed with profile: devzer0
+[2014-01-29 08:45:13] Log in failed 1 times.
+[2014-01-29 08:45:13] Sleep after log in failed for 00:02:00
+[2014-01-29 08:45:13] Sleep for 120 second(s)
+[2014-01-29 08:46:13] Still sleeping [00:01:00 left]
+[2014-01-29 08:46:38] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:46:38] Trying to login with devzer0.
+[2014-01-29 08:46:38] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:46:39] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:46:40] This profile: devzer0 is not logged in.
+[2014-01-29 08:46:40] New Tor Identity request completed.
+[2014-01-29 08:46:40] Logging in.
+[2014-01-29 08:46:43] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:46:44] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:46:44] Log in failed with profile: devzer0
+[2014-01-29 08:46:44] Log in failed 1 times.
+[2014-01-29 08:46:44] Sleep after log in failed for 00:02:00
+[2014-01-29 08:46:44] Sleep for 120 second(s)
+[2014-01-29 08:47:26] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:47:26] Trying to login with devzer0.
+[2014-01-29 08:47:26] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:47:28] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:47:28] This profile: devzer0 is not logged in.
+[2014-01-29 08:47:28] New Tor Identity request completed.
+[2014-01-29 08:47:28] Logging in.
+[2014-01-29 08:47:40] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:47:44] Still sleeping [00:01:00 left]
+[2014-01-29 08:47:45] Logged in with profile: devzer0
+[2014-01-29 08:47:45] Job criterias => Target age: 60 to 60
+[2014-01-29 08:47:45] Job started.
+[2014-01-29 08:47:45] Go to SEARCH page.
+[2014-01-29 08:47:49] Sleep for 5 second(s)
+[2014-01-29 08:48:34] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:48:34] Trying to login with devzer0.
+[2014-01-29 08:48:34] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:48:37] This profile: devzer0 has been logged in.
+[2014-01-29 08:48:37] Job criterias => Target age: 60 to 60
+[2014-01-29 08:48:37] Job started.
+[2014-01-29 08:48:37] Go to SEARCH page.
+[2014-01-29 08:48:42] Sleep for 5 second(s)
+[2014-01-29 08:48:47] Trying plz01067
+[2014-01-29 08:49:02] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:49:02] Trying to login with devzer0.
+[2014-01-29 08:49:02] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:49:04] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:49:04] This profile: devzer0 is not logged in.
+[2014-01-29 08:49:04] New Tor Identity request completed.
+[2014-01-29 08:49:04] Logging in.
+[2014-01-29 08:49:12] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:49:15] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:49:15] Log in failed with profile: devzer0
+[2014-01-29 08:49:15] Log in failed 1 times.
+[2014-01-29 08:49:15] Sleep after log in failed for 00:02:00
+[2014-01-29 08:49:15] Sleep for 120 second(s)
+[2014-01-29 08:50:02] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:50:02] Trying to login with devzer0.
+[2014-01-29 08:50:02] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:50:05] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:50:05] This profile: devzer0 is not logged in.
+[2014-01-29 08:50:05] New Tor Identity request completed.
+[2014-01-29 08:50:05] Logging in.
+[2014-01-29 08:50:11] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:50:13] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:50:13] Log in failed with profile: devzer0
+[2014-01-29 08:50:13] Log in failed 1 times.
+[2014-01-29 08:50:13] Sleep after log in failed for 00:02:00
+[2014-01-29 08:50:13] Sleep for 120 second(s)
+[2014-01-29 08:50:15] Still sleeping [00:01:00 left]
+[2014-01-29 08:51:13] Still sleeping [00:01:00 left]
+[2014-01-29 08:51:43] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:51:43] Trying to login with devzer0.
+[2014-01-29 08:51:43] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:51:45] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:51:45] This profile: devzer0 is not logged in.
+[2014-01-29 08:51:45] New Tor Identity request completed.
+[2014-01-29 08:51:45] Logging in.
+[2014-01-29 08:51:51] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:51:53] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:51:53] Log in failed with profile: devzer0
+[2014-01-29 08:51:53] Log in failed 1 times.
+[2014-01-29 08:51:53] Sleep after log in failed for 00:02:00
+[2014-01-29 08:51:53] Sleep for 120 second(s)
+[2014-01-29 08:52:53] Still sleeping [00:01:00 left]
+[2014-01-29 08:56:49] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:56:49] Trying to login with devzer0.
+[2014-01-29 08:56:49] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:56:50] Failed : Tor Connection is slow & CURL Timed out ...
+[2014-01-29 08:56:50] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:56:50] This profile: devzer0 is not logged in.
+[2014-01-29 08:56:50] New Tor Identity request completed.
+[2014-01-29 08:56:50] Logging in.
+[2014-01-29 08:56:56] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:56:57] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:56:57] Log in failed with profile: devzer0
+[2014-01-29 08:56:57] Log in failed 1 times.
+[2014-01-29 08:56:57] Sleep after log in failed for 00:02:00
+[2014-01-29 08:56:57] Sleep for 120 second(s)
+[2014-01-29 08:57:49] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:57:50] Trying to login with devzer0.
+[2014-01-29 08:57:50] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:57:52] This profile: devzer0 has been logged in.
+[2014-01-29 08:57:52] Job criterias => Target age: 60 to 60
+[2014-01-29 08:57:52] Job started.
+[2014-01-29 08:57:52] Go to SEARCH page.
+[2014-01-29 08:57:54] Sleep for 5 second(s)
+[2014-01-29 08:57:57] Still sleeping [00:01:00 left]
+[2014-01-29 08:57:59] Trying plz01067
+[2014-01-29 08:58:54] Using proxy ip 127.0.0.1:9050
+[2014-01-29 08:58:54] Trying to login with devzer0.
+[2014-01-29 08:58:54] Go to INDEX page to check login status for user: devzer0
+[2014-01-29 08:58:58] This profile: devzer0 has been logged in.
+[2014-01-29 08:58:58] Job criterias => Target age: 60 to 60
+[2014-01-29 08:58:58] Job started.
+[2014-01-29 08:58:58] Go to SEARCH page.
+[2014-01-29 08:59:01] Sleep for 5 second(s)
+[2014-01-29 08:59:06] Trying plz01067

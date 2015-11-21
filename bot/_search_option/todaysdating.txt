@@ -1,0 +1,58 @@
+<span class="label">ACTION: </span>
+<span class="field">
+	<select name="action">
+		<option value="search">Search</option>
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">MSG INTERVAL: </span>
+<span class="field">
+	<select name="msg_interval">
+		<option value="1">1st</option>
+		<option value="2">2nd</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Seeking: </span>
+<span class="field">
+	<select name="Seeking_Gender" id="Seeking_Gender">
+		<option selected="selected" value="1">Male</option>
+		<option value="2">Female</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Age: </span>
+<span class="field">
+	<input name="Seeking_Age_From" type="text" value="18" maxlength="2" id="age_from" size="1">
+        to
+        <input name="Seeking_Age_To" type="text" value="80" maxlength="2" id="age_to" size="1">
+	<input type="checkbox" name="eafem" id="eafem" value="1"/>Each age for each machine
+</span>
+<br class="clear">
+
+<span class="label">Country: </span>
+<span class="field">
+	<select name="Seeking_Country" id="Seeking_Country">
+		<option value=""> </option>
+		<option value="United States">United States</option>
+	</select>
+</span>
+<br class="clear">
+
+<!--<input type="submit" name="Submit" value="Submit">-->
+

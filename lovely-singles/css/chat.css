@@ -1,0 +1,52 @@
+a.delete-chat{position:relative; float:right; opacity:0.2; filter:alpha(opacity=20);}
+a:hover.delete-chat{opacity:1; filter:alpha(opacity=100);}
+li.message_contact {list-style:none; color: white; font-weight: bold; cursor: pointer; height: 60px; padding-top: 2px; padding-bottom:2px; /*border-bottom:1px solid #ccc*/  border-bottom:1px solid #65140a;}
+li.active {background:#fbcb8e; color:#000; }
+li.new {}
+li.new-list {background-color:#ffc600; /*background:url(../images/swap.gif) repeat-x !important;*/ }
+span.notification { color: #7E190D}
+#contactListArea {float: left; width: 202px; /*background-color: #B6B6B6;*/ background:#8c1c0e}
+
+#messagesArea {float: left; width: 550px; /*background-color: grey;*/ background:#3f0c06; float:right;}
+.contactImage {float: left; width: auto; padding: 0; border:1px solid #fbcb8e; background:#FFF; margin:4px 5px 0px 5px; line-height: 0}
+.contactName {float: left; width: 120px;}
+
+#contactList{overflow-y: auto; overflow-x: hidden; width:200px; height:780px;}
+/**/
+#messagesListArea::-webkit-scrollbar,
+#contactList::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+#messagesListArea::-webkit-scrollbar-button:start:decrement,
+#messagesListArea::-webkit-scrollbar-button:end:increment,
+#contactList::-webkit-scrollbar-button:start:decrement,
+#contactList::-webkit-scrollbar-button:end:increment  {
+height: 10px;
+display: block;
+background-color: transparent;
+
+}
+#messagesListArea::-webkit-scrollbar-track-piece,
+#contactList::-webkit-scrollbar-track-piece  {
+background-color: #65140a;
+-webkit-border-radius: 10px;
+}
+#messagesListArea::-webkit-scrollbar-thumb:vertical,
+#contactList::-webkit-scrollbar-thumb:vertical {
+height: 50px;
+background-color:#F8981D;
+border: 0px solid #eee;
+-webkit-border-radius: 10px;
+}
+
+li.message_list {list-style:none; color: black; padding-bottom: 20px; max-width:400px; margin:2px; padding:5px; font-size:12px;}
+#messagesListArea {height: 484px; overflow-y: auto; overflow-x: hidden; padding:2px; border:1px solid #fbcb8e; margin:8px; background:url(../images/chat-bg.jpg) bottom no-repeat #fdd194; -webkit-border-radius: 10px; -moz-border-radius: 10px; -khtml-border-radius: 10px; border-radius: 10px;}
+li.sender{float:left;}
+li.receiver{float:right;}
+li.sender span.message{background:#dedede; padding:5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; width:auto; margin:2px 2px 2px 20px; float:left; box-shadow: 1px 1px 3px #000;}
+li.receiver span.message{background:#b7ff4c; padding:5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; width:auto; margin:2px 2px 2px 20px; float:left; box-shadow: 1px 1px 3px #000;}
+
+a.sms{ display:block; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background:#F00; float:left; padding:10px; text-align:center; line-height:20px; width:200px; margin-left:45px; color:#000; font-weight:bold; text-decoration:none; background:url(../images/btn-sms-02.jpg) repeat-x; border:1px solid #2f1110; text-shadow: #fff 1px 1px 4px;}
+a.email{display:block; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background:#F00; float:left; padding:10px; text-align:center; line-height:20px; width:200px; margin-left:20px; color:#000; font-weight:bold; text-decoration:none; background:url(../images/btn-sms.jpg) repeat-x; border:1px solid #2f1110; text-shadow: #fff 1px 1px 4px;}
+a:hover.sms, a:hover.email{background:url(../images/btn-sms-over.jpg) repeat-x;}

@@ -1,0 +1,54 @@
+Array
+(
+    [installation] => 294253
+    [msgType] => authResult
+    [region] => 
+    [authAmountString] => &#163;30.00
+    [_SP_charEnc] => UTF-8
+    [desc] => 30 GBP for 350 coins
+    [tel] => 
+    [address1] => floatval
+    [countryMatch] => S
+    [cartId] => 8
+    [address2] => 
+    [address3] => 
+    [lang] => en
+    [callbackPW] => 
+    [rawAuthCode] => A
+    [transStatus] => Y
+    [amountString] => &#163;30.00
+    [authCost] => 30.00
+    [currency] => GBP
+    [amount] => 30.00
+    [wafMerchMessage] => waf.caution
+    [countryString] => Afghanistan
+    [displayAddress] => floatval
+
+
+floatval
+    [transTime] => 1360749674086
+    [name] => floatval
+    [testMode] => 100
+    [routeKey] => VISA-SSL
+    [ipAddress] => 180.183.37.184
+    [fax] => 
+    [rawAuthMessage] => cardbe.msg.authorised
+    [instId] => 294253
+    [AVS] => 1111
+    [compName] => internet merchant centre ltd
+    [authAmount] => 30.00
+    [postcode] => 
+    [cardType] => Visa
+    [cost] => 30.00
+    [authCurrency] => GBP
+    [country] => AF
+    [charenc] => UTF-8
+    [email] => floatval@floatval.com
+    [address] => floatval
+
+
+floatval
+    [transId] => 140830480
+    [town] => floatval
+    [authMode] => A
+)

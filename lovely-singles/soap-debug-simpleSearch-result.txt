@@ -1,0 +1,1 @@
+SELECT id FROM member WHERE username like 'GayLuis%' and picturepath != '' and lookmen = 1 and fake = '1' and gender = '1' AND isactive = 1 ORDER BY rundmail ASC, last_action_from ASC LIMIT 0, 10

@@ -1,0 +1,34 @@
+<?php
+require_once('classes/top.class.php');
+print_r($_POST);exit;
+switch($_REQUEST['action'])
+{
+	case 'addFavorite': 
+		$userid = funcs::getUserid($_POST['username']);
+		funcs::addFavorite($_SESSION['sess_id'], $userid); 
+		break;
+	case 'isUsername': echo funcs::isUsername($_POST['username']); break;
+	case 'isPhoneNumber': echo funcs::isPhoneNumber($_POST['phone_number']); break;
+	case 'isUsernamesignup': echo funcs::isUsername($_POST['username']); break;
+	case 'isEmail': echo funcs::isEmail($_POST['email']); break;
+	case 'isEmailsignup': echo funcs::isEmail($_POST['email']); break;
+	case 'loadOptionCountry': 
+		header("Content-type: text/xml");
+		echo funcs::getLocationXML();
+		//echo funcs::getText($_SESSION['lang'], '$country');
+		//funcs::getChoiceCountryXML();
+		break;
+	case 'login': 
+		if(funcs::loginSite($_POST['username'], $_POST['password'], $_POST['remember']))
+			echo true;
+		else
+			echo false;
+		break;
+	case 'updateEdit_datetime': funcs2::updateEdit_datetime($_POST['username']); break;
+	case 'getMessageHistory':
+		$messages = funcs::getMessageHistory($_SESSION['sess_id'],funcs::getUserid($_POST['username']), 0, 0);
+		$smarty->assign("messages",$messages);
+		echo $smarty->fetch("message_history.tpl");
+		break;
+}
+?>

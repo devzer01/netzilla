@@ -1,0 +1,13 @@
+<Files "profiles.php">
+	AuthUserFile /var/www/bot/.htpasswd
+	AuthName "Profiler"
+	AuthType Basic
+	require valid-user
+</Files>
+
+<Files "upload-profiles.php">
+	AuthUserFile /var/www/bot/.htpasswd2
+	AuthName "Profiler Upload"
+	AuthType Basic
+	require valid-user
+</Files>

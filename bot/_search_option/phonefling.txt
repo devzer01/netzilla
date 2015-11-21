@@ -1,0 +1,47 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="search">Search</option>
+		<option value="send" selected>Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">MSG INTERVAL:</span>
+<span class="field">
+	<select name="msg_interval">
+		<option value="1">1st</option>
+		<option value="2">2nd</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Sex:</span>
+<span class="field">
+	<select name="search_sex">
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Country:</span>
+<span class="field">
+	<select name="country">
+		<option value="840:United States">United States</option>
+		<option value="115:United Kingdom">United Kingdom</option>
+		<option value="124:United Kingdom">Canada</option>
+		<option value="895:United Kingdom">Everywhere</option>
+	</select>
+</span>

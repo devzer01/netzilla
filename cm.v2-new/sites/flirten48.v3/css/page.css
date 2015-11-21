@@ -1,0 +1,30 @@
+/* LayerSlider Layers and Sublayers unique styles */
+body{padding:0; margin:0;}
+#layerslider {
+	width: 686px;
+	height: 291px;
+	overflow:hidden;
+	/*margin: 0px auto 50px auto;*/
+	padding:0; margin:0;
+}
+
+#leaf1 {
+	left: 110px;
+	top: -110px;
+}
+
+#leaf2 {
+	left: -20px;
+	top: 230px;
+}
+
+#leaf3 {
+	left: 500px;
+	top: -200px;
+}
+
+#clouds {
+	left: -100px;
+	top: -100px;
+}
+

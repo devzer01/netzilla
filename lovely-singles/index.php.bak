@@ -1,0 +1,116 @@
+<?php
+// get domain name from $_SERVER-array (predefined php-var)
+ $domain = $_SERVER['SERVER_NAME'];
+ if ( substr ( $domain, 0, 4 ) == "www.") {
+ 	$domain = substr ( $domain, 4 );
+ }
+
+require_once('classes/top.class.php');
+$smarty->assign("domain",$domain);
+$smarty->debugging = false;
+
+$allow_action_array = array("validCode", "terms", "policy","imprint","faqs","membership","question","logout");
+if(isset($_SESSION['sess_permission']))
+{
+	if(in_array($_SESSION['sess_permission'], array("2","3","4")))
+	{
+		if(funcs::checkmobile($_SESSION['sess_username']) && !funcs::checkvalidated($_SESSION['sess_username']) && (!in_array($_GET['action'], $allow_action_array)) && (FREE_SMS_ENABLE == 1))
+		{
+			header('location: ?action=validCode');
+		}
+	}
+}
+$_GET['action'] = isset($_GET['action'])?$_GET['action']:'';
+switch($_GET['action'])
+{
+	case '': include_once('modules/index.php'); break;
+	case 'activate': include_once('modules/activate.php'); break;
+	case 'activate2': include_once('modules/activate2.php'); break;
+	case 'admin_history': include_once('modules/admin_history.php'); break;
+	case 'admin_managecard': include_once('modules/managecard.php'); break;
+	case 'admin_manageuser': include_once('modules/manageuser.php'); break;
+	case 'admin_managecoin': include_once('modules/managecoin.php'); break;
+	case 'admin_manage_contents': include_once('modules/admin_manage_contents.php'); break;
+	case 'admin_message': include_once('modules/admin_message.php'); break;
+	case 'admin_adduser': include_once('modules/admin_adduser.php'); break;
+	case 'admin_new_members': include_once('modules/admin_new_members.php'); break;
+	case 'admin_paid': include_once('modules/admin_paid.php'); break;
+	case 'admin_paid_edit': include_once('modules/admin_paid_edit.php'); break;
+	case 'admin_paid_copy': include_once('modules/admin_paid_copy.php'); break;
+	case 'admin_suggestionbox': include_once('modules/admin_suggestionbox.php'); break;
+	case 'admin_viewmessage': include_once('modules/admin_viewmessage.php'); break;
+	case 'administrator': header("Location: ?action=admin_manageuser"); break;
+	case 'adsearch':include_once('modules/adsearch.php'); break;
+	case 'adv_search':include_once('modules/advance_search.php'); break;
+	case 'terms': include_once('modules/content.php'); break;
+	case 'terms-popup': include_once('modules/terms-popup.php'); break;
+	case 'policy': include_once('modules/content.php'); break;
+	case 'imprint': include_once('modules/content.php'); break;
+	case 'membership': include_once('modules/index.php'); break;
+	case 'membershipfront': include_once('modules/index.php'); break;
+	case 'birthday': include_once('modules/birthday.php'); break;
+	case 'fotoalbum': include_once('modules/fotoalbum.php'); break;
+	case 'fotoalbum_view': include_once('modules/fotoalbum.php'); break;
+	case 'ecard': include_once('modules/ecard.php'); break;
+	case 'ecard': include_once('modules/ecard.php'); break;
+	case 'editprofile': include_once('modules/editprofile.php'); break;
+	case 'faqs': include_once('modules/index.php'); break;
+	case 'favorite': include_once('modules/favorite.php'); break;
+	case 'forget': include_once('modules/forget.php'); break;
+	case 'logout': include_once('modules/logout.php'); break;
+	case 'lonely_heart_ads': include_once('modules/lonelyHeart.php'); break;
+	case 'lonely_heart_ads_view': include_once('modules/lonelyHeart.php'); break;
+	case 'mymessage': include_once('modules/mymessage.php'); break;
+	case 'newest': include_once('modules/newest.php'); break;
+	case 'payportal': include_once('modules/payportal.php'); break;
+	case 'pay-for-coins': include_once('modules/pay-for-coins.php'); break;
+	case 'evnValidation': include_once('modules/payportal.php'); break;
+	case 'giroPay': include_once('modules/payportal_gp.php'); break;
+	case 'webcam': include_once('modules/webcam.php'); break;
+	case 'register':
+		switch($_GET['type']){
+			case 'upgrade':
+				include_once('modules/upgrade.php');
+			break;
+			default:
+				include_once('modules/register.php');
+				
+		}
+		break;
+	case 'incompleteinfo': include_once('modules/incompleteinfo.php'); break;
+	case 'mobileverify': include_once('modules/mobileverify.php'); break;
+	case 'mobileverify_successful': include_once('modules/mobileverify_successful.php'); break;
+	case 'incompleteprofile': include_once('modules/checkprofile.php');
+	case 'search':
+		/*if(in_array(strtolower($_SESSION['sess_username']), array("zerocoolz", "cyric")))
+			include_once('modules/search_all_sites.php');
+		else*/
+			include_once('modules/search.php');
+		break;
+	case 'search_admin': include_once('modules/search_admin.php'); break;
+	case 'search_gender': include_once('modules/search_gender.php'); break;
+	case 'sendcard': include_once('modules/sendcard.php'); break;
+	case 'sendcard_to': include_once('modules/sendcard_to.php'); break;
+	case 'sendmail': include_once('modules/sendmail.php'); break;
+	case 'show_advsearch':include_once('modules/show_advsearch.php'); break;
+	case 'suggestion_box': include_once('modules/suggestion.php'); break;
+	case 'sendSMS':
+	case 'SMS': include_once('modules/sms.php'); break;
+	case 'thankyou': include_once('modules/thankyou.php'); break;
+	case 'validCode': include_once('modules/sms.php'); break;
+	case 'validCode2': include_once('modules/sms_validcode2.php'); break;	
+	case 'viewmessage': include_once('modules/viewmessage.php'); break;
+	case 'viewprofile': include_once('modules/viewprofile.php'); break;
+	case 'viewcard': include_once('modules/viewcard.php'); break;
+	case 'viewcard_mail': include_once('modules/viewcard_mail.php'); break;
+	case 'writecard': include_once('modules/writecard.php'); break;
+	case 'suggestionalbum':include_once('modules/suggestionalbum.php'); break;
+	case 'image_dir':include_once('modules/image_dir.php'); break;
+	case 'question':include_once('modules/question.php'); break;
+	default :
+		if(file_exists("modules/".$_GET['action'].".php"))
+			include_once("modules/".$_GET['action'].".php");
+		else
+			header("Location: ./");
+}
+?>

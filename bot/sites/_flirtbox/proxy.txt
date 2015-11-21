@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="windows-1252">
+	<meta name="robots" content="noarchive">
+	<title>What Is My IP Address? Lookup IP, Hide IP, Change IP, Trace IP and more...</title>
+	<meta name="description" content="IP address lookup, location, proxy detection, email tracing, IP hiding tips, blacklist check, speed test, and forums.  Find, get, and show my IP address.">
+	<meta name="keywords" content="my ip ,ip, address, my, what, is, find, get, show, locate, change, location, how, do, i, ip address, proxy, server, anonymous, hide, conceal, stealth, surf, web, anonymizer, anonymize, changer, privacy, geolocation, geolocate, lookup, look up, locate, trace, track, email, source, headers">
+	<link rel="shortcut icon" href="http://cdn.whatismyipaddress.com/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="http://cdn.whatismyipaddress.com/css/myip2.css">
+	<link rel="publisher" href="https://plus.google.com/105215220867153525314/">
+	<link rel="canonical" href="http://whatismyipaddress.com">
+	<script type="text/javascript">if (top.location!= self.location) {top.location = self.location.href;}</script>
+	<script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') + 
+		'//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {googletag.defineSlot('/1007765/WIMIA-HomePage-Left', [160, 600], 'div-gpt-ad-1321402480744-2').addService(googletag.pubads());
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+		});
+	</script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-226290-1']);
+		_gaq.push(['_trackPageview']);
+		_gaq.push(['_trackPageLoadTime']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</head>
+<body>
+<div id="main">
+	<div id="wrap">
+		<div id="section_content">
+		<!-- google_ad_section_start -->
+			<h1>What Is My IP Address? <span class="small">(Now detects many <a href="/proxy-server">proxy servers</a>)</span></h1>
+			<table>
+				<tr>
+					<td>
+						<div style="width:300px;height:250px;background-image:url(http://maps.googleapis.com/maps/api/staticmap?zoom=5&amp;size=300x250&amp;maptype=roadmap&amp;sensor=false&amp;center=39.928902,116.388298);"><a href="/ip/125.65.110.183"><img src="http://cdn.whatismyipaddress.com/images/layer3.png" width="300" height="250" alt="Click for more about 125.65.110.183"></a></div>
+						<span style="color:#900;font-weight:bold;">Location not accurate?</span> Try: <a href="/update-location-test" style="background-color:yellow;">Update IP Location</a>
+					</td>
+					<td>
+						<div style="width:380px;height:250px;overflow:hidden;padding:0 5px; 0 5px;">
+							<h2 style="margin:0;">IP Information: <span class="ip blue">
+<!-- do not script -->
+125.65.110.183
+<!-- do not script -->
+							</span></h2>
+							<table>
+								<tr><th>ISP:</th><td>CHINANET Sichuan province network</td></tr>
+								<tr><th>Organization:</th><td>CHINANET Sichuan province network</td></tr>
+								<tr><th>Connection:</th><td><a href="/broadband">Broadband</a></td></tr>
+								<tr><th>Services:</th><td><a href="/ip-services">Network Sharing Device</a></td></tr>
+								<tr><th>City:</th><td>Beijing</td></tr>
+								<tr><th>Region:</th><td>Beijing</td></tr>
+								<tr><th>Country:</th><td>China</td></tr>
+								
+							</table>
+							<form action="/ip-lookup" method="post">
+								<div style="text-align:center;padding-top:15px;">
+									<input type="text" name="LOOKUPADDRESS" value="125.65.110.183" maxlength="15" style="width:135px;font-weight:bold;">
+									<input type="submit" name="Additional IP Details" value="Additional IP Details">
+								</div>
+							</form>
+						</div>
+					</td>
+				</tr>
+			</table>
+
+			<h2>What is an IP address?</h2>
+			<p>Every device connected to the public Internet is assigned a unique number known as an Internet Protocol (IP) address. IP addresses consist of four numbers separated by periods (also called a 'dotted-quad') and look something like 127.0.0.1.</p>
+			<p>Since these numbers are usually assigned to internet service providers within region-based blocks, an IP address can often be used to identify the region or country from which a computer is connecting to the Internet. An IP address can sometimes be used to show the user's general location.</p>
+			<p>Because the numbers may be tedious to deal with, an IP address may also be assigned to a Host name, which is sometimes easier to remember. Hostnames may be looked up to find IP addresses, and vice-versa.  At one time ISPs issued one IP address to each user. These are called static IP addresses. Because there is a limited number of IP addresses and with increased usage of the internet ISPs now issue IP addresses in a dynamic fashion out of a pool of IP addresses (Using DHCP). These are referred to as dynamic IP addresses. This also limits the ability of the user to host websites, mail servers, ftp servers, etc. In addition to users connecting to the internet, with virtual hosting, a single machine can act like multiple machines (with multiple domain names and IP addresses).</p>
+
+			<h2>Recently Added Articles</h2>
+			<ul class="ra">
+								
+				<li><a href='/geolocation-providers'>Geolocation Database Providers</a></li>
+				<li><a href='/w3c-geolocation'>What is W3C Browser Geolocation?</a></li>
+			</ul>
+
+			<div style="float:right;">
+				Espanol: <a href="/es/mi-ip"><span lang="es">Cual es mi IP address?</span></a><br>
+				Francais: <a href="/fr/mon-ip"><span lang="fr">Quelle est mon adresse IP?</span></a>
+			</div>
+		<!-- google_ad_section_end -->
+		</div>
+		<div id="section_left"></div>		
+	</div>	
+	
+	<footer>
+	<div id="foot_section">
+		<hr>
+		<div id="foot_copy">&copy; 2000-2012 What Is My IP Address. All Rights Reserved.</div>
+		<div id="foot_menu">
+			<ul>
+				<li><a href="/privacy-policy">Privacy Policy</a></li>
+				<li><a href="/terms-of-use">Terms of Use</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	</footer>
+	
+	<div id="head_section">
+		<div id="logo">
+			<a href="/"><img src="http://cdn.whatismyipaddress.com/images/myip-logo-wide.png" alt="What is my IP?" width="200" height="90"></a>
+		</div>
+		<div id="head_menu">
+			<nav>
+				<ul><li><a href="/">My IP</a></li><li><a href="/ip-lookup">IP Lookup</a></li><li><a href="/blacklist-check">Blacklist Check</a></li><li><a href="/trace-email">Trace Email</a></li><li><a href="/speed-test">Speed Test</a></li><li><a href="/hide-ip">Hide IP</a></li><li><a href="/change-ip">Change IP</a></li><li><a href="/ip-tools">IP Tools</a></li><li><a href="/faqs">FAQs</a></li><li><a href="http://forums.whatismyipaddress.com">Forums</a></li></ul>
+				
+			</nav>
+			<div id="search">
+				<form action="/search-results" id="cse-search-box">
+					<div>
+						<input type="hidden" name="cx" value="partner-pub-2377419349862372:t35o8u-g9e6">
+						<input type="hidden" name="cof" value="FORID:9">
+						<input type="hidden" name="ie" value="ISO-8859-1">
+						<input type="text" name="q" size="12">
+						<input type="submit" name="sa" value="Search">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class='adleft'><div id='div-gpt-ad-1321402480744-2' style='width:160px; height:600px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1321402480744-2'); });</script></div></div></div>
+</body>
+</html>

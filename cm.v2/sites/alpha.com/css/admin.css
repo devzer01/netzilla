@@ -1,0 +1,27 @@
+/*admin*/
+.left-menu{display:block;  background:url(../images/cm-theme/btn-action.png) repeat-x; height:38px; text-align:center; padding:0 10px; width:200px; line-height:38px; margin-bottom:1px; font-weight:bold;}
+ a.left-menu{color:#FFF;}
+ a:hover.left-menu{color:#F90;}
+.left-menusub{display:block; background:url(../images/cm-theme/btn-action02.png) repeat-x; height:28px; text-align:center; padding:0 10px; width:188px; line-height:28px; margin-bottom:1px; margin:0 5px 0 5px; color:#000; font-weight:bold;}
+
+
+a.butregisin{display:block; background:url(../images/cm-theme/btn-yellow.png) repeat-x; width:170px; height:25px; color:#000; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #fff 1px 1px 4px; float:left; margin-top:8px; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-right:5px;}
+a:hover.butregisin{color:#663300;}
+
+a.btn-admin{display:block; background:url(../images/cm-theme/btn-yellow.png) repeat-x; width:170px; height:25px; color:#000; text-align:center; line-height:26px; font-size:12px; font-weight:bold; text-shadow: #fff 1px 1px 4px; float:left; margin-top:8px; border:2px solid #1c1d20; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; margin-right:5px;}
+a:hover.btn-admin{color:#663300;}
+
+.link1{color:#663300; font-weight:bold;}
+.admin-link{color:#000; font-weight:bold;}
+h1.admin-title{color:#fff; display:block; background:#2d2d2d; padding:10px; margin:0; font-size:18px; text-transform:uppercase;}
+.text-admin{float:left; color:#000; height:40px; width:120px; line-height:30px; text-align:left; font-weight:bold;}
+
+
+.page{background:url(../images/cm-theme/flirten48-bg-title-head.png); margin:10px; padding:5px; box-shadow: 1px 1px 1px #000;
+-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; float:left;}
+.page a.num-pager{display:block; float:left; background:#333; margin:0 1px; padding:5px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; color:#FFF;}
+.page span {display:block; float:left; background:#a52b0b; margin:0 1px; padding:5px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; color:#FFF;}
+a.pre-pager, a.next-pager{float:left; font-weight:bold; background:url(../images/cm-theme/btn-red.png); margin:0 1px; padding:5px;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;}
+a:hover.pre-pager, a:hover.next-pager{background:url(../images/cm-theme/btn-action-over.png);}
+
+img.grey {filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: url(desaturate.svg#greyscale); filter: gray; -webkit-filter: grayscale(1);}

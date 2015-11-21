@@ -1,0 +1,46 @@
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action" onchange="if(this.value=='check') $('#options_area').hide(); else $('#options_area').show();">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+
+<span id="options_area">
+	<span class="label">BOT Version:</span>
+	<span class="field">
+		<select id="version" name="version">
+			<option value="1">1</option>
+			<option value="2" selected>2</option>
+		</select>
+	</span>
+	<br class="clear">
+
+	<span class="label">Full MSG?</span>
+	<span class="field">
+		<input type="checkbox" name="full_msg" value="1" id="full_msg"><label for="full_msg"> Yes</label>
+	</span>
+	<br class="clear">
+	
+	<span class="label">MSG type:</span>
+        <span class="field">
+	    <select id="msg_type" name="msg_type">
+		<option selected="selected" value="pm">Private message</option>
+		<option value="gb">Guestbook</option>	
+	    </select>
+        </span>
+        <br class="clear">	
+	
+	<span id="gender_area">
+		<span class="label">Gender:</span>
+		<span class="field">
+			<select id="gender" name="gender">
+				<option value="1">Männer</option>
+				<option value="2">Frauen</option>				
+			</select>
+		</span>
+		<br class="clear">
+        </span>
+</span>
+	

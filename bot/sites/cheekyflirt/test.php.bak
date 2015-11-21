@@ -1,0 +1,26 @@
+<?php
+require_once "funcs.php";
+
+$sql = "select id, name from flirthut where id > 1411";
+$query = mysql_query($sql);
+
+//$q_result = mysql_fetch_assoc($query);
+
+while($result=mysql_fetch_assoc($query))
+{
+	$replace1 = str_replace(array('\r','\t','\n','"',' '),'', $result['name']);
+	$replace2 = str_replace('>Bookmark</a></li>
+				<li><a','',$replace1);
+	
+	$sql_update = "update flirthut set name = '".$replace1."' where id = $result[id]";
+	echo $sql_update."<br>";
+	mysql_query($sql_update);
+}
+//$a = '100027">Bookmark</a></li>
+//				<li><a';
+
+//$b = str_replace(array('\r','\n','"',' ','>Bookmark</a></li>
+	//			<li><a'),'',$a);
+//echo $b;
+//$c = str_replace('Bookmark</a></li><li><a', '', $b);
+//echo $b;

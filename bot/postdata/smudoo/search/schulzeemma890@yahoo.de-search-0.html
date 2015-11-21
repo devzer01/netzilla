@@ -1,0 +1,431 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="/js/functions.js" type="text/javascript"></script>
+
+<script src="/js/register.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/prototype.js"></script>
+<script type="text/javascript" src="/js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<script src="/js/jcrop/jquery.min.js"></script>
+<script src="/js/jcrop/jquery.Jcrop.js"></script>
+<script>
+window.setInterval("check_messages();", 30000);
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>smudoo</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/jquery.Jcrop.css" type="text/css" />
+<link rel="stylesheet" href="/css/demos.css" type="text/css" />
+<script language="Javascript">
+
+	$(function(){
+
+		$('#cropbox').Jcrop({
+			aspectRatio: 1,
+			onSelect: updateCoords
+		});
+
+	});
+
+	function updateCoords(c)
+	{
+		$('#x').val(c.x);
+		$('#y').val(c.y);
+		$('#w').val(c.w);
+		$('#h').val(c.h);
+	};
+
+	function checkCoords()
+	{
+		if (parseInt($('#w').val())) return true;
+		alert('Please select a crop region then press submit.');
+		return false;
+	};
+
+</script>
+</head>
+	
+<body style="background-image: url('/Bilder/1/smu_v2/bg.jpg');" >
+
+
+
+
+<div id="fb-root"></div>
+	<script type="text/javascript" src="/js/wz_dragdrop.js"></script>
+
+		<table width="1199" border="0" align="center" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign=top><table width="965" height="127" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center">
+			<a href="/"><img src="Bilder/1/logo_460.png" border="0" width="460" height="135"></a>
+		</td>
+	</tr>
+</table>
+				</td>
+			</tr>
+			<tr>
+				<td align=center valign=top>
+
+							
+
+
+								 <!-- ##watchl## 0 --><!-- <div id="suchergebnis" style="display:block;position:absolute;left:25px;top:82px;"> -->
+
+<table width="965" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="108" colspan="3" align="center" valign="middle" background="Bilder/1/fc/navi.png">
+
+<table cellpadding=0 cellspacing=0 align=center width=900>
+	<tr>
+		<td align=left style="padding-bottom:15px;">
+			<table>
+				<tR>
+					<td align="center"><a href="/" class="navi"><img src=/Bilder/1/smu/home.jpg border=0></a><br><b>Startseite</b></td>
+					<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><a href=/index.php?content=profil&uid=82ea0cb9a1b211d81cb22556bb988067 class=navi><img src=/Bilder/1/smu/profil.jpg border=0></a><br><b>Profil</b></td>
+
+			<!-- <span class="Stil7">|</span> <a href=/index.php?content=friends class=navi>Freunde</a> -->
+								<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><div style="position:relative;top:7px;"><a href=/index.php?content=pe class=navi><img src=/Bilder/1/smu/nachrichten.jpg border=0></a><br><b>Nachrichten</b></div><div style="position:relative;z-index:3;top:-50px;right:-50px;"><div id='nachrichten'><table cellpadding=1 cellspacing=0 width=16px; style="background-image:url(Bilder/1/fc/nachrichten-ani.gif);background-repeat:no-repeat;"><tr><td align=center><font color=#FFFFFF style="font-size:11px;font-weight:bold;">1</font></td></tr></table></div></div></td>
+						<!-- <span class="Stil7">|</span> <a href=/index.php?content=pa class=navi>Postausgang</a>-->
+					<td align="center"><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td><a href=/index.php?content=invite class=navi><img src=/Bilder/1/smu/freunde.jpg border=0></a><br><b>Freunde</b></td>
+					<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><a href=/index.php?content=suche class=navi><img src=/Bilder/1/smu/suchen.jpg border=0></a><br><b>Suche</b></td>
+					<td><img src=/Bilder/1/spacer.gif width=25 height=25></td>
+					<td align="center"><a href=/index.php?content=fa class=navi><img src=/Bilder/1/smu/fotos.jpg border=0></a><br><b>Fotos</b></td>
+			<!--<span class="Stil7">|</span> <a href=/index.php?content=sa class=navi>Suchagent</a>-->
+				</tr>
+			</table>
+		</td>
+				<td align="center" style="padding-right:15px;padding-bottom:15px;">
+			<a href="index.php?premium_popup=1" class="navi"><img src=/Bilder/1/smu/premium.jpg border=0></a><br><b>Premium</b>
+		</td>
+				<td width=100 align=right>
+			<table cellspacing=0 cellpadding=0>
+				<tr>
+					<td valign=top>
+						<table cellpadding=1 cellspacing=0>
+							<tr>
+								<td>
+									<a href="/index.php?content=settings"><img src="/Bilder/1/smu/icon_einstellungen.gif" border="0"></a><br>
+								</td>
+								<td>
+									<a href="/index.php?content=kontakt"><img src="/Bilder/1/smu/icon_hilfe.gif" border="0"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign=top>
+<!-- 						<a href="/index.php?logout=1" class="navi" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image54','','Bilder/1/icon_logout2.gif',1)"><img name="Image54" src=/Bilder/1/icon_logout.gif border=0></a> -->
+
+					<a href="/index.php?logout=1"><img name="Image54" src=/Bilder/1/fc/logout-but.1.png border=0></a><!--
+ 						<a href="/index.php?logout=1"><img name="Image54" src=/Bilder/1/fc/logout-but.1.png border=0></a>
+ -->
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+	</td>
+</tr><!-- im cache -->
+  <tr><td></td>
+	<!-- style="background-image:url(Bilder/1/fc/bg2.png);background-repeat:repeat-y;" -->
+    <td class="hg_box" >
+	<center>Es wurden 5 Profile gefunden. | <a href=/index.php?content=suche class=function>» Suche ändern</a><br><b>1</b>,<a class=seiten href="/index.php?content=suche&start_suche=1&start=4">2</a> | &raquo; <a class=seiten href="/index.php?content=suche&start_suche=1&start=4">weiter</a></center><br />
+	<table width="953" border="0" cellspacing="0" cellpadding="5" align=center><tr>
+     	 <tr>
+
+		
+		<td valign=top>
+			<table width=360 cellpadding=0 cellspacing=0 border=0>
+				<tr style="background-image:url(Bilder/1/smu/profilbox1.png);">
+					<td valign=top style="padding-top:10px;">
+						<table width=360 border="0">
+							<tr>
+								<td align=left colspan=2 style="padding-left:10px;" height=22><b>Profil von <img src=/Bilder/1/fc/off.png border=0 width=8 height=8> clausihappeH</b></td>
+							</tr>
+							<tr>
+								<td  style="padding-left:20px;padding-top:5px;" valign=top width=85><a href=index.php?content=profil&uid=313faded3b5dbc53522273d8dd1c6735><img src="/upics/2012-05-06/thumb_80_b6af08f141d2561b9599a6a59.jpg" border=0></a></td>
+								<td valign=top align=left style="padding-top:2px;">
+									<table align=left height=117>
+										<tr>
+											<td class=klein_fett align="left">Ich suche: </td>
+											<tD class=klein align="left">Frau</tD>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">für: </td>
+											<td colspan=2 class=klein align="left">Dating & Beziehung, Hobbies & Freunde treffen, Flirten & Abenteuer</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Alter: </td>
+											<td class=klein align="left">18 Jahre</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Ich bin: </td>
+											<td class=klein align="left">Single</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">PLZ-Bereich: </td>
+											<td class=klein align="left">XXXX</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-image:url(Bilder/1/smu/profilbox3.png);" height="36" valign="middle">
+					
+						<table width=100% align=left style="padding-left:10px;padding-bottom:10px;">
+							<tr>
+								<td align="center"><a href="/index.php?content=profil&uid=313faded3b5dbc53522273d8dd1c6735&act=add_friend" class="function"><img src=Bilder/1/smu_search/hinzufuegen.png border=0 title="als Freund hinzufügen"></a></td>
+								<td align="center"><a href="/index.php?content=new_msg&uid=313faded3b5dbc53522273d8dd1c6735" class="function"><img src=Bilder/1/smu_search/nachrichtsenden.png border=0 title="eine Nachricht senden"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=313faded3b5dbc53522273d8dd1c6735&act=ignore" class="function"><img src=Bilder/1/smu_search/ignorieren.png border=0 title="ignorieren"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=313faded3b5dbc53522273d8dd1c6735&m=1" class="function"><img src=Bilder/1/smu_search/melden.png border=0 title="melden"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+<!-- End Save for Web Slices -->
+		</td>
+
+		
+		<td valign=top>
+			<table width=360 cellpadding=0 cellspacing=0 border=0>
+				<tr style="background-image:url(Bilder/1/smu/profilbox1.png);">
+					<td valign=top style="padding-top:10px;">
+						<table width=360 border="0">
+							<tr>
+								<td align=left colspan=2 style="padding-left:10px;" height=22><b>Profil von <img src=/Bilder/1/fc/off.png border=0 width=8 height=8> SebastianWö</b></td>
+							</tr>
+							<tr>
+								<td  style="padding-left:20px;padding-top:5px;" valign=top width=85><a href=index.php?content=profil&uid=73e667233cb1947870f11a157d0b93e1><img border=0 src=https://www.smudoo.com/Bilder/1/smu_v2/nopic_big_m.1.jpg width="80" height="100"></a></td>
+								<td valign=top align=left style="padding-top:2px;">
+									<table align=left height=117>
+										<tr>
+											<td class=klein_fett align="left">Ich suche: </td>
+											<tD class=klein align="left">Frau</tD>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">für: </td>
+											<td colspan=2 class=klein align="left"></td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Alter: </td>
+											<td class=klein align="left">18 Jahre</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Ich bin: </td>
+											<td class=klein align="left"></td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">PLZ-Bereich: </td>
+											<td class=klein align="left">5XXXX</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-image:url(Bilder/1/smu/profilbox3.png);" height="36" valign="middle">
+					
+						<table width=100% align=left style="padding-left:10px;padding-bottom:10px;">
+							<tr>
+								<td align="center"><a href="/index.php?content=profil&uid=73e667233cb1947870f11a157d0b93e1&act=add_friend" class="function"><img src=Bilder/1/smu_search/hinzufuegen.png border=0 title="als Freund hinzufügen"></a></td>
+								<td align="center"><a href="/index.php?content=new_msg&uid=73e667233cb1947870f11a157d0b93e1" class="function"><img src=Bilder/1/smu_search/nachrichtsenden.png border=0 title="eine Nachricht senden"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=73e667233cb1947870f11a157d0b93e1&act=ignore" class="function"><img src=Bilder/1/smu_search/ignorieren.png border=0 title="ignorieren"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=73e667233cb1947870f11a157d0b93e1&m=1" class="function"><img src=Bilder/1/smu_search/melden.png border=0 title="melden"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+<!-- End Save for Web Slices -->
+		</td>
+
+		</tr><tr>
+		<td valign=top>
+			<table width=360 cellpadding=0 cellspacing=0 border=0>
+				<tr style="background-image:url(Bilder/1/smu/profilbox1.png);">
+					<td valign=top style="padding-top:10px;">
+						<table width=360 border="0">
+							<tr>
+								<td align=left colspan=2 style="padding-left:10px;" height=22><b>Profil von <img src=/Bilder/1/fc/off.png border=0 width=8 height=8> CihanÖz</b></td>
+							</tr>
+							<tr>
+								<td  style="padding-left:20px;padding-top:5px;" valign=top width=85><a href=index.php?content=profil&uid=b1ec06c4e2d36ecd9672feee4d30d4c3><img border=0 src=https://www.smudoo.com/Bilder/1/smu_v2/nopic_big_m.1.jpg width="80" height="100"></a></td>
+								<td valign=top align=left style="padding-top:2px;">
+									<table align=left height=117>
+										<tr>
+											<td class=klein_fett align="left">Ich suche: </td>
+											<tD class=klein align="left">Frau</tD>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">für: </td>
+											<td colspan=2 class=klein align="left">Flirten & Abenteuer</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Alter: </td>
+											<td class=klein align="left">18 Jahre</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Ich bin: </td>
+											<td class=klein align="left">Single</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">PLZ-Bereich: </td>
+											<td class=klein align="left">5XXXX</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-image:url(Bilder/1/smu/profilbox3.png);" height="36" valign="middle">
+					
+						<table width=100% align=left style="padding-left:10px;padding-bottom:10px;">
+							<tr>
+								<td align="center"><a href="/index.php?content=profil&uid=b1ec06c4e2d36ecd9672feee4d30d4c3&act=add_friend" class="function"><img src=Bilder/1/smu_search/hinzufuegen.png border=0 title="als Freund hinzufügen"></a></td>
+								<td align="center"><a href="/index.php?content=new_msg&uid=b1ec06c4e2d36ecd9672feee4d30d4c3" class="function"><img src=Bilder/1/smu_search/nachrichtsenden.png border=0 title="eine Nachricht senden"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=b1ec06c4e2d36ecd9672feee4d30d4c3&act=ignore" class="function"><img src=Bilder/1/smu_search/ignorieren.png border=0 title="ignorieren"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=b1ec06c4e2d36ecd9672feee4d30d4c3&m=1" class="function"><img src=Bilder/1/smu_search/melden.png border=0 title="melden"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+<!-- End Save for Web Slices -->
+		</td>
+
+		
+		<td valign=top>
+			<table width=360 cellpadding=0 cellspacing=0 border=0>
+				<tr style="background-image:url(Bilder/1/smu/profilbox1.png);">
+					<td valign=top style="padding-top:10px;">
+						<table width=360 border="0">
+							<tr>
+								<td align=left colspan=2 style="padding-left:10px;" height=22><b>Profil von <img src=/Bilder/1/fc/off.png border=0 width=8 height=8> SpennyBak</b></td>
+							</tr>
+							<tr>
+								<td  style="padding-left:20px;padding-top:5px;" valign=top width=85><a href=index.php?content=profil&uid=d0010b9bc5f1e858a889b7afd5755180><img border=0 src=https://www.smudoo.com/Bilder/1/smu_v2/nopic_big_m.1.jpg width="80" height="100"></a></td>
+								<td valign=top align=left style="padding-top:2px;">
+									<table align=left height=117>
+										<tr>
+											<td class=klein_fett align="left">Ich suche: </td>
+											<tD class=klein align="left">Frau</tD>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">für: </td>
+											<td colspan=2 class=klein align="left">Flirten & Abenteuer</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Alter: </td>
+											<td class=klein align="left">18 Jahre</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">Ich bin: </td>
+											<td class=klein align="left">Single</td>
+										</tr>
+										<tr>
+											<td class=klein_fett align="left">PLZ-Bereich: </td>
+											<td class=klein align="left">1XXXX</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<tr>
+					<td style="background-image:url(Bilder/1/smu/profilbox3.png);" height="36" valign="middle">
+					
+						<table width=100% align=left style="padding-left:10px;padding-bottom:10px;">
+							<tr>
+								<td align="center"><a href="/index.php?content=profil&uid=d0010b9bc5f1e858a889b7afd5755180&act=add_friend" class="function"><img src=Bilder/1/smu_search/hinzufuegen.png border=0 title="als Freund hinzufügen"></a></td>
+								<td align="center"><a href="/index.php?content=new_msg&uid=d0010b9bc5f1e858a889b7afd5755180" class="function"><img src=Bilder/1/smu_search/nachrichtsenden.png border=0 title="eine Nachricht senden"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=d0010b9bc5f1e858a889b7afd5755180&act=ignore" class="function"><img src=Bilder/1/smu_search/ignorieren.png border=0 title="ignorieren"></a></td>
+								<td align="center"><a href="/index.php?content=profil&uid=d0010b9bc5f1e858a889b7afd5755180&m=1" class="function"><img src=Bilder/1/smu_search/melden.png border=0 title="melden"></a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+<!-- End Save for Web Slices -->
+		</td>
+
+		  	</td>
+
+      </tr>
+      
+    </table>
+
+  </tr>  <tr>
+	<td><img src=/Bilder/1/spacer.gif width=8></td>
+	<td></td>
+	<td><img src=/Bilder/1/spacer.gif width=9></td>
+  </tr>
+	</table><!-- </div> -->
+ 
+
+
+					</td>
+			</tr>
+			<tr>
+				<td valign=top><table width=945 align=center height="79">
+	<tr>
+		<td align=center>
+			<a href="/index.php?content=agb" target=_blank class="footer">AGB</a> <span class="Stil2">|</span>
+			<a href="/index.php?content=ds" target=_blank class="footer">Datenschutzerklärung</a> <span class="Stil2">|</span>
+			<a href="/index.php?content=widerruf" target=_blank class="footer">Widerrufsbelehrung</a> <span class="Stil2">|</span>
+			<a href="/index.php?content=impressum" class="footer">Impressum</a> <span class="Stil2">|</span>
+			<a href="http://www.blueads.com/" class="footer" target=_blank>Affiliates</a>
+
+		</td>
+	</tr>
+<!--	<tr>
+		<TD><font color=#ffffff size=1>Mozilla/5.0 (compatible; Konqueror/3.1-rc2; i686 Linux; 20020721)</font></TD>
+	</tr>-->
+</table>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33956138-1']);
+  _gaq.push(['_setDomainName', 'smudoo.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html></td>
+			</tr>
+		</table>
+		
+</body>
+</html>

@@ -1,0 +1,194 @@
+﻿<!-- test -->
+<span class="label">ACTION:</span>
+<span class="field">
+	<select name="action">
+		<option value="send" selected="selected">Send</option>
+		<option value="check">Check profiles</option>
+	</select>
+</span>
+<br class="clear">
+<span class="label">Proxy Type:</span>
+<span class="field">
+	<select name="proxy_type">
+		<option value="1" selected="selected">Tor Proxy</option>
+		<option value="2">Random Proxy</option>
+		<option value="3">No Proxy</option>
+	</select>
+</span>
+<br class="clear">
+
+
+<span class="label">Age Groups:</span>
+<span class="field">
+	<select name="age_group">
+		<option value="0">Alle</option>
+		<option value="18_25">18-25</option>
+		<option selected="selected" value="22_30">22-30</option>
+		<option value="25_35">25-35</option>
+		<option value="30_40">30-40</option>
+		<option value="35_49">35-49</option>
+		<option value="45_60">45-60</option>
+		<option value="60">&gt;60</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Start from PLZ: (Long list used, since distance is under 200KM is static)</span>
+<span class="field">
+	<select name="start_plz" id="plz1">
+		<option value="01067" selected="selected">01067</option>
+		<option value="01587">01587</option>
+		<option value="02625">02625</option>
+		<option value="02906">02906</option>
+		<option value="02977">02977</option>
+		<option value="03044">03044</option>
+		<option value="03238">03238</option>
+		<option value="04288">04288</option>
+		<option value="04315">04315</option>
+		<option value="06886">06886</option>
+		<option value="07545">07545</option>
+		<option value="08525">08525</option>
+		<option value="09119">09119</option>
+		<option value="12621">12621</option>
+		<option value="15236">15236</option>
+		<option value="16278">16278</option>
+		<option value="16909">16909</option>
+		<option value="17034">17034</option>
+		<option value="17291">17291</option>
+		<option value="17358">17358</option>
+		<option value="17489">17489</option>
+		<option value="18069">18069</option>
+		<option value="18437">18437</option>
+		<option value="19053">19053</option>
+		<option value="19322">19322</option>
+		<option value="20253">20253</option>
+		<option value="23566">23566</option>
+		<option value="23758">23758</option>
+		<option value="23966">23966</option>
+		<option value="24534">24534</option>
+		<option value="24782">24782</option>
+		<option value="24837">24837</option>
+		<option value="25524">25524</option>
+		<option value="25746">25746</option>
+		<option value="25813">25813</option>
+		<option value="25899">25899</option>
+		<option value="27474">27474</option>
+		<option value="28213">28213</option>
+		<option value="30179">30179</option>
+		<option value="33098">33098</option>
+		<option value="33332">33332</option>
+		<option value="34121">34121</option>
+		<option value="35039">35039</option>
+		<option value="36100">36100</option>
+		<option value="36251">36251</option>
+		<option value="39108">39108</option>
+		<option value="39539">39539</option>
+		<option value="41239">41239</option>
+		<option value="44147">44147</option>
+		<option value="47906">47906</option>
+		<option value="48151">48151</option>
+		<option value="49076">49076</option>
+		<option value="50937">50937</option>
+		<option value="52066">52066</option>
+		<option value="52525">52525</option>
+		<option value="53518">53518</option>
+		<option value="53937">53937</option>
+		<option value="54292">54292</option>
+		<option value="55246">55246</option>
+		<option value="55487">55487</option>
+		<option value="56075">56075</option>
+		<option value="57076">57076</option>
+		<option value="60528">60528</option>
+		<option value="63743">63743</option>
+		<option value="66121">66121</option>
+		<option value="69126">69126</option>
+		<option value="70188">70188</option>
+		<option value="74076">74076</option>
+		<option value="76187">76187</option>
+		<option value="77654">77654</option>
+		<option value="78628">78628</option>
+		<option value="79104">79104</option>
+		<option value="81829">81829</option>
+		<option value="82362">82362</option>
+		<option value="83024">83024</option>
+		<option value="84453">84453</option>
+		<option value="85051">85051</option>
+		<option value="87437">87437</option>
+		<option value="88212">88212</option>
+		<option value="89077">89077</option>
+		<option value="90408">90408</option>
+		<option value="90425">90425</option>
+		<option value="92637">92637</option>
+		<option value="93053">93053</option>
+		<option value="94469">94469</option>
+		<option value="95326">95326</option>
+		<option value="96450">96450</option>
+		<option value="97074">97074</option>
+		<option value="97421">97421</option>
+		<option value="98529">98529</option>
+		<option value="99089">99089</option>
+	</select>
+	<select name="plz2" id="plz2" style="display: none">
+		<option value="1010" selected="selected">1010</option>
+		<option value="4040">4040</option>
+		<option value="5020">5020</option>
+		<option value="6020">6020</option>
+		<option value="7000">7000</option>
+		<option value="8010">8010</option>
+		<option value="9020">9020</option>
+	</select>
+	<select name="plz3" id="plz3" style="display: none">
+		<option value="8045" selected="selected">8045</option>
+		<option value="6300">6300</option>
+		<option value="9000">9000</option>
+		<option value="3150">3150</option>
+		<option value="8200">8200</option>
+		<option value="6023">6023</option>
+		<option value="9217">9217</option>
+	</select>
+</span>
+<br class="clear">
+
+<span class="label">Country: (PLZ Only works with Germany, other countries removed)</span>
+<span class="field">
+	<select name="country_code" id='country_code'>
+	<option selected="selected" value="14">Deutschland</option>
+</select> 
+</span>
+<br class="clear">
+
+<span class="label">Test Profile username (if provided message will only sent to this profile)</span>
+<span class="field">
+	<input type="text" class="input w130" name="test_username" maxlength="20">  
+</span>
+<br class="clear">
+</div>
+
+<script type='text/javascript'>
+$(document).ready(function (e) {
+	$("#country_code").change(function (e) {
+		var country_code = $(this).val();
+		$("#plz1").hide();
+		$("#plz1").attr("name", "");
+		$("#plz2").hide();
+		$("#plz2").attr("name", "");
+		$("#plz3").hide();
+		$("#plz3").attr("name", "");
+		console.log(country_code);
+		switch (country_code) {
+			case "14":
+				$("#plz1").show();
+				$("#plz1").attr("name", "start_plz");
+				break;
+			case "47":
+				$("#plz2").show();
+				$("#plz2").attr("name", "start_plz");
+				break;
+			case "56":
+				$("#plz3").show();
+				$("#plz3").attr("name", "start_plz");
+				break;
+		}
+	});
+});
+</script>
